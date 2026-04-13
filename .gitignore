@@ -54,6 +54,12 @@ venv/
 codebases/
 codebase-zips/
 
+# Reference packs from Modrinth (download locally; GitHub rejects >100MB)
+references/*.mrpack
+
+# Portable JDK (install JDK 21 under tools/java locally; do not commit)
+tools/java/
+
 # Temporary files
 *.tmp
 *.bak
