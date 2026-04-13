@@ -1,0 +1,24 @@
+{
+  "name": "The Merchant Prince",
+  "icon": "minecraft:emerald",
+  "category": "horizons:side_stories",
+  "advancement": "horizons:storybook/side/merchant",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Caelus and Coin",
+      "text": "$(thing)Caelus$() once told me that money is just a story people agree to believe. I thought he was being philosophical. He was being literal.$(br2)The $(thing)Coastal Republic$() runs on trade, and trade runs on trust. Caelus showed me how the entire economy of Aetheria is held together by handshakes and reputation — that a merchant's word is worth more than any contract because out here, there is no court to enforce the fine print.$(br2)My first deal was a disaster. I overpaid for a shipment of copper that turned out to be half slag. Caelus did not bail me out. He just leaned against a dock post, arms crossed, and asked me what I had learned. I learned to check the goods before counting the coin."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Trade Routes and Rivals",
+      "text": "Caelus taught me to see Aetheria as a web of supply and demand. The $(thing)Plains$() produce grain the $(thing)Mountain$() faction needs. The Mountain faction forges tools the $(thing)Forest Coalition$() cannot make. The Forest produces medicines everyone wants. And the $(thing)Coastal Republic$() moves it all, taking a cut that keeps the ships sailing.$(br2)I mapped trade routes, negotiated tariffs, and learned the delicate art of currency exchange between settlements that each insisted their coin was worth more than everyone else's. I discovered that the best deals are not the ones where you win — they are the ones where $(italic)everyone$() walks away satisfied.$(br2)I also learned that rivals are not enemies. A competing merchant keeps you honest, keeps you sharp, keeps you from growing lazy in a world that punishes complacency."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Art of the Deal",
+      "text": "The title $(thing)Merchant Prince$() is not one you claim — it is one the other traders give you when they decide you have earned it. Caelus pinned the insignia on my coat without ceremony, on a rainy dock in the Republic, between offloading a shipment and negotiating the next.$(br2)He told me the secret of commerce is not greed. It is $(italic)connection$(). Every trade route is a thread binding two communities together. Every successful deal is proof that cooperation beats isolation. The Merchant Prince does not hoard wealth — they $(italic)circulate$() it, keeping the blood of Aetheria's economy pumping.$(br2)I still love the thrill of a good negotiation. But now I understand that the emeralds in my pocket are not the point. The bridges they build are."
+    }
+  ]
+}

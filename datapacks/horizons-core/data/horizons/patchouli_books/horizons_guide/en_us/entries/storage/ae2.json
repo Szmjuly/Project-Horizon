@@ -1,0 +1,23 @@
+{
+  "name": "Applied Energistics 2",
+  "icon": "ae2:controller",
+  "category": "horizons:storage",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Digital Storage",
+      "text": "$(thing)Applied Energistics 2$() is the endgame storage tier in Project Horizons. It provides $(thing)ME Networks$() — digital storage systems that can hold millions of items and autocraft anything on demand.$(br2)AE2 is gated behind $(thing)Act 3$() and requires progression through $(thing)Refined Storage 2$() first. The ME Controller recipe requires an RS2 Controller as a component."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Getting Started",
+      "text": "Your first steps with AE2:$(br2)1. Mine $(thing)Certus Quartz$() from underground ore or Create crushing$(br)2. Charge Certus Quartz in a $(thing)Charger$()$(br)3. Mix charged certus + nether quartz + redstone in a $(thing)Create Mixer$() to get $(thing)Fluix Crystals$()$(br)4. Craft an $(thing)Inscriber$() to make processors$(br)5. Build an $(thing)ME Controller$() (requires RS2 Controller)$(br)6. Connect $(thing)ME Drives$() with $(thing)Storage Cells$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cross-Mod Integration",
+      "text": "AE2 in Horizons uses cross-mod crafting bridges:$(br2)$(thing)Create Crushing$() — Quartz blocks yield Certus Quartz$(br)$(thing)Create Mixing$() — Fluix Crystals and Silicon$(br)$(thing)Stellaris Meteors$() — Crush for Sky Stone blocks$(br)$(thing)Refined Storage 2$() — RS2 Controller required for ME Controller$(br2)The $(thing)Infinite Loop$() Ascension ability removes AE2 channel limits for ascended players."
+    }
+  ]
+}

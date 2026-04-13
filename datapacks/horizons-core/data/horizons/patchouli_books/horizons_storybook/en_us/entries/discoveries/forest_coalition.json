@@ -1,0 +1,24 @@
+{
+  "name": "Forest Coalition",
+  "icon": "minecraft:oak_leaves",
+  "category": "horizons:discoveries",
+  "advancement": "horizons:storybook/discoveries/forest_coalition",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Ancient Trees",
+      "text": "The $(thing)Forest Coalition$() does not have a gate. It does not need one. The forest itself decides who enters and who does not. I walked for an hour through trees so vast their canopy blocked the sky before I realized the path had been guiding me — curving gently, avoiding roots that seemed to shift, leading me toward a clearing I could not have found on my own.$(br2)$(thing)Yshara$() was waiting. The head druid is small, sharp-eyed, and speaks with the quiet authority of someone who has never needed to raise her voice. She told me the forest had allowed me passage, which meant I was welcome — for now.$(br2)The Coalition lives $(italic)within$() the forest rather than upon it. Their structures are grown, not built — homes shaped from living wood, bridges woven from vines, platforms nestled in the canopy like nests."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Druids and Trainers",
+      "text": "The druids speak to the land. I mean this literally. Yshara placed her hand on a trunk and the bark rippled in response, leaves turning to track her like flowers following the sun. The Forest Coalition believes Aetheria is not a resource to be harvested but a partner to be respected. Their entire society is built on that relationship.$(br2)$(thing)Kira$() trains Cobblemon here, among the roots and clearings. Her methods are gentle — she works with the creatures' natural instincts rather than against them, and the results speak for themselves. The Cobblemon in the Coalition's territory are calmer, stronger, and more bonded to their trainers than any I have seen elsewhere.$(br2)The combination of druidic knowledge and Cobblemon partnership gives the Coalition a quiet power that the other factions underestimate at their peril."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Forest Remembers",
+      "text": "What unsettled me most about the Coalition is how $(italic)old$() everything feels. The trees are ancient — some predate the Precursors, Yshara told me. They were here before the gates, before the settlements, before any faction planted a flag and called the land their own. And they will be here long after.$(br2)The druids serve as intermediaries between the people and the forest, interpreting its needs and communicating its boundaries. It is a relationship built on millennia of trust, and the Coalition guards it fiercely. They view the other factions' expansion with unease, seeing every cleared field and quarried stone as a small wound in something vast and irreplaceable.$(br2)I left the Coalition with bark dust in my hair and a new understanding of what it means to $(thing)belong$() to a place. The forest did not say goodbye. It simply let me go, the path opening behind me like a door held politely ajar."
+    }
+  ]
+}

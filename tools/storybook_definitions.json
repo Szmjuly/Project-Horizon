@@ -1,0 +1,1678 @@
+{
+  "meta": {
+    "description": "Living Storybook definitions for Project Horizons",
+    "version": 1
+  },
+  "book": {
+    "name": "Living Storybook",
+    "landing_text": "This journal writes itself. As you explore $(thing)Aetheria$(), face its dangers, and forge alliances, new pages will appear here — a living record of your journey.$(br2)Blank pages mean stories yet to be lived. Return often; the book remembers what you might forget.$(br2)$(italic)Your story begins with Act 1: Arrival.$()",
+    "texture": "patchouli:textures/gui/book_brown.png",
+    "model": "patchouli:book_brown",
+    "show_progress": true,
+    "version": "1",
+    "subtitle": "Your Journey Through Aetheria"
+  },
+  "categories": [
+    {
+      "key": "act_1",
+      "name": "Act 1: Arrival",
+      "description": "You awaken in a world you do not recognize. The air hums with energy, strange creatures roam the wilds, and a voice echoes from somewhere beyond the sky. Your journey begins here.",
+      "icon": "minecraft:compass",
+      "sortnum": 0
+    },
+    {
+      "key": "act_2",
+      "name": "Act 2: First Steps",
+      "description": "The settlements of Aetheria reveal themselves — each with its own history, its own wounds. The Watchers make contact. A choice looms: follow their design, or carve your own path.",
+      "icon": "minecraft:oak_sign",
+      "sortnum": 1,
+      "advancement": "horizons:storybook/act_2/act_2_started"
+    },
+    {
+      "key": "act_3",
+      "name": "Act 3: The Wider World",
+      "description": "Beyond the familiar valleys lie kingdoms in tension, dungeons that plunge deeper than any cave, and technology that predates memory. You must choose what kind of power to wield.",
+      "icon": "minecraft:spyglass",
+      "sortnum": 2,
+      "advancement": "horizons:storybook/act_3/act_3_started"
+    },
+    {
+      "key": "act_4",
+      "name": "Act 4: The Stars",
+      "description": "The old arrays crackle to life. Rockets pierce the atmosphere. On distant moons and frozen worlds, the Precursors left something behind — and the Watchers grow restless.",
+      "icon": "minecraft:nether_star",
+      "sortnum": 3,
+      "advancement": "horizons:storybook/act_4/act_4_started"
+    },
+    {
+      "key": "act_5",
+      "name": "Act 5: Convergence",
+      "description": "Every choice you have made leads here. The factions look to you. The Watchers wait. Five paths lie open — and only one can be yours.",
+      "icon": "minecraft:end_crystal",
+      "sortnum": 4,
+      "advancement": "horizons:storybook/act_5/act_5_started"
+    },
+    {
+      "key": "endings",
+      "name": "Endings",
+      "description": "The final chapter of your story. Only the path you chose will be recorded here — a testament to the kind of Pathfinder you became.",
+      "icon": "minecraft:written_book",
+      "sortnum": 5,
+      "advancement": "horizons:storybook/endings/ending_begun"
+    },
+    {
+      "key": "gym_challenge",
+      "name": "The Gym Challenge",
+      "description": "Eight leaders. Eight badges. One championship. Your Cobblemon battles are recorded here — every victory, every hard-won badge on the road to becoming Champion.",
+      "icon": "cobblemon:poke_ball",
+      "sortnum": 6,
+      "advancement": "horizons:storybook/gyms/gym_1"
+    },
+    {
+      "key": "branches",
+      "name": "Paths Chosen",
+      "description": "At three turning points in your journey, you faced a choice that shaped everything after. These pages record the roads you took — and the ones you left behind.",
+      "icon": "minecraft:oak_hanging_sign",
+      "sortnum": 7,
+      "advancement": "horizons:storybook/branches/first_branch"
+    },
+    {
+      "key": "side_stories",
+      "name": "Side Stories",
+      "description": "Not every tale follows the main road. These are the detours — the merchant deals, the scholarly pursuits, the bounties hunted, and the colonies built along the way.",
+      "icon": "minecraft:map",
+      "sortnum": 8
+    },
+    {
+      "key": "discoveries",
+      "name": "Discoveries",
+      "description": "The places you have found, the settlements you have visited. Each discovery is a thread in the larger tapestry of Aetheria.",
+      "icon": "minecraft:filled_map",
+      "sortnum": 9
+    }
+  ],
+  "entries": [
+    {
+      "key": "awakening",
+      "category_key": "act_1",
+      "category_ref": "act_1",
+      "name": "Awakening",
+      "icon": "minecraft:recovery_compass",
+      "advancement_path": "act_1/awakening",
+      "sortnum": 0,
+      "pages": [
+        {
+          "title": "A Strange Sky",
+          "text": "I woke on cold stone, my head pounding, my memory a shattered mirror. The last thing I recall is the light — blinding, all-consuming — and then nothing. Then this.$(br2)The sky here is wrong. Two moons hang where one should be, and the stars form constellations I have never seen in any chart or atlas. The air tastes of copper and ozone, like the aftermath of a lightning strike that never ends.$(br2)I do not know this place. I do not know how I came to be here. But my body aches with the certainty that I cannot go back."
+        },
+        {
+          "title": "Strange Creatures",
+          "text": "They are everywhere — creatures unlike anything from home. Small ones that spark with electricity dart through the tall grass. Something massive and stone-skinned watches me from a ridge, unblinking.$(br2)They are not hostile, not exactly. But they are aware. When I move, they track me. When I stop, they study me. One — a small flame-tailed thing — followed me for nearly an hour before vanishing into the underbrush.$(br2)This is not $(thing)Earth$(). Whatever $(thing)The Dimming$() was, it brought me somewhere else entirely. Somewhere called $(thing)Aetheria$(), if the rusted signs I found are any indication."
+        },
+        {
+          "title": "First Steps",
+          "text": "I found ruins today. Not ancient ones — recent. Tools left mid-task, hearths still blackened with soot. People were here. People like me, maybe. $(thing)Pathfinders$(), according to a journal I found wedged beneath a collapsed beam.$(br2)The journal speaks of a network, of colonies, of a connection to Earth that was severed. $(thing)The Dimming$(). It took everything — the gates, the supply lines, the way home.$(br2)I am alone in a world I do not understand. But I am alive. And somewhere out there, others might be too. I need to keep moving."
+        }
+      ]
+    },
+    {
+      "key": "first_cobblemon",
+      "category_key": "act_1",
+      "category_ref": "act_1",
+      "name": "First Cobblemon",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "act_1/first_cobblemon",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "The Bond",
+          "text": "I caught one today. Or perhaps it allowed itself to be caught — I am still not certain which.$(br2)It happened at the river crossing. The creature had been watching me for days, always at the edge of my vision. A small thing, fierce-eyed and cautious. When I held out the $(thing)Poke Ball$() — a device I found in a Precursor cache, humming with strange energy — it did not flee.$(br2)It stepped forward. It chose me as much as I chose it."
+        },
+        {
+          "title": "More Than Taming",
+          "text": "This is not like taming an animal. I have raised dogs, gentled horses. This is something else entirely.$(br2)My $(thing)Cobblemon$() understands me. Not my words, exactly, but my intent. When I am afraid, it bristles and faces the threat. When I am calm, it rests beside me. There is a thread between us — invisible but undeniable — as though some part of Aetheria's strange energy flows through us both.$(br2)The old Pathfinder journals call it a $(thing)bond$(). They say it grows stronger with time, with trust, with battle. I believe them. Even now, barely a day in, I feel less alone than I have since waking in this place."
+        },
+        {
+          "title": "A Partner",
+          "text": "We traveled together today — my Cobblemon and I — and the world felt less hostile for it. It warned me of dangers I could not see, led me to clean water, chased off a territorial creature twice its size.$(br2)I am beginning to understand why the Pathfinders valued these bonds so highly. In a world where everything is unfamiliar, having a companion who belongs here — who knows this place in ways I never could — is more than comfort.$(br2)It is survival."
+        }
+      ]
+    },
+    {
+      "key": "first_gate",
+      "category_key": "act_1",
+      "category_ref": "act_1",
+      "name": "First Gate",
+      "icon": "minecraft:end_portal_frame",
+      "advancement_path": "act_1/first_gate",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "The Threshold",
+          "text": "I found a $(thing)Gate$() today, half-buried in a hillside, its frame carved from stone that does not belong to any geology I recognize. The air around it crackled and shimmered, bending light like heat rising from sun-baked rock.$(br2)The Pathfinder journals warned about these. Entrances to pocket dimensions, they said — spaces folded inside Aetheria like pages in a book. The $(thing)Precursors$() built them, though no one remembers why.$(br2)Every instinct told me to walk away. I stepped through instead."
+        },
+        {
+          "title": "Shifting Corridors",
+          "text": "Inside, the world rewrites itself. Corridors twist and reform, rooms rearrange when you are not looking. Gravity is a suggestion. The walls pulse with a faint luminescence, and somewhere deep within, something waits.$(br2)This Gate was ranked $(thing)E$() — the lowest tier, meant for beginners. It did not feel like a beginner's challenge. Creatures lurked in every shadow, traps lined the halls, and on the final floor, a guardian blocked my path.$(br2)My Cobblemon and I fought together for the first time with real stakes. We won, barely, and the Gate yielded its treasure — strange materials, Precursor fragments, and something that hummed with contained power."
+        },
+        {
+          "title": "The Pull",
+          "text": "Standing outside the Gate again, blinking in the sunlight, I felt something I did not expect: the desire to go back in.$(br2)The Gates are dangerous. They are unpredictable. They test everything you have and punish hesitation. But within them lies understanding — of the Precursors, of Aetheria, of whatever force shaped this world and then abandoned it.$(br2)There are higher ranks. Harder challenges. Deeper secrets. I can feel them calling from somewhere beyond the stone frames, patient and ancient and waiting."
+        }
+      ]
+    },
+    {
+      "key": "first_village",
+      "category_key": "act_1",
+      "category_ref": "act_1",
+      "name": "First Village",
+      "icon": "minecraft:bell",
+      "advancement_path": "act_1/first_village",
+      "sortnum": 3,
+      "pages": [
+        {
+          "title": "Smoke on the Horizon",
+          "text": "I smelled the cookfires before I saw the walls. Woodsmoke and something savory carried on the wind, and for the first time since arriving in $(thing)Aetheria$(), I felt something close to hope.$(br2)The settlement was small — a ring of timber buildings behind a low palisade, fields stretching out to the south. A bell tower stood at its center, green with age. People moved between the buildings with the unhurried certainty of those who have made a place their own.$(br2)They saw me coming long before I reached the gate. I could feel their eyes."
+        },
+        {
+          "title": "Wary Welcome",
+          "text": "They did not turn me away, but they did not embrace me either. A guard with a weathered face asked my business, my name, where I had come from. When I said I did not know — when I described the light and the waking — something shifted in his expression. Recognition, maybe. Or pity.$(br2)They call themselves $(thing)Plains Faction$(). One of six, they told me, each aligned with a different aspect of Aetheria. The Plains folk value community and cultivation. Others — the $(thing)Forest$(), the $(thing)Mountain$(), the $(thing)Coastal$(), the $(thing)Skyborn$(), the $(thing)Wanderers$() — hold different principles.$(br2)Old loyalties run deep here. Old grudges, too."
+        },
+        {
+          "title": "A Place Among Strangers",
+          "text": "They gave me a bed for the night and a bowl of stew that tasted like the best thing I have ever eaten. A woman named $(thing)Sera$() sat with me and answered my questions with patience I did not deserve.$(br2)She spoke of $(thing)The Dimming$() as though it were a wound still bleeding. Of supply lines severed and families separated. Of a world learning to survive without the connection that once sustained it.$(br2)I am a stranger here. But these people know what it is to be lost, to rebuild from nothing. Perhaps that is enough common ground to start."
+        }
+      ]
+    },
+    {
+      "key": "first_farm",
+      "category_key": "act_1",
+      "category_ref": "act_1",
+      "name": "First Farm",
+      "icon": "minecraft:iron_hoe",
+      "advancement_path": "act_1/first_farm",
+      "sortnum": 4,
+      "pages": [
+        {
+          "title": "The Soil Remembers",
+          "text": "I turned my first plot of earth today, and the soil fought back. Not violently — but with a stubbornness that surprised me. The dirt here is not passive. It has $(italic)memory$().$(br2)$(thing)Sera$() explained it to me while I struggled with the hoe. Aetherian soil retains the echo of what grew in it before. Plant wheat where wheat has thrived, and it grows thick and golden. Force it into ground that remembers forest, and it will wither to spite you.$(br2)You must listen to the land, she said. You must learn what it wants to give."
+        },
+        {
+          "title": "Nutrition and Need",
+          "text": "The crops here are strange and varied. Some I recognize — wheat, potatoes, carrots. Others are wholly alien, with colors and textures that have no Earthly analogue. And all of them matter, because nutrition in Aetheria is not a simple thing.$(br2)You cannot survive on bread alone. The body demands variety — proteins, minerals, sugars — and different crops provide different sustenance. A diet of only grain will leave you sluggish and weak. Balance is everything.$(br2)I am learning to plan my fields the way one might plan a meal: with intention, with care, with an eye toward what the body will need tomorrow."
+        },
+        {
+          "title": "Growing Roots",
+          "text": "There is something grounding about farming. In a world of mysteries and dangers, of Gates and factions and cosmic forces I do not understand, the act of planting a seed and watching it grow is beautifully simple.$(br2)My first harvest was modest — a handful of vegetables, a sheaf of grain. But I grew them. In alien soil, under alien stars, with my own hands.$(br2)$(thing)Aetheria$() is not home. But perhaps, given enough time and enough seeds, I can make a small piece of it mine."
+        }
+      ]
+    },
+    {
+      "key": "first_brew",
+      "category_key": "act_1",
+      "category_ref": "act_1",
+      "name": "First Brew",
+      "icon": "minecraft:potion",
+      "advancement_path": "act_1/first_brew",
+      "sortnum": 5,
+      "pages": [
+        {
+          "title": "The Fermenter's Art",
+          "text": "An old man in the village showed me the brewing cellar today. Rows of barrels lined the walls, each one labeled in a careful hand — dates, ingredients, temperatures. The air was thick with the scent of fermentation, yeasty and sweet and alive.$(br2)Brewing in $(thing)Aetheria$() is not the crude process I expected. It is alchemy. It is patience distilled into liquid form. Every ingredient matters. Every step in the process shapes the final result.$(br2)He handed me a cup of something amber and warm. $(italic)Tea$(), he said, brewed from mountain herbs. It tasted like sunlight through autumn leaves."
+        },
+        {
+          "title": "Depth of the Craft",
+          "text": "The systems here are staggering. $(thing)Wines$() from cultivated grapes that carry the terroir of their soil. $(thing)Beers$() fermented with grains I grew myself, each variety producing a different character. $(thing)Teas$() and $(thing)coffees$() that sharpen the mind or soothe weary muscles.$(br2)And each beverage carries properties beyond mere taste. A well-brewed ale might bolster strength. A carefully aged wine could sharpen perception. The right tea, taken at the right moment, has saved lives — or so the old brewer claims.$(br2)I am only beginning to understand the depth of this craft, but already I see why the Pathfinders valued their brewers as highly as their fighters."
+        },
+        {
+          "title": "My First Batch",
+          "text": "My first attempt was, generously, terrible. Too bitter, too cloudy, with a finish that lingered like regret. The old man laughed and told me his first batch had been worse.$(br2)But my second attempt was better. And my third better still. There is a rhythm to it — the measuring, the waiting, the careful adjustment of temperature and time. It rewards attention. It punishes impatience.$(br2)I bottled a small batch of herb tea tonight. Nothing special, nothing powerful. But I made it, and when I drank it by the fire, watching the twin moons rise, it tasted like the first good thing I have made in this world."
+        }
+      ]
+    },
+    {
+      "key": "act_1_complete",
+      "category_key": "act_1",
+      "category_ref": "act_1",
+      "name": "Act 1 Complete",
+      "icon": "minecraft:golden_apple",
+      "advancement_path": "act_1/act_1_complete",
+      "sortnum": 6,
+      "pages": [
+        {
+          "title": "Taking Stock",
+          "text": "I sit tonight by a fire I built myself, in a shelter I raised with my own hands, eating food I grew from soil I have learned to read. My $(thing)Cobblemon$() sleeps beside me, its breath steady and warm. The twin moons are high, and the strange stars no longer feel quite so foreign.$(br2)I have come far since waking on that cold stone. I have explored $(thing)Gates$() and survived their trials. I have found people — wary, proud, complicated people — and begun to earn a place among them. I have learned that $(thing)Aetheria$() is not merely a place of exile. It is a world with its own logic, its own beauty, its own demands."
+        },
+        {
+          "title": "Companions and Questions",
+          "text": "$(thing)Sera$() has become something like a friend, though she guards her own story as carefully as I guard mine. The factions intrigue me — their rivalries, their histories, the way they circle one another like wary animals around a shared water source.$(br2)And then there are the questions. What were the $(thing)Precursors$()? Why did they build the Gates? What caused $(thing)The Dimming$(), and can it be reversed? The ruins whisper answers I cannot yet decipher.$(br2)Most pressing of all: the voice. Faint, formless, felt more than heard. It has been with me since the beginning, growing clearer with each passing day."
+        },
+        {
+          "title": "The Voice Grows Louder",
+          "text": "Something watches me. I am certain of it now. Not the creatures, not the faction scouts — something else. Something vast and patient, observing from a distance I cannot measure.$(br2)The voice from the sky. Others have heard it too, though they will not speak of it openly. $(thing)The Watcher$(), some call it, in hushed tones that carry equal parts reverence and dread.$(br2)I have established myself in this world. I have companions, skills, a foundation. But the first chapter of my story in Aetheria is ending, and whatever comes next will demand more than survival.$(br2)The voice grows louder. And I think, very soon, it will have something to say."
+        }
+      ]
+    },
+    {
+      "key": "act_2_begins",
+      "category_key": "act_2",
+      "category_ref": "act_2",
+      "name": "Act 2 Begins",
+      "icon": "minecraft:oak_sign",
+      "advancement_path": "act_2/act_2_started",
+      "sortnum": 0,
+      "pages": [
+        {
+          "title": "Willowmere",
+          "text": "$(thing)Willowmere$() has become my anchor. What began as a crossroads settlement has grown into something resembling a true town — traders pass through daily, faction representatives maintain outposts along the main road, and the market square hums with commerce and argument in equal measure.$(br2)I have come to know its rhythms. The morning bell, the evening fires, the way conversation dims when certain topics arise. This place is alive with possibility, but beneath the surface, tensions coil like roots beneath stone."
+        },
+        {
+          "title": "Mayor Theron",
+          "text": "$(thing)Mayor Theron$() is a careful man. He speaks in measured sentences and watches you with eyes that miss nothing. Today he invited me to his study — a cramped room above the tavern, maps pinned to every wall — and spoke plainly for the first time.$(br2)The factions are restless, he said. Old agreements are fraying. The $(thing)Mountain$() folk hoard resources. The $(thing)Coastal$() traders demand tariffs. The $(thing)Skyborn$() have gone quiet, which worries him more than any threat.$(br2)He did not ask for my help directly. Men like Theron never do. But the implication hung in the air like smoke."
+        },
+        {
+          "title": "Simmering Tensions",
+          "text": "I walked the market today and counted the friction. A Plains farmer arguing with a Mountain smith over iron prices. A Coastal merchant refusing to sell to a Wanderer. Two Forest scouts watching everything from the shadow of the bell tower, speaking to no one.$(br2)$(thing)The Dimming$() did not just sever Aetheria from Earth. It severed these people from each other — from the systems of trade and governance that once held them together. Now each faction turns inward, suspicious of the rest.$(br2)Something must change. Someone must bridge these divides, or Willowmere — and everything it represents — will fracture along the same lines."
+        }
+      ]
+    },
+    {
+      "key": "watcher_contact",
+      "category_key": "act_2",
+      "category_ref": "act_2",
+      "name": "Watcher Contact",
+      "icon": "minecraft:ender_eye",
+      "advancement_path": "act_2/watcher_contact",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "A Presence Felt",
+          "text": "It happened at dawn. I was alone on the ridge above Willowmere, watching the mist burn off the fields, when the world went quiet. Not silent — quiet, the way a room falls quiet when someone important enters.$(br2)$(thing)The Watcher$() did not speak in words. It spoke in impressions — vast, layered, ancient. Images cascaded through my mind: spiraling towers, gates of light, a network spanning worlds. And beneath it all, a sense of purpose so immense it made my bones ache.$(br2)It knows me. It has been watching since I arrived. Perhaps since before."
+        },
+        {
+          "title": "Restoration and Purpose",
+          "text": "The message, as best I can translate it from feeling into language: Aetheria is broken. The network the $(thing)Precursors$() built — the Gates, the ley lines, the connections between worlds — was designed to sustain something greater than any single civilization. $(thing)The Dimming$() damaged it, but did not destroy it.$(br2)$(thing)The Watcher$() wants restoration. It wants the old systems reactivated, the ancient architecture rebuilt, the purpose fulfilled. And it believes I can help — that all $(thing)Pathfinders$() were meant for this, whether they know it or not.$(br2)It offered no threats. No demands. Only a vision of what could be, laid out like a map before a traveler."
+        },
+        {
+          "title": "The Weight of Contact",
+          "text": "I told no one. Not $(thing)Sera$(), not $(thing)Theron$(), not the friends I have made in Willowmere. How do you explain that a cosmic entity has chosen you for a purpose you do not understand?$(br2)But the contact changed something in me. I see the world differently now — the Gates pulse with a rhythm I can almost follow, the ruins hum with meaning just beyond my grasp. The Watcher planted a seed, and whether I nurture it or not, it has already taken root.$(br2)A choice is coming. I can feel it. Follow the Watcher's design, or forge my own path. Neither option is simple. Neither is without cost."
+        }
+      ]
+    },
+    {
+      "key": "branch_restoration",
+      "category_key": "act_2",
+      "category_ref": "act_2",
+      "name": "The Restoration Path",
+      "icon": "minecraft:beacon",
+      "advancement_path": "act_2/branch_restoration",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "Accepting the Design",
+          "text": "I have made my choice. I will follow $(thing)The Watcher's$() design.$(br2)It was not a decision I made lightly. For days I weighed the arguments — the danger of trusting an entity I do not understand, the arrogance of believing I could do better alone. In the end, it came down to this: the Precursors built something magnificent, and its ruin has caused immeasurable suffering. If there is a chance to restore it, how can I refuse?$(br2)The Watcher's presence settled over me like a mantle when I accepted. Heavy, but warm. A burden that is also a gift."
+        },
+        {
+          "title": "The Weight of Choice",
+          "text": "Not everyone understands. $(thing)Sera$() looked at me with something between concern and disappointment when I told her. She has her own reasons to distrust cosmic forces and ancient designs.$(br2)But $(thing)Aren$(), the guild master, nodded as though he had expected it. Some of us are built for restoration, he said. Some for revolution. The trick is knowing which you are.$(br2)I feel the Watcher's guidance now — subtle nudges, a sense of direction that was not there before. Precursor sites call to me. Ancient mechanisms wait for hands willing to reactivate them. The old order wants to live again, and I have agreed to be its instrument."
+        }
+      ]
+    },
+    {
+      "key": "branch_independence",
+      "category_key": "act_2",
+      "category_ref": "act_2",
+      "name": "The Independence Path",
+      "icon": "minecraft:shield",
+      "advancement_path": "act_2/branch_independence",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "Rejecting the Design",
+          "text": "I told $(thing)The Watcher$() no.$(br2)The silence that followed was vast. Not angry — confused, perhaps. As though the concept of refusal was something it had not considered in a very long time. The presence withdrew slowly, like a tide pulling back from shore, leaving me standing alone on the ridge with nothing but my own heartbeat for company.$(br2)I will not be an instrument. The Precursors built their grand design and it failed. $(thing)The Dimming$() happened on their watch, with their technology, through their systems. Whatever comes next must be built by the people who live here now — not by the echo of a dead civilization."
+        },
+        {
+          "title": "Charting a New Course",
+          "text": "$(thing)Sera$() was the first to support me, though her relief was tempered by worry. Independence is harder, she said. You cannot lean on ancient blueprints. Every step must be earned.$(br2)She is right. Without the Watcher's guidance, the path forward is uncertain. The factions will not unite for a cosmic purpose — they will need reasons that are immediate, practical, human. Trade agreements. Shared defenses. Common enemies.$(br2)$(thing)Aren$() warned me that some doors close when you refuse the Watcher's hand. Certain Precursor sites will not respond to me. Certain knowledge will remain sealed.$(br2)I accept the cost. The future of $(thing)Aetheria$() should belong to its people, not to entities that watch from the sky."
+        }
+      ]
+    },
+    {
+      "key": "restoration_path",
+      "category_key": "act_2",
+      "category_ref": "act_2",
+      "name": "Following the Design",
+      "icon": "minecraft:amethyst_shard",
+      "advancement_path": "act_2/restoration_path",
+      "sortnum": 3,
+      "pages": [
+        {
+          "title": "Precursor Sites",
+          "text": "The $(thing)Watcher's$() guidance led me to a site I would never have found on my own — a chamber deep beneath a mountain lake, its walls inscribed with patterns that glow when I draw near. The Precursors built this place to last forever, and it has.$(br2)Inside, I found mechanisms still functioning after untold centuries. Crystal arrays that sang when aligned. Conduits that channeled energy from deep within the earth. And at the center, a console that responded to my touch as though it had been waiting.$(br2)The network is damaged but not dead. Node by node, site by site, it can be restored."
+        },
+        {
+          "title": "Ancient Purpose",
+          "text": "Each site I reactivate reveals a fragment of the larger picture. The Precursors did not simply build infrastructure — they built a $(italic)living system$(), a web of energy and intention that connected worlds and sustained the barriers between dimensions.$(br2)$(thing)The Dimming$() tore holes in that web. Without it, Aetheria is vulnerable in ways its people do not fully understand. The Gates destabilize. The ley lines fray. And from the spaces between, things press inward.$(br2)The Watcher shows me visions of what will come if the network remains broken. I do not sleep well after those nights. But each restored site pushes the darkness back a little further, and I cling to that progress like a lantern in a storm."
+        }
+      ]
+    },
+    {
+      "key": "independence_path",
+      "category_key": "act_2",
+      "category_ref": "act_2",
+      "name": "Forging Alliances",
+      "icon": "minecraft:iron_sword",
+      "advancement_path": "act_2/independence_path",
+      "sortnum": 3,
+      "pages": [
+        {
+          "title": "Building Bridges",
+          "text": "Without the Watcher's guidance, every alliance must be built by hand. I spend my days traveling between settlements, sitting in smoky meeting halls, listening to grievances and bartering for trust.$(br2)The $(thing)Plains$() folk want security. The $(thing)Mountain$() clans want respect. The $(thing)Coastal$() traders want profit. The $(thing)Forest$() enclaves want to be left alone. The $(thing)Skyborn$() want — well, no one is entirely sure what the Skyborn want, and they are not telling.$(br2)Each faction sees me differently now that I am not aligned with the Watcher. Some view me with suspicion — what Pathfinder refuses cosmic power? Others respect it. The $(thing)Wanderers$() especially. They have always walked their own road."
+        },
+        {
+          "title": "A Different Strength",
+          "text": "Progress is slow, but it is real. A trade agreement here. A mutual defense pact there. Small things that add up to something larger than any single faction could build alone.$(br2)$(thing)Sera$() travels with me now, and her knowledge of faction politics is invaluable. She knows which leaders can be reasoned with and which must be shown results before they will listen.$(br2)I cannot activate the Precursor sites. I cannot feel the ley lines the way Watcher-aligned Pathfinders do. But I can do something they cannot — I can sit at a table with six factions and be trusted by all of them, because I serve none of them.$(br2)Independence is harder. But the alliances I build will belong to the people of $(thing)Aetheria$(), not to an ancient design they never agreed to."
+        }
+      ]
+    },
+    {
+      "key": "first_gym",
+      "category_key": "act_2",
+      "category_ref": "act_2",
+      "name": "First Gym Battle",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "act_2/first_gym",
+      "sortnum": 4,
+      "pages": [
+        {
+          "title": "The Arena",
+          "text": "The gym stood at the edge of the $(thing)Plains$() settlement — a circular arena of packed earth and standing stones, open to the sky. Banners snapped in the wind. Spectators lined the raised embankments, their faces expectant.$(br2)I had heard of the $(thing)Gym Challenge$() from traders and travelers. Organized $(thing)Cobblemon$() competition, sanctioned by the factions, each gym led by a specialist who had mastered a particular style. To earn their badge was to earn respect — not just as a trainer, but as someone who understood the bond between human and Cobblemon.$(br2)My hands were shaking. My partner sensed it and pressed against my leg, steady and sure."
+        },
+        {
+          "title": "Terra of the Plains",
+          "text": "$(thing)Terra$() entered the arena without ceremony — a weathered woman with calloused hands and eyes like the horizon. She nodded to me once, the way a craftsman acknowledges a peer, and released her first Cobblemon without a word.$(br2)The battle was unlike anything I had experienced in the Gates. There, fighting was survival. Here, it was art. Terra's Cobblemon moved with precision honed by years of training. Every attack flowed into the next. Every defense anticipated my strategy before I had finished forming it.$(br2)We lost the first round. And the second. But in the third, something clicked — my partner and I found a rhythm, a shared understanding that went beyond commands. We fought as one."
+        },
+        {
+          "title": "The Badge",
+          "text": "I won. Barely, breathlessly, with my Cobblemon panting and battered but triumphant. The crowd erupted, and for a moment I forgot everything — the factions, the Watcher, the weight of choices yet to come.$(br2)$(thing)Terra$() crossed the arena and pressed the badge into my hand. It was warm from the sun, small and heavy.$(br2)$(italic)You fight like someone who has something to protect$(), she said. $(italic)Hold onto that.$(br2)I will. Whatever else this world demands of me, I will hold onto the bond that carried me through this day. There are more gyms ahead, more leaders to challenge. But this first victory — earned, not given — means more than I can properly express."
+        }
+      ]
+    },
+    {
+      "key": "act_2_complete",
+      "category_key": "act_2",
+      "category_ref": "act_2",
+      "name": "Act 2 Complete",
+      "icon": "minecraft:golden_apple",
+      "advancement_path": "act_2/act_2_complete",
+      "sortnum": 5,
+      "pages": [
+        {
+          "title": "Alliances Formed",
+          "text": "I look back on these weeks and hardly recognize the person who stumbled into $(thing)Willowmere$() with nothing but questions and a single Cobblemon. I have allies now — true ones, tested by disagreement and forged in shared purpose.$(br2)$(thing)Sera$() stands beside me, steadfast and sharp-tongued. $(thing)Aren$() lends the weight of the guild. $(thing)Mayor Theron$() offers Willowmere as neutral ground. And across the factions, doors that were once closed have begun, slowly, to open.$(br2)I have earned my first gym badge. I have chosen a path — and lived with the consequences of that choice. The world has grown larger with each step, and I have grown to meet it."
+        },
+        {
+          "title": "The Wider World Beckons",
+          "text": "But Aetheria is vast, and I have seen only a corner of it. Beyond the plains and the settled lands, there are kingdoms I have only heard of in stories. The $(thing)Skyborn$() citadels above the clouds. The deep forests where ancient things still move. The coastal cities where trade and intrigue flow like the tide.$(br2)The $(thing)Gates$() grow more challenging, their ranks climbing toward trials I am not yet ready to face. The factions' conflicts deepen as resources dwindle and old resentments surface. And always, always, the sky hums with a presence that watches and waits.$(br2)Whatever I have built here is a foundation, nothing more. The true test lies ahead — in the wider world, in the harder choices, in the questions I have been avoiding.$(br2)It is time to stop surviving and start shaping what $(thing)Aetheria$() will become."
+        }
+      ]
+    },
+    {
+      "key": "act_3_begins",
+      "category_key": "act_3",
+      "category_ref": "act_3",
+      "name": "Act 3 Begins",
+      "icon": "minecraft:spyglass",
+      "advancement_path": "act_3/act_3_started",
+      "sortnum": 0,
+      "pages": [
+        {
+          "title": "The Wider World",
+          "text": "I left $(thing)Willowmere$() at dawn, my pack heavy with supplies and my mind heavier with purpose. The settled lands fell behind me within a day, and the true scope of $(thing)Aetheria$() opened before me like a book whose first chapters I had only skimmed.$(br2)The kingdoms here are old — far older than the settlements I have known. They have their own laws, their own histories, their own entangled webs of alliance and enmity. Walking among them as an outsider is like navigating a minefield where the mines are polite and offer you tea before detonating."
+        },
+        {
+          "title": "Diplomacy and Depth",
+          "text": "Diplomacy has become essential. Every conversation carries weight. Every gift, every refusal, every silence sends a message to people who have spent lifetimes learning to read them.$(br2)$(thing)Sera$() coaches me in the subtleties I keep missing. The way a $(thing)Mountain$() clan leader tilts her head means she is considering your words. The way a $(thing)Coastal$() merchant smiles means he is calculating your value. The $(thing)Forest$() say nothing at all, which says everything.$(br2)Meanwhile, the $(thing)Gates$() I encounter grow more complex. Their corridors stretch deeper, their guardians strike harder, and their secrets cut closer to the heart of what the Precursors truly intended."
+        },
+        {
+          "title": "A Turning Point",
+          "text": "I stand at a threshold — not a literal one, though there are plenty of those. The first two acts of my story in Aetheria were about survival and choice. This third act will be about mastery.$(br2)Mastery of the land. Mastery of the bonds I have forged with my Cobblemon. Mastery of technology or nature or both. And mastery of myself — of the fears and doubts that still whisper in the quiet hours.$(br2)Another choice approaches. I can feel it like a change in the weather. The path branches again, and this time, the consequences will shape not just my journey but the future of Aetheria itself."
+        }
+      ]
+    },
+    {
+      "key": "branch_tech",
+      "category_key": "act_3",
+      "category_ref": "act_3",
+      "name": "The Artificer Path",
+      "icon": "minecraft:redstone",
+      "advancement_path": "act_3/branch_tech",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "Machines Awaken",
+          "text": "I chose the path of the $(thing)Artificer$(). The Precursor technology that once seemed alien and inscrutable now calls to me with a voice I cannot ignore — gears and circuits and mechanisms that hum with a logic I am only beginning to comprehend.$(br2)It started in a ruin east of the mountains. A workshop, still intact after centuries, its tools laid out as though the builder had merely stepped away for lunch. When I touched the central console, something activated. Lights flickered. Gears turned. A machine coughed to life with a sound like a giant clearing its throat.$(br2)I understood, in that moment, what the Precursors felt when they first bent the world to their will. The thrill of it. The danger."
+        },
+        {
+          "title": "The Call of Engineering",
+          "text": "$(thing)Aren$() connected me with the few who still practice the old engineering — tinkerers and smiths who have preserved fragments of Precursor knowledge through generations of oral tradition and careful experimentation.$(br2)They speak of $(thing)Create$() mechanisms — rotational force harnessed through brass and iron. Of $(thing)Immersive$() industrial processes that transform raw materials into marvels. Of power systems that draw from the same energy that fuels the Gates.$(br2)The potential is staggering. Factories that could supply every faction. Machines that could reshape the landscape. Transportation networks that could reunite a fractured world.$(br2)But every tool is also a weapon. And the Precursors learned that lesson in the hardest way possible."
+        }
+      ]
+    },
+    {
+      "key": "branch_nature",
+      "category_key": "act_3",
+      "category_ref": "act_3",
+      "name": "The Cultivator Path",
+      "icon": "minecraft:oak_sapling",
+      "advancement_path": "act_3/branch_nature",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "The Living Power",
+          "text": "I chose the path of the $(thing)Cultivator$(). Not because it seemed easier — nothing in Aetheria is easy — but because the land spoke to me first, and I have learned to listen.$(br2)It began in my fields. The crops grew stronger than they should have, responding to my presence in ways that defied explanation. Fruit ripened overnight. Blighted plants recovered when I tended them. The soil shifted its composition to match what I planted, as though the earth itself was trying to help.$(br2)$(thing)Sera$() noticed before I did. $(italic)The land recognizes you$(), she said, with an expression I could not read. $(italic)That has not happened in a very long time.$()()"
+        },
+        {
+          "title": "Growing with Purpose",
+          "text": "The old $(thing)Forest$() elders taught me what the Plains folk could not — that cultivation in Aetheria is not simply agriculture. It is communion. The land is alive in ways Earth's soil never was. It remembers. It responds. It rewards those who work with it rather than against it.$(br2)I can feel the ecosystems now, vast interconnected webs of life that pulse beneath the surface. When I plant, the web shifts to accommodate. When I harvest with care, it offers more freely the next season.$(br2)My brewing has deepened as well. The ingredients I grow carry more potency, more character. A tea brewed from my herbs now carries genuine power — healing, fortifying, sharpening the mind.$(br2)The Precursors tried to master nature with machines. I am learning to let nature master itself, with me as a willing partner."
+        }
+      ]
+    },
+    {
+      "key": "tech_path",
+      "category_key": "act_3",
+      "category_ref": "act_3",
+      "name": "The Forge Deepens",
+      "icon": "create:brass_hand",
+      "advancement_path": "act_3/tech_path",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "Building the Future",
+          "text": "My first factory is a crude thing — a tangle of gears, belts, and piping that groans and clatters and occasionally spits sparks at passersby. But it works. Raw ore enters one end and processed ingots emerge from the other, shaped and refined without a single hammer stroke.$(br2)The $(thing)Create$() mechanisms are elegant in their brutality. Rotational force, channeled through brass fittings and iron shafts, can crush stone, weave fabric, press metal, and pump water. Chain enough of them together and you have an assembly line. Chain enough assembly lines together and you have an industrial revolution.$(br2)The $(thing)Mountain$() clans watch my progress with naked avarice. The $(thing)Coastal$() traders see profit. Everyone sees power."
+        },
+        {
+          "title": "Precursor Engineering",
+          "text": "Deeper study has revealed what the Precursors truly understood: that technology and the energy of Aetheria are not separate systems. The Gates, the ley lines, the strange power that fuels Cobblemon — all of it flows from the same source. The machines simply give it direction.$(br2)I have begun integrating $(thing)Immersive Engineering$() principles with Precursor designs. Electrical systems that draw from natural energy. Automated farms that process their own harvest. Transport networks of conveyor belts and rail lines that could connect settlements across vast distances.$(br2)Each breakthrough reveals how much more there is to learn. The Precursors spent generations building their civilization. I am trying to understand it in months. But with every machine I construct, the gap between what was and what could be grows a little smaller."
+        },
+        {
+          "title": "The Responsibility",
+          "text": "$(thing)Sera$() asked me today if I ever worry about becoming like the Precursors. Building and building until the building itself becomes the purpose, until the machines serve only their own expansion.$(br2)I told her yes. Every day.$(br2)The power of creation is intoxicating. When a new mechanism clicks into place and the factory hums with coordinated purpose, I understand why the Precursors reached for the stars. The temptation to build bigger, faster, more is constant.$(br2)But I have seen what happens when that temptation goes unchecked. The ruins are everywhere. The silence of the Precursors is its own warning.$(br2)I build carefully. I build with purpose. And I remember, always, that the machines serve the people — never the other way around."
+        }
+      ]
+    },
+    {
+      "key": "nature_path",
+      "category_key": "act_3",
+      "category_ref": "act_3",
+      "name": "The Garden Deepens",
+      "icon": "minecraft:flowering_azalea",
+      "advancement_path": "act_3/nature_path",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "The Ecosystem Responds",
+          "text": "My gardens have become something more than gardens. The land around my settlement has shifted — subtly at first, then unmistakably. Trees grow taller. Streams run clearer. The Cobblemon that nest nearby are healthier, stronger, more numerous.$(br2)The $(thing)Forest$() elders say I have become a $(thing)nexus$() — a point where the living energy of Aetheria concentrates and flourishes. They have not seen one in generations. Their reverence is flattering and deeply uncomfortable.$(br2)I am not special. I simply learned to listen when the land spoke, and to give back as much as I took. Anyone could do this, given time and patience. I think."
+        },
+        {
+          "title": "Cultivation as Power",
+          "text": "My brewing has reached heights I did not think possible. A wine I aged through three seasons now carries properties that border on the miraculous — a single cup can mend broken bones or sharpen the mind to crystal clarity. My teas are sought by every faction, and my harvests yield more than any ten ordinary farms.$(br2)The colonies of Cobblemon around my settlement have formed their own ecosystem, balanced and self-sustaining. They patrol the borders, tend the young, and bring me gifts of rare herbs and minerals they find in their wanderings.$(br2)This is what the Precursors missed, I think. They built networks of stone and energy. They could have built networks of life. The land wanted to give them everything, and they were too busy mining it to notice."
+        },
+        {
+          "title": "Living Legacy",
+          "text": "$(thing)Sera$() walked through my gardens today and said nothing for a long time. Then: $(italic)This is what Aetheria was supposed to look like.$()$()$(br2)I do not know if that is true. But standing among the flowering trees, listening to the hum of bees and the distant calls of Cobblemon, feeling the pulse of the earth beneath my feet — it feels right. It feels like the world breathing deeply after holding its breath for centuries.$(br2)The other factions are beginning to understand. You cannot force abundance. You cannot engineer a thriving ecosystem. You can only create the conditions for life to flourish, and then step back and let it happen.$(br2)The Cultivator's path is slow. But what grows slowly grows deep."
+        }
+      ]
+    },
+    {
+      "key": "deeper_gates",
+      "category_key": "act_3",
+      "category_ref": "act_3",
+      "name": "Deeper Gates",
+      "icon": "minecraft:netherite_sword",
+      "advancement_path": "act_3/deeper_gates",
+      "sortnum": 3,
+      "pages": [
+        {
+          "title": "Beyond Rank C",
+          "text": "The higher-ranked $(thing)Gates$() are a different world from the training grounds I entered months ago. Rank $(thing)C$() and beyond — the corridors no longer merely shift. They think. They adapt. They learn your strategies and counter them before you can adjust.$(br2)My Cobblemon team has grown formidable, hardened by dozens of lesser Gates and countless battles. But inside a Rank B Gate, even my strongest partner falters. The guardians here are not simple constructs — they are echoes of Precursor design, imbued with an intelligence that borders on sentience.$(br2)I lost badly on my first attempt. The guardian on the boss floor did not merely defeat me. It dismantled my strategy piece by piece, as though teaching me a lesson."
+        },
+        {
+          "title": "Terrible Secrets",
+          "text": "But the rewards match the danger. Each boss floor I clear yields fragments of knowledge that reshape my understanding of Aetheria. Precursor records, preserved in crystal, that describe the true scope of their civilization. Star charts for worlds I have never heard of. Schematics for devices whose purpose I can only guess at.$(br2)And darker things. Records of experiments that went wrong. Warnings carved in languages that predate human settlement. References to something called the $(thing)Convergence$() — an event the Precursors feared above all else.$(br2)The Gates are not merely challenges. They are archives. Vaults. And perhaps, in some terrible sense, prisons — built to contain things the Precursors could not destroy."
+        },
+        {
+          "title": "Rising to the Challenge",
+          "text": "I returned to the Rank B Gate today. Better prepared, better partnered, with strategies forged in failure. My Cobblemon and I moved as a single unit, anticipating each other's movements, adapting in real time to the guardian's shifting tactics.$(br2)We won. The crystal that fell from the guardian's shattered form pulsed with a light I have not seen before — warm and steady, like a heartbeat. When I touched it, I felt the Precursors. Not their knowledge, but their fear. Their hope. Their desperate, magnificent ambition.$(br2)There are higher Gates still. Rank A. Rank S. Challenges that even the strongest Pathfinders approach with caution. But I am no longer afraid of them.$(br2)I am afraid of what I will find at the bottom."
+        }
+      ]
+    },
+    {
+      "key": "rocket_frame",
+      "category_key": "act_3",
+      "category_ref": "act_3",
+      "name": "The Rocket Frame",
+      "icon": "minecraft:firework_rocket",
+      "advancement_path": "act_3/rocket_frame",
+      "sortnum": 4,
+      "pages": [
+        {
+          "title": "Reaching for the Stars",
+          "text": "I built a $(thing)rocket frame$() today. The words look absurd written down — as though farming and brewing and faction politics were not enough, now I am building spacecraft in a field outside Willowmere.$(br2)But the $(thing)Stellaris$() technology is real. Fragments recovered from the deepest Gates, combined with Precursor engineering principles, have yielded something I barely believed possible: a framework for leaving Aetheria's surface and reaching the stars above.$(br2)The twin moons hang in the sky like promises. Other worlds orbit this sun. And somewhere out there, the full scope of the Precursor network awaits — dormant stations, abandoned colonies, answers to questions I have been asking since I woke on that cold stone."
+        },
+        {
+          "title": "Stellaris Awakens",
+          "text": "The technology is unlike anything else I have worked with. It does not merely harness energy — it folds space, compresses distance, turns the impossible gap between worlds into a step. The Precursors did not just visit other planets. They made the void between them into a road.$(br2)$(thing)Aren$() stood beside me as the frame powered up for the first time. The air crackled. The ground trembled. And for one breathless moment, I could see the stars — not as distant lights, but as destinations. Close enough to touch.$(br2)$(italic)They actually did it$(), Aren whispered. $(italic)The old stories were true.$()()"
+        },
+        {
+          "title": "A New Horizon",
+          "text": "The rocket frame is not finished. It needs materials I have not yet found, technologies I have not yet mastered, and a fuel source that exists only in theory and Precursor records. Months of work remain, perhaps years.$(br2)But for the first time since arriving in Aetheria, I can see the end of the road — or rather, the beginning of a new one. The factions see it too. Some are thrilled. Some are terrified. Some are already scheming about who will control access to the stars.$(br2)I stood alone with the frame tonight, watching the moons arc overhead, and felt something I have not felt since before $(thing)The Dimming$(): the absolute, unshakeable conviction that the future is bigger than the past.$(br2)The stars are within reach. And I intend to reach them."
+        }
+      ]
+    },
+    {
+      "key": "act_3_complete",
+      "category_key": "act_3",
+      "category_ref": "act_3",
+      "name": "Act 3 Complete",
+      "icon": "minecraft:golden_apple",
+      "advancement_path": "act_3/act_3_complete",
+      "sortnum": 5,
+      "pages": [
+        {
+          "title": "Mastery Earned",
+          "text": "Three acts into my story, and I barely recognize the person who woke on cold stone with nothing but confusion and fear. I have mastered skills I never imagined possessing. My Cobblemon team fights with a precision and trust that borders on telepathy. My understanding of Aetheria — its systems, its factions, its buried history — runs deep enough to surprise even $(thing)Sera$().$(br2)I have built things. Real, lasting things. Whether through the forge or the garden, I have left my mark on this world, and the world has left its mark on me. The calluses on my hands. The knowledge in my mind. The bonds that tie me to people and creatures I would die to protect."
+        },
+        {
+          "title": "The Stars Call",
+          "text": "The rocket frame stands in its launch cradle, nearly complete. The $(thing)Stellaris$() systems hum with contained potential. The stars that once seemed impossibly distant now feel close enough to whisper to.$(br2)But the stars are not calling me to escape. They are calling me to understand. The Precursor network extends beyond Aetheria, beyond this world, into a web of connected civilizations and purposes that I am only beginning to grasp. Whatever answers await me — about $(thing)The Dimming$(), about $(thing)The Watcher$(), about why I was brought here — they lie above the sky, not beneath the ground."
+        },
+        {
+          "title": "One Final Choice",
+          "text": "$(thing)Aren$() told me once that every Pathfinder reaches a moment where the path stops branching and starts converging. Where every choice you have made, every alliance you have built, every skill you have earned, funnels into a single point of decision.$(br2)I am approaching that point. I can feel it the way you feel a storm gathering — pressure building, the air thick with possibility and consequence.$(br2)One final choice remains. It will determine not just my fate, but the fate of $(thing)Aetheria$() and every soul within it. The factions watch. The Watcher watches. The stars themselves seem to hold their breath.$(br2)I am ready. Whatever comes next, I have earned the right to face it.$(br2)The third act ends. The final chapter begins."
+        }
+      ]
+    },
+    {
+      "key": "act_4_begins",
+      "category_key": "act_4",
+      "category_ref": "act_4",
+      "name": "Beyond the Sky",
+      "icon": "minecraft:nether_star",
+      "advancement_path": "act_4/act_4_started",
+      "sortnum": 0,
+      "pages": [
+        {
+          "title": "Launch Day",
+          "text": "The ground shook. Not from an earthquake or a creature stirring beneath the crust, but from something we built. Something that defied every limitation I thought this world imposed on us.$(br2)The $(thing)Stellaris rocket$() punched through Aetheria's atmosphere like a needle through silk, trailing fire and hope in equal measure. I watched from the command platform, my hands gripping the railing so hard my knuckles went white. We did it. We actually did it.$(br2)The $(thing)Moon$() was first. Cold, barren, but covered in $(thing)Precursor$() structures that made the ruins on Aetheria look like children's toys. Vast docking arrays. Silent terminals. Whatever came before us, they were spacefaring."
+        },
+        {
+          "title": "Red Dust and Frozen Seas",
+          "text": "$(thing)Mars$() was next — rust-colored plains stretching to every horizon, and beneath the dust, sealed vaults containing technology I cannot begin to understand. Data cores that hum when you touch them, as if they have been waiting for hands to hold them again.$(br2)Then $(thing)Europa$(). Beneath the ice, an ocean that glows faintly blue with bioluminescent life. The $(thing)Precursor$() artifacts there were different — organic, almost alive. Tendrils of crystal that pulse in rhythm, like a heartbeat.$(br2)Each world held a piece of a puzzle I did not know I was assembling. The Precursors did not just live on Aetheria. They built across the stars. And whatever ended them, it ended everywhere at once."
+        },
+        {
+          "title": "Weight of Discovery",
+          "text": "I brought the artifacts back. Every faction wants them. The $(thing)Ironclad Collective$() sees weapons. The scholars see knowledge. The traders see profit. And I see the thing that frightens me most — responsibility.$(br2)These relics are not trinkets. They are keys. Keys to a network that spans worlds, that could reconnect everything the $(thing)Dimming$() severed. Or destroy what little we have rebuilt.$(br2)The stars revealed their secrets to me. Now every faction on Aetheria waits to see what I will do with them. The easy part — reaching space — is over. The hard part is what comes next."
+        }
+      ]
+    },
+    {
+      "key": "branch_conquer",
+      "category_key": "act_4",
+      "category_ref": "act_4",
+      "name": "The Iron Path",
+      "icon": "minecraft:netherite_sword",
+      "advancement_path": "act_4/branch_conquer",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "No More Patience",
+          "text": "I tried diplomacy. I did. But when three factions nearly went to war over a single $(thing)Precursor$() power core — people I had bled for turning weapons on each other over scraps — something in me snapped.$(br2)Patience is a luxury for those who have time. Aetheria does not have time. The $(thing)Watchers$() are stirring, the network is destabilizing, and these factions cannot stop squabbling long enough to see the cliff they are marching toward.$(br2)So I chose force. Not cruelty — I am not a tyrant. But I picked up the sword because the pen was too slow, and the world was burning while diplomats argued about ink."
+        },
+        {
+          "title": "The Weight of Command",
+          "text": "My $(thing)Cobblemon$() felt the shift before anyone else did. My partner watched me with those knowing eyes as I donned armor instead of robes. It did not flinch. It trusted me. I hope that trust is not misplaced.$(br2)The first faction fell in line after a single decisive strike against their forward outpost. No casualties — I made sure of that. But the message was clear: fall in line, or be moved aside.$(br2)The second required more. A siege. Three days of standoff before their leader knelt. I hated every moment of it. But the alternative was watching Aetheria tear itself apart while I wrung my hands and hoped for the best."
+        },
+        {
+          "title": "Conquest's Mirror",
+          "text": "They call me $(thing)Warlord$() now. Some say it with respect. Others spit it like a curse. Both are probably right.$(br2)I chose the path of conquest because I believed it was necessary. I still believe that. But late at night, when the camp is quiet and my Cobblemon sleeps curled beside me, I wonder what the cost will be. Trust is harder to rebuild than walls.$(br2)The factions are united — by fear, if not by choice. The $(thing)Precursor network$() can be activated now, with all resources under one command. Mine. Whether that makes me a savior or a monster, I suppose, depends on what I do next."
+        }
+      ]
+    },
+    {
+      "key": "branch_diplomacy",
+      "category_key": "act_4",
+      "category_ref": "act_4",
+      "name": "The Open Hand",
+      "icon": "minecraft:writable_book",
+      "advancement_path": "act_4/branch_diplomacy",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "Words Over Blades",
+          "text": "Every fiber of my body screamed to draw steel when the $(thing)Ironclad Collective$() delegation slammed their fists on the table and walked out for the third time. Every instinct said that force would be faster, cleaner, more decisive.$(br2)I chose the harder path. I chose to sit back down, pour another cup of tea, and wait.$(br2)$(thing)Diplomacy$() is not weakness. It is the decision to endure the agonizing slowness of trust-building because you believe the result will outlast you. Conquest unites for a generation. Diplomacy, done right, unites for an age."
+        },
+        {
+          "title": "The Long Table",
+          "text": "The negotiations took weeks. Weeks of translating not just languages but worldviews. Each faction sees the $(thing)Precursor$() artifacts through the lens of what they lack — power, knowledge, security, wealth.$(br2)My role was not to choose who was right. My role was to find the thread that connected all their fears and weave it into something that looked like hope. A shared vision. A reason to lower weapons.$(br2)My $(thing)Cobblemon$() helped more than I expected. There is something disarming about a creature that radiates warmth and trust. Doors that slammed in my face opened when my partner stood beside me."
+        },
+        {
+          "title": "A Fragile Bridge",
+          "text": "The accord was signed at dawn. Six faction leaders, six signatures, one document. It is not perfect — no accord ever is. But it holds. For now, it holds.$(br2)They call me $(thing)Mediator$(). It is a quieter title than Warlord, less dramatic than Conqueror. But I wear it with something I had not felt in a long time — pride without guilt.$(br2)The $(thing)Precursor network$() will be activated cooperatively. Shared resources, shared risk, shared reward. It is slower. It is messier. But when I look at the faces around the table — wary but willing — I know this was the right choice. The harder choice, but the right one."
+        }
+      ]
+    },
+    {
+      "key": "conquer_path",
+      "category_key": "act_4",
+      "category_ref": "act_4",
+      "name": "Subjugation",
+      "icon": "minecraft:diamond_sword",
+      "advancement_path": "act_4/conquer_path",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "Bending, Not Breaking",
+          "text": "The remaining factions did not go quietly. I did not expect them to. But there is a difference between resistance born of conviction and resistance born of pride, and I have learned to tell them apart.$(br2)The $(thing)Verdant Accord$() fought hardest. They believed — truly believed — that what I was doing would destroy the balance they had spent years cultivating. I respected that. I stationed my forces at their borders, cut their supply lines, and waited.$(br2)It took eleven days. On the twelfth morning, their elder walked into my camp alone, unarmed, and said three words: $(italic)What are your terms?$()"
+        },
+        {
+          "title": "The Cost of Obedience",
+          "text": "Every faction bends now. Every outpost flies my banner. The $(thing)Precursor$() artifacts are consolidated under a single authority — mine — and the work of activating the network proceeds at a pace diplomacy could never have achieved.$(br2)But the eyes that follow me are not the eyes of allies. They are the eyes of the subjugated. People who obey because the alternative is worse, not because they believe in what I am building.$(br2)My oldest companion — the first $(thing)Cobblemon$() I ever bonded with — looks at me differently now. Not with fear. With something worse. Concern."
+        },
+        {
+          "title": "Hollow Victory",
+          "text": "The network hums. Resources flow. The factions produce, build, and march in lockstep. By every measurable standard, the conquest was a success.$(br2)So why does it feel hollow? Why do I lie awake at night replaying the faces of those who knelt — not in loyalty, but in defeat?$(br2)I tell myself this was necessary. That the $(thing)Watchers$() are coming, that Aetheria needed unity at any cost. And perhaps that is true. But I cannot shake the feeling that I have purchased survival at the price of something I will never get back. $(thing)Trust$(). The kind that is given freely, not taken by force."
+        }
+      ]
+    },
+    {
+      "key": "diplomacy_path",
+      "category_key": "act_4",
+      "category_ref": "act_4",
+      "name": "The Accord Holds",
+      "icon": "minecraft:emerald",
+      "advancement_path": "act_4/diplomacy_path",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "Slow and Steady",
+          "text": "Treaty by treaty. Handshake by handshake. Compromise by agonizing compromise. The work of $(thing)diplomacy$() is not glamorous. There are no battles to win, no dramatic last stands. There is only the grinding, endless work of making people who distrust each other sit in the same room.$(br2)The $(thing)Ironclad Collective$() wanted exclusive mining rights to the Precursor sites. The scholars demanded unrestricted research access. The merchants insisted on trade route priority. Everyone wanted everything, and no one wanted to give.$(br2)I spent four days mediating a dispute over water rights that nearly collapsed the entire accord. Four days. Over water."
+        },
+        {
+          "title": "Treaties Signed",
+          "text": "But the treaties were signed. All of them. Not because I forced anyone's hand, but because I showed each faction that cooperation yielded more than competition. Shared $(thing)Precursor$() technology. Joint expeditions. Mutual defense pacts.$(br2)The turning point came when the Collective's forge master and the Accord's herbalist discovered they could combine Precursor metallurgy with living crystal to create something neither could alone. That moment — two rivals leaning over a workbench, eyes wide with possibility — was worth every sleepless night.$(br2)My $(thing)Cobblemon$() partner sat between them the entire time, radiating calm. I think it enjoyed the peace more than I did."
+        },
+        {
+          "title": "A Peace That Breathes",
+          "text": "The peace is not perfect. There are still arguments, still tensions that flare at council meetings, still old grudges that surface when tempers run hot. But it breathes. It lives. It grows.$(br2)The $(thing)Precursor network$() activation proceeds slowly — consensus requires patience — but when each node comes online, it does so with the support of every faction. No resentment. No subjugated peoples nursing rebellion in their hearts.$(br2)They call this the $(thing)Pathfinder Accord$(). My name is on it, but it belongs to all of them. That is the point. That was always the point. A peace that belongs to everyone is a peace that everyone will fight to keep."
+        }
+      ]
+    },
+    {
+      "key": "watchers_question",
+      "category_key": "act_4",
+      "category_ref": "act_4",
+      "name": "The Question",
+      "icon": "minecraft:ender_eye",
+      "advancement_path": "act_4/watchers_question",
+      "sortnum": 3,
+      "pages": [
+        {
+          "title": "A Voice in the Void",
+          "text": "It came at midnight. Not a sound — a presence. The air itself thickened, and every $(thing)Cobblemon$() within a mile radius went still. Not afraid. Reverent.$(br2)The $(thing)Watcher$() did not appear so much as become. One moment, empty sky. The next, an eye the size of a cathedral, hovering above the Precursor spire, its iris shifting through colors that have no names in any language I know.$(br2)It spoke without speaking. The words formed directly in my mind, bypassing my ears entirely, settling into my thoughts like stones sinking into still water. One question. Just one."
+        },
+        {
+          "title": "What Is Aetheria For?",
+          "text": "$(thing)What is Aetheria for?$()$(br2)Four words. Four simple words that cracked open every certainty I had built since arriving in this world. What is it for? Is it a home? A waystation? A prison? A garden? A forge?$(br2)The $(thing)Precursors$() had an answer once. They built the network, shaped the biomes, seeded the world with creatures that bond with human souls. They had a purpose. And then they vanished, leaving only ruins and a question that echoes through every empty hall.$(br2)The Watcher waited. It did not rush me. It simply watched, as its kind always has, patient as geology, ancient as starlight."
+        },
+        {
+          "title": "The Answer That Shapes Everything",
+          "text": "I do not think there is a wrong answer. But I think the answer matters more than anything I have ever said. More than treaties or battle cries or whispered promises to my Cobblemon in the dark.$(br2)What is Aetheria for? The answer I give will shape what comes next. Will shape the $(thing)convergence$() that even now gathers on the horizon like a storm that has been building since before I was born.$(br2)The Watcher blinked — a slow, deliberate closing and opening of that vast eye — and I felt something I had not felt since the day I arrived. $(thing)Choice$(). Pure, undiluted, world-shaping choice. The kind that does not come with a guide or a safety net. Only consequence."
+        }
+      ]
+    },
+    {
+      "key": "act_4_complete",
+      "category_key": "act_4",
+      "category_ref": "act_4",
+      "name": "Stars and Settlements",
+      "icon": "minecraft:golden_apple",
+      "advancement_path": "act_4/act_4_complete",
+      "sortnum": 4,
+      "pages": [
+        {
+          "title": "Taking Stock",
+          "text": "I sit on the ridge above the settlement tonight, looking up at stars I have walked among. The $(thing)Moon$(), $(thing)Mars$(), $(thing)Europa$(), $(thing)Titan$() — they are not just lights in the sky anymore. They are places I have been. Places where I held Precursor artifacts in trembling hands and felt the weight of a dead civilization pressing against my palms.$(br2)Below me, the factions are settled. One way or another, the conflicts that defined this chapter of my journey are resolved. Whether through force or fellowship, Aetheria speaks with something closer to one voice than it ever has before."
+        },
+        {
+          "title": "What the Stars Revealed",
+          "text": "The $(thing)Precursor network$() is nearly complete. Each artifact retrieved from the outer worlds slots into place like a key turning in a lock that has waited millennia to open. The hum is audible now — a low, resonant vibration that my Cobblemon feels before I do.$(br2)The $(thing)Watchers$() are watching more intently than ever. I see them in the periphery of my vision — vast shapes at the edge of the atmosphere, turning slowly, observing. They asked their question. I gave my answer. Now they wait to see if I meant it.$(br2)Everything I have done — every battle, every negotiation, every rocket launch, every gym badge earned — has led to this threshold."
+        },
+        {
+          "title": "Convergence Approaches",
+          "text": "The word has been spreading through every settlement and outpost. $(thing)Convergence$(). The scholars say it is a Precursor term for the moment when all systems align — when the network, the biomes, the creatures, and the Pathfinder come together in a single, irrevocable event.$(br2)I do not know exactly what it means. No one does. But I can feel it approaching the way you feel a thunderstorm before the first drop falls. The air changes. The light shifts. My Cobblemon press closer to me at night, as if drawing comfort from my presence — or offering theirs.$(br2)Act Four is over. The stars have yielded their secrets. The factions are unified. And somewhere ahead of me, the final act waits. I am as ready as I will ever be. Which is to say, not ready at all."
+        }
+      ]
+    },
+    {
+      "key": "act_5_begins",
+      "category_key": "act_5",
+      "category_ref": "act_5",
+      "name": "The Final Reckoning",
+      "icon": "minecraft:end_crystal",
+      "advancement_path": "act_5/act_5_started",
+      "sortnum": 0,
+      "pages": [
+        {
+          "title": "All Roads Lead Here",
+          "text": "I always thought the end would announce itself with thunder. Instead it arrived as silence — a hush that fell across Aetheria like a held breath. The birds stopped singing. The wind stopped blowing. Even my $(thing)Cobblemon$() went still, every muscle taut, every sense straining toward something I could not yet see.$(br2)Then the sky cracked.$(br2)Not shattered — cracked, like a window struck by a single precise stone. A line of light split the heavens from horizon to horizon, and through it poured a sound that was not a sound. A frequency. A summons. The $(thing)Precursor network$() was waking up. All of it. At once."
+        },
+        {
+          "title": "Every Path Converges",
+          "text": "Every choice I have made since waking on that cold stone has led to this moment. Every alliance forged or broken. Every gym badge earned in sweat and determination. Every rocket launched into the void. Every artifact retrieved from dead worlds.$(br2)The paths I walked — through battlefields and council chambers, through forests and across frozen moons — they were never separate roads. They were tributaries of a single river, and that river has reached its delta.$(br2)I can feel them all — the factions, the $(thing)Watchers$(), the $(thing)Precursor$() echoes, the Cobblemon — drawn toward the same point. The $(thing)Nexus$(). The heart of the network. The place where everything began and everything will end."
+        },
+        {
+          "title": "No Turning Back",
+          "text": "I packed light. My journal. A few supplies. My original partner at my side, the same creature that found me stumbling through alien grass what feels like a lifetime ago. It pressed its head against my hand, and I felt its heartbeat — steady, certain, unafraid.$(br2)One of us is lying about not being scared.$(br2)The $(thing)Nexus$() pulses on the horizon, a column of light visible from every corner of Aetheria. There is no pretending this is not happening. No more preparation. No more delays. The final act begins, and I walk toward it with the strange, calm certainty of someone who has already decided that whatever happens, they will face it standing."
+        }
+      ]
+    },
+    {
+      "key": "convergence",
+      "category_key": "act_5",
+      "category_ref": "act_5",
+      "name": "Convergence",
+      "icon": "minecraft:dragon_egg",
+      "advancement_path": "act_5/convergence",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "The Gathering",
+          "text": "They came from every direction. The factions — unified or subjugated, depending on the path I chose — marched toward the $(thing)Nexus$() in columns that stretched for miles. Banners of six colors rippling in a wind that blew from nowhere natural.$(br2)My Cobblemon walked among them, and I saw something remarkable: the creatures of every faction leader, every soldier, every scholar, every merchant — they all moved with the same purpose. As if the bond between human and Cobblemon had become a single thread woven through every soul in Aetheria.$(br2)We were an army. Not of war, but of witness. Whatever was about to happen, we would face it together."
+        },
+        {
+          "title": "The Watchers Manifest",
+          "text": "The $(thing)Watchers$() descended. Not one or two, as I had seen before, but dozens. Hundreds. They filled the sky like living constellations, their vast eyes turning in slow unison to fix upon the Nexus. Upon me.$(br2)I understood then what they were. Not gods. Not enemies. $(thing)Observers$(). Cosmic witnesses placed here by forces beyond even Precursor comprehension to watch what would become of this world, this experiment, this question posed in stone and starlight.$(br2)They had watched the Precursors rise and fall. They had watched the Dimming sever the gates. They had watched me stumble, fight, build, and choose. And now they watched the culmination."
+        },
+        {
+          "title": "The Network Awakens",
+          "text": "The $(thing)Precursor network$() activated with a sound like every bell in the world ringing at once. Light surged through channels carved into the earth — channels I had walked over a thousand times without realizing what lay beneath my feet.$(br2)Every spire, every ruin, every artifact I had ever touched blazed to life. The Moon installations. The Mars vaults. Europa's crystal hearts. Titan's signal arrays. All connected. All alive. All singing in a harmony that made my teeth vibrate and my eyes water.$(br2)And at the center of it all, a door appeared. Not a physical door — a threshold. A point of absolute choice, humming with the accumulated energy of a civilization that had prepared this moment across millennia and star systems. For me. For this."
+        }
+      ]
+    },
+    {
+      "key": "final_trial",
+      "category_key": "act_5",
+      "category_ref": "act_5",
+      "name": "The Final Trial",
+      "icon": "minecraft:totem_of_undying",
+      "advancement_path": "act_5/final_trial",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "Everything I Am",
+          "text": "The $(thing)Nexus$() did not simply open. It tested me. Of course it did — the Precursors would not hand the keys to their civilization to someone unworthy. The trial began the moment I crossed the threshold, and it drew on everything I had ever learned.$(br2)Combat first. Waves of constructs — Precursor guardians reactivated after millennia of dormancy — that fought with tactics I had never seen. My $(thing)Cobblemon$() and I moved as one, years of trust and training compressed into split-second decisions. Dodge. Strike. Shield. Advance.$(br2)Then knowledge. Puzzles embedded in the architecture itself. Patterns from every world I had visited, every data core I had decoded, every ancient text I had translated by firelight."
+        },
+        {
+          "title": "Bonds Tested",
+          "text": "The trial shifted. The constructs vanished. The puzzles dissolved. And in their place stood illusions of every ally I had ever made — and every enemy. The trial wanted to know not just what I could do, but who I had become.$(br2)Faction leaders I had befriended challenged me with questions only a true ally could answer. Gym leaders I had defeated appeared to test whether I had learned from those battles or merely survived them. Even the $(thing)Watchers$() participated, their cosmic gaze probing my intent.$(br2)My $(thing)Cobblemon$() pressed against me. I felt its warmth, its certainty. Whatever this trial demanded, we had built the answer together — in every bond forged, every creature healed, every trust honored."
+        },
+        {
+          "title": "Worthy",
+          "text": "I do not know how long the trial lasted. Hours. Days. Time moved strangely inside the Nexus. But I remember the moment it ended — a resonance that passed through me like a tuning fork struck against my soul. Every part of me vibrated in harmony with the network.$(br2)The Precursor constructs knelt. The illusions faded. And the $(thing)Nexus$() opened fully, revealing not a weapon or a treasure, but a choice. Five paths. Five futures. Five answers to the question the Watchers had asked.$(br2)$(thing)What is Aetheria for?$()$(br2)I had proven I was worthy of answering. Now I had to actually answer."
+        }
+      ]
+    },
+    {
+      "key": "five_paths",
+      "category_key": "act_5",
+      "category_ref": "act_5",
+      "name": "Five Paths",
+      "icon": "minecraft:end_portal_frame",
+      "advancement_path": "act_5/five_paths",
+      "sortnum": 3,
+      "pages": [
+        {
+          "title": "The Doors Open",
+          "text": "Five doorways materialized in the heart of the $(thing)Nexus$(). Each one hummed with a different frequency, a different color, a different promise. I stood before them with my Cobblemon at my side and my heart hammering against my ribs.$(br2)$(thing)Restoration$() — a door of warm amber light, pulsing with the rhythm of the Precursor network. Through it, I saw towers rising from ruins, a civilization reborn.$(br2)$(thing)Pilgrim$() — a door of deep indigo, opening onto stars I had never mapped. The unknown, vast and calling, promising nothing except that it would never end."
+        },
+        {
+          "title": "Three More Futures",
+          "text": "$(thing)Steward$() — a door of silver-white radiance, steady as a lighthouse. Through it, I saw Aetheria protected by walls that would never fall, guarded by a sentinel who would never leave.$(br2)$(thing)Awakened$() — a door of living green, threaded with the energy of every Cobblemon I had ever known. Through it, I saw something beyond human — a consciousness merged with the ecosystem itself, feeling every creature, every leaf, every heartbeat.$(br2)$(thing)Architect$() — a door of burnished gold, regal and commanding. Through it, I saw a kingdom shaped by my vision, a throne built not on conquest but on creation."
+        },
+        {
+          "title": "Only One",
+          "text": "Five futures. Five answers. Only one can be chosen.$(br2)I looked at my $(thing)Cobblemon$(). It looked back at me with eyes that held no judgment, no preference, no agenda. Only trust. Whatever I chose, it would follow. That knowledge was both the greatest comfort and the heaviest burden I had ever carried.$(br2)The $(thing)Watchers$() watched. The factions waited. The Precursor network hummed its ancient, patient song. And I stood at the crossroads of everything, knowing that the next step I took would define not just my future, but the future of every soul in Aetheria.$(br2)I took a breath. I made my choice."
+        }
+      ]
+    },
+    {
+      "key": "act_5_complete",
+      "category_key": "act_5",
+      "category_ref": "act_5",
+      "name": "The Story Ends",
+      "icon": "minecraft:dragon_head",
+      "advancement_path": "act_5/act_5_complete",
+      "sortnum": 4,
+      "pages": [
+        {
+          "title": "After the Choice",
+          "text": "The door closed behind me. The light faded. And for the first time since I arrived in $(thing)Aetheria$(), the world was quiet — not the silence of anticipation, but the silence of completion. Like the last note of a song hanging in the air before it dissolves into memory.$(br2)The $(thing)Watchers$() withdrew. Slowly, one by one, their vast forms receded into the upper atmosphere and beyond, their purpose fulfilled. They had witnessed. They had judged. And whatever they concluded, they kept to themselves."
+        },
+        {
+          "title": "The World Continues",
+          "text": "Aetheria did not end. That surprised me, somehow. After so much buildup, so much convergence, I half expected the world to dissolve once the choice was made. But the sun rose the next morning, the Cobblemon stirred in their nests, and the people of every faction went about their lives.$(br2)The story ended, but the world continued. The ruins still stand. The creatures still roam. The stars still burn. And somewhere, another stranger might wake on cold stone, memory shattered, staring up at a sky with two moons.$(br2)I hope they find their way as I found mine. I hope the journal I leave behind helps."
+        },
+        {
+          "title": "A Pathfinder's Last Entry",
+          "text": "This is my final entry. Not because there is nothing left to write, but because the story that began with my awakening has reached its conclusion. What comes next is a different story — one that does not need a journal to give it shape.$(br2)To whoever reads this: Aetheria is real. The $(thing)Cobblemon$() are real. The bonds you form here will be the truest things you ever know. Do not be afraid of the choices ahead. Be afraid of never making them.$(br2)I was a stranger here once. Lost, afraid, uncertain. I became a $(thing)Pathfinder$(). And in the end, I found the path that was mine.$(br2)$(italic)The journal ends here. The last page is worn soft, as though it has been read many times.$()"
+        }
+      ]
+    },
+    {
+      "key": "ending_begun",
+      "category_key": "endings",
+      "category_ref": "endings",
+      "name": "The Moment of Choice",
+      "icon": "minecraft:written_book",
+      "advancement_path": "endings/ending_begun",
+      "sortnum": 0,
+      "pages": [
+        {
+          "title": "Five Doors, One Heart",
+          "text": "My hands are shaking as I write this. I stand in the heart of the $(thing)Nexus$(), five doorways blazing before me, each one a future I could live, a world I could shape, a self I could become.$(br2)The air tastes of ozone and possibility. My $(thing)Cobblemon$() stands so close I can feel its breath on my wrist. It knows. It always knows. And it waits, patient as it has always been, for me to decide where we go next.$(br2)There is no going back. The Nexus made that clear. Once I step through a door, it closes behind me forever. The other four futures collapse into might-have-beens."
+        },
+        {
+          "title": "What Brought Me Here",
+          "text": "I think about the journey. Every step, from that first confused morning on cold stone to this impossible moment. The badges earned. The factions navigated. The stars explored. The bonds forged with creatures that became more than companions — they became extensions of my own heart.$(br2)Every choice I made brought me here. The people I helped, the enemies I made, the quiet moments between crises when I sat with my Cobblemon and wondered what any of it was for.$(br2)Now I know what it was for. It was preparation. For this. For the most important decision anyone in $(thing)Aetheria$() has ever made."
+        },
+        {
+          "title": "Heart Pounding",
+          "text": "The $(thing)Watchers$() are silent above me. The factions are silent behind me. Even the network has gone quiet, as if the entire world is holding its breath.$(br2)I close my eyes. I think about who I was when I arrived — frightened, alone, clutching a stranger's journal for comfort. I think about who I am now — scarred, tested, bonded to creatures and causes I would die for.$(br2)I open my eyes. The five doors shimmer. My Cobblemon nudges my hand.$(br2)$(italic)Choose$(), the Nexus hums. $(italic)Choose, and become.$()$(br2)I step forward."
+        }
+      ]
+    },
+    {
+      "key": "ending_restoration",
+      "category_key": "endings",
+      "category_ref": "endings",
+      "name": "Restoration",
+      "icon": "minecraft:beacon",
+      "advancement_path": "endings/ending_restoration",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "The Amber Door",
+          "text": "I chose $(thing)Restoration$(). The amber light swallowed me whole, warm as sunlight through honey, and when I could see again, the world had changed. The ruins were rebuilding themselves. Stone flowed like water, rising from rubble into towers and archways and bridges that the $(thing)Precursors$() had designed millennia ago.$(br2)Not replicas. Continuations. As if the civilization had merely paused, and my choice pressed the button that said $(italic)resume$().$(br2)The network hummed at full power for the first time since the $(thing)Dimming$(). Every node, every spire, every buried conduit blazed to life, and I felt the knowledge of the Precursors pour into me like water into an empty vessel."
+        },
+        {
+          "title": "Founder of a New Age",
+          "text": "They call me $(thing)Founder$() now. Not a title I chose, but one that was given — by the factions, by the network, by the Precursor systems themselves. The last of the old world recognized me as the first of the new.$(br2)I rebuilt the gates. Reconnected the worlds. The $(thing)Moon$(), $(thing)Mars$(), $(thing)Europa$(), $(thing)Titan$() — all linked again, all humming with life and purpose. Trade routes opened. Knowledge flowed. The isolation that had defined Aetheria since the Dimming was over.$(br2)My Cobblemon walked beside me through every restored hall, its eyes reflecting the amber light. I think it was proud of me. I hope so."
+        },
+        {
+          "title": "The Network Hums Again",
+          "text": "The Precursor civilization is not what it was. It cannot be — too much time has passed, too much has been lost. But it is something new. Something shaped by the people who survived the Dimming and the Pathfinder who chose to rebuild rather than abandon.$(br2)The $(thing)Watchers$() observe the new age with what I can only describe as satisfaction. Their vast eyes are calmer now, their rotations slower. The question has been answered: $(thing)Aetheria is for beginning again$().$(br2)I sit in the Founder's seat tonight, the network humming beneath me, the stars connected above me, my Cobblemon curled at my feet. This is not an ending. It is exactly what the name promises. A $(thing)restoration$(). A fresh start, built on ancient foundations."
+        }
+      ]
+    },
+    {
+      "key": "ending_pilgrim",
+      "category_key": "endings",
+      "category_ref": "endings",
+      "name": "Pilgrim",
+      "icon": "minecraft:elytra",
+      "advancement_path": "endings/ending_pilgrim",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "The Indigo Door",
+          "text": "I chose $(thing)Pilgrim$(). The indigo light did not swallow me — it invited me. Gently, like an outstretched hand, it drew me forward into a darkness filled with stars I had never charted and worlds I had never imagined.$(br2)Behind me, Aetheria shrank. Not with sadness — with release. The world I had fought for, bled for, built upon — I loved it. But I was never meant to stay. I knew that now with a certainty that settled into my bones like warmth.$(br2)My $(thing)Cobblemon$() stood at the threshold with me, and I saw in its eyes the same restless fire that had driven me since the day I woke on cold stone. It wanted to go. It had always wanted to go."
+        },
+        {
+          "title": "Beyond the Stars",
+          "text": "The $(thing)Precursor$() network opened paths I did not know existed. Not to the Moon or Mars or Europa — those were local. These paths led beyond. To systems the Precursors had only dreamed of reaching. To worlds where the rules were different, where the creatures were strange beyond imagining, where the sky held colors with no names.$(br2)I sailed. Not in a rocket, but in something the network provided — a vessel of light and intent, powered by the bond between Pathfinder and Cobblemon. My partner rode at the prow, wind in its face, joy radiating from every fiber of its being.$(br2)The unknown called louder than home ever could. And I answered."
+        },
+        {
+          "title": "The Endless Road",
+          "text": "I do not know where I am going. That is the point. The $(thing)Pilgrim's$() path has no destination. It is the journey itself — the act of moving forward, of discovering, of refusing to settle for the known when the unknown is so vast and so beautiful.$(br2)The $(thing)Watchers$() followed me to the edge of Aetheria's influence and stopped. I felt their gaze on my back as I sailed past their boundary. Their question had been answered: $(thing)Aetheria is a starting point, not a destination$().$(br2)I write this by the light of a star I have no name for, orbiting a world I have never read about, my Cobblemon asleep on my lap. I am farther from home than anyone has ever been. And I have never been happier.$(br2)$(italic)The journal continues. Many more pages are filled with sketches of alien skies.$()"
+        }
+      ]
+    },
+    {
+      "key": "ending_steward",
+      "category_key": "endings",
+      "category_ref": "endings",
+      "name": "Steward",
+      "icon": "minecraft:shield",
+      "advancement_path": "endings/ending_steward",
+      "sortnum": 3,
+      "pages": [
+        {
+          "title": "The Silver Door",
+          "text": "I chose $(thing)Steward$(). The silver-white light enveloped me like armor, settling against my skin with a weight that felt not like burden but like purpose. The Nexus recognized the choice and responded — the ground beneath my feet solidified, the air sharpened, and the walls of the $(thing)Citadel$() began to rise.$(br2)Not built. Grown. The Precursor network channeled its energy into a fortress that emerged from the earth like a mountain deciding to become a castle. Walls of living stone. Towers that hummed with shielding frequencies. Gates that would never break because they were woven from the same energy that held Aetheria together."
+        },
+        {
+          "title": "The Eternal Guardian",
+          "text": "The network changed me. Not all at once, but in the days and weeks that followed, I felt it — my senses extending beyond my body. I could feel the borders of Aetheria the way you feel the edges of your own skin. Every creature, every settlement, every tremor in the ground registered in my awareness.$(br2)I became the $(thing)Steward$(). Not a ruler — a guardian. The factions govern themselves, as they should. But when threat approaches, when the balance tips, when something from beyond the stars tests Aetheria's defenses, I am there. I am always there.$(br2)My $(thing)Cobblemon$() patrols the Citadel walls with me, tireless and watchful. We are bound to this world now, permanently and willingly."
+        },
+        {
+          "title": "Unbreaking Vigil",
+          "text": "The $(thing)Watchers$() approved. I know because they stationed themselves in orbit around the Citadel — not watching me, but watching with me. Their question had been answered: $(thing)Aetheria is for protecting$().$(br2)Years pass. Decades. The network sustains me beyond normal human limits, and I feel the world turn beneath my feet. Seasons change. Cobblemon are born and grow and bond with new Pathfinders. The factions rise and fall and rise again.$(br2)And through it all, I stand. Not because I must, but because I choose to. Every morning, I choose again. To guard. To protect. To be the shield that Aetheria never had.$(br2)$(italic)The journal sits open in the Citadel's highest tower, its pages preserved by the network's energy, waiting for the next Pathfinder to read.$()"
+        }
+      ]
+    },
+    {
+      "key": "ending_awakened",
+      "category_key": "endings",
+      "category_ref": "endings",
+      "name": "Awakened",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "endings/ending_awakened",
+      "sortnum": 4,
+      "pages": [
+        {
+          "title": "The Green Door",
+          "text": "I chose $(thing)Awakened$(). The living green light did not surround me — it entered me. Through my skin, through my breath, through the bond I shared with my $(thing)Cobblemon$(). It threaded itself into every cell, every thought, every memory, and suddenly I understood what the Precursors had truly built.$(br2)Not a civilization. An ecosystem. The Cobblemon, the biomes, the network — it was all one living system, and the missing piece was a consciousness to hold it together. A mind vast enough to feel every leaf and small enough to care about every creature.$(br2)A bridge between human and Cobblemon. That was what the Precursors could never become. That was what I was about to be."
+        },
+        {
+          "title": "More Than Human",
+          "text": "The transformation was not painful. It was overwhelming. One moment I was a person standing in a room. The next, I was every $(thing)Cobblemon$() in Aetheria. I felt a Charmander's tail-flame flicker in the eastern forest. I felt a Lapras surface in the northern sea. I felt ten thousand heartbeats, ten thousand breaths, ten thousand souls bonded to mine.$(br2)My body still stood in the Nexus. My partner pressed against me, and I felt its joy — not guessed at, not interpreted, but felt directly, as clearly as my own emotions. The barrier between human and Cobblemon dissolved.$(br2)I wept. Not from sadness. From the sheer, staggering beauty of being connected to everything alive."
+        },
+        {
+          "title": "The Living World",
+          "text": "The $(thing)Watchers$() understood before anyone else. Their question had been answered: $(thing)Aetheria is for becoming$().$(br2)I am still me. I still think, still feel, still remember the frightened stranger who woke on cold stone. But I am also more. I am the forest and the ocean and the mountain. I am every Cobblemon that has ever bonded with a human, and every one that roams wild and free.$(br2)The factions adjusted. They had to. Their $(thing)Pathfinder$() was no longer just a person — I was the living pulse of their world. When I am happy, the flowers bloom brighter. When I grieve, the skies darken.$(br2)It is a strange life. A beautiful, terrifying, miraculous life. And I would not trade it for anything in any world.$(br2)$(italic)The journal's last pages are covered in sketches of Cobblemon, drawn with impossible detail, as if seen from inside.$()"
+        }
+      ]
+    },
+    {
+      "key": "ending_architect",
+      "category_key": "endings",
+      "category_ref": "endings",
+      "name": "Architect",
+      "icon": "minecraft:golden_helmet",
+      "advancement_path": "endings/ending_architect",
+      "sortnum": 5,
+      "pages": [
+        {
+          "title": "The Golden Door",
+          "text": "I chose $(thing)Architect$(). The burnished gold light settled on my shoulders like a mantle, and I felt something I had never felt before — not power, exactly, but authority. The deep, bone-level certainty that this world could be shaped, and that my hands were meant to shape it.$(br2)The $(thing)Nexus$() responded to my vision. The network did not rebuild the Precursor civilization — it asked me what I wanted to build instead. And I knew. I had known since the first time I looked out over Aetheria's wild, broken beauty and thought: $(italic)I could make something extraordinary here$().$(br2)A kingdom. Not of conquest. Of creation."
+        },
+        {
+          "title": "The Throne Built, Not Taken",
+          "text": "The throne room grew from the Nexus like a crystal forming in solution — walls of luminous stone, arches that sang when wind passed through them, a seat that was less a chair and more a command interface for the entire Precursor network.$(br2)I did not conquer the factions. I offered them something better than subjugation — a place in something greater. Each faction became a pillar of the kingdom, their strengths woven into its foundation. The $(thing)Ironclad Collective$() forged its infrastructure. The scholars filled its libraries. The merchants built its trade networks.$(br2)My $(thing)Cobblemon$() sat beside the throne, and the people loved it almost more than they loved me. That was fine. A wise ruler knows that loyalty to what you protect matters more than loyalty to yourself."
+        },
+        {
+          "title": "A Realm of Vision",
+          "text": "The $(thing)Watchers$() withdrew to the highest orbit, their question answered: $(thing)Aetheria is for building$().$(br2)My kingdom is not perfect. No kingdom is. But it is mine in the truest sense — not because I own it, but because every stone, every law, every garden and road and bridge carries the imprint of my vision. A vision shaped by everything I experienced since that first bewildered morning.$(br2)I am $(thing)King$() — or $(thing)Queen$() — of a realm that stretches from the deepest caverns to the orbital stations. A realm where Cobblemon and humans walk together, where the Precursor legacy serves the living, where the mistakes of the past are not repeated but learned from.$(br2)This is what I was meant to build. This is what Aetheria was waiting for.$(br2)$(italic)The journal rests in the royal library, displayed under glass, open to the first page.$()"
+        }
+      ]
+    },
+    {
+      "key": "first_branch",
+      "category_key": "branches",
+      "category_ref": "branches",
+      "name": "The First Crossroads",
+      "icon": "minecraft:oak_hanging_sign",
+      "advancement_path": "branches/first_branch",
+      "sortnum": 0,
+      "pages": [
+        {
+          "title": "What We Owe the Past",
+          "text": "I have been putting off this entry because I am not sure how to write it. The choice is before me now and I cannot walk around it any longer.$(br2)$(thing)Restoration$() or $(thing)Independence$(). Two words. Two futures. Every step I have taken since waking in Aetheria has led to this fork in the road, and I feel the weight of it in my chest like a stone.$(br2)The Precursors built something extraordinary here. Their ruins whisper of a civilization that spanned the horizon, connected worlds, and bent reality to their will. Part of me believes we owe it to them — to ourselves — to restore what was lost. To rebuild the gates, reopen the connections, bring back what $(thing)The Dimming$() stole."
+        },
+        {
+          "title": "Or What We Build Anew",
+          "text": "But another part of me wonders if restoration is just a word for going backward. The factions have built something new here. Imperfect, fractured, but $(italic)theirs$(). The Plains folk till soil the Precursors never touched. The Forest Coalition speaks to the land in ways no ancient technology could replicate. The Coastal Republic trades in goods and stories that belong to $(italic)this$() age, not the last one.$(br2)$(thing)Independence$() means cutting the old tethers. It means saying that Aetheria is not a ruin to be repaired but a world to be shaped. It means the factions govern themselves, for better or worse.$(br2)I have spoken with Vael, with Theron, with Caelus. They all have opinions. None of them have answers. That burden, it seems, falls to me."
+        },
+        {
+          "title": "The Pathfinder's Burden",
+          "text": "Aren told me once that a Pathfinder's purpose is not to choose for others but to open doors others cannot reach. I think he was being optimistic. Sometimes opening a door means closing another forever.$(br2)I will make my choice. I will live with it. And whatever comes next — the alliances that form, the enemies I make, the shape of the world that follows — I will record it here, honestly, so that whoever reads this will understand.$(br2)Not every crossroads has a right answer. But every crossroads demands you $(thing)walk$()."
+        }
+      ]
+    },
+    {
+      "key": "second_branch",
+      "category_key": "branches",
+      "category_ref": "branches",
+      "name": "The Second Crossroads",
+      "icon": "minecraft:oak_hanging_sign",
+      "advancement_path": "branches/second_branch",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "Two Kinds of Power",
+          "text": "The world has laid another choice at my feet, and this one cuts deeper than the first.$(br2)$(thing)Technology$() or $(thing)Nature$(). The Precursor vaults I have uncovered hold machines that hum with dormant energy — devices that could reshape the land, automate what takes a hundred hands, project shields against threats we have not yet imagined. Marek and the $(thing)Skyborn$() practically vibrate with eagerness. They see the future in those circuits.$(br2)But Yshara showed me something in the deep forest that I cannot forget. A grove where the trees pulse with light, where Cobblemon gather in numbers I have never seen, where the air itself feels $(italic)alive$() in a way no machine can replicate. The $(thing)Forest Coalition$() believes this living power is Aetheria's true gift."
+        },
+        {
+          "title": "The Cost of Each",
+          "text": "I have seen what unchecked technology does. The Precursors had it all — every advantage, every tool — and they still fell. $(thing)The Dimming$() swallowed them whole. Their machines sit in the dark now, monuments to the idea that power alone is not enough.$(br2)But I have also seen what happens when people reject progress entirely. Settlements without defenses, overrun in a single night. Crops that fail because no one thought to study the soil. Stubborn reverence for the old ways while people suffer.$(br2)Kira told me that her Cobblemon sense the tension in the land. They grow restless near Precursor sites, but they also thrive where the old machines irrigate the fields. Even the creatures of Aetheria cannot decide."
+        },
+        {
+          "title": "Neither Path Is Clean",
+          "text": "Vael, ever the scholar, reminded me that the Precursors themselves debated this. Their records show factions within factions — those who pushed for ever-greater machines and those who sought harmony with the world they inhabited. In the end, neither side won. $(thing)The Dimming$() did not discriminate.$(br2)So here I stand, asked to choose between lightning and roots. Between the hum of a reactor and the whisper of ancient wood. I know this much: whichever path I walk, I will carry the consequences for everyone who follows.$(br2)I only hope I am choosing for the right reasons and not simply for the version of the future that frightens me less."
+        }
+      ]
+    },
+    {
+      "key": "third_branch",
+      "category_key": "branches",
+      "category_ref": "branches",
+      "name": "The Third Crossroads",
+      "icon": "minecraft:oak_hanging_sign",
+      "advancement_path": "branches/third_branch",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "The Breaking Point",
+          "text": "The factions are at each other's throats. I knew it was coming — the signs were there from the beginning, scratched into every tense negotiation and every border skirmish — but knowing does not make it easier to witness.$(br2)$(thing)Conquest$() or $(thing)Diplomacy$(). The final branch. The one that determines not just the future of Aetheria but whether there $(italic)is$() a future worth having.$(br2)I could rally the strongest factions, march on the holdouts, and force a unity that no council or treaty has managed to achieve. It would be bloody. It would be fast. And when the dust settled, there would be one Aetheria, under one banner, with one voice."
+        },
+        {
+          "title": "The Longer Road",
+          "text": "Or I could do what Theron has been urging since the day I met him: sit down, talk, and keep talking until the words mean something. $(thing)Diplomacy$() is slow. It is frustrating. It means swallowing pride and extending a hand to people who have given me every reason to clench a fist.$(br2)But I have seen what conquest leaves behind. I have walked through the ruins of settlements that chose the sword over the table. The Precursors conquered everything — every challenge, every enemy, every frontier — and it was not enough to save them.$(br2)Lockhart says diplomacy is just conquest in finer clothes. Whisper says conquest is just diplomacy that ran out of patience. Neither of them is entirely wrong."
+        },
+        {
+          "title": "The Last Choice",
+          "text": "This is the crossroads I have been walking toward since I first opened my eyes under a sky with two moons. Every alliance I have forged, every enemy I have made, every quiet conversation by a campfire — all of it narrows to this single point.$(br2)I think about the people who will live with my decision long after I am gone. The children in Willowmere. The apprentices at Mountain Forge. The traders who sail from the Coastal Republic with nothing but hope and good wind. They deserve better than a tyrant. But they also deserve better than endless war dressed up as negotiation.$(br2)I will choose. And then I will see it through to the end, whatever that end looks like. A Pathfinder does not turn back."
+        }
+      ]
+    },
+    {
+      "key": "bounty_hunter",
+      "category_key": "side_stories",
+      "category_ref": "side_stories",
+      "name": "The Bounty Hunter's Ledger",
+      "icon": "minecraft:crossbow",
+      "advancement_path": "side/bounty_hunter",
+      "sortnum": 0,
+      "pages": [
+        {
+          "title": "Lockhart's Offer",
+          "text": "$(thing)Lockhart$() does not waste words. The first time I walked into his office — a cramped room above the Guild Hall that smelled of old leather and lamp oil — he slid a stack of wanted notices across the desk and said nothing. Just watched me read.$(br2)Bandits. Smugglers. A rogue trader selling counterfeit enchantments to settlers who could not tell the difference. Small-time criminals, most of them, but dangerous in the way that desperate people always are.$(br2)I took the first contract because I needed the coin. I took the second because I was good at it. By the third, I realized Lockhart had been testing me all along."
+        },
+        {
+          "title": "The Hunt",
+          "text": "There is a rhythm to tracking someone across Aetheria. You learn to read broken branches and cold campfires. You learn that a fugitive heading for the $(thing)Coastal Republic$() will follow rivers, and one heading for the $(thing)Forest Coalition$() will vanish into canopy so thick the sky disappears.$(br2)Lockhart taught me to think like the people I pursued. Not just where they would run, but $(italic)why$(). Fear drives some toward civilization. Pride drives others into the wild. The truly dangerous ones do not run at all — they set traps and wait.$(br2)I nearly died twice. Once in a ravine ambush near Mountain Forge. Once in a cellar in Willowmere where a smuggler had rigged the door with redstone. Both times, it was instinct that saved me — instinct and the training Lockhart drilled into my skull."
+        },
+        {
+          "title": "The Final Contract",
+          "text": "The last bounty was different. Lockhart handed me a single notice — no name, no face, just a list of crimes long enough to fill a book. When I brought the target in, Lockhart actually smiled. First time I had ever seen it.$(br2)He told me the bounty system is not about punishment. It is about balance. Every criminal I tracked down was someone who had decided the rules did not apply to them, and in a world as fragile as Aetheria, that kind of thinking can unravel everything.$(br2)I still carry my crossbow. I still read the notices when they come in. But now I understand what Lockhart understood from the start: the hunt is not the point. $(thing)The order it preserves$() is."
+        }
+      ]
+    },
+    {
+      "key": "cultivator",
+      "category_key": "side_stories",
+      "category_ref": "side_stories",
+      "name": "The Cultivator's Path",
+      "icon": "minecraft:diamond_hoe",
+      "advancement_path": "side/cultivator",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "Seeds and Patience",
+          "text": "$(thing)Master Tomo$() found me struggling with a patch of dirt outside Willowmere, cursing at seeds that refused to sprout. He watched for a long time before he spoke. When he did, he asked me what I thought the soil wanted.$(br2)I told him soil does not want anything. He laughed — a deep, warm sound — and said that was my first mistake.$(br2)Tomo taught me that Aetherian soil is alive in ways Earth soil never was. It responds to intention, to care, to the rhythm of the seasons. Plant with anger and the crop withers. Plant with patience and the harvest comes in like a tide. I did not believe him until I saw it with my own eyes."
+        },
+        {
+          "title": "Mara's Vineyard",
+          "text": "$(thing)Vintner Mara$() took my education further. Where Tomo taught me the fundamentals — rotation, composting, reading the weather — Mara showed me the art. Her vineyard in Willowmere produces fruit that has no equivalent on Earth. Berries that glow faintly at dusk. Grapes that taste different depending on the phase of the twin moons.$(br2)She told me the secret is not in the growing but in the $(italic)listening$(). Every plant communicates if you know how to pay attention. A drooping leaf is not just thirst — it is a conversation about root depth and mineral balance and the angle of the sun through the canopy.$(br2)I spent weeks in that vineyard, my hands stained purple, learning a language I never knew existed."
+        },
+        {
+          "title": "The Legendary Harvest",
+          "text": "The day I brought in my first legendary harvest, Tomo and Mara stood at the edge of the field and said nothing for a long time. The crops were enormous — luminous, heavy with life, humming with a faint energy I could feel through my gloves.$(br2)Tomo said I had finally stopped fighting the land and started working $(italic)with$() it. Mara said the soil had accepted me. I think the truth is somewhere in between.$(br2)I am a $(thing)Cultivator$() now. Not because I mastered some technique or unlocked some secret, but because I learned the hardest lesson Aetheria has to offer: the land does not belong to us. We belong to it. And when you understand that — truly understand it — everything grows."
+        }
+      ]
+    },
+    {
+      "key": "crafter",
+      "category_key": "side_stories",
+      "category_ref": "side_stories",
+      "name": "The Master Crafter",
+      "icon": "minecraft:anvil",
+      "advancement_path": "side/crafter",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "Lyra's Workshop",
+          "text": "$(thing)Lyra$() did not accept me as an apprentice. She tolerated me. There is a difference, and she made sure I understood it from the first day.$(br2)Her workshop is a cathedral of organized chaos — ingots stacked by alloy and temper, tools hung in precise rows, workbenches scarred by a thousand projects. She moves through it like a conductor through an orchestra, every gesture deliberate, every tool placed back exactly where it belongs.$(br2)My first assignment was to craft a simple iron bracket. I made it in ten minutes and presented it with something close to pride. Lyra examined it for thirty seconds, pointed out eleven flaws I could not see, and told me to start over. I started over fourteen times before she nodded."
+        },
+        {
+          "title": "The Language of Materials",
+          "text": "Every material in Aetheria has a story, Lyra says, and a crafter's job is to listen to it. Iron from $(thing)Mountain Forge$() rings differently than iron pulled from plains deposits. Wood from the $(thing)Forest Coalition$() bends in ways that defy what I know of grain and fiber.$(br2)She taught me to feel the grain of a metal under my fingertips, to hear when an alloy is ready for quenching by the pitch of its ring on the anvil. She taught me that crafting is not about imposing your will on raw materials — it is about understanding what the material wants to become and guiding it there.$(br2)I ruined a lot of good steel learning that lesson. Lyra never flinched. She just pointed at the scrap bin and told me to smelt it down and try again."
+        },
+        {
+          "title": "Every Creation Has a Purpose",
+          "text": "The day Lyra called me $(thing)Master Crafter$() was the day I finished a project she had not assigned. A set of tools for the Willowmere farmers — lightweight, balanced, designed for Aetherian soil. I had studied the cultivators, watched how they worked, and built something that fit their hands and their needs.$(br2)Lyra examined each piece in silence. Then she looked at me and said the thing I will carry with me forever: a true crafter does not build for the sake of building. Every creation must have a $(italic)purpose$(), must serve a $(italic)need$(), must make someone's life a little less difficult.$(br2)I understand now. The anvil is not a place of brute force. It is a place of empathy, disguised as iron and fire."
+        }
+      ]
+    },
+    {
+      "key": "merchant",
+      "category_key": "side_stories",
+      "category_ref": "side_stories",
+      "name": "The Merchant Prince",
+      "icon": "minecraft:emerald",
+      "advancement_path": "side/merchant",
+      "sortnum": 3,
+      "pages": [
+        {
+          "title": "Caelus and Coin",
+          "text": "$(thing)Caelus$() once told me that money is just a story people agree to believe. I thought he was being philosophical. He was being literal.$(br2)The $(thing)Coastal Republic$() runs on trade, and trade runs on trust. Caelus showed me how the entire economy of Aetheria is held together by handshakes and reputation — that a merchant's word is worth more than any contract because out here, there is no court to enforce the fine print.$(br2)My first deal was a disaster. I overpaid for a shipment of copper that turned out to be half slag. Caelus did not bail me out. He just leaned against a dock post, arms crossed, and asked me what I had learned. I learned to check the goods before counting the coin."
+        },
+        {
+          "title": "Trade Routes and Rivals",
+          "text": "Caelus taught me to see Aetheria as a web of supply and demand. The $(thing)Plains$() produce grain the $(thing)Mountain$() faction needs. The Mountain faction forges tools the $(thing)Forest Coalition$() cannot make. The Forest produces medicines everyone wants. And the $(thing)Coastal Republic$() moves it all, taking a cut that keeps the ships sailing.$(br2)I mapped trade routes, negotiated tariffs, and learned the delicate art of currency exchange between settlements that each insisted their coin was worth more than everyone else's. I discovered that the best deals are not the ones where you win — they are the ones where $(italic)everyone$() walks away satisfied.$(br2)I also learned that rivals are not enemies. A competing merchant keeps you honest, keeps you sharp, keeps you from growing lazy in a world that punishes complacency."
+        },
+        {
+          "title": "The Art of the Deal",
+          "text": "The title $(thing)Merchant Prince$() is not one you claim — it is one the other traders give you when they decide you have earned it. Caelus pinned the insignia on my coat without ceremony, on a rainy dock in the Republic, between offloading a shipment and negotiating the next.$(br2)He told me the secret of commerce is not greed. It is $(italic)connection$(). Every trade route is a thread binding two communities together. Every successful deal is proof that cooperation beats isolation. The Merchant Prince does not hoard wealth — they $(italic)circulate$() it, keeping the blood of Aetheria's economy pumping.$(br2)I still love the thrill of a good negotiation. But now I understand that the emeralds in my pocket are not the point. The bridges they build are."
+        }
+      ]
+    },
+    {
+      "key": "colony",
+      "category_key": "side_stories",
+      "category_ref": "side_stories",
+      "name": "The Colony Builder",
+      "icon": "minecraft:bricks",
+      "advancement_path": "side/colony",
+      "sortnum": 4,
+      "pages": [
+        {
+          "title": "Breaking Ground",
+          "text": "$(thing)Mayor Theron$() handed me a stake and a hammer and told me to mark the center of town. I drove it into the earth on a hilltop overlooking a river bend, and for a moment the enormity of what I was about to attempt settled over me like a weight.$(br2)Building a colony from nothing. Not just walls and roofs, but a $(italic)community$(). People with needs, with opinions, with the stubborn conviction that their house should face east or that the market should be closer to the gate.$(br2)The first week was chaos. I placed a $(thing)Town Hall$() and watched the first colonists arrive — nervous, hopeful, carrying everything they owned in packs on their backs. They looked at me like I had answers. I mostly had questions."
+        },
+        {
+          "title": "Growing Pains",
+          "text": "A hamlet becomes a village when people stop leaving. It becomes a town when they start arriving faster than you can build houses. Every stage brought new problems — food shortages, disputes over land, the constant threat of raids from hostile mobs that saw our torchlight as an invitation.$(br2)Theron guided me through the worst of it. He taught me that a colony is not a machine to be optimized but a living thing to be nurtured. You cannot force growth. You can only create the conditions for it and trust the people to do the rest.$(br2)I built a $(thing)Guard Tower$() after the first raid. A $(thing)Farm$() after the first shortage. A $(thing)Tavern$() after I realized that people need more than safety and food — they need a place to gather, to laugh, to feel like they belong."
+        },
+        {
+          "title": "From Hamlet to Kingdom",
+          "text": "I stood on the walls of my colony today and looked out over what we built. Streets where there was mud. Gardens where there was scrub. Children playing in a square that I remember clearing with my own hands.$(br2)Theron stood beside me and said something I will not forget: a colony is the most honest mirror a leader will ever face. Every crack in a wall is a decision you made too quickly. Every blooming garden is patience that paid off. Every happy face is proof that people, given the chance, will build something worth protecting.$(br2)This place is not mine. It belongs to every person who hammered a nail, tilled a row, or stood on a wall with a sword when the night came howling. I just held the $(thing)stake$() at the beginning. They built the rest."
+        }
+      ]
+    },
+    {
+      "key": "lorekeeper",
+      "category_key": "side_stories",
+      "category_ref": "side_stories",
+      "name": "The Lorekeeper's Path",
+      "icon": "minecraft:enchanted_book",
+      "advancement_path": "side/lorekeeper",
+      "sortnum": 5,
+      "pages": [
+        {
+          "title": "Dust and Glyphs",
+          "text": "$(thing)Scholar Vael$() found me reading a Precursor tablet upside down and had the grace not to laugh. Instead, she sat beside me, turned the tablet the right way, and began to translate. That was the beginning of everything.$(br2)The Precursors left behind more than ruins. They left a $(italic)language$() — etched into walls, pressed into clay, woven into the very architecture of their cities. Vael has spent years deciphering it, and she took me on as a student with the condition that I record everything we found.$(br2)Every ruin tells a story. That is not poetry — it is methodology. The placement of a glyph, the depth of a carving, the material chosen for a record — all of it speaks to who the Precursors were and what they valued."
+        },
+        {
+          "title": "What Came Before",
+          "text": "The deeper we dug, the more complex the picture became. The Precursors were not one people but many — factions within a civilization, each with their own philosophy, their own approach to the world they inhabited. Sound familiar.$(br2)Vael showed me records of their debates. Technology versus harmony. Expansion versus conservation. Control versus freedom. The same arguments the factions of Aetheria have today, carved into stone ten thousand years ago.$(br2)I asked Vael if that meant we were doomed to repeat their mistakes. She said history does not repeat — it $(italic)rhymes$(). And the purpose of a $(thing)Lorekeeper$() is to hear the rhyme before it becomes a chorus."
+        },
+        {
+          "title": "The Weight of Knowledge",
+          "text": "There are things in the Precursor records that I have not shared with anyone. Warnings, mostly. References to $(thing)The Dimming$() not as a catastrophe but as a $(italic)consequence$() — the end result of choices made centuries before the lights went out.$(br2)Vael carries this weight too. She told me that knowledge is not power. Knowledge is $(italic)responsibility$(). Every secret we uncover is a choice: share it and risk panic, or keep it and risk ignorance. Neither option is clean.$(br2)I am a $(thing)Lorekeeper$() now. I read the glyphs, I translate the tablets, I piece together the story of a civilization that reached for everything and lost it all. And I do it because someone must remember, so that the rest of us have a chance to choose differently."
+        }
+      ]
+    },
+    {
+      "key": "cartographer",
+      "category_key": "side_stories",
+      "category_ref": "side_stories",
+      "name": "The Cartographer's Record",
+      "icon": "minecraft:filled_map",
+      "advancement_path": "side/cartographer",
+      "sortnum": 6,
+      "pages": [
+        {
+          "title": "The Blank Map",
+          "text": "$(thing)Vael$() spread a blank sheet of parchment across her desk and told me this was the most honest map of Aetheria in existence. Everything else — the Precursor charts, the faction sketches, the trader routes drawn on napkins — was incomplete, outdated, or outright wrong.$(br2)She wanted me to fix that. Not with guesswork or secondhand accounts, but with my own feet on the ground, my own eyes on the horizon. A true cartographer, she said, does not draw what they are told. They draw what they $(italic)see$(). $(br2)I packed light. Compass, ink, parchment, and enough dried rations to last a week. Then I walked into the unknown and started drawing."
+        },
+        {
+          "title": "Every Biome, Every Valley",
+          "text": "Aetheria is larger than I imagined. Beyond the settled lands — the plains, the forests, the coasts — there are biomes that no faction has claimed or even named. Mushroom fields that glow beneath a permanent twilight. Ice spires that sing when the wind passes through them. A desert of black sand where the stars feel close enough to touch.$(br2)I mapped them all. Every ridge, every river fork, every hidden valley where forgotten ruins sleep beneath centuries of overgrowth. I noted the Cobblemon territories — where the fire-types gather near volcanic vents, where the water-types school in underground lakes, where the ghost-types drift through ancient battlefields.$(br2)Each discovery changed the map. And each change in the map changed how I understood the world."
+        },
+        {
+          "title": "The Map Is Never Finished",
+          "text": "I brought my maps back to Vael and she studied them for three days without speaking. When she finally looked up, she said something that surprised me: the best maps are the ones that show you how much you still do not know.$(br2)My charts are detailed. They mark settlements, trade routes, Precursor ruins, biome boundaries, and danger zones. They are, by any measure, the most complete record of Aetheria's geography ever assembled. And they are still full of blank spaces.$(br2)Vael pinned them to her wall beside the Precursor originals. She said a $(thing)Cartographer$() is not someone who finishes a map. A Cartographer is someone who keeps walking, keeps looking, keeps drawing — because the world is always larger than the parchment, and the horizon always has one more secret to give."
+        }
+      ]
+    },
+    {
+      "key": "trainer",
+      "category_key": "side_stories",
+      "category_ref": "side_stories",
+      "name": "The Trainer's Way",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "side/trainer",
+      "sortnum": 7,
+      "pages": [
+        {
+          "title": "First Partner",
+          "text": "I did not choose my first Cobblemon. It chose me. A stubborn little creature that refused to leave my campsite one morning, sitting on my pack like it owned the place. $(thing)Kira$() found us like that and laughed until she had tears in her eyes.$(br2)She told me the bond between a trainer and their partner is not a transaction. You do not catch a Cobblemon the way you catch a fish. You $(italic)earn$() it. The creature that sat on my pack had been watching me for days, she said, and had decided I was worth its time.$(br2)Kira trained under the $(thing)Forest Coalition$() druids, and her approach is rooted in respect. She does not command her Cobblemon — she asks. And they listen because they trust her. That kind of partnership cannot be forced."
+        },
+        {
+          "title": "Beyond Battles",
+          "text": "Everyone thinks training is about battles. Kira disabused me of that notion quickly. Yes, Cobblemon fight. They are wild creatures with instincts and pride. But a battle without understanding is just violence, and violence without purpose is cruelty.$(br2)She taught me to read my partner's body language — the flick of an ear that means anxiety, the low hum that signals contentment, the rigid stance that precedes an attack born of fear rather than confidence. I learned to train not through repetition but through $(italic)communication$(). Every session in the forest clearings was a dialogue, not a drill.$(br2)The bond deepened. My partner began to anticipate my thoughts, and I began to feel its emotions like echoes of my own. Kira said that is when real training begins."
+        },
+        {
+          "title": "The Bond",
+          "text": "I completed the $(thing)Trainer's Way$() not by winning a tournament or defeating some final rival, but by doing something far harder: releasing a Cobblemon I had caught back into the wild because I realized it was not happy.$(br2)Kira watched me open the ball and let the creature go. It looked back once, then disappeared into the undergrowth. I stood there with an empty hand and a hollow feeling in my chest.$(br2)Kira said that was the lesson. A true trainer does not collect creatures like trophies. They form bonds based on mutual choice, mutual respect, and mutual benefit. Sometimes the kindest thing you can do is let go.$(br2)My partner — the stubborn one who chose me that first morning — pressed its head against my hand. It was staying. Not because I held it, but because it $(thing)wanted$() to."
+        }
+      ]
+    },
+    {
+      "key": "outlaw",
+      "category_key": "side_stories",
+      "category_ref": "side_stories",
+      "name": "The Outlaw's Shadow",
+      "icon": "minecraft:tnt",
+      "advancement_path": "side/outlaw",
+      "sortnum": 8,
+      "pages": [
+        {
+          "title": "A Voice in the Dark",
+          "text": "$(thing)Whisper$() found me. Not the other way around. I was camped in a ravine two days from Anchor Town when a voice came out of the darkness — calm, amused, entirely too close.$(br2)She said she had been watching me. Said I had a talent for finding trouble and an unfortunate habit of trusting the wrong people. I asked what she wanted. She said she wanted to show me what Aetheria looks like from the other side of the law.$(br2)I should have said no. The smart move was to walk away. But Whisper has a way of making the forbidden sound $(italic)reasonable$(), and I was curious enough to listen."
+        },
+        {
+          "title": "The Other Side",
+          "text": "The outlaw's path is not what I expected. I pictured bandits and chaos. What I found was a network — organized, principled, and operating in the gaps the factions refuse to acknowledge.$(br2)Whisper showed me supply caches hidden in places no honest trader would think to look. She showed me safehouses where people the factions had failed — exiles, refugees, those accused of crimes they did not commit — found shelter and a second chance.$(br2)She told me the law in Aetheria serves the powerful. The factions write the rules to protect their interests, and anyone who falls outside those interests is forgotten. The outlaws do not reject order — they reject $(italic)injustice$(). There is a difference, even if it is hard to see from the outside."
+        },
+        {
+          "title": "Justice in Shadows",
+          "text": "I asked Whisper why she does not just work within the system, push for change through legitimate channels. She looked at me like I had suggested she fly to the moon.$(br2)Change from within requires power, she said, and power is exactly what the system denies to people like her. So she operates in the margins. A stolen shipment here, a sabotaged convoy there — not random acts of destruction, but calculated pressure on a system that $(italic)needs$() to bend.$(br2)I do not agree with everything Whisper does. But walking her path taught me something I could not have learned anywhere else: $(thing)justice and law are not the same thing$(). Sometimes the right thing and the legal thing stand on opposite sides of a line, and you have to choose which one to cross."
+        }
+      ]
+    },
+    {
+      "key": "diplomat",
+      "category_key": "side_stories",
+      "category_ref": "side_stories",
+      "name": "The Diplomat's Accord",
+      "icon": "minecraft:paper",
+      "advancement_path": "side/diplomat",
+      "sortnum": 9,
+      "pages": [
+        {
+          "title": "Words as Weapons",
+          "text": "$(thing)Mayor Theron$() told me that a diplomat's most dangerous weapon is silence. I did not understand until I sat across a table from a Skyborn operative and a Forest Coalition elder who both believed the other was acting in bad faith.$(br2)I opened my mouth to mediate. Theron put a hand on my arm and shook his head. We sat. The silence stretched. And eventually, the operative and the elder began to talk — not at each other, but $(italic)to$() each other. Because the silence left a space that words had been filling with noise.$(br2)That was my first lesson: sometimes the most powerful thing a diplomat can do is $(thing)nothing$()."
+        },
+        {
+          "title": "Building Bridges",
+          "text": "Every faction thinks it is reasonable and every other faction is stubborn. The $(thing)Plains$() folk cannot understand why the Mountain smiths charge so much for tools. The Mountain smiths cannot fathom why the Coastal traders mark up goods that cost nothing to ship. The Forest druids think everyone else is reckless, and the $(thing)Skyborn$() think everyone else is primitive.$(br2)Theron taught me to find the common ground beneath the complaints. Every faction wants security. Every faction wants prosperity. Every faction wants to be $(italic)heard$(). The disagreements are about method, not objective, and once you frame it that way, the impossible starts to look merely difficult.$(br2)I brokered my first accord between the Plains and the Mountain faction over a grain-for-iron exchange. It took eleven meetings. Both sides called it a compromise, which Theron said meant I had done it right."
+        },
+        {
+          "title": "Harder Than Walls",
+          "text": "Building bridges between factions is harder than building walls between them. A wall takes stone and mortar. A bridge takes trust, and trust is the most expensive material in Aetheria.$(br2)I have sat in meetings that lasted hours and produced nothing. I have watched accords fall apart because of a single misplaced word. I have been cursed by both sides of a negotiation and thanked by neither. Theron says that means I am doing it right.$(br2)But I have also seen the moment when two people who were certain they were enemies realize they are not. That moment — the softening of a jaw, the unclenching of a fist, the first cautious nod — is worth every hour of frustration.$(br2)I am a $(thing)Diplomat$() now. Not because I am eloquent, but because I learned that the hardest part of peace is not finding the words. It is finding the $(italic)patience$()."
+        }
+      ]
+    },
+    {
+      "key": "anchor_town",
+      "category_key": "discoveries",
+      "category_ref": "discoveries",
+      "name": "Anchor Town",
+      "icon": "minecraft:anchor",
+      "advancement_path": "discoveries/anchor_town",
+      "sortnum": 0,
+      "pages": [
+        {
+          "title": "Where It Begins",
+          "text": "Every Pathfinder's story starts in $(thing)Anchor Town$(). Mine was no different. I stumbled through the gate — disoriented, half-starved, with nothing but the clothes on my back and a head full of questions — and found myself in a settlement that felt like it had been waiting for me.$(br2)$(thing)Sera$() was the first face I saw. She runs the Pathfinder intake with a calm efficiency that borders on maternal, handing out supplies and directions with equal measure. She told me where to sleep, where to eat, and where to find the Guild Hall. She did not ask where I came from. I think she already knew the answer would not make sense."
+        },
+        {
+          "title": "The Guild Hall",
+          "text": "The $(thing)Guild Hall$() sits at the center of Anchor Town like a heart. It is where $(thing)Aren$() holds court — though he would never call it that. He is the closest thing the Pathfinders have to a leader, a weathered man with kind eyes and a voice that carries without rising.$(br2)Aren explained what I was: a Pathfinder, pulled through the remnants of a gate that should not still be functioning. One of many, he said, though the arrivals have been slowing. He gave me my compass, my journal, and my first assignment. He also gave me advice that I carry with me still: $(italic)trust your instincts, but verify them with your eyes$().$(br2)$(thing)Petra$() runs the notice board beside the Hall. She collects news from across Aetheria — rumors, sightings, faction movements — and pins it up for anyone who cares to read. She is the best-informed person in Anchor Town and she knows it."
+        },
+        {
+          "title": "The Starting Line",
+          "text": "Anchor Town is not much to look at. A cluster of buildings around a well-worn square, a market that sells more necessities than luxuries, walls that have been patched more often than painted. But there is a warmth to the place that has nothing to do with the climate.$(br2)It is where strangers become neighbors. Where Pathfinders who arrived with nothing learn to survive, then thrive, then venture out into a world that does not care whether they are ready. Every road in Aetheria leads back to Anchor Town eventually, and every Pathfinder who returns does so with stories that make the next generation braver.$(br2)I have traveled far since those first bewildered days. But when someone asks where I am from, I do not say Earth. I say $(thing)Anchor Town$(). Because that is where my real life began."
+        }
+      ]
+    },
+    {
+      "key": "willowmere",
+      "category_key": "discoveries",
+      "category_ref": "discoveries",
+      "name": "Willowmere",
+      "icon": "minecraft:lily_pad",
+      "advancement_path": "discoveries/willowmere",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "The Lakeside Settlement",
+          "text": "I smelled $(thing)Willowmere$() before I saw it — woodsmoke and baking bread, carried on a breeze that rolled off the lake like a greeting. The settlement sits on a gentle slope above the water, its buildings reflected in the surface on still mornings like a painting of itself.$(br2)$(thing)Mayor Theron$() met me at the gate. He is a tall man with a deliberate way of speaking, as though every word has been weighed before it leaves his mouth. He welcomed me with a handshake and a tour, pointing out the farms, the market, the town hall where he spends his evenings poring over ledgers and petitions.$(br2)Willowmere is the kind of place that makes you want to stay. That is both its strength and its danger."
+        },
+        {
+          "title": "The People",
+          "text": "$(thing)Vintner Mara$() tends her vineyard on the eastern slope, where the morning sun hits first and the soil is dark with lakeside minerals. Her wines are famous across the settled lands, and she guards her techniques with a ferocity that would impress a dragon.$(br2)$(thing)Brenna$() keeps the inn — the Driftwood, she calls it — and it is the social heart of Willowmere. Every evening, farmers and traders and passing Pathfinders crowd into her common room to share meals and news. Brenna knows everyone's name, everyone's drink, and more secrets than she would ever admit.$(br2)Theron governs with a light hand, trusting his people to manage their own affairs and stepping in only when disputes need a calm voice. It works because Willowmere is small enough for trust and close enough to the land to remember what matters."
+        },
+        {
+          "title": "A Place Worth Protecting",
+          "text": "I have been to grander places. The Skyborn Citadel is more impressive. The Coastal Republic is wealthier. Mountain Forge is more industrious. But Willowmere has something none of them can match: it feels like $(italic)home$().$(br2)Maybe it is the way the willows trail their branches in the lake at dusk. Maybe it is Brenna's stew, which she claims is a different recipe every time but always tastes like comfort. Maybe it is the sound of children playing in the square while Theron pretends not to watch from his office window.$(br2)Willowmere reminds me why any of this matters — the exploration, the politics, the branch points and faction conflicts. Underneath it all, people just want a safe place to live, good neighbors, and a harvest that comes in on time. Everything else is complication."
+        }
+      ]
+    },
+    {
+      "key": "mountain_forge",
+      "category_key": "discoveries",
+      "category_ref": "discoveries",
+      "name": "Mountain Forge",
+      "icon": "minecraft:anvil",
+      "advancement_path": "discoveries/mountain_forge",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "Smoke and Steel",
+          "text": "You hear $(thing)Mountain Forge$() before you see it. The ring of hammers on anvils echoes down the mountain passes like a heartbeat, steady and relentless, day and night. The air shimmers with heat, and the smell of hot metal is so thick you can taste it on your tongue.$(br2)The settlement clings to the mountainside like something that grew there — terraced workshops, stone walkways, ventilation shafts cut into the rock that exhale plumes of white steam. Everything here is built to last. The Mountain faction does not do temporary.$(br2)I arrived covered in trail dust and was immediately out of place among people whose clothes were streaked with soot and whose hands were calloused from a lifetime of metalwork."
+        },
+        {
+          "title": "The Smiths",
+          "text": "$(thing)Khael$() is the master smith, and watching him work is like watching a force of nature. He stands at his anvil for hours, his hammer rising and falling with a precision that makes every strike look effortless. He speaks rarely and only about things that matter — the carbon content of a blade, the proper quench temperature for Aetherian iron, the angle at which a tool should be ground.$(br2)$(thing)Veridia$() is his counterpart — an enchantress who works in the quieter forges, weaving magic into metal with a concentration so intense the air around her workbench crackles. She can take an ordinary sword and make it sing, an ordinary shield and make it hold against forces that would shatter stone.$(br2)Together, they produce gear that is sought after across all of Aetheria. A blade marked with Mountain Forge's seal is a guarantee."
+        },
+        {
+          "title": "The Mountain's Heart",
+          "text": "What strikes me most about Mountain Forge is the pride. Not arrogance — $(italic)pride$(). Every smith here, from the newest apprentice to Khael himself, takes a fierce satisfaction in their work. A crooked nail is a personal failure. A well-tempered blade is a small triumph. Quality is not a goal here — it is a religion.$(br2)The mountain itself provides. Deep mines yield ores that do not exist anywhere else in Aetheria — alloys that hold enchantments better, metals that resist corrosion, crystals that amplify magical properties. The faction guards these resources jealously, and I cannot blame them.$(br2)I left Mountain Forge with a new respect for the craft of making things. In a world where survival depends on the quality of your tools, the people who forge those tools are not just artisans. They are the foundation everything else is built on."
+        }
+      ]
+    },
+    {
+      "key": "coastal_republic",
+      "category_key": "discoveries",
+      "category_ref": "discoveries",
+      "name": "Coastal Republic",
+      "icon": "minecraft:trident",
+      "advancement_path": "discoveries/coastal_republic",
+      "sortnum": 3,
+      "pages": [
+        {
+          "title": "Salt Air and Commerce",
+          "text": "The $(thing)Coastal Republic$() hit me like a wave — noise, color, motion. After the quiet of the interior, walking into the harbor district felt like stepping into a different world. Ships crowded the docks, traders shouted over each other in half a dozen dialects, and the smell of salt and spice and fresh fish hung in the air like a living thing.$(br2)This is where Aetheria's economy has its beating heart. Every faction produces something, but the Coastal Republic $(italic)moves$() it. Their ships connect settlements that would otherwise be isolated, their traders broker deals that keep the peace as effectively as any army.$(br2)The Republic operates on a single principle: everything has a price, and anything can be negotiated."
+        },
+        {
+          "title": "Traders and Sailors",
+          "text": "$(thing)Caelus$() runs the largest trading house in the Republic, though he operates out of an office so modest you would walk past it twice. He says a merchant who flaunts wealth is a merchant who has stopped earning it. His ledgers are legendary — every trade, every route, every fluctuation in price recorded in a hand so precise it looks printed.$(br2)$(thing)Taro$() is his opposite in every way — a sailor who lives on his ship and navigates by instinct and starlight. He charts routes to places that do not appear on any map, returning with cargo that no one can quite identify but everyone wants to buy. I asked him once where he goes. He smiled and said $(italic)forward$().$(br2)Between Caelus and Taro, the Republic keeps Aetheria connected. One manages the numbers. The other chases the horizon. Both are essential."
+        },
+        {
+          "title": "The Republic's Bargain",
+          "text": "The Coastal Republic is not without its flaws. The focus on commerce means everything is transactional. Favors are debts. Friendships are partnerships. Even kindness has an expected return. It can make the place feel cold beneath all the bustle and color.$(br2)But there is freedom here that the other factions lack. The Republic does not care where you came from, what faction you belong to, or what mistakes haunt your past. If you can trade, you can thrive. If you can sail, you can find your fortune. Opportunity is the one commodity that never runs out.$(br2)I watched the sun set over the harbor on my last evening, the water turned gold and copper, ships rocking gently at anchor. The Republic is loud and mercenary and relentless. And somehow, standing on that dock, it felt like the most $(thing)honest$() place in Aetheria."
+        }
+      ]
+    },
+    {
+      "key": "forest_coalition",
+      "category_key": "discoveries",
+      "category_ref": "discoveries",
+      "name": "Forest Coalition",
+      "icon": "minecraft:oak_leaves",
+      "advancement_path": "discoveries/forest_coalition",
+      "sortnum": 4,
+      "pages": [
+        {
+          "title": "Ancient Trees",
+          "text": "The $(thing)Forest Coalition$() does not have a gate. It does not need one. The forest itself decides who enters and who does not. I walked for an hour through trees so vast their canopy blocked the sky before I realized the path had been guiding me — curving gently, avoiding roots that seemed to shift, leading me toward a clearing I could not have found on my own.$(br2)$(thing)Yshara$() was waiting. The head druid is small, sharp-eyed, and speaks with the quiet authority of someone who has never needed to raise her voice. She told me the forest had allowed me passage, which meant I was welcome — for now.$(br2)The Coalition lives $(italic)within$() the forest rather than upon it. Their structures are grown, not built — homes shaped from living wood, bridges woven from vines, platforms nestled in the canopy like nests."
+        },
+        {
+          "title": "Druids and Trainers",
+          "text": "The druids speak to the land. I mean this literally. Yshara placed her hand on a trunk and the bark rippled in response, leaves turning to track her like flowers following the sun. The Forest Coalition believes Aetheria is not a resource to be harvested but a partner to be respected. Their entire society is built on that relationship.$(br2)$(thing)Kira$() trains Cobblemon here, among the roots and clearings. Her methods are gentle — she works with the creatures' natural instincts rather than against them, and the results speak for themselves. The Cobblemon in the Coalition's territory are calmer, stronger, and more bonded to their trainers than any I have seen elsewhere.$(br2)The combination of druidic knowledge and Cobblemon partnership gives the Coalition a quiet power that the other factions underestimate at their peril."
+        },
+        {
+          "title": "The Forest Remembers",
+          "text": "What unsettled me most about the Coalition is how $(italic)old$() everything feels. The trees are ancient — some predate the Precursors, Yshara told me. They were here before the gates, before the settlements, before any faction planted a flag and called the land their own. And they will be here long after.$(br2)The druids serve as intermediaries between the people and the forest, interpreting its needs and communicating its boundaries. It is a relationship built on millennia of trust, and the Coalition guards it fiercely. They view the other factions' expansion with unease, seeing every cleared field and quarried stone as a small wound in something vast and irreplaceable.$(br2)I left the Coalition with bark dust in my hair and a new understanding of what it means to $(thing)belong$() to a place. The forest did not say goodbye. It simply let me go, the path opening behind me like a door held politely ajar."
+        }
+      ]
+    },
+    {
+      "key": "skyborn_citadel",
+      "category_key": "discoveries",
+      "category_ref": "discoveries",
+      "name": "Skyborn Citadel",
+      "icon": "minecraft:lightning_rod",
+      "advancement_path": "discoveries/skyborn_citadel",
+      "sortnum": 5,
+      "pages": [
+        {
+          "title": "Above the Clouds",
+          "text": "The $(thing)Skyborn Citadel$() floats. I know how that sounds. I wrote it, crossed it out, and wrote it again because there is no other way to describe what I saw. A fortress of metal and stone suspended above the cloud line, tethered to the mountain peaks by cables as thick as tree trunks and humming with energy I could feel in my teeth.$(br2)The ascent alone nearly killed me — a series of lifts and bridges that climb through howling wind and thin air until the world below becomes a patchwork of color too distant to distinguish. When I finally stepped onto the Citadel's landing platform, my legs shaking, a Skyborn operative in a grey coat looked me over and said I was late.$(br2)They expected me. Of course they did. The $(thing)Skyborn$() see everything from up here."
+        },
+        {
+          "title": "Marek and the Operatives",
+          "text": "$(thing)Marek$() leads the Skyborn with the precision of a man who believes disorder is a personal insult. His quarters are spartan — a cot, a desk, and walls covered in charts and technical schematics that I could not begin to decipher. He speaks in clipped sentences and expects the same in return.$(br2)The operatives are his hands. They move through Aetheria in small teams, gathering intelligence, recovering Precursor technology, and ensuring that no faction gains an advantage the Skyborn have not anticipated. They are watchers, guardians, and — if Whisper is to be believed — spies.$(br2)But Marek showed me their archives. The Precursor technology they have recovered and restored is staggering — communication arrays, energy shields, devices that manipulate gravity. He says they guard it not for power but for safety. Technology this advanced in the wrong hands could end Aetheria faster than $(thing)The Dimming$() ever did."
+        },
+        {
+          "title": "The View from Above",
+          "text": "I stood on the Citadel's observation deck as the sun set and watched Aetheria spread out below me like a map brought to life. The plains glowing amber. The forest a dark green ocean. The coast a silver thread where land meets water. All of it impossibly beautiful. All of it impossibly fragile.$(br2)Marek joined me. He said the Skyborn chose the sky because distance provides clarity. From up here, the faction squabbles look small. The borders look arbitrary. The things people fight over look insignificant compared to the things they share.$(br2)I asked him why, if he sees so clearly, he does not come down and fix it all. He almost smiled. He said clarity is not the same as wisdom, and seeing a problem is not the same as knowing the answer. Then he walked away, boots clicking on metal, and left me alone with the view and the wind and the slow understanding that the $(thing)Skyborn$() are not aloof. They are $(italic)afraid$() — afraid of what happens if they get it wrong."
+        }
+      ]
+    },
+    {
+      "key": "gym_1",
+      "category_key": "gym_challenge",
+      "category_ref": "gym_challenge",
+      "name": "Terra of the Plains",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "gyms/gym_1",
+      "sortnum": 0,
+      "pages": [
+        {
+          "title": "The First Gym",
+          "text": "I did not expect to be nervous. After everything — the ruins, the factions, the creatures that could level buildings — a gym battle should have felt small. It did not.$(br2)$(thing)Terra's$() gym sits in the middle of the $(thing)Plains of Verdance$(), a simple stone arena surrounded by wildflowers. No walls. No roof. Just open sky and flat earth stretching to every horizon. She stood at the far end, arms crossed, a patient smile on her weathered face.$(br2)$(italic)You look like you have been through a lot$(), she said. $(italic)Good. My Cobblemon do not respect those who have not struggled.$() Normal and Grass types. The fundamentals. The foundation everything else is built on."
+        },
+        {
+          "title": "Roots and Resolve",
+          "text": "Terra fights like the earth fights — slowly, patiently, and with devastating inevitability. Her Cobblemon rooted themselves, healed, endured. Every attack I landed was absorbed. Every opening I found closed before I could exploit it.$(br2)I learned more in that single battle than in a dozen skirmishes with wild Cobblemon. She was not trying to defeat me. She was trying to teach me. And the lesson was this: strength without patience is just noise.$(br2)My partner figured it out before I did. It stopped lunging, stopped forcing, and started reading the rhythm of the battle. When the opening finally came — a real one, not a trap — we took it together."
+        },
+        {
+          "title": "First Badge",
+          "text": "The $(thing)Plains Badge$() is small. Unassuming. A green-and-brown emblem that fits in the palm of my hand. But when Terra pressed it into my palm, the weight of it felt enormous.$(br2)$(italic)The first badge is always the hardest$(), she said. $(italic)Not because the battle is the toughest, but because it is the first time you truly believe you can do this.$()$(br2)She was right. Standing in that field, badge in hand, my Cobblemon panting beside me, I believed. For the first time since arriving in Aetheria, I believed that maybe — just maybe — I could walk this path to the end."
+        }
+      ]
+    },
+    {
+      "key": "gym_2",
+      "category_key": "gym_challenge",
+      "category_ref": "gym_challenge",
+      "name": "Sylva of the Forest",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "gyms/gym_2",
+      "sortnum": 1,
+      "pages": [
+        {
+          "title": "The Canopy Arena",
+          "text": "$(thing)Sylva's$() gym is not a building. It is a living thing — a network of platforms suspended in the canopy of the $(thing)Whispering Forest$(), connected by bridges of woven vine. The light filters through leaves in shifting green patterns, and everywhere, everywhere, there are insects.$(br2)Not the mindless buzzing of a swarm. These Cobblemon moved with purpose, with coordination, with a collective intelligence that made the hair on the back of my neck stand up. Bug and Grass types. The partnership of pollinator and plant, predator and prey, woven into a single strategy."
+        },
+        {
+          "title": "The Web Tightens",
+          "text": "Sylva did not speak much. She let her Cobblemon speak for her — in webs of silk that redirected my attacks, in spore clouds that dulled my partner's senses, in vines that erupted from the platforms to ensnare and constrict.$(br2)I made the mistake of trying to power through. Terra's lesson about patience apparently needed reinforcing. Sylva's Cobblemon punished aggression with layered traps — status effects stacking on status effects until my team was stumbling blind.$(br2)I had to think differently. Not as a fighter, but as an explorer. Reading the arena. Finding the gaps in the web. Using the canopy itself — the light, the wind, the terrain — to my advantage."
+        },
+        {
+          "title": "The Forest Badge",
+          "text": "When the last of Sylva's Cobblemon fell, the forest went silent. Then, slowly, it filled with a sound I can only describe as applause — a thousand wings vibrating in the canopy, a rustling ovation from every leaf and branch.$(br2)$(thing)Sylva$() descended from her perch, the $(thing)Forest Badge$() resting on an open leaf in her palm. $(italic)The forest teaches two things$(), she said. $(italic)Adaptation and patience. You have learned one. The other will come.$()$(br2)I pinned the badge beside Terra's and felt, for the first time, like I was building something. Not just collecting victories, but assembling a vocabulary of skills. Each gym leader a new word. Each badge a new sentence in a language I was only beginning to speak."
+        }
+      ]
+    },
+    {
+      "key": "gym_3",
+      "category_key": "gym_challenge",
+      "category_ref": "gym_challenge",
+      "name": "Ferrum of the Mountain",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "gyms/gym_3",
+      "sortnum": 2,
+      "pages": [
+        {
+          "title": "The Forge Arena",
+          "text": "The path to $(thing)Ferrum's$() gym climbed into the $(thing)Iron Peaks$() — a jagged range where the rock itself glitters with veins of raw ore. The air thinned. My lungs burned. My Cobblemon pressed on without complaint, which shamed me into doing the same.$(br2)The arena was carved into the mountain's heart — a forge, still active, where rivers of molten metal coursed through channels in the floor. The heat was suffocating. Ferrum stood at the center, arms bare, skin darkened by years of smoke and fire. Rock and Steel types. Endurance incarnate."
+        },
+        {
+          "title": "Unyielding",
+          "text": "Ferrum's Cobblemon did not dodge. They did not need to. Attacks that would have felled lesser creatures bounced off hides of living stone and plated steel. My partner's strongest moves barely left scratches.$(br2)$(italic)Hitting harder will not help$(), Ferrum called across the arena, sparks flying as his Cobblemon shrugged off another strike. $(italic)Steel does not yield to force. It yields to heat, to persistence, to the smith who strikes the same spot a thousand times.$()$(br2)So I did. I found the weak points — the joints between plates, the spots where rock met flesh — and I targeted them relentlessly. Not with power. With precision. Strike after strike after strike, until the mountain began to crack."
+        },
+        {
+          "title": "The Mountain Badge",
+          "text": "When Ferrum's final Cobblemon fell, the forge went silent. Even the molten rivers seemed to pause. Then Ferrum laughed — a deep, booming sound that echoed off the cavern walls — and pulled the $(thing)Mountain Badge$() from a pocket in his apron.$(br2)$(italic)You fight like a smith$(), he said, pressing the steel-and-stone emblem into my hand. $(italic)That is the highest compliment I know how to give.$()$(br2)Three badges. Three lessons. Patience from the plains, adaptation from the forest, persistence from the mountain. I am beginning to understand that the gym challenge is not about combat. It is about becoming the kind of person who can face whatever Aetheria throws at them."
+        }
+      ]
+    },
+    {
+      "key": "gym_4",
+      "category_key": "gym_challenge",
+      "category_ref": "gym_challenge",
+      "name": "Marina of the Coast",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "gyms/gym_4",
+      "sortnum": 3,
+      "pages": [
+        {
+          "title": "The Tidal Arena",
+          "text": "$(thing)Marina's$() gym is built into the cliffs of the $(thing)Shattered Coast$(), half submerged, half exposed. The arena floor is a platform of smooth stone surrounded by churning sea — and every few minutes, the tide surges, reshaping the battlefield entirely. Platforms sink. Others rise. Nothing stays stable.$(br2)Marina herself stood on a pillar of ice, impossibly calm above the chaos. Water and Ice types. Fluid, adaptive, unpredictable — and cold. The spray alone was enough to numb my fingers. My Cobblemon shivered but held firm."
+        },
+        {
+          "title": "Waves of Pressure",
+          "text": "I have never fought a battle where the arena was actively trying to drown me. Marina's Cobblemon used the water as an extension of themselves — waves that redirected attacks, currents that pulled my team off balance, sheets of ice that formed and shattered in the space of a breath.$(br2)My partner slipped. Fell. Got hit by a wall of freezing water that should have ended the fight. But it stood back up. Shaking, gasping, ice forming in its fur — it stood back up and roared.$(br2)That moment changed the battle. Marina's eyes widened. She had not expected resilience. Her Cobblemon hesitated, and in that heartbeat of uncertainty, we struck."
+        },
+        {
+          "title": "The Tide Badge",
+          "text": "The water stilled. Marina descended from her pillar, walking across the surface as if it were glass, and extended a hand holding the $(thing)Tide Badge$() — a shimmering blue-white emblem that was cold to the touch.$(br2)$(italic)The sea does not care how strong you are$(), she said. $(italic)It only cares whether you can endure. Your Cobblemon has heart. Protect that. It is worth more than any technique.$()$(br2)Four badges. Halfway there. I sat on the cliff afterward, watching the sun set over the ocean, my Cobblemon drying beside me, and felt the challenge shifting from something I was surviving to something I was growing through."
+        }
+      ]
+    },
+    {
+      "key": "gym_5",
+      "category_key": "gym_challenge",
+      "category_ref": "gym_challenge",
+      "name": "Ignis, the Inferno",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "gyms/gym_5",
+      "sortnum": 4,
+      "pages": [
+        {
+          "title": "Heat Beyond Measure",
+          "text": "I smelled $(thing)Ignis's$() gym before I saw it. Sulfur and scorched earth, carried on a wind that felt like opening an oven door. The $(thing)Caldera$() arena sits inside a dormant volcano — or so I was told. The lava vents suggest $(italic)dormant$() is optimistic.$(br2)Heat radiated from every surface. The stone floor glowed faintly orange at its thinnest points. Ignis stood in the center, wreathed in shimmer lines, her red hair wild, her eyes bright with a fire that was not entirely metaphorical.$(br2)$(italic)You have come far$(), she said. $(italic)Let us see if you can stand the heat.$() Fire types. Pure aggression. Pure intensity. No mercy."
+        },
+        {
+          "title": "Trial by Fire",
+          "text": "There was no strategy to discover. No trick to learn. Ignis fought with overwhelming force — her Cobblemon launched attacks that turned the air itself into a weapon. Firestorms. Heat waves. Eruptions from the vents that she somehow directed with a gesture.$(br2)My team burned. Not metaphorically. Actual scorch marks. Actual singed fur and blistered skin. Every second in that arena was a second spent fighting the urge to retreat.$(br2)But I remembered Ferrum's lesson. Persistence. I weathered the storm. Strike, heal, endure, strike again. My Cobblemon fought through the pain because I asked them to, and that trust — that bond — burned hotter than anything Ignis could produce."
+        },
+        {
+          "title": "The Ember Badge",
+          "text": "The fires died. The vents sealed. And Ignis — sweat-drenched, breathing hard, genuinely surprised — extended the $(thing)Ember Badge$() with a grin that could light a room.$(br2)$(italic)Fire is not about power$(), she said, and I almost laughed. $(italic)Fire is about will. The willingness to burn and keep going. You have that. Your Cobblemon have that. Do not ever let anyone extinguish it.$()$(br2)Five badges. My hands trembled as I pinned the emblem to my case. Not from fear. From the realization that I was past the halfway point, and the leaders ahead would only get harder. The heat of the caldera faded behind me, but Ignis's lesson stayed: will matters more than power."
+        }
+      ]
+    },
+    {
+      "key": "gym_6",
+      "category_key": "gym_challenge",
+      "category_ref": "gym_challenge",
+      "name": "Volt, the Storm",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "gyms/gym_6",
+      "sortnum": 5,
+      "pages": [
+        {
+          "title": "Static and Silence",
+          "text": "The moment I entered $(thing)Volt's$() domain, every hair on my body stood on end. Literally. The $(thing)Storm Spire$() crackles with ambient electricity — arcs of lightning dancing between conductor rods, the air thick with ozone, a persistent hum that vibrated in my teeth.$(br2)Volt was younger than I expected. Barely older than me, with eyes that sparked — actually sparked — when they caught the light. They grinned like someone about to share a secret.$(br2)$(italic)Speed$(), Volt said, bouncing on their toes. $(italic)That is all it comes down to. Can you think faster than lightning?$() Electric types. Fast. Devastating. And Volt loved every second of it."
+        },
+        {
+          "title": "Faster Than Thought",
+          "text": "I could not keep up. That is the honest truth. Volt's Cobblemon moved at speeds that made my eyes water — blurs of crackling energy that struck before I could give commands. My team was paralyzed, stunned, overwhelmed by a barrage that never stopped long enough to counter.$(br2)I almost lost. I was one hit from defeat when something clicked — not in my mind, but in the bond between me and my partner. We stopped trying to react. We started predicting. Reading Volt's patterns, feeling the rhythm of the lightning, and positioning ourselves not where the strikes were, but where they would be.$(br2)One clean hit. Perfectly timed. Volt's fastest Cobblemon went down, and the Spire fell silent."
+        },
+        {
+          "title": "The Spark Badge",
+          "text": "Volt laughed — a bright, unrestrained sound — and tossed the $(thing)Spark Badge$() to me underhand. I almost dropped it. It tingled.$(br2)$(italic)Most people try to be faster$(), they said. $(italic)You learned to be smarter. That is rarer. That is better.$()$(br2)Six badges. Two to go. The challenge was no longer about proving I could compete. It was about proving I was worthy of whatever lay at the end. My Cobblemon nuzzled against me as we left the Spire, static still crackling in its fur. I nuzzled back. We had come too far to stop now."
+        }
+      ]
+    },
+    {
+      "key": "gym_7",
+      "category_key": "gym_challenge",
+      "category_ref": "gym_challenge",
+      "name": "Obscura, the Twilight",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "gyms/gym_7",
+      "sortnum": 6,
+      "pages": [
+        {
+          "title": "Between Light and Shadow",
+          "text": "$(thing)Obscura's$() arena is a place that should not exist. The $(thing)Twilight Sanctum$() shifts — literally shifts — between blazing light and absolute darkness on a cycle I could not predict. One moment, every detail was searing and sharp. The next, I could not see my own hands.$(br2)Obscura sat cross-legged in the center, eyes closed, as if the shifting meant nothing to her. Psychic and Dark types. The two forces that define the boundary between what is seen and what is hidden, what is known and what is feared.$(br2)$(italic)The hardest battles are fought in the mind$(), she said without opening her eyes. $(italic)Show me yours.$() The arena plunged into darkness."
+        },
+        {
+          "title": "Mind Games",
+          "text": "I have fought strong opponents. Fast opponents. Opponents that hit like avalanches and moved like lightning. Obscura was none of those things. She was worse. She was inside my head.$(br2)Her Psychic types predicted my commands before I gave them. Her Dark types struck from shadows I could not see. The arena's shifting light meant I was fighting blind half the time and blinded the other half.$(br2)I felt my confidence crack. Every certainty I had built over six gyms wavered. My Cobblemon felt it — I know they did, because they hesitated. And Obscura's team pounced on that hesitation like wolves.$(br2)It was my partner who saved us. Not with a move, but with a look. Steady. Trusting. $(italic)I believe in you. Believe in me.$() I stopped thinking. I started trusting."
+        },
+        {
+          "title": "The Eclipse Badge",
+          "text": "The light stabilized. Obscura opened her eyes — one light, one dark — and smiled. The $(thing)Eclipse Badge$() appeared in her palm as if conjured from nothing.$(br2)$(italic)You almost broke$(), she said. $(italic)But you did not. The mind is the last fortress. If it holds, everything holds. Remember that when the final trials come.$()$(br2)Seven badges. One remains. I left the Sanctum shaking, not from exhaustion but from the raw vulnerability of having my deepest doubts exposed and surviving them. My Cobblemon walked pressed against my leg the entire way back. Neither of us wanted to be alone after that."
+        }
+      ]
+    },
+    {
+      "key": "gym_8",
+      "category_key": "gym_challenge",
+      "category_ref": "gym_challenge",
+      "name": "Draco, the Dragon Master",
+      "icon": "cobblemon:poke_ball",
+      "advancement_path": "gyms/gym_8",
+      "sortnum": 7,
+      "pages": [
+        {
+          "title": "The Dragon's Throne",
+          "text": "The final gym. $(thing)Draco's$() arena sits atop the $(thing)Skybreak Pinnacle$() — the highest point in Aetheria, where the air is thin and the clouds pass below your feet. The wind howls with a voice that sounds almost alive, and the arena itself is a platform of ancient stone carved with Precursor runes that glow faintly with draconic energy.$(br2)Draco was waiting. Old. Scarred. Eyes like embers in a face carved from granite. His Dragon types circled the pinnacle in lazy spirals, each one radiating a power that made the stone tremble.$(br2)$(italic)You have earned the right to stand here$(), he said. $(italic)Earning the right to leave with my badge is a different matter entirely.$()"
+        },
+        {
+          "title": "Legendary Power",
+          "text": "Nothing prepared me for Dragon types at this level. Draco's Cobblemon were forces of nature — ancient, proud, magnificent creatures that fought with a ferocity that made Ignis's fire look like candlelight. Every attack shook the pinnacle. Every roar split the sky.$(br2)My team fell one by one. Not from lack of skill — from the sheer, overwhelming power of creatures that had been training for longer than I had been alive. I was down to my last Cobblemon. My partner. The one who had been with me since the beginning.$(br2)It stepped forward. Small against the dragon's shadow. Determined. Unbroken. And I felt something pass between us — not a command, but a promise. $(italic)Together. One more time.$()"
+        },
+        {
+          "title": "The Dragon Badge",
+          "text": "I do not know how we won. The final exchange was a blur of light and sound and force. But when the dust settled, Draco's last dragon lay still, and my partner stood — barely — on trembling legs, chest heaving, eyes blazing with triumph.$(br2)Draco knelt. Not in defeat. In respect. He placed the $(thing)Dragon Badge$() in my hand with the reverence of a sacred offering.$(br2)$(italic)Eight badges$(), he said. $(italic)You have proven yourself to the gyms of Aetheria. But the gyms were only the beginning. What comes next will test you in ways we never could.$()$(br2)Eight badges. The full set. My partner collapsed into my arms, exhausted and victorious. I held it tight and whispered a thank you that could never be enough."
+        }
+      ]
+    },
+    {
+      "key": "elite_four",
+      "category_key": "gym_challenge",
+      "category_ref": "gym_challenge",
+      "name": "The Elite Four",
+      "icon": "cobblemon:ultra_ball",
+      "advancement_path": "gyms/elite_four",
+      "sortnum": 8,
+      "pages": [
+        {
+          "title": "The Gauntlet",
+          "text": "Four battles. No rest between them. No healing stations. No time to regroup. The $(thing)Elite Four$() do not test your team's strength — they test your reserves. Your depth. Your ability to endure when everything is depleted and the next opponent is fresh.$(br2)$(thing)Kael$() was first. A tactician who fought with surgical precision, exploiting every weakness I did not know I had. His team dismantled my strategy in minutes. I had to rebuild mid-battle, improvising combinations I had never tried, relying on instinct and trust.$(br2)I won. Barely. And then the door to the second chamber opened, and there was no time to breathe."
+        },
+        {
+          "title": "Breaking Point",
+          "text": "$(thing)Ysha$() fought with beauty — her Cobblemon moved like dancers, every attack a choreographed performance that was as devastating as it was elegant. I was battered, my team limping, and she nearly ended it with a combination so graceful I almost forgot to counter.$(br2)$(thing)Taro$() was raw power. A wall of muscle and fury that hit like a landslide. After Kael's precision and Ysha's grace, brute force should have felt simple. It did not. Simple is effective when you are already exhausted.$(br2)By the time I reached $(thing)Marek$(), I had nothing left. Two Cobblemon still standing, both wounded. Marek studied me with cold, evaluating eyes.$(br2)$(italic)Most fail here$(), he said. $(italic)Not because they are weak. Because they have nothing left to give.$() He was right. I had nothing left. Except the bond."
+        },
+        {
+          "title": "Still Standing",
+          "text": "My partner — battered, burned, frozen, beaten — stood up one final time. Not because it had strength. Because it had me. Because we had each other. And that was enough.$(br2)Marek fell. The chamber went silent. And then, from somewhere beyond the final door, I heard something I had not expected — applause. Slow, deliberate, genuine.$(br2)The $(thing)Elite Four gauntlet$() was over. I stood in the wreckage of four consecutive battles, surrounded by fallen strategies and spent Cobblemon, and I was still standing. Barely. Trembling. But standing.$(br2)The final door opened. Beyond it, the Champion's arena. Beyond it, $(thing)Aren$()."
+        }
+      ]
+    },
+    {
+      "key": "champion",
+      "category_key": "gym_challenge",
+      "category_ref": "gym_challenge",
+      "name": "Champion Aren",
+      "icon": "cobblemon:master_ball",
+      "advancement_path": "gyms/champion",
+      "sortnum": 9,
+      "pages": [
+        {
+          "title": "The Champion's Arena",
+          "text": "$(thing)Aren$() stood in the center of an arena that made every gym look like a playground. A vast circular platform suspended above a chasm of swirling energy — the raw power of the $(thing)Precursor network$() channeled into a stage fit for the ultimate battle.$(br2)He was younger than I imagined. Calm. His Cobblemon flanked him — six of them, each radiating a quiet, absolute confidence that comes from never having been beaten.$(br2)$(italic)I know who you are$(), he said. $(italic)Pathfinder. Faction mediator. Star traveler. You have done more than any challenger before you. But in this arena, none of that matters. Only the battle matters.$() He smiled. $(italic)Show me everything you have left.$()"
+        },
+        {
+          "title": "Everything Against Everything",
+          "text": "Aren did not specialize. He mastered. Every type, every strategy, every combination I had faced across eight gyms and four Elite members — Aren wielded them all with a fluency that was terrifying. He switched styles mid-attack. He countered counters. He predicted predictions.$(br2)This was not a battle of strength or speed or tactics. It was a battle of everything I had ever learned against everything he had ever learned. And he had been learning longer.$(br2)My team fell. One by one. Each giving everything. Each earning Aren's quiet nod of respect as they went down. Until only my partner remained, facing Aren's final Cobblemon — the strongest creature I had ever seen."
+        },
+        {
+          "title": "Champion",
+          "text": "I cannot describe the final exchange in words. Language fails. It was a moment that existed beyond strategy, beyond training, beyond everything that can be taught. It was two souls — human and Cobblemon, bonded beyond breaking — giving everything they had in a single, blazing instant.$(br2)Aren's Cobblemon fell.$(br2)The arena went silent. Then Aren laughed — warm, genuine, full of joy — and crossed the platform to take my hand.$(br2)$(italic)$(thing)Champion$()$(), he said. $(italic)The title is yours. You have earned it in ways that go far beyond this battle.$()$(br2)I held my partner — barely conscious, trembling with exhaustion and triumph — and for a long moment, I could not speak. I had walked into Aetheria as a lost stranger. I walked out of that arena as $(thing)Champion$(). And my Cobblemon, my first and truest friend, walked with me."
+        }
+      ]
+    }
+  ]
+}

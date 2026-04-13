@@ -1,0 +1,24 @@
+{
+  "name": "Sylva of the Forest",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:gym_challenge",
+  "advancement": "horizons:storybook/gyms/gym_2",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Canopy Arena",
+      "text": "$(thing)Sylva's$() gym is not a building. It is a living thing — a network of platforms suspended in the canopy of the $(thing)Whispering Forest$(), connected by bridges of woven vine. The light filters through leaves in shifting green patterns, and everywhere, everywhere, there are insects.$(br2)Not the mindless buzzing of a swarm. These Cobblemon moved with purpose, with coordination, with a collective intelligence that made the hair on the back of my neck stand up. Bug and Grass types. The partnership of pollinator and plant, predator and prey, woven into a single strategy."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Web Tightens",
+      "text": "Sylva did not speak much. She let her Cobblemon speak for her — in webs of silk that redirected my attacks, in spore clouds that dulled my partner's senses, in vines that erupted from the platforms to ensnare and constrict.$(br2)I made the mistake of trying to power through. Terra's lesson about patience apparently needed reinforcing. Sylva's Cobblemon punished aggression with layered traps — status effects stacking on status effects until my team was stumbling blind.$(br2)I had to think differently. Not as a fighter, but as an explorer. Reading the arena. Finding the gaps in the web. Using the canopy itself — the light, the wind, the terrain — to my advantage."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Forest Badge",
+      "text": "When the last of Sylva's Cobblemon fell, the forest went silent. Then, slowly, it filled with a sound I can only describe as applause — a thousand wings vibrating in the canopy, a rustling ovation from every leaf and branch.$(br2)$(thing)Sylva$() descended from her perch, the $(thing)Forest Badge$() resting on an open leaf in her palm. $(italic)The forest teaches two things$(), she said. $(italic)Adaptation and patience. You have learned one. The other will come.$()$(br2)I pinned the badge beside Terra's and felt, for the first time, like I was building something. Not just collecting victories, but assembling a vocabulary of skills. Each gym leader a new word. Each badge a new sentence in a language I was only beginning to speak."
+    }
+  ]
+}

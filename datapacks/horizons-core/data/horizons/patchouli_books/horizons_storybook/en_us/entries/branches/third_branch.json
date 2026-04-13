@@ -1,0 +1,24 @@
+{
+  "name": "The Third Crossroads",
+  "icon": "minecraft:oak_hanging_sign",
+  "category": "horizons:branches",
+  "advancement": "horizons:storybook/branches/third_branch",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Breaking Point",
+      "text": "The factions are at each other's throats. I knew it was coming — the signs were there from the beginning, scratched into every tense negotiation and every border skirmish — but knowing does not make it easier to witness.$(br2)$(thing)Conquest$() or $(thing)Diplomacy$(). The final branch. The one that determines not just the future of Aetheria but whether there $(italic)is$() a future worth having.$(br2)I could rally the strongest factions, march on the holdouts, and force a unity that no council or treaty has managed to achieve. It would be bloody. It would be fast. And when the dust settled, there would be one Aetheria, under one banner, with one voice."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Longer Road",
+      "text": "Or I could do what Theron has been urging since the day I met him: sit down, talk, and keep talking until the words mean something. $(thing)Diplomacy$() is slow. It is frustrating. It means swallowing pride and extending a hand to people who have given me every reason to clench a fist.$(br2)But I have seen what conquest leaves behind. I have walked through the ruins of settlements that chose the sword over the table. The Precursors conquered everything — every challenge, every enemy, every frontier — and it was not enough to save them.$(br2)Lockhart says diplomacy is just conquest in finer clothes. Whisper says conquest is just diplomacy that ran out of patience. Neither of them is entirely wrong."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Last Choice",
+      "text": "This is the crossroads I have been walking toward since I first opened my eyes under a sky with two moons. Every alliance I have forged, every enemy I have made, every quiet conversation by a campfire — all of it narrows to this single point.$(br2)I think about the people who will live with my decision long after I am gone. The children in Willowmere. The apprentices at Mountain Forge. The traders who sail from the Coastal Republic with nothing but hope and good wind. They deserve better than a tyrant. But they also deserve better than endless war dressed up as negotiation.$(br2)I will choose. And then I will see it through to the end, whatever that end looks like. A Pathfinder does not turn back."
+    }
+  ]
+}

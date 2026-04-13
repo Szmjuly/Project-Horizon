@@ -1,0 +1,24 @@
+{
+  "name": "The Open Hand",
+  "icon": "minecraft:writable_book",
+  "category": "horizons:act_4",
+  "advancement": "horizons:storybook/act_4/branch_diplomacy",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Words Over Blades",
+      "text": "Every fiber of my body screamed to draw steel when the $(thing)Ironclad Collective$() delegation slammed their fists on the table and walked out for the third time. Every instinct said that force would be faster, cleaner, more decisive.$(br2)I chose the harder path. I chose to sit back down, pour another cup of tea, and wait.$(br2)$(thing)Diplomacy$() is not weakness. It is the decision to endure the agonizing slowness of trust-building because you believe the result will outlast you. Conquest unites for a generation. Diplomacy, done right, unites for an age."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Long Table",
+      "text": "The negotiations took weeks. Weeks of translating not just languages but worldviews. Each faction sees the $(thing)Precursor$() artifacts through the lens of what they lack — power, knowledge, security, wealth.$(br2)My role was not to choose who was right. My role was to find the thread that connected all their fears and weave it into something that looked like hope. A shared vision. A reason to lower weapons.$(br2)My $(thing)Cobblemon$() helped more than I expected. There is something disarming about a creature that radiates warmth and trust. Doors that slammed in my face opened when my partner stood beside me."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Fragile Bridge",
+      "text": "The accord was signed at dawn. Six faction leaders, six signatures, one document. It is not perfect — no accord ever is. But it holds. For now, it holds.$(br2)They call me $(thing)Mediator$(). It is a quieter title than Warlord, less dramatic than Conqueror. But I wear it with something I had not felt in a long time — pride without guilt.$(br2)The $(thing)Precursor network$() will be activated cooperatively. Shared resources, shared risk, shared reward. It is slower. It is messier. But when I look at the faces around the table — wary but willing — I know this was the right choice. The harder choice, but the right one."
+    }
+  ]
+}

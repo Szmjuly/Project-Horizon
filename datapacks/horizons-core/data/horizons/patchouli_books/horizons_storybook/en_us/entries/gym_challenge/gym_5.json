@@ -1,0 +1,24 @@
+{
+  "name": "Ignis, the Inferno",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:gym_challenge",
+  "advancement": "horizons:storybook/gyms/gym_5",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Heat Beyond Measure",
+      "text": "I smelled $(thing)Ignis's$() gym before I saw it. Sulfur and scorched earth, carried on a wind that felt like opening an oven door. The $(thing)Caldera$() arena sits inside a dormant volcano — or so I was told. The lava vents suggest $(italic)dormant$() is optimistic.$(br2)Heat radiated from every surface. The stone floor glowed faintly orange at its thinnest points. Ignis stood in the center, wreathed in shimmer lines, her red hair wild, her eyes bright with a fire that was not entirely metaphorical.$(br2)$(italic)You have come far$(), she said. $(italic)Let us see if you can stand the heat.$() Fire types. Pure aggression. Pure intensity. No mercy."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Trial by Fire",
+      "text": "There was no strategy to discover. No trick to learn. Ignis fought with overwhelming force — her Cobblemon launched attacks that turned the air itself into a weapon. Firestorms. Heat waves. Eruptions from the vents that she somehow directed with a gesture.$(br2)My team burned. Not metaphorically. Actual scorch marks. Actual singed fur and blistered skin. Every second in that arena was a second spent fighting the urge to retreat.$(br2)But I remembered Ferrum's lesson. Persistence. I weathered the storm. Strike, heal, endure, strike again. My Cobblemon fought through the pain because I asked them to, and that trust — that bond — burned hotter than anything Ignis could produce."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Ember Badge",
+      "text": "The fires died. The vents sealed. And Ignis — sweat-drenched, breathing hard, genuinely surprised — extended the $(thing)Ember Badge$() with a grin that could light a room.$(br2)$(italic)Fire is not about power$(), she said, and I almost laughed. $(italic)Fire is about will. The willingness to burn and keep going. You have that. Your Cobblemon have that. Do not ever let anyone extinguish it.$()$(br2)Five badges. My hands trembled as I pinned the emblem to my case. Not from fear. From the realization that I was past the halfway point, and the leaders ahead would only get harder. The heat of the caldera faded behind me, but Ignis's lesson stayed: will matters more than power."
+    }
+  ]
+}

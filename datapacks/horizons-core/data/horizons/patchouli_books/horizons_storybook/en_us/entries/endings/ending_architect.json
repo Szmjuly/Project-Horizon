@@ -1,0 +1,24 @@
+{
+  "name": "Architect",
+  "icon": "minecraft:golden_helmet",
+  "category": "horizons:endings",
+  "advancement": "horizons:storybook/endings/ending_architect",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Golden Door",
+      "text": "I chose $(thing)Architect$(). The burnished gold light settled on my shoulders like a mantle, and I felt something I had never felt before — not power, exactly, but authority. The deep, bone-level certainty that this world could be shaped, and that my hands were meant to shape it.$(br2)The $(thing)Nexus$() responded to my vision. The network did not rebuild the Precursor civilization — it asked me what I wanted to build instead. And I knew. I had known since the first time I looked out over Aetheria's wild, broken beauty and thought: $(italic)I could make something extraordinary here$().$(br2)A kingdom. Not of conquest. Of creation."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Throne Built, Not Taken",
+      "text": "The throne room grew from the Nexus like a crystal forming in solution — walls of luminous stone, arches that sang when wind passed through them, a seat that was less a chair and more a command interface for the entire Precursor network.$(br2)I did not conquer the factions. I offered them something better than subjugation — a place in something greater. Each faction became a pillar of the kingdom, their strengths woven into its foundation. The $(thing)Ironclad Collective$() forged its infrastructure. The scholars filled its libraries. The merchants built its trade networks.$(br2)My $(thing)Cobblemon$() sat beside the throne, and the people loved it almost more than they loved me. That was fine. A wise ruler knows that loyalty to what you protect matters more than loyalty to yourself."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Realm of Vision",
+      "text": "The $(thing)Watchers$() withdrew to the highest orbit, their question answered: $(thing)Aetheria is for building$().$(br2)My kingdom is not perfect. No kingdom is. But it is mine in the truest sense — not because I own it, but because every stone, every law, every garden and road and bridge carries the imprint of my vision. A vision shaped by everything I experienced since that first bewildered morning.$(br2)I am $(thing)King$() — or $(thing)Queen$() — of a realm that stretches from the deepest caverns to the orbital stations. A realm where Cobblemon and humans walk together, where the Precursor legacy serves the living, where the mistakes of the past are not repeated but learned from.$(br2)This is what I was meant to build. This is what Aetheria was waiting for.$(br2)$(italic)The journal rests in the royal library, displayed under glass, open to the first page.$()"
+    }
+  ]
+}

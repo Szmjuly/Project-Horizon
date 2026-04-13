@@ -1,0 +1,24 @@
+{
+  "name": "Steward",
+  "icon": "minecraft:shield",
+  "category": "horizons:endings",
+  "advancement": "horizons:storybook/endings/ending_steward",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Silver Door",
+      "text": "I chose $(thing)Steward$(). The silver-white light enveloped me like armor, settling against my skin with a weight that felt not like burden but like purpose. The Nexus recognized the choice and responded — the ground beneath my feet solidified, the air sharpened, and the walls of the $(thing)Citadel$() began to rise.$(br2)Not built. Grown. The Precursor network channeled its energy into a fortress that emerged from the earth like a mountain deciding to become a castle. Walls of living stone. Towers that hummed with shielding frequencies. Gates that would never break because they were woven from the same energy that held Aetheria together."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Eternal Guardian",
+      "text": "The network changed me. Not all at once, but in the days and weeks that followed, I felt it — my senses extending beyond my body. I could feel the borders of Aetheria the way you feel the edges of your own skin. Every creature, every settlement, every tremor in the ground registered in my awareness.$(br2)I became the $(thing)Steward$(). Not a ruler — a guardian. The factions govern themselves, as they should. But when threat approaches, when the balance tips, when something from beyond the stars tests Aetheria's defenses, I am there. I am always there.$(br2)My $(thing)Cobblemon$() patrols the Citadel walls with me, tireless and watchful. We are bound to this world now, permanently and willingly."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Unbreaking Vigil",
+      "text": "The $(thing)Watchers$() approved. I know because they stationed themselves in orbit around the Citadel — not watching me, but watching with me. Their question had been answered: $(thing)Aetheria is for protecting$().$(br2)Years pass. Decades. The network sustains me beyond normal human limits, and I feel the world turn beneath my feet. Seasons change. Cobblemon are born and grow and bond with new Pathfinders. The factions rise and fall and rise again.$(br2)And through it all, I stand. Not because I must, but because I choose to. Every morning, I choose again. To guard. To protect. To be the shield that Aetheria never had.$(br2)$(italic)The journal sits open in the Citadel's highest tower, its pages preserved by the network's energy, waiting for the next Pathfinder to read.$()"
+    }
+  ]
+}

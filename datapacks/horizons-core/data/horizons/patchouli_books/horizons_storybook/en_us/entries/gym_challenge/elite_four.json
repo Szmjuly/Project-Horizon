@@ -1,0 +1,24 @@
+{
+  "name": "The Elite Four",
+  "icon": "cobblemon:ultra_ball",
+  "category": "horizons:gym_challenge",
+  "advancement": "horizons:storybook/gyms/elite_four",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Gauntlet",
+      "text": "Four battles. No rest between them. No healing stations. No time to regroup. The $(thing)Elite Four$() do not test your team's strength — they test your reserves. Your depth. Your ability to endure when everything is depleted and the next opponent is fresh.$(br2)$(thing)Kael$() was first. A tactician who fought with surgical precision, exploiting every weakness I did not know I had. His team dismantled my strategy in minutes. I had to rebuild mid-battle, improvising combinations I had never tried, relying on instinct and trust.$(br2)I won. Barely. And then the door to the second chamber opened, and there was no time to breathe."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Breaking Point",
+      "text": "$(thing)Ysha$() fought with beauty — her Cobblemon moved like dancers, every attack a choreographed performance that was as devastating as it was elegant. I was battered, my team limping, and she nearly ended it with a combination so graceful I almost forgot to counter.$(br2)$(thing)Taro$() was raw power. A wall of muscle and fury that hit like a landslide. After Kael's precision and Ysha's grace, brute force should have felt simple. It did not. Simple is effective when you are already exhausted.$(br2)By the time I reached $(thing)Marek$(), I had nothing left. Two Cobblemon still standing, both wounded. Marek studied me with cold, evaluating eyes.$(br2)$(italic)Most fail here$(), he said. $(italic)Not because they are weak. Because they have nothing left to give.$() He was right. I had nothing left. Except the bond."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Still Standing",
+      "text": "My partner — battered, burned, frozen, beaten — stood up one final time. Not because it had strength. Because it had me. Because we had each other. And that was enough.$(br2)Marek fell. The chamber went silent. And then, from somewhere beyond the final door, I heard something I had not expected — applause. Slow, deliberate, genuine.$(br2)The $(thing)Elite Four gauntlet$() was over. I stood in the wreckage of four consecutive battles, surrounded by fallen strategies and spent Cobblemon, and I was still standing. Barely. Trembling. But standing.$(br2)The final door opened. Beyond it, the Champion's arena. Beyond it, $(thing)Aren$()."
+    }
+  ]
+}

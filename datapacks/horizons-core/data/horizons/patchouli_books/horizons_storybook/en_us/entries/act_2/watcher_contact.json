@@ -1,0 +1,24 @@
+{
+  "name": "Watcher Contact",
+  "icon": "minecraft:ender_eye",
+  "category": "horizons:act_2",
+  "advancement": "horizons:storybook/act_2/watcher_contact",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "A Presence Felt",
+      "text": "It happened at dawn. I was alone on the ridge above Willowmere, watching the mist burn off the fields, when the world went quiet. Not silent — quiet, the way a room falls quiet when someone important enters.$(br2)$(thing)The Watcher$() did not speak in words. It spoke in impressions — vast, layered, ancient. Images cascaded through my mind: spiraling towers, gates of light, a network spanning worlds. And beneath it all, a sense of purpose so immense it made my bones ache.$(br2)It knows me. It has been watching since I arrived. Perhaps since before."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Restoration and Purpose",
+      "text": "The message, as best I can translate it from feeling into language: Aetheria is broken. The network the $(thing)Precursors$() built — the Gates, the ley lines, the connections between worlds — was designed to sustain something greater than any single civilization. $(thing)The Dimming$() damaged it, but did not destroy it.$(br2)$(thing)The Watcher$() wants restoration. It wants the old systems reactivated, the ancient architecture rebuilt, the purpose fulfilled. And it believes I can help — that all $(thing)Pathfinders$() were meant for this, whether they know it or not.$(br2)It offered no threats. No demands. Only a vision of what could be, laid out like a map before a traveler."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Weight of Contact",
+      "text": "I told no one. Not $(thing)Sera$(), not $(thing)Theron$(), not the friends I have made in Willowmere. How do you explain that a cosmic entity has chosen you for a purpose you do not understand?$(br2)But the contact changed something in me. I see the world differently now — the Gates pulse with a rhythm I can almost follow, the ruins hum with meaning just beyond my grasp. The Watcher planted a seed, and whether I nurture it or not, it has already taken root.$(br2)A choice is coming. I can feel it. Follow the Watcher's design, or forge my own path. Neither option is simple. Neither is without cost."
+    }
+  ]
+}

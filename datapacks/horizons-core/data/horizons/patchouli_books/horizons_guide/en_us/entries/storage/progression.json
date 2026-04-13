@@ -12,7 +12,7 @@
     {
       "type": "patchouli:text",
       "title": "Advanced Tiers",
-      "text": "$(thing)Tier 4 -- Create Integration$()$(br)$(item)Create$() mechanical logistics -- conveyor belts, funnels, chutes, and smart observers. Combine with Sophisticated storage for physical automation that looks impressive and scales well.$(br2)$(thing)Tier 5 -- Refined Storage$()$(br)$(item)Refined Storage$() digital networks. The endgame storage system. Wireless access, autocrafting, cross-dimensional access. See $(l:storage/refined_storage)Refined Storage$().$(br2)$(thing)Recommended path:$() Start with vanilla chests. Upgrade to Sophisticated as soon as you can afford iron. Add Drawers for bulk farm output. Build Create logistics for mid-game automation. Transition to Refined Storage when you have the resources for a digital network."
+      "text": "$(thing)Tier 4 -- Create Integration$()$(br)$(item)Create$() mechanical logistics -- conveyor belts, funnels, chutes, and smart observers. Combine with Sophisticated storage for physical automation that looks impressive and scales well.$(br2)$(thing)Tier 5 -- Refined Storage$()$(br)$(item)Refined Storage$() digital networks. The endgame storage system. Wireless access, autocrafting, cross-dimensional access. See $(l:storage/refined_storage)Refined Storage$().$(br2)$(thing)Recommended path:$() Start with vanilla chests. Upgrade to Sophisticated as soon as you can afford iron. Add Drawers for bulk farm output. Build Create logistics for mid-game automation. Transition to Refined Storage when you have the resources for a digital network. Graduate to AE2 for ultimate autocrafting mastery. See $(l:storage/ae2)Applied Energistics 2$()."
     }
   ]
 }

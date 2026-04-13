@@ -1,0 +1,24 @@
+{
+  "name": "Awakening",
+  "icon": "minecraft:recovery_compass",
+  "category": "horizons:act_1",
+  "advancement": "horizons:storybook/act_1/awakening",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "A Strange Sky",
+      "text": "I woke on cold stone, my head pounding, my memory a shattered mirror. The last thing I recall is the light — blinding, all-consuming — and then nothing. Then this.$(br2)The sky here is wrong. Two moons hang where one should be, and the stars form constellations I have never seen in any chart or atlas. The air tastes of copper and ozone, like the aftermath of a lightning strike that never ends.$(br2)I do not know this place. I do not know how I came to be here. But my body aches with the certainty that I cannot go back."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Strange Creatures",
+      "text": "They are everywhere — creatures unlike anything from home. Small ones that spark with electricity dart through the tall grass. Something massive and stone-skinned watches me from a ridge, unblinking.$(br2)They are not hostile, not exactly. But they are aware. When I move, they track me. When I stop, they study me. One — a small flame-tailed thing — followed me for nearly an hour before vanishing into the underbrush.$(br2)This is not $(thing)Earth$(). Whatever $(thing)The Dimming$() was, it brought me somewhere else entirely. Somewhere called $(thing)Aetheria$(), if the rusted signs I found are any indication."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "First Steps",
+      "text": "I found ruins today. Not ancient ones — recent. Tools left mid-task, hearths still blackened with soot. People were here. People like me, maybe. $(thing)Pathfinders$(), according to a journal I found wedged beneath a collapsed beam.$(br2)The journal speaks of a network, of colonies, of a connection to Earth that was severed. $(thing)The Dimming$(). It took everything — the gates, the supply lines, the way home.$(br2)I am alone in a world I do not understand. But I am alive. And somewhere out there, others might be too. I need to keep moving."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "The Outlaw's Shadow",
+  "icon": "minecraft:tnt",
+  "category": "horizons:side_stories",
+  "advancement": "horizons:storybook/side/outlaw",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "A Voice in the Dark",
+      "text": "$(thing)Whisper$() found me. Not the other way around. I was camped in a ravine two days from Anchor Town when a voice came out of the darkness — calm, amused, entirely too close.$(br2)She said she had been watching me. Said I had a talent for finding trouble and an unfortunate habit of trusting the wrong people. I asked what she wanted. She said she wanted to show me what Aetheria looks like from the other side of the law.$(br2)I should have said no. The smart move was to walk away. But Whisper has a way of making the forbidden sound $(italic)reasonable$(), and I was curious enough to listen."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Other Side",
+      "text": "The outlaw's path is not what I expected. I pictured bandits and chaos. What I found was a network — organized, principled, and operating in the gaps the factions refuse to acknowledge.$(br2)Whisper showed me supply caches hidden in places no honest trader would think to look. She showed me safehouses where people the factions had failed — exiles, refugees, those accused of crimes they did not commit — found shelter and a second chance.$(br2)She told me the law in Aetheria serves the powerful. The factions write the rules to protect their interests, and anyone who falls outside those interests is forgotten. The outlaws do not reject order — they reject $(italic)injustice$(). There is a difference, even if it is hard to see from the outside."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Justice in Shadows",
+      "text": "I asked Whisper why she does not just work within the system, push for change through legitimate channels. She looked at me like I had suggested she fly to the moon.$(br2)Change from within requires power, she said, and power is exactly what the system denies to people like her. So she operates in the margins. A stolen shipment here, a sabotaged convoy there — not random acts of destruction, but calculated pressure on a system that $(italic)needs$() to bend.$(br2)I do not agree with everything Whisper does. But walking her path taught me something I could not have learned anywhere else: $(thing)justice and law are not the same thing$(). Sometimes the right thing and the legal thing stand on opposite sides of a line, and you have to choose which one to cross."
+    }
+  ]
+}

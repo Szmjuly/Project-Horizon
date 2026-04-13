@@ -1,0 +1,19 @@
+{
+  "name": "Act 2 Complete",
+  "icon": "minecraft:golden_apple",
+  "category": "horizons:act_2",
+  "advancement": "horizons:storybook/act_2/act_2_complete",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Alliances Formed",
+      "text": "I look back on these weeks and hardly recognize the person who stumbled into $(thing)Willowmere$() with nothing but questions and a single Cobblemon. I have allies now — true ones, tested by disagreement and forged in shared purpose.$(br2)$(thing)Sera$() stands beside me, steadfast and sharp-tongued. $(thing)Aren$() lends the weight of the guild. $(thing)Mayor Theron$() offers Willowmere as neutral ground. And across the factions, doors that were once closed have begun, slowly, to open.$(br2)I have earned my first gym badge. I have chosen a path — and lived with the consequences of that choice. The world has grown larger with each step, and I have grown to meet it."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Wider World Beckons",
+      "text": "But Aetheria is vast, and I have seen only a corner of it. Beyond the plains and the settled lands, there are kingdoms I have only heard of in stories. The $(thing)Skyborn$() citadels above the clouds. The deep forests where ancient things still move. The coastal cities where trade and intrigue flow like the tide.$(br2)The $(thing)Gates$() grow more challenging, their ranks climbing toward trials I am not yet ready to face. The factions' conflicts deepen as resources dwindle and old resentments surface. And always, always, the sky hums with a presence that watches and waits.$(br2)Whatever I have built here is a foundation, nothing more. The true test lies ahead — in the wider world, in the harder choices, in the questions I have been avoiding.$(br2)It is time to stop surviving and start shaping what $(thing)Aetheria$() will become."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Subjugation",
+  "icon": "minecraft:diamond_sword",
+  "category": "horizons:act_4",
+  "advancement": "horizons:storybook/act_4/conquer_path",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Bending, Not Breaking",
+      "text": "The remaining factions did not go quietly. I did not expect them to. But there is a difference between resistance born of conviction and resistance born of pride, and I have learned to tell them apart.$(br2)The $(thing)Verdant Accord$() fought hardest. They believed — truly believed — that what I was doing would destroy the balance they had spent years cultivating. I respected that. I stationed my forces at their borders, cut their supply lines, and waited.$(br2)It took eleven days. On the twelfth morning, their elder walked into my camp alone, unarmed, and said three words: $(italic)What are your terms?$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Cost of Obedience",
+      "text": "Every faction bends now. Every outpost flies my banner. The $(thing)Precursor$() artifacts are consolidated under a single authority — mine — and the work of activating the network proceeds at a pace diplomacy could never have achieved.$(br2)But the eyes that follow me are not the eyes of allies. They are the eyes of the subjugated. People who obey because the alternative is worse, not because they believe in what I am building.$(br2)My oldest companion — the first $(thing)Cobblemon$() I ever bonded with — looks at me differently now. Not with fear. With something worse. Concern."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Hollow Victory",
+      "text": "The network hums. Resources flow. The factions produce, build, and march in lockstep. By every measurable standard, the conquest was a success.$(br2)So why does it feel hollow? Why do I lie awake at night replaying the faces of those who knelt — not in loyalty, but in defeat?$(br2)I tell myself this was necessary. That the $(thing)Watchers$() are coming, that Aetheria needed unity at any cost. And perhaps that is true. But I cannot shake the feeling that I have purchased survival at the price of something I will never get back. $(thing)Trust$(). The kind that is given freely, not taken by force."
+    }
+  ]
+}

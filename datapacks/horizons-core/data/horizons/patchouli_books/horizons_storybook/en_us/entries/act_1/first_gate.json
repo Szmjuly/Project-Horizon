@@ -1,0 +1,24 @@
+{
+  "name": "First Gate",
+  "icon": "minecraft:end_portal_frame",
+  "category": "horizons:act_1",
+  "advancement": "horizons:storybook/act_1/first_gate",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Threshold",
+      "text": "I found a $(thing)Gate$() today, half-buried in a hillside, its frame carved from stone that does not belong to any geology I recognize. The air around it crackled and shimmered, bending light like heat rising from sun-baked rock.$(br2)The Pathfinder journals warned about these. Entrances to pocket dimensions, they said — spaces folded inside Aetheria like pages in a book. The $(thing)Precursors$() built them, though no one remembers why.$(br2)Every instinct told me to walk away. I stepped through instead."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Shifting Corridors",
+      "text": "Inside, the world rewrites itself. Corridors twist and reform, rooms rearrange when you are not looking. Gravity is a suggestion. The walls pulse with a faint luminescence, and somewhere deep within, something waits.$(br2)This Gate was ranked $(thing)E$() — the lowest tier, meant for beginners. It did not feel like a beginner's challenge. Creatures lurked in every shadow, traps lined the halls, and on the final floor, a guardian blocked my path.$(br2)My Cobblemon and I fought together for the first time with real stakes. We won, barely, and the Gate yielded its treasure — strange materials, Precursor fragments, and something that hummed with contained power."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Pull",
+      "text": "Standing outside the Gate again, blinking in the sunlight, I felt something I did not expect: the desire to go back in.$(br2)The Gates are dangerous. They are unpredictable. They test everything you have and punish hesitation. But within them lies understanding — of the Precursors, of Aetheria, of whatever force shaped this world and then abandoned it.$(br2)There are higher ranks. Harder challenges. Deeper secrets. I can feel them calling from somewhere beyond the stone frames, patient and ancient and waiting."
+    }
+  ]
+}

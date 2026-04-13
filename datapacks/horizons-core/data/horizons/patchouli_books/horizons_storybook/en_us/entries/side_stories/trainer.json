@@ -1,0 +1,24 @@
+{
+  "name": "The Trainer's Way",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:side_stories",
+  "advancement": "horizons:storybook/side/trainer",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "First Partner",
+      "text": "I did not choose my first Cobblemon. It chose me. A stubborn little creature that refused to leave my campsite one morning, sitting on my pack like it owned the place. $(thing)Kira$() found us like that and laughed until she had tears in her eyes.$(br2)She told me the bond between a trainer and their partner is not a transaction. You do not catch a Cobblemon the way you catch a fish. You $(italic)earn$() it. The creature that sat on my pack had been watching me for days, she said, and had decided I was worth its time.$(br2)Kira trained under the $(thing)Forest Coalition$() druids, and her approach is rooted in respect. She does not command her Cobblemon — she asks. And they listen because they trust her. That kind of partnership cannot be forced."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Beyond Battles",
+      "text": "Everyone thinks training is about battles. Kira disabused me of that notion quickly. Yes, Cobblemon fight. They are wild creatures with instincts and pride. But a battle without understanding is just violence, and violence without purpose is cruelty.$(br2)She taught me to read my partner's body language — the flick of an ear that means anxiety, the low hum that signals contentment, the rigid stance that precedes an attack born of fear rather than confidence. I learned to train not through repetition but through $(italic)communication$(). Every session in the forest clearings was a dialogue, not a drill.$(br2)The bond deepened. My partner began to anticipate my thoughts, and I began to feel its emotions like echoes of my own. Kira said that is when real training begins."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Bond",
+      "text": "I completed the $(thing)Trainer's Way$() not by winning a tournament or defeating some final rival, but by doing something far harder: releasing a Cobblemon I had caught back into the wild because I realized it was not happy.$(br2)Kira watched me open the ball and let the creature go. It looked back once, then disappeared into the undergrowth. I stood there with an empty hand and a hollow feeling in my chest.$(br2)Kira said that was the lesson. A true trainer does not collect creatures like trophies. They form bonds based on mutual choice, mutual respect, and mutual benefit. Sometimes the kindest thing you can do is let go.$(br2)My partner — the stubborn one who chose me that first morning — pressed its head against my hand. It was staying. Not because I held it, but because it $(thing)wanted$() to."
+    }
+  ]
+}

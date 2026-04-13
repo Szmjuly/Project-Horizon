@@ -1,0 +1,6 @@
+{
+  "name": "Discoveries",
+  "description": "The places you have found, the settlements you have visited. Each discovery is a thread in the larger tapestry of Aetheria.",
+  "icon": "minecraft:filled_map",
+  "sortnum": 9
+}

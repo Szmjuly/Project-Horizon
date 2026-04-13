@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "depsortfix"
+version = "1.0.0"
+displayName = "DependencySorter Fix"
+description = "Fixes StackOverflowError in vanilla DependencySorter.isCyclic by replacing naive recursion with iterative BFS and visited set."
+authors = "Project Horizons"
+
+[[mixins]]
+config = "depsortfix.mixins.json"
+
+[[dependencies.depsortfix]]
+modId = "minecraft"
+type = "REQUIRED"
+versionRange = "[1.21,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.depsortfix]]
+modId = "neoforge"
+type = "REQUIRED"
+versionRange = "[21.0,)"
+ordering = "NONE"
+side = "BOTH"

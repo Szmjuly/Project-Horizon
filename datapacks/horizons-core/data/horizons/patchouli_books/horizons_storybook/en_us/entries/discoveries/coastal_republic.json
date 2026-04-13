@@ -1,0 +1,24 @@
+{
+  "name": "Coastal Republic",
+  "icon": "minecraft:trident",
+  "category": "horizons:discoveries",
+  "advancement": "horizons:storybook/discoveries/coastal_republic",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Salt Air and Commerce",
+      "text": "The $(thing)Coastal Republic$() hit me like a wave — noise, color, motion. After the quiet of the interior, walking into the harbor district felt like stepping into a different world. Ships crowded the docks, traders shouted over each other in half a dozen dialects, and the smell of salt and spice and fresh fish hung in the air like a living thing.$(br2)This is where Aetheria's economy has its beating heart. Every faction produces something, but the Coastal Republic $(italic)moves$() it. Their ships connect settlements that would otherwise be isolated, their traders broker deals that keep the peace as effectively as any army.$(br2)The Republic operates on a single principle: everything has a price, and anything can be negotiated."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Traders and Sailors",
+      "text": "$(thing)Caelus$() runs the largest trading house in the Republic, though he operates out of an office so modest you would walk past it twice. He says a merchant who flaunts wealth is a merchant who has stopped earning it. His ledgers are legendary — every trade, every route, every fluctuation in price recorded in a hand so precise it looks printed.$(br2)$(thing)Taro$() is his opposite in every way — a sailor who lives on his ship and navigates by instinct and starlight. He charts routes to places that do not appear on any map, returning with cargo that no one can quite identify but everyone wants to buy. I asked him once where he goes. He smiled and said $(italic)forward$().$(br2)Between Caelus and Taro, the Republic keeps Aetheria connected. One manages the numbers. The other chases the horizon. Both are essential."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Republic's Bargain",
+      "text": "The Coastal Republic is not without its flaws. The focus on commerce means everything is transactional. Favors are debts. Friendships are partnerships. Even kindness has an expected return. It can make the place feel cold beneath all the bustle and color.$(br2)But there is freedom here that the other factions lack. The Republic does not care where you came from, what faction you belong to, or what mistakes haunt your past. If you can trade, you can thrive. If you can sail, you can find your fortune. Opportunity is the one commodity that never runs out.$(br2)I watched the sun set over the harbor on my last evening, the water turned gold and copper, ships rocking gently at anchor. The Republic is loud and mercenary and relentless. And somehow, standing on that dock, it felt like the most $(thing)honest$() place in Aetheria."
+    }
+  ]
+}

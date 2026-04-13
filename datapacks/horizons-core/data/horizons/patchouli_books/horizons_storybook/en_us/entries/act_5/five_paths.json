@@ -1,0 +1,24 @@
+{
+  "name": "Five Paths",
+  "icon": "minecraft:end_portal_frame",
+  "category": "horizons:act_5",
+  "advancement": "horizons:storybook/act_5/five_paths",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Doors Open",
+      "text": "Five doorways materialized in the heart of the $(thing)Nexus$(). Each one hummed with a different frequency, a different color, a different promise. I stood before them with my Cobblemon at my side and my heart hammering against my ribs.$(br2)$(thing)Restoration$() — a door of warm amber light, pulsing with the rhythm of the Precursor network. Through it, I saw towers rising from ruins, a civilization reborn.$(br2)$(thing)Pilgrim$() — a door of deep indigo, opening onto stars I had never mapped. The unknown, vast and calling, promising nothing except that it would never end."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Three More Futures",
+      "text": "$(thing)Steward$() — a door of silver-white radiance, steady as a lighthouse. Through it, I saw Aetheria protected by walls that would never fall, guarded by a sentinel who would never leave.$(br2)$(thing)Awakened$() — a door of living green, threaded with the energy of every Cobblemon I had ever known. Through it, I saw something beyond human — a consciousness merged with the ecosystem itself, feeling every creature, every leaf, every heartbeat.$(br2)$(thing)Architect$() — a door of burnished gold, regal and commanding. Through it, I saw a kingdom shaped by my vision, a throne built not on conquest but on creation."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Only One",
+      "text": "Five futures. Five answers. Only one can be chosen.$(br2)I looked at my $(thing)Cobblemon$(). It looked back at me with eyes that held no judgment, no preference, no agenda. Only trust. Whatever I chose, it would follow. That knowledge was both the greatest comfort and the heaviest burden I had ever carried.$(br2)The $(thing)Watchers$() watched. The factions waited. The Precursor network hummed its ancient, patient song. And I stood at the crossroads of everything, knowing that the next step I took would define not just my future, but the future of every soul in Aetheria.$(br2)I took a breath. I made my choice."
+    }
+  ]
+}

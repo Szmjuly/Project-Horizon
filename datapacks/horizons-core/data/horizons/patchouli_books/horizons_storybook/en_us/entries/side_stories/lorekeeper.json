@@ -1,0 +1,24 @@
+{
+  "name": "The Lorekeeper's Path",
+  "icon": "minecraft:enchanted_book",
+  "category": "horizons:side_stories",
+  "advancement": "horizons:storybook/side/lorekeeper",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Dust and Glyphs",
+      "text": "$(thing)Scholar Vael$() found me reading a Precursor tablet upside down and had the grace not to laugh. Instead, she sat beside me, turned the tablet the right way, and began to translate. That was the beginning of everything.$(br2)The Precursors left behind more than ruins. They left a $(italic)language$() — etched into walls, pressed into clay, woven into the very architecture of their cities. Vael has spent years deciphering it, and she took me on as a student with the condition that I record everything we found.$(br2)Every ruin tells a story. That is not poetry — it is methodology. The placement of a glyph, the depth of a carving, the material chosen for a record — all of it speaks to who the Precursors were and what they valued."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What Came Before",
+      "text": "The deeper we dug, the more complex the picture became. The Precursors were not one people but many — factions within a civilization, each with their own philosophy, their own approach to the world they inhabited. Sound familiar.$(br2)Vael showed me records of their debates. Technology versus harmony. Expansion versus conservation. Control versus freedom. The same arguments the factions of Aetheria have today, carved into stone ten thousand years ago.$(br2)I asked Vael if that meant we were doomed to repeat their mistakes. She said history does not repeat — it $(italic)rhymes$(). And the purpose of a $(thing)Lorekeeper$() is to hear the rhyme before it becomes a chorus."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Weight of Knowledge",
+      "text": "There are things in the Precursor records that I have not shared with anyone. Warnings, mostly. References to $(thing)The Dimming$() not as a catastrophe but as a $(italic)consequence$() — the end result of choices made centuries before the lights went out.$(br2)Vael carries this weight too. She told me that knowledge is not power. Knowledge is $(italic)responsibility$(). Every secret we uncover is a choice: share it and risk panic, or keep it and risk ignorance. Neither option is clean.$(br2)I am a $(thing)Lorekeeper$() now. I read the glyphs, I translate the tablets, I piece together the story of a civilization that reached for everything and lost it all. And I do it because someone must remember, so that the rest of us have a chance to choose differently."
+    }
+  ]
+}

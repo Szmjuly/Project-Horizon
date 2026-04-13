@@ -1,0 +1,24 @@
+{
+  "name": "The Rocket Frame",
+  "icon": "minecraft:firework_rocket",
+  "category": "horizons:act_3",
+  "advancement": "horizons:storybook/act_3/rocket_frame",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Reaching for the Stars",
+      "text": "I built a $(thing)rocket frame$() today. The words look absurd written down — as though farming and brewing and faction politics were not enough, now I am building spacecraft in a field outside Willowmere.$(br2)But the $(thing)Stellaris$() technology is real. Fragments recovered from the deepest Gates, combined with Precursor engineering principles, have yielded something I barely believed possible: a framework for leaving Aetheria's surface and reaching the stars above.$(br2)The twin moons hang in the sky like promises. Other worlds orbit this sun. And somewhere out there, the full scope of the Precursor network awaits — dormant stations, abandoned colonies, answers to questions I have been asking since I woke on that cold stone."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Stellaris Awakens",
+      "text": "The technology is unlike anything else I have worked with. It does not merely harness energy — it folds space, compresses distance, turns the impossible gap between worlds into a step. The Precursors did not just visit other planets. They made the void between them into a road.$(br2)$(thing)Aren$() stood beside me as the frame powered up for the first time. The air crackled. The ground trembled. And for one breathless moment, I could see the stars — not as distant lights, but as destinations. Close enough to touch.$(br2)$(italic)They actually did it$(), Aren whispered. $(italic)The old stories were true.$()$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A New Horizon",
+      "text": "The rocket frame is not finished. It needs materials I have not yet found, technologies I have not yet mastered, and a fuel source that exists only in theory and Precursor records. Months of work remain, perhaps years.$(br2)But for the first time since arriving in Aetheria, I can see the end of the road — or rather, the beginning of a new one. The factions see it too. Some are thrilled. Some are terrified. Some are already scheming about who will control access to the stars.$(br2)I stood alone with the frame tonight, watching the moons arc overhead, and felt something I have not felt since before $(thing)The Dimming$(): the absolute, unshakeable conviction that the future is bigger than the past.$(br2)The stars are within reach. And I intend to reach them."
+    }
+  ]
+}

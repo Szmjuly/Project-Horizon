@@ -1,0 +1,24 @@
+{
+  "name": "First Brew",
+  "icon": "minecraft:potion",
+  "category": "horizons:act_1",
+  "advancement": "horizons:storybook/act_1/first_brew",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Fermenter's Art",
+      "text": "An old man in the village showed me the brewing cellar today. Rows of barrels lined the walls, each one labeled in a careful hand — dates, ingredients, temperatures. The air was thick with the scent of fermentation, yeasty and sweet and alive.$(br2)Brewing in $(thing)Aetheria$() is not the crude process I expected. It is alchemy. It is patience distilled into liquid form. Every ingredient matters. Every step in the process shapes the final result.$(br2)He handed me a cup of something amber and warm. $(italic)Tea$(), he said, brewed from mountain herbs. It tasted like sunlight through autumn leaves."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Depth of the Craft",
+      "text": "The systems here are staggering. $(thing)Wines$() from cultivated grapes that carry the terroir of their soil. $(thing)Beers$() fermented with grains I grew myself, each variety producing a different character. $(thing)Teas$() and $(thing)coffees$() that sharpen the mind or soothe weary muscles.$(br2)And each beverage carries properties beyond mere taste. A well-brewed ale might bolster strength. A carefully aged wine could sharpen perception. The right tea, taken at the right moment, has saved lives — or so the old brewer claims.$(br2)I am only beginning to understand the depth of this craft, but already I see why the Pathfinders valued their brewers as highly as their fighters."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "My First Batch",
+      "text": "My first attempt was, generously, terrible. Too bitter, too cloudy, with a finish that lingered like regret. The old man laughed and told me his first batch had been worse.$(br2)But my second attempt was better. And my third better still. There is a rhythm to it — the measuring, the waiting, the careful adjustment of temperature and time. It rewards attention. It punishes impatience.$(br2)I bottled a small batch of herb tea tonight. Nothing special, nothing powerful. But I made it, and when I drank it by the fire, watching the twin moons rise, it tasted like the first good thing I have made in this world."
+    }
+  ]
+}

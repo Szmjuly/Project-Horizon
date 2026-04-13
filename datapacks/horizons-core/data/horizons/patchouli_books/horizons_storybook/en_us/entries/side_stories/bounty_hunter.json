@@ -1,0 +1,24 @@
+{
+  "name": "The Bounty Hunter's Ledger",
+  "icon": "minecraft:crossbow",
+  "category": "horizons:side_stories",
+  "advancement": "horizons:storybook/side/bounty_hunter",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Lockhart's Offer",
+      "text": "$(thing)Lockhart$() does not waste words. The first time I walked into his office — a cramped room above the Guild Hall that smelled of old leather and lamp oil — he slid a stack of wanted notices across the desk and said nothing. Just watched me read.$(br2)Bandits. Smugglers. A rogue trader selling counterfeit enchantments to settlers who could not tell the difference. Small-time criminals, most of them, but dangerous in the way that desperate people always are.$(br2)I took the first contract because I needed the coin. I took the second because I was good at it. By the third, I realized Lockhart had been testing me all along."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Hunt",
+      "text": "There is a rhythm to tracking someone across Aetheria. You learn to read broken branches and cold campfires. You learn that a fugitive heading for the $(thing)Coastal Republic$() will follow rivers, and one heading for the $(thing)Forest Coalition$() will vanish into canopy so thick the sky disappears.$(br2)Lockhart taught me to think like the people I pursued. Not just where they would run, but $(italic)why$(). Fear drives some toward civilization. Pride drives others into the wild. The truly dangerous ones do not run at all — they set traps and wait.$(br2)I nearly died twice. Once in a ravine ambush near Mountain Forge. Once in a cellar in Willowmere where a smuggler had rigged the door with redstone. Both times, it was instinct that saved me — instinct and the training Lockhart drilled into my skull."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Final Contract",
+      "text": "The last bounty was different. Lockhart handed me a single notice — no name, no face, just a list of crimes long enough to fill a book. When I brought the target in, Lockhart actually smiled. First time I had ever seen it.$(br2)He told me the bounty system is not about punishment. It is about balance. Every criminal I tracked down was someone who had decided the rules did not apply to them, and in a world as fragile as Aetheria, that kind of thinking can unravel everything.$(br2)I still carry my crossbow. I still read the notices when they come in. But now I understand what Lockhart understood from the start: the hunt is not the point. $(thing)The order it preserves$() is."
+    }
+  ]
+}

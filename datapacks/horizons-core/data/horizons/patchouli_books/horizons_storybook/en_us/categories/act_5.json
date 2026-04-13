@@ -1,0 +1,7 @@
+{
+  "name": "Act 5: Convergence",
+  "description": "Every choice you have made leads here. The factions look to you. The Watchers wait. Five paths lie open — and only one can be yours.",
+  "icon": "minecraft:end_crystal",
+  "sortnum": 4,
+  "advancement": "horizons:storybook/act_5/act_5_started"
+}

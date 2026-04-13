@@ -1,0 +1,7 @@
+{
+  "name": "Act 2: First Steps",
+  "description": "The settlements of Aetheria reveal themselves — each with its own history, its own wounds. The Watchers make contact. A choice looms: follow their design, or carve your own path.",
+  "icon": "minecraft:oak_sign",
+  "sortnum": 1,
+  "advancement": "horizons:storybook/act_2/act_2_started"
+}

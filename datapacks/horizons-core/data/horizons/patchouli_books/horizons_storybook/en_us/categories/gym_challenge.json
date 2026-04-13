@@ -1,0 +1,7 @@
+{
+  "name": "The Gym Challenge",
+  "description": "Eight leaders. Eight badges. One championship. Your Cobblemon battles are recorded here — every victory, every hard-won badge on the road to becoming Champion.",
+  "icon": "cobblemon:poke_ball",
+  "sortnum": 6,
+  "advancement": "horizons:storybook/gyms/gym_1"
+}

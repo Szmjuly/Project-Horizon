@@ -1,0 +1,24 @@
+{
+  "name": "The Colony Builder",
+  "icon": "minecraft:bricks",
+  "category": "horizons:side_stories",
+  "advancement": "horizons:storybook/side/colony",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Breaking Ground",
+      "text": "$(thing)Mayor Theron$() handed me a stake and a hammer and told me to mark the center of town. I drove it into the earth on a hilltop overlooking a river bend, and for a moment the enormity of what I was about to attempt settled over me like a weight.$(br2)Building a colony from nothing. Not just walls and roofs, but a $(italic)community$(). People with needs, with opinions, with the stubborn conviction that their house should face east or that the market should be closer to the gate.$(br2)The first week was chaos. I placed a $(thing)Town Hall$() and watched the first colonists arrive — nervous, hopeful, carrying everything they owned in packs on their backs. They looked at me like I had answers. I mostly had questions."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Growing Pains",
+      "text": "A hamlet becomes a village when people stop leaving. It becomes a town when they start arriving faster than you can build houses. Every stage brought new problems — food shortages, disputes over land, the constant threat of raids from hostile mobs that saw our torchlight as an invitation.$(br2)Theron guided me through the worst of it. He taught me that a colony is not a machine to be optimized but a living thing to be nurtured. You cannot force growth. You can only create the conditions for it and trust the people to do the rest.$(br2)I built a $(thing)Guard Tower$() after the first raid. A $(thing)Farm$() after the first shortage. A $(thing)Tavern$() after I realized that people need more than safety and food — they need a place to gather, to laugh, to feel like they belong."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "From Hamlet to Kingdom",
+      "text": "I stood on the walls of my colony today and looked out over what we built. Streets where there was mud. Gardens where there was scrub. Children playing in a square that I remember clearing with my own hands.$(br2)Theron stood beside me and said something I will not forget: a colony is the most honest mirror a leader will ever face. Every crack in a wall is a decision you made too quickly. Every blooming garden is patience that paid off. Every happy face is proof that people, given the chance, will build something worth protecting.$(br2)This place is not mine. It belongs to every person who hammered a nail, tilled a row, or stood on a wall with a sword when the night came howling. I just held the $(thing)stake$() at the beginning. They built the rest."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Skyborn Citadel",
+  "icon": "minecraft:lightning_rod",
+  "category": "horizons:discoveries",
+  "advancement": "horizons:storybook/discoveries/skyborn_citadel",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Above the Clouds",
+      "text": "The $(thing)Skyborn Citadel$() floats. I know how that sounds. I wrote it, crossed it out, and wrote it again because there is no other way to describe what I saw. A fortress of metal and stone suspended above the cloud line, tethered to the mountain peaks by cables as thick as tree trunks and humming with energy I could feel in my teeth.$(br2)The ascent alone nearly killed me — a series of lifts and bridges that climb through howling wind and thin air until the world below becomes a patchwork of color too distant to distinguish. When I finally stepped onto the Citadel's landing platform, my legs shaking, a Skyborn operative in a grey coat looked me over and said I was late.$(br2)They expected me. Of course they did. The $(thing)Skyborn$() see everything from up here."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Marek and the Operatives",
+      "text": "$(thing)Marek$() leads the Skyborn with the precision of a man who believes disorder is a personal insult. His quarters are spartan — a cot, a desk, and walls covered in charts and technical schematics that I could not begin to decipher. He speaks in clipped sentences and expects the same in return.$(br2)The operatives are his hands. They move through Aetheria in small teams, gathering intelligence, recovering Precursor technology, and ensuring that no faction gains an advantage the Skyborn have not anticipated. They are watchers, guardians, and — if Whisper is to be believed — spies.$(br2)But Marek showed me their archives. The Precursor technology they have recovered and restored is staggering — communication arrays, energy shields, devices that manipulate gravity. He says they guard it not for power but for safety. Technology this advanced in the wrong hands could end Aetheria faster than $(thing)The Dimming$() ever did."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The View from Above",
+      "text": "I stood on the Citadel's observation deck as the sun set and watched Aetheria spread out below me like a map brought to life. The plains glowing amber. The forest a dark green ocean. The coast a silver thread where land meets water. All of it impossibly beautiful. All of it impossibly fragile.$(br2)Marek joined me. He said the Skyborn chose the sky because distance provides clarity. From up here, the faction squabbles look small. The borders look arbitrary. The things people fight over look insignificant compared to the things they share.$(br2)I asked him why, if he sees so clearly, he does not come down and fix it all. He almost smiled. He said clarity is not the same as wisdom, and seeing a problem is not the same as knowing the answer. Then he walked away, boots clicking on metal, and left me alone with the view and the wind and the slow understanding that the $(thing)Skyborn$() are not aloof. They are $(italic)afraid$() — afraid of what happens if they get it wrong."
+    }
+  ]
+}

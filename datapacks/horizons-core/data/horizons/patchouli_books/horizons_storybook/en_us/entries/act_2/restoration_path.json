@@ -1,0 +1,19 @@
+{
+  "name": "Following the Design",
+  "icon": "minecraft:amethyst_shard",
+  "category": "horizons:act_2",
+  "advancement": "horizons:storybook/act_2/restoration_path",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Precursor Sites",
+      "text": "The $(thing)Watcher's$() guidance led me to a site I would never have found on my own — a chamber deep beneath a mountain lake, its walls inscribed with patterns that glow when I draw near. The Precursors built this place to last forever, and it has.$(br2)Inside, I found mechanisms still functioning after untold centuries. Crystal arrays that sang when aligned. Conduits that channeled energy from deep within the earth. And at the center, a console that responded to my touch as though it had been waiting.$(br2)The network is damaged but not dead. Node by node, site by site, it can be restored."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ancient Purpose",
+      "text": "Each site I reactivate reveals a fragment of the larger picture. The Precursors did not simply build infrastructure — they built a $(italic)living system$(), a web of energy and intention that connected worlds and sustained the barriers between dimensions.$(br2)$(thing)The Dimming$() tore holes in that web. Without it, Aetheria is vulnerable in ways its people do not fully understand. The Gates destabilize. The ley lines fray. And from the spaces between, things press inward.$(br2)The Watcher shows me visions of what will come if the network remains broken. I do not sleep well after those nights. But each restored site pushes the darkness back a little further, and I cling to that progress like a lantern in a storm."
+    }
+  ]
+}

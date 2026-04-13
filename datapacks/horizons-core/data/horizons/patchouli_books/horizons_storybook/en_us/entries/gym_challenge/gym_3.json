@@ -1,0 +1,24 @@
+{
+  "name": "Ferrum of the Mountain",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:gym_challenge",
+  "advancement": "horizons:storybook/gyms/gym_3",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Forge Arena",
+      "text": "The path to $(thing)Ferrum's$() gym climbed into the $(thing)Iron Peaks$() — a jagged range where the rock itself glitters with veins of raw ore. The air thinned. My lungs burned. My Cobblemon pressed on without complaint, which shamed me into doing the same.$(br2)The arena was carved into the mountain's heart — a forge, still active, where rivers of molten metal coursed through channels in the floor. The heat was suffocating. Ferrum stood at the center, arms bare, skin darkened by years of smoke and fire. Rock and Steel types. Endurance incarnate."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Unyielding",
+      "text": "Ferrum's Cobblemon did not dodge. They did not need to. Attacks that would have felled lesser creatures bounced off hides of living stone and plated steel. My partner's strongest moves barely left scratches.$(br2)$(italic)Hitting harder will not help$(), Ferrum called across the arena, sparks flying as his Cobblemon shrugged off another strike. $(italic)Steel does not yield to force. It yields to heat, to persistence, to the smith who strikes the same spot a thousand times.$()$(br2)So I did. I found the weak points — the joints between plates, the spots where rock met flesh — and I targeted them relentlessly. Not with power. With precision. Strike after strike after strike, until the mountain began to crack."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Mountain Badge",
+      "text": "When Ferrum's final Cobblemon fell, the forge went silent. Even the molten rivers seemed to pause. Then Ferrum laughed — a deep, booming sound that echoed off the cavern walls — and pulled the $(thing)Mountain Badge$() from a pocket in his apron.$(br2)$(italic)You fight like a smith$(), he said, pressing the steel-and-stone emblem into my hand. $(italic)That is the highest compliment I know how to give.$()$(br2)Three badges. Three lessons. Patience from the plains, adaptation from the forest, persistence from the mountain. I am beginning to understand that the gym challenge is not about combat. It is about becoming the kind of person who can face whatever Aetheria throws at them."
+    }
+  ]
+}

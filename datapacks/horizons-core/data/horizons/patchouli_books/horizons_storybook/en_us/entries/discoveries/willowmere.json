@@ -1,0 +1,24 @@
+{
+  "name": "Willowmere",
+  "icon": "minecraft:lily_pad",
+  "category": "horizons:discoveries",
+  "advancement": "horizons:storybook/discoveries/willowmere",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Lakeside Settlement",
+      "text": "I smelled $(thing)Willowmere$() before I saw it — woodsmoke and baking bread, carried on a breeze that rolled off the lake like a greeting. The settlement sits on a gentle slope above the water, its buildings reflected in the surface on still mornings like a painting of itself.$(br2)$(thing)Mayor Theron$() met me at the gate. He is a tall man with a deliberate way of speaking, as though every word has been weighed before it leaves his mouth. He welcomed me with a handshake and a tour, pointing out the farms, the market, the town hall where he spends his evenings poring over ledgers and petitions.$(br2)Willowmere is the kind of place that makes you want to stay. That is both its strength and its danger."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The People",
+      "text": "$(thing)Vintner Mara$() tends her vineyard on the eastern slope, where the morning sun hits first and the soil is dark with lakeside minerals. Her wines are famous across the settled lands, and she guards her techniques with a ferocity that would impress a dragon.$(br2)$(thing)Brenna$() keeps the inn — the Driftwood, she calls it — and it is the social heart of Willowmere. Every evening, farmers and traders and passing Pathfinders crowd into her common room to share meals and news. Brenna knows everyone's name, everyone's drink, and more secrets than she would ever admit.$(br2)Theron governs with a light hand, trusting his people to manage their own affairs and stepping in only when disputes need a calm voice. It works because Willowmere is small enough for trust and close enough to the land to remember what matters."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Place Worth Protecting",
+      "text": "I have been to grander places. The Skyborn Citadel is more impressive. The Coastal Republic is wealthier. Mountain Forge is more industrious. But Willowmere has something none of them can match: it feels like $(italic)home$().$(br2)Maybe it is the way the willows trail their branches in the lake at dusk. Maybe it is Brenna's stew, which she claims is a different recipe every time but always tastes like comfort. Maybe it is the sound of children playing in the square while Theron pretends not to watch from his office window.$(br2)Willowmere reminds me why any of this matters — the exploration, the politics, the branch points and faction conflicts. Underneath it all, people just want a safe place to live, good neighbors, and a harvest that comes in on time. Everything else is complication."
+    }
+  ]
+}

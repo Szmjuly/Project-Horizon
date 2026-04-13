@@ -1,0 +1,24 @@
+{
+  "name": "The First Crossroads",
+  "icon": "minecraft:oak_hanging_sign",
+  "category": "horizons:branches",
+  "advancement": "horizons:storybook/branches/first_branch",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "What We Owe the Past",
+      "text": "I have been putting off this entry because I am not sure how to write it. The choice is before me now and I cannot walk around it any longer.$(br2)$(thing)Restoration$() or $(thing)Independence$(). Two words. Two futures. Every step I have taken since waking in Aetheria has led to this fork in the road, and I feel the weight of it in my chest like a stone.$(br2)The Precursors built something extraordinary here. Their ruins whisper of a civilization that spanned the horizon, connected worlds, and bent reality to their will. Part of me believes we owe it to them — to ourselves — to restore what was lost. To rebuild the gates, reopen the connections, bring back what $(thing)The Dimming$() stole."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Or What We Build Anew",
+      "text": "But another part of me wonders if restoration is just a word for going backward. The factions have built something new here. Imperfect, fractured, but $(italic)theirs$(). The Plains folk till soil the Precursors never touched. The Forest Coalition speaks to the land in ways no ancient technology could replicate. The Coastal Republic trades in goods and stories that belong to $(italic)this$() age, not the last one.$(br2)$(thing)Independence$() means cutting the old tethers. It means saying that Aetheria is not a ruin to be repaired but a world to be shaped. It means the factions govern themselves, for better or worse.$(br2)I have spoken with Vael, with Theron, with Caelus. They all have opinions. None of them have answers. That burden, it seems, falls to me."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Pathfinder's Burden",
+      "text": "Aren told me once that a Pathfinder's purpose is not to choose for others but to open doors others cannot reach. I think he was being optimistic. Sometimes opening a door means closing another forever.$(br2)I will make my choice. I will live with it. And whatever comes next — the alliances that form, the enemies I make, the shape of the world that follows — I will record it here, honestly, so that whoever reads this will understand.$(br2)Not every crossroads has a right answer. But every crossroads demands you $(thing)walk$()."
+    }
+  ]
+}

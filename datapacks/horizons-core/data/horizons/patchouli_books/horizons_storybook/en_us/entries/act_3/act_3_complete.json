@@ -1,0 +1,24 @@
+{
+  "name": "Act 3 Complete",
+  "icon": "minecraft:golden_apple",
+  "category": "horizons:act_3",
+  "advancement": "horizons:storybook/act_3/act_3_complete",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Mastery Earned",
+      "text": "Three acts into my story, and I barely recognize the person who woke on cold stone with nothing but confusion and fear. I have mastered skills I never imagined possessing. My Cobblemon team fights with a precision and trust that borders on telepathy. My understanding of Aetheria — its systems, its factions, its buried history — runs deep enough to surprise even $(thing)Sera$().$(br2)I have built things. Real, lasting things. Whether through the forge or the garden, I have left my mark on this world, and the world has left its mark on me. The calluses on my hands. The knowledge in my mind. The bonds that tie me to people and creatures I would die to protect."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Stars Call",
+      "text": "The rocket frame stands in its launch cradle, nearly complete. The $(thing)Stellaris$() systems hum with contained potential. The stars that once seemed impossibly distant now feel close enough to whisper to.$(br2)But the stars are not calling me to escape. They are calling me to understand. The Precursor network extends beyond Aetheria, beyond this world, into a web of connected civilizations and purposes that I am only beginning to grasp. Whatever answers await me — about $(thing)The Dimming$(), about $(thing)The Watcher$(), about why I was brought here — they lie above the sky, not beneath the ground."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "One Final Choice",
+      "text": "$(thing)Aren$() told me once that every Pathfinder reaches a moment where the path stops branching and starts converging. Where every choice you have made, every alliance you have built, every skill you have earned, funnels into a single point of decision.$(br2)I am approaching that point. I can feel it the way you feel a storm gathering — pressure building, the air thick with possibility and consequence.$(br2)One final choice remains. It will determine not just my fate, but the fate of $(thing)Aetheria$() and every soul within it. The factions watch. The Watcher watches. The stars themselves seem to hold their breath.$(br2)I am ready. Whatever comes next, I have earned the right to face it.$(br2)The third act ends. The final chapter begins."
+    }
+  ]
+}

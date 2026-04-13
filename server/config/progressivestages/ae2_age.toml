@@ -1,0 +1,52 @@
+# ============================================================================
+# Stage definition for AE2 Age — Applied Energistics 2 (Endgame Storage)
+# ============================================================================
+#
+# AE2 is the Tier 6 (endgame) storage system, gated behind Act 3.
+# Players must have completed Refined Storage 2 progression before
+# accessing digital autocrafting and ME network technology.
+#
+# FIX NOTE: AE2 is installed WITHOUT GuideMe to avoid the
+# DependencySorter.isCyclic StackOverflow. AE2 documentation is
+# provided via the Patchouli Horizons Guide instead.
+# ============================================================================
+
+[stage]
+id = "ae2_age"
+display_name = "AE2 Age"
+description = "Applied Energistics 2 — digital storage, autocrafting, and ME networks"
+icon = "ae2:controller"
+unlock_message = "&b&lAE2 Age Unlocked! &r&7ME networks and digital storage are now available."
+
+# Requires Act 3 started + Refined Storage 2 access
+dependency = ["diamond_age"]
+
+[locks]
+
+# Lock ALL AE2 content until stage is granted
+mods = [
+    "ae2"
+]
+
+# Whitelist: Allow Certus Quartz to drop from mining (players can stockpile)
+unlocked_items = [
+    "ae2:certus_quartz_crystal",
+    "ae2:charged_certus_quartz_crystal",
+    "ae2:certus_quartz_dust"
+]
+
+[enforcement]
+
+# Allow picking up certus quartz from the ground
+allowed_pickup = [
+    "ae2:certus_quartz_crystal",
+    "ae2:charged_certus_quartz_crystal",
+    "ae2:certus_quartz_dust"
+]
+
+# Allow keeping certus quartz in inventory for stockpiling
+allowed_inventory = [
+    "ae2:certus_quartz_crystal",
+    "ae2:charged_certus_quartz_crystal",
+    "ae2:certus_quartz_dust"
+]

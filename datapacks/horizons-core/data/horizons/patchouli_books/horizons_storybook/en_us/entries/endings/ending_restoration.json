@@ -1,0 +1,24 @@
+{
+  "name": "Restoration",
+  "icon": "minecraft:beacon",
+  "category": "horizons:endings",
+  "advancement": "horizons:storybook/endings/ending_restoration",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Amber Door",
+      "text": "I chose $(thing)Restoration$(). The amber light swallowed me whole, warm as sunlight through honey, and when I could see again, the world had changed. The ruins were rebuilding themselves. Stone flowed like water, rising from rubble into towers and archways and bridges that the $(thing)Precursors$() had designed millennia ago.$(br2)Not replicas. Continuations. As if the civilization had merely paused, and my choice pressed the button that said $(italic)resume$().$(br2)The network hummed at full power for the first time since the $(thing)Dimming$(). Every node, every spire, every buried conduit blazed to life, and I felt the knowledge of the Precursors pour into me like water into an empty vessel."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Founder of a New Age",
+      "text": "They call me $(thing)Founder$() now. Not a title I chose, but one that was given — by the factions, by the network, by the Precursor systems themselves. The last of the old world recognized me as the first of the new.$(br2)I rebuilt the gates. Reconnected the worlds. The $(thing)Moon$(), $(thing)Mars$(), $(thing)Europa$(), $(thing)Titan$() — all linked again, all humming with life and purpose. Trade routes opened. Knowledge flowed. The isolation that had defined Aetheria since the Dimming was over.$(br2)My Cobblemon walked beside me through every restored hall, its eyes reflecting the amber light. I think it was proud of me. I hope so."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Network Hums Again",
+      "text": "The Precursor civilization is not what it was. It cannot be — too much time has passed, too much has been lost. But it is something new. Something shaped by the people who survived the Dimming and the Pathfinder who chose to rebuild rather than abandon.$(br2)The $(thing)Watchers$() observe the new age with what I can only describe as satisfaction. Their vast eyes are calmer now, their rotations slower. The question has been answered: $(thing)Aetheria is for beginning again$().$(br2)I sit in the Founder's seat tonight, the network humming beneath me, the stars connected above me, my Cobblemon curled at my feet. This is not an ending. It is exactly what the name promises. A $(thing)restoration$(). A fresh start, built on ancient foundations."
+    }
+  ]
+}

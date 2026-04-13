@@ -2,13 +2,15 @@
 """
 Project Horizons - Master Content Generator
 
-Reads JSON definition files and generates all quest, trainer, and NPC content
-for the Project Horizons Minecraft modpack.
+Reads JSON definition files and generates all quest, trainer, NPC, and
+storybook content for the Project Horizons Minecraft modpack.
 
 Outputs:
   - FTB Quests SNBT  -> server/config/ftbquests/quests/
   - RCT trainers     -> server/kubejs/data/rctmod/
   - Custom NPC scripts -> server/customnpcs/scripts/ecmascript/
+  - Patchouli storybook -> datapacks/horizons-core/data/horizons/patchouli_books/horizons_storybook/
+  - Storybook advancements -> datapacks/horizons-core/data/horizons/advancements/storybook/
 
 Requires Python 3.10+.  No third-party packages.
 
@@ -17,6 +19,7 @@ Usage:
     python generate_content.py --quests       # FTB Quests only
     python generate_content.py --trainers     # RCT trainers only
     python generate_content.py --npcs         # Custom NPCs only
+    python generate_content.py --storybook    # Living Storybook only
     python generate_content.py --validate     # Validate definitions only
     python generate_content.py --dry-run      # Show what would be generated
 """
@@ -38,9 +41,12 @@ TOOLS_DIR = PROJECT_ROOT / "tools"
 QUEST_DEFS = TOOLS_DIR / "quest_definitions.json"
 TRAINER_DEFS = TOOLS_DIR / "trainer_definitions.json"
 NPC_DEFS = TOOLS_DIR / "npc_definitions.json"
+STORYBOOK_DEFS = TOOLS_DIR / "storybook_definitions.json"
 QUEST_OUTPUT = PROJECT_ROOT / "server" / "config" / "ftbquests" / "quests"
 TRAINER_OUTPUT = PROJECT_ROOT / "server" / "kubejs" / "data" / "rctmod"
 NPC_OUTPUT = PROJECT_ROOT / "server" / "customnpcs" / "scripts" / "ecmascript"
+STORYBOOK_OUTPUT = PROJECT_ROOT / "datapacks" / "horizons-core" / "data" / "horizons" / "patchouli_books" / "horizons_storybook"
+ADVANCEMENT_OUTPUT = PROJECT_ROOT / "datapacks" / "horizons-core" / "data" / "horizons" / "advancements" / "storybook"
 
 # ---------------------------------------------------------------------------
 # SNBT Serializer
@@ -529,6 +535,101 @@ def generate_npcs(defs: dict, dry_run: bool = False) -> dict:
     return stats
 
 # ---------------------------------------------------------------------------
+# Storybook Generation (Patchouli Living Storybook)
+# ---------------------------------------------------------------------------
+
+IMPOSSIBLE_ADVANCEMENT = {
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
+
+def generate_storybook(defs: dict, dry_run: bool = False) -> dict:
+    """Generate Patchouli storybook entries and advancement JSONs from definitions."""
+    stats = {"categories": 0, "entries": 0, "advancements": 0, "files": 0}
+    book = defs.get("book", {})
+
+    # book.json
+    book_json = {
+        "name": book.get("name", "Living Storybook"),
+        "landing_text": book.get("landing_text", "Your journey awaits..."),
+        "book_texture": book.get("texture", "patchouli:textures/gui/book_brown.png"),
+        "model": book.get("model", "patchouli:book_brown"),
+        "show_progress": book.get("show_progress", True),
+        "i18n": False,
+        "version": str(book.get("version", "1")),
+        "subtitle": book.get("subtitle", "Your Journey Through Aetheria"),
+    }
+    bp = STORYBOOK_OUTPUT / "book.json"
+    if dry_run:
+        print(f"    {bp}")
+    else:
+        _write_json(bp, book_json)
+        stats["files"] += 1
+
+    # Categories
+    for cat in defs.get("categories", []):
+        cat_json: dict = {
+            "name": cat["name"],
+            "description": cat.get("description", ""),
+            "icon": cat.get("icon", "minecraft:book"),
+            "sortnum": cat.get("sortnum", 0),
+        }
+        if cat.get("advancement"):
+            cat_json["advancement"] = cat["advancement"]
+
+        cp = STORYBOOK_OUTPUT / "en_us" / "categories" / f"{cat['key']}.json"
+        if dry_run:
+            print(f"    {cp}")
+        else:
+            _write_json(cp, cat_json)
+            stats["files"] += 1
+        stats["categories"] += 1
+
+    # Entries + Advancements
+    for entry in defs.get("entries", []):
+        cat_key = entry["category_key"]
+        entry_key = entry["key"]
+        adv_path = entry.get("advancement_path", f"{cat_key}/{entry_key}")
+
+        # Patchouli entry
+        entry_json: dict = {
+            "name": entry["name"],
+            "icon": entry.get("icon", "minecraft:book"),
+            "category": f"horizons:{entry.get('category_ref', cat_key)}",
+            "advancement": f"horizons:storybook/{adv_path}",
+            "sortnum": entry.get("sortnum", 0),
+            "pages": [],
+        }
+        for page in entry.get("pages", []):
+            entry_json["pages"].append({
+                "type": "patchouli:text",
+                "title": page.get("title", ""),
+                "text": page.get("text", ""),
+            })
+
+        ep = STORYBOOK_OUTPUT / "en_us" / "entries" / cat_key / f"{entry_key}.json"
+        if dry_run:
+            print(f"    {ep}")
+        else:
+            _write_json(ep, entry_json)
+            stats["files"] += 1
+        stats["entries"] += 1
+
+        # Advancement (impossible trigger)
+        ap = ADVANCEMENT_OUTPUT / f"{adv_path}.json"
+        if dry_run:
+            print(f"    {ap}")
+        else:
+            _write_json(ap, IMPOSSIBLE_ADVANCEMENT)
+            stats["files"] += 1
+        stats["advancements"] += 1
+
+    return stats
+
+# ---------------------------------------------------------------------------
 # File I/O helpers
 # ---------------------------------------------------------------------------
 
@@ -573,18 +674,20 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     g.add_argument("--quests", action="store_true", help="Generate FTB Quests SNBT only")
     g.add_argument("--trainers", action="store_true", help="Generate RCT trainer JSON only")
     g.add_argument("--npcs", action="store_true", help="Generate Custom NPC scripts only")
+    g.add_argument("--storybook", action="store_true", help="Generate Living Storybook only")
     g.add_argument("--validate", action="store_true", help="Validate definitions only")
     p.add_argument("--dry-run", action="store_true", help="Show what would be generated")
     return p.parse_args(argv)
 
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
-    if not any([args.all, args.quests, args.trainers, args.npcs, args.validate]):
+    if not any([args.all, args.quests, args.trainers, args.npcs, args.storybook, args.validate]):
         args.all = True
 
     do_q = args.all or args.quests
     do_t = args.all or args.trainers
     do_n = args.all or args.npcs
+    do_s = args.all or args.storybook
     do_v = args.validate
 
     start = time.monotonic()
@@ -598,7 +701,7 @@ def main(argv: list[str] | None = None) -> None:
     else:
         print()
 
-    quest_defs = trainer_defs = npc_defs = None
+    quest_defs = trainer_defs = npc_defs = storybook_defs = None
     if do_q or do_v:
         print("[1] Loading quest definitions ...")
         quest_defs = _load_json(QUEST_DEFS, "quest_definitions.json")
@@ -608,6 +711,9 @@ def main(argv: list[str] | None = None) -> None:
     if do_n:
         print("[3] Loading NPC definitions ...")
         npc_defs = _load_json(NPC_DEFS, "npc_definitions.json")
+    if do_s:
+        print("[4] Loading storybook definitions ...")
+        storybook_defs = _load_json(STORYBOOK_DEFS, "storybook_definitions.json")
 
     # Validation
     if quest_defs and (do_v or do_q):
@@ -649,6 +755,12 @@ def main(argv: list[str] | None = None) -> None:
             print("  [DRY RUN] Would write NPC files:")
         for k, v in generate_npcs(npc_defs, dry_run=args.dry_run).items():
             total[f"npc_{k}"] = v
+    if do_s and storybook_defs:
+        print("\n--- Generating Living Storybook ---")
+        if args.dry_run:
+            print("  [DRY RUN] Would write storybook files:")
+        for k, v in generate_storybook(storybook_defs, dry_run=args.dry_run).items():
+            total[f"storybook_{k}"] = v
 
     # Summary
     elapsed = time.monotonic() - start
@@ -670,13 +782,18 @@ def main(argv: list[str] | None = None) -> None:
         print(f"  NPCs:          {total.get('npc_npcs', 0)}")
         print(f"  Dialogues:     {total.get('npc_dialogues', 0)}")
         print(f"  NPC files:     {total.get('npc_files', 0)}")
+    if do_s and storybook_defs:
+        print(f"  Categories:    {total.get('storybook_categories', 0)}")
+        print(f"  Entries:       {total.get('storybook_entries', 0)}")
+        print(f"  Advancements:  {total.get('storybook_advancements', 0)}")
+        print(f"  Story files:   {total.get('storybook_files', 0)}")
     tf = sum(v for k, v in total.items() if k.endswith("_files"))
     print(f"\n  Total files:   {tf}")
     print(f"  Elapsed:       {elapsed:.2f}s\n")
-    if not any([quest_defs and do_q, trainer_defs and do_t, npc_defs and do_n]):
+    if not any([quest_defs and do_q, trainer_defs and do_t, npc_defs and do_n, storybook_defs and do_s]):
         print("  Nothing generated. Definition files may be missing.")
         print(f"  Expected locations:")
-        for p in (QUEST_DEFS, TRAINER_DEFS, NPC_DEFS):
+        for p in (QUEST_DEFS, TRAINER_DEFS, NPC_DEFS, STORYBOOK_DEFS):
             print(f"    {p}")
     else:
         print("  Done.")

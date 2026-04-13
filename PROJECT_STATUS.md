@@ -17,23 +17,25 @@ Project Horizons is a Minecraft NeoForge 1.21.1 modpack combining anime-adventur
 
 | Category | Count |
 |----------|------:|
-| Mods installed | 169 |
+| Mods installed | 172 |
 | Server boot time | ~28 seconds |
-| KubeJS scripts | 61 (23,442 lines, zero stubs) |
-| FTB Quests | 431 quests across 37 chapters |
+| KubeJS scripts | 62 (24,000+ lines, zero stubs) |
+| FTB Quests | 438 quests across 38 chapters |
 | Cobblemon spawn files | 277 (Gen 1-4 mapped to Terralith biomes) |
 | RCT trainer configs | 55 files (13 trainers with mobs/loot/advancements/dialogues) |
 | Custom loot tables | 19 (gates, events, structures, crime) |
 | NPC dialogue scripts | 20 (stage-gated, Custom NPCs Unofficial) |
-| Patchouli guidebook | 54 files (11 categories, 42 entries, 98 pages) |
+| Patchouli guidebook | 55 files (11 categories, 43 entries, 101 pages) |
+| Living Storybook | 82 files (10 categories, 71 entries, ~210 pages) |
+| Storybook advancements | 71 (impossible trigger, granted via KubeJS) |
 | Custom items/blocks/fluids | 87 registered via startup scripts |
 | Placeholder textures | 81 PNGs (72 items + 9 blocks) |
-| Datapack JSONs | 399 total |
+| Datapack JSONs | 470+ total |
 | Nutrition tag entries | 481 across 8 food groups |
-| Stage definitions | 206 (1,248 lines of TOML) |
+| Stage definitions | 207 (1,260+ lines of TOML) |
 | Pufferfish skill trees | 4 trees, 40 nodes |
 | Python build tools | 7 scripts |
-| JSON definition files | 3 (quests, trainers, NPCs) |
+| JSON definition files | 4 (quests, trainers, NPCs, storybook) |
 | Documentation | Player Guide + Admin Guide |
 | Git commits | 5 |
 | Tracked files | 8,867 |
@@ -292,7 +294,7 @@ Create, Cobblemon (basic + advanced), Survival, Combat & Magic, MineColonies, Br
 | Game Stages → AStages + ProgressiveStages | Game Stages has no 1.21.1 version. Dual system: AStages for KubeJS API, ProgressiveStages for FTB Quests gating |
 | Item Filters → FTB Filter System | No 1.21.1 version of Item Filters |
 | CNPC-Cobblemon-Addon → TBCS | Fabric-only for 1.21.1; TBCS is NeoForge alternative |
-| AE2 + GuideMe → Deferred | Causes StackOverflow in DependencySorter.isCyclic. Gate behind Act 3+ |
+| AE2 + GuideMe + DependencySorter Fix | GuideMe is a REQUIRED dependency of AE2. Vanilla DependencySorter.isCyclic has no visited-set, causing StackOverflow on large mod graphs. Custom mixin mod (depsort-fix-1.0.0.jar) replaces recursive isCyclic with iterative BFS + visited set. All three JARs installed and boot-tested successfully. Stage gated behind diamond_age via ae2_age.toml |
 | Cobblemon: Ride On! → Dropped | Incompatible with Cobblemon 1.7+ native riding |
 | Every Compat → Dropped | Creative Tab crash with large mod sets |
 | BWG → Deferred | Circular loot table deps with Railways. Terralith-only for now |
@@ -355,6 +357,7 @@ Create, Cobblemon (basic + advanced), Survival, Combat & Magic, MineColonies, Br
 /horizons reward status                    — All progression stats
 /horizons task status                      — Quest task counters
 /horizons branch status                    — Narrative branches
+/horizons storybook status                 — Unlocked page count + completion %
 /horizons crime status                     — Crime stat + tier
 /horizons bounty list|accept|claim         — Bounty hunting
 /horizons compass                          — Toggle bounty compass
@@ -399,6 +402,8 @@ Create, Cobblemon (basic + advanced), Survival, Combat & Magic, MineColonies, Br
 /horizons trial complete
 /horizons ascension force_eligible
 /horizons scaling info
+/horizons storybook sync                   — Re-grant all storybook advancements
+/horizons storybook give                   — Give storybook item
 ```
 
 ---
@@ -408,7 +413,7 @@ Create, Cobblemon (basic + advanced), Survival, Combat & Magic, MineColonies, Br
 ### DONE (code/data layer ~95%)
 
 - [x] 169 mods installed + booting cleanly
-- [x] 61 KubeJS scripts (23,442 lines, zero stubs)
+- [x] 62 KubeJS scripts (24,000+ lines, zero stubs)
 - [x] 87 custom items/blocks/fluids registered
 - [x] 431 FTB Quests across 37 chapters (SNBT generated)
 - [x] 13 RCT trainers + 55 config files
@@ -418,7 +423,7 @@ Create, Cobblemon (basic + advanced), Survival, Combat & Magic, MineColonies, Br
 - [x] 481 nutrition tag entries
 - [x] 206 stage definitions (1,248 lines TOML)
 - [x] 4 perk tree datapacks (40 nodes)
-- [x] 54 Patchouli guidebook files (11 categories, 98 pages)
+- [x] 54 Patchouli guidebook files (11 categories, 98 pages) + 1 AE2 guide entry
 - [x] 81 placeholder textures
 - [x] Content generator pipeline (7 Python scripts)
 - [x] Player Guide + Admin Guide
@@ -426,10 +431,12 @@ Create, Cobblemon (basic + advanced), Survival, Combat & Magic, MineColonies, Br
 - [x] Build tooling (CurseForge/Modrinth packaging)
 - [x] Storage tier progression (7 storage mods)
 
+- [x] Living Storybook — 82 Patchouli files (10 categories, 71 entries, ~210 pages), 71 advancements, KubeJS bridge script
+- [x] AE2 integration prepared — stage gating, cross-mod recipes, 7-quest chapter, guide entry, storybook entry
+
 ### IN PROGRESS
 
-- [ ] Living Storybook (Patchouli advancement-gated lore book)
-- [ ] AE2 integration fix (DependencySorter.isCyclic StackOverflow)
+- [x] AE2 JAR installation — AE2 19.2.17 + GuideMe 21.1.15 + depsort-fix-1.0.0.jar mixin (fixes vanilla StackOverflow). Boot test passed
 
 ### REMAINING (in-game/creative work)
 
@@ -448,9 +455,9 @@ Create, Cobblemon (basic + advanced), Survival, Combat & Magic, MineColonies, Br
 
 ### DEFERRED
 
-- [ ] AE2 + GuideMe — needs NeoForge bug fix or custom patch
+- [x] GuideMe — installed (required by AE2). StackOverflow fixed via depsort-fix mixin mod
 - [ ] BWG (Oh The Biomes We've Gone) — needs Railways compatibility patch
-- [ ] MEGA Cells — AE2 addon, blocked until AE2 works
+- [ ] MEGA Cells — AE2 addon, install after AE2 boot test passes
 - [ ] Bounty Board custom GUI mod — Phase 5 polish
 - [ ] Kingdom Dashboard GUI mod — Phase 5 polish
 

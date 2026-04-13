@@ -1,0 +1,24 @@
+{
+  "name": "Deeper Gates",
+  "icon": "minecraft:netherite_sword",
+  "category": "horizons:act_3",
+  "advancement": "horizons:storybook/act_3/deeper_gates",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Beyond Rank C",
+      "text": "The higher-ranked $(thing)Gates$() are a different world from the training grounds I entered months ago. Rank $(thing)C$() and beyond — the corridors no longer merely shift. They think. They adapt. They learn your strategies and counter them before you can adjust.$(br2)My Cobblemon team has grown formidable, hardened by dozens of lesser Gates and countless battles. But inside a Rank B Gate, even my strongest partner falters. The guardians here are not simple constructs — they are echoes of Precursor design, imbued with an intelligence that borders on sentience.$(br2)I lost badly on my first attempt. The guardian on the boss floor did not merely defeat me. It dismantled my strategy piece by piece, as though teaching me a lesson."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Terrible Secrets",
+      "text": "But the rewards match the danger. Each boss floor I clear yields fragments of knowledge that reshape my understanding of Aetheria. Precursor records, preserved in crystal, that describe the true scope of their civilization. Star charts for worlds I have never heard of. Schematics for devices whose purpose I can only guess at.$(br2)And darker things. Records of experiments that went wrong. Warnings carved in languages that predate human settlement. References to something called the $(thing)Convergence$() — an event the Precursors feared above all else.$(br2)The Gates are not merely challenges. They are archives. Vaults. And perhaps, in some terrible sense, prisons — built to contain things the Precursors could not destroy."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Rising to the Challenge",
+      "text": "I returned to the Rank B Gate today. Better prepared, better partnered, with strategies forged in failure. My Cobblemon and I moved as a single unit, anticipating each other's movements, adapting in real time to the guardian's shifting tactics.$(br2)We won. The crystal that fell from the guardian's shattered form pulsed with a light I have not seen before — warm and steady, like a heartbeat. When I touched it, I felt the Precursors. Not their knowledge, but their fear. Their hope. Their desperate, magnificent ambition.$(br2)There are higher Gates still. Rank A. Rank S. Challenges that even the strongest Pathfinders approach with caution. But I am no longer afraid of them.$(br2)I am afraid of what I will find at the bottom."
+    }
+  ]
+}

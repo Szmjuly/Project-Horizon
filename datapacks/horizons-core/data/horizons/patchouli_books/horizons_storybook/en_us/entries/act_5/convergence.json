@@ -1,0 +1,24 @@
+{
+  "name": "Convergence",
+  "icon": "minecraft:dragon_egg",
+  "category": "horizons:act_5",
+  "advancement": "horizons:storybook/act_5/convergence",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Gathering",
+      "text": "They came from every direction. The factions — unified or subjugated, depending on the path I chose — marched toward the $(thing)Nexus$() in columns that stretched for miles. Banners of six colors rippling in a wind that blew from nowhere natural.$(br2)My Cobblemon walked among them, and I saw something remarkable: the creatures of every faction leader, every soldier, every scholar, every merchant — they all moved with the same purpose. As if the bond between human and Cobblemon had become a single thread woven through every soul in Aetheria.$(br2)We were an army. Not of war, but of witness. Whatever was about to happen, we would face it together."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Watchers Manifest",
+      "text": "The $(thing)Watchers$() descended. Not one or two, as I had seen before, but dozens. Hundreds. They filled the sky like living constellations, their vast eyes turning in slow unison to fix upon the Nexus. Upon me.$(br2)I understood then what they were. Not gods. Not enemies. $(thing)Observers$(). Cosmic witnesses placed here by forces beyond even Precursor comprehension to watch what would become of this world, this experiment, this question posed in stone and starlight.$(br2)They had watched the Precursors rise and fall. They had watched the Dimming sever the gates. They had watched me stumble, fight, build, and choose. And now they watched the culmination."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Network Awakens",
+      "text": "The $(thing)Precursor network$() activated with a sound like every bell in the world ringing at once. Light surged through channels carved into the earth — channels I had walked over a thousand times without realizing what lay beneath my feet.$(br2)Every spire, every ruin, every artifact I had ever touched blazed to life. The Moon installations. The Mars vaults. Europa's crystal hearts. Titan's signal arrays. All connected. All alive. All singing in a harmony that made my teeth vibrate and my eyes water.$(br2)And at the center of it all, a door appeared. Not a physical door — a threshold. A point of absolute choice, humming with the accumulated energy of a civilization that had prepared this moment across millennia and star systems. For me. For this."
+    }
+  ]
+}

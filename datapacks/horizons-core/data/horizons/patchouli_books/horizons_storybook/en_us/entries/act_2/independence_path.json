@@ -1,0 +1,19 @@
+{
+  "name": "Forging Alliances",
+  "icon": "minecraft:iron_sword",
+  "category": "horizons:act_2",
+  "advancement": "horizons:storybook/act_2/independence_path",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Building Bridges",
+      "text": "Without the Watcher's guidance, every alliance must be built by hand. I spend my days traveling between settlements, sitting in smoky meeting halls, listening to grievances and bartering for trust.$(br2)The $(thing)Plains$() folk want security. The $(thing)Mountain$() clans want respect. The $(thing)Coastal$() traders want profit. The $(thing)Forest$() enclaves want to be left alone. The $(thing)Skyborn$() want — well, no one is entirely sure what the Skyborn want, and they are not telling.$(br2)Each faction sees me differently now that I am not aligned with the Watcher. Some view me with suspicion — what Pathfinder refuses cosmic power? Others respect it. The $(thing)Wanderers$() especially. They have always walked their own road."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Different Strength",
+      "text": "Progress is slow, but it is real. A trade agreement here. A mutual defense pact there. Small things that add up to something larger than any single faction could build alone.$(br2)$(thing)Sera$() travels with me now, and her knowledge of faction politics is invaluable. She knows which leaders can be reasoned with and which must be shown results before they will listen.$(br2)I cannot activate the Precursor sites. I cannot feel the ley lines the way Watcher-aligned Pathfinders do. But I can do something they cannot — I can sit at a table with six factions and be trusted by all of them, because I serve none of them.$(br2)Independence is harder. But the alliances I build will belong to the people of $(thing)Aetheria$(), not to an ancient design they never agreed to."
+    }
+  ]
+}

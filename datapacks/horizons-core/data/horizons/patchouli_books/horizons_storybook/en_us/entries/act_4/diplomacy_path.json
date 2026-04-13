@@ -1,0 +1,24 @@
+{
+  "name": "The Accord Holds",
+  "icon": "minecraft:emerald",
+  "category": "horizons:act_4",
+  "advancement": "horizons:storybook/act_4/diplomacy_path",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Slow and Steady",
+      "text": "Treaty by treaty. Handshake by handshake. Compromise by agonizing compromise. The work of $(thing)diplomacy$() is not glamorous. There are no battles to win, no dramatic last stands. There is only the grinding, endless work of making people who distrust each other sit in the same room.$(br2)The $(thing)Ironclad Collective$() wanted exclusive mining rights to the Precursor sites. The scholars demanded unrestricted research access. The merchants insisted on trade route priority. Everyone wanted everything, and no one wanted to give.$(br2)I spent four days mediating a dispute over water rights that nearly collapsed the entire accord. Four days. Over water."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Treaties Signed",
+      "text": "But the treaties were signed. All of them. Not because I forced anyone's hand, but because I showed each faction that cooperation yielded more than competition. Shared $(thing)Precursor$() technology. Joint expeditions. Mutual defense pacts.$(br2)The turning point came when the Collective's forge master and the Accord's herbalist discovered they could combine Precursor metallurgy with living crystal to create something neither could alone. That moment — two rivals leaning over a workbench, eyes wide with possibility — was worth every sleepless night.$(br2)My $(thing)Cobblemon$() partner sat between them the entire time, radiating calm. I think it enjoyed the peace more than I did."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Peace That Breathes",
+      "text": "The peace is not perfect. There are still arguments, still tensions that flare at council meetings, still old grudges that surface when tempers run hot. But it breathes. It lives. It grows.$(br2)The $(thing)Precursor network$() activation proceeds slowly — consensus requires patience — but when each node comes online, it does so with the support of every faction. No resentment. No subjugated peoples nursing rebellion in their hearts.$(br2)They call this the $(thing)Pathfinder Accord$(). My name is on it, but it belongs to all of them. That is the point. That was always the point. A peace that belongs to everyone is a peace that everyone will fight to keep."
+    }
+  ]
+}

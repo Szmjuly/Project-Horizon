@@ -1,0 +1,24 @@
+{
+  "name": "First Farm",
+  "icon": "minecraft:iron_hoe",
+  "category": "horizons:act_1",
+  "advancement": "horizons:storybook/act_1/first_farm",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Soil Remembers",
+      "text": "I turned my first plot of earth today, and the soil fought back. Not violently — but with a stubbornness that surprised me. The dirt here is not passive. It has $(italic)memory$().$(br2)$(thing)Sera$() explained it to me while I struggled with the hoe. Aetherian soil retains the echo of what grew in it before. Plant wheat where wheat has thrived, and it grows thick and golden. Force it into ground that remembers forest, and it will wither to spite you.$(br2)You must listen to the land, she said. You must learn what it wants to give."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Nutrition and Need",
+      "text": "The crops here are strange and varied. Some I recognize — wheat, potatoes, carrots. Others are wholly alien, with colors and textures that have no Earthly analogue. And all of them matter, because nutrition in Aetheria is not a simple thing.$(br2)You cannot survive on bread alone. The body demands variety — proteins, minerals, sugars — and different crops provide different sustenance. A diet of only grain will leave you sluggish and weak. Balance is everything.$(br2)I am learning to plan my fields the way one might plan a meal: with intention, with care, with an eye toward what the body will need tomorrow."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Growing Roots",
+      "text": "There is something grounding about farming. In a world of mysteries and dangers, of Gates and factions and cosmic forces I do not understand, the act of planting a seed and watching it grow is beautifully simple.$(br2)My first harvest was modest — a handful of vegetables, a sheaf of grain. But I grew them. In alien soil, under alien stars, with my own hands.$(br2)$(thing)Aetheria$() is not home. But perhaps, given enough time and enough seeds, I can make a small piece of it mine."
+    }
+  ]
+}

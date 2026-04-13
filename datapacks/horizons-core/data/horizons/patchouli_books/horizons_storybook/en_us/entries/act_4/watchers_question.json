@@ -1,0 +1,24 @@
+{
+  "name": "The Question",
+  "icon": "minecraft:ender_eye",
+  "category": "horizons:act_4",
+  "advancement": "horizons:storybook/act_4/watchers_question",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "A Voice in the Void",
+      "text": "It came at midnight. Not a sound — a presence. The air itself thickened, and every $(thing)Cobblemon$() within a mile radius went still. Not afraid. Reverent.$(br2)The $(thing)Watcher$() did not appear so much as become. One moment, empty sky. The next, an eye the size of a cathedral, hovering above the Precursor spire, its iris shifting through colors that have no names in any language I know.$(br2)It spoke without speaking. The words formed directly in my mind, bypassing my ears entirely, settling into my thoughts like stones sinking into still water. One question. Just one."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What Is Aetheria For?",
+      "text": "$(thing)What is Aetheria for?$()$(br2)Four words. Four simple words that cracked open every certainty I had built since arriving in this world. What is it for? Is it a home? A waystation? A prison? A garden? A forge?$(br2)The $(thing)Precursors$() had an answer once. They built the network, shaped the biomes, seeded the world with creatures that bond with human souls. They had a purpose. And then they vanished, leaving only ruins and a question that echoes through every empty hall.$(br2)The Watcher waited. It did not rush me. It simply watched, as its kind always has, patient as geology, ancient as starlight."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Answer That Shapes Everything",
+      "text": "I do not think there is a wrong answer. But I think the answer matters more than anything I have ever said. More than treaties or battle cries or whispered promises to my Cobblemon in the dark.$(br2)What is Aetheria for? The answer I give will shape what comes next. Will shape the $(thing)convergence$() that even now gathers on the horizon like a storm that has been building since before I was born.$(br2)The Watcher blinked — a slow, deliberate closing and opening of that vast eye — and I felt something I had not felt since the day I arrived. $(thing)Choice$(). Pure, undiluted, world-shaping choice. The kind that does not come with a guide or a safety net. Only consequence."
+    }
+  ]
+}

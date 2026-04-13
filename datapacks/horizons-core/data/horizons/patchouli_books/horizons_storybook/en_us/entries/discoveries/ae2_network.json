@@ -1,0 +1,24 @@
+{
+  "name": "The Digital Network",
+  "icon": "ae2:controller",
+  "category": "horizons:discoveries",
+  "advancement": "horizons:storybook/discoveries/ae2_network",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Digital Storage",
+      "text": "I have crossed a threshold today. The $(thing)ME Controller$() hums with a frequency I can feel in my teeth — not the mechanical clatter of gears or the whisper of redstone, but something cleaner. Something digital.$(br2)All my resources — every ingot, every gem, every scrap of material I have gathered across Aetheria — now exist as patterns of light inside crystalline drives. I can summon any item with a thought and a terminal."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Autocrafting",
+      "text": "The $(thing)Molecular Assemblers$() are the real revelation. I define a recipe once, and the network builds it on demand — pulling components from storage, routing them through assemblers, delivering the finished product to my hands.$(br2)This is what the Precursors must have had. Not magic, not brute force, but systems that think ahead. I wonder if they started here too — with a single controller and a handful of drives — before building whatever it was that the $(thing)Watchers$() now guard."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A New Foundation",
+      "text": "The $(thing)AE2 network$() changes everything. Production that took hours now takes seconds. Supply chains that required constant attention now run themselves.$(br2)$(italic)I understand now why this technology was gated behind so much progression. In the wrong hands, at the wrong time, it would have made everything else feel pointless. But here, at the end of a long road, it feels earned.$()$(br2)The network grows. And so does the question: what do I build with all this power?"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "The Independence Path",
+  "icon": "minecraft:shield",
+  "category": "horizons:act_2",
+  "advancement": "horizons:storybook/act_2/branch_independence",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Rejecting the Design",
+      "text": "I told $(thing)The Watcher$() no.$(br2)The silence that followed was vast. Not angry — confused, perhaps. As though the concept of refusal was something it had not considered in a very long time. The presence withdrew slowly, like a tide pulling back from shore, leaving me standing alone on the ridge with nothing but my own heartbeat for company.$(br2)I will not be an instrument. The Precursors built their grand design and it failed. $(thing)The Dimming$() happened on their watch, with their technology, through their systems. Whatever comes next must be built by the people who live here now — not by the echo of a dead civilization."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Charting a New Course",
+      "text": "$(thing)Sera$() was the first to support me, though her relief was tempered by worry. Independence is harder, she said. You cannot lean on ancient blueprints. Every step must be earned.$(br2)She is right. Without the Watcher's guidance, the path forward is uncertain. The factions will not unite for a cosmic purpose — they will need reasons that are immediate, practical, human. Trade agreements. Shared defenses. Common enemies.$(br2)$(thing)Aren$() warned me that some doors close when you refuse the Watcher's hand. Certain Precursor sites will not respond to me. Certain knowledge will remain sealed.$(br2)I accept the cost. The future of $(thing)Aetheria$() should belong to its people, not to entities that watch from the sky."
+    }
+  ]
+}

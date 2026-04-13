@@ -1,0 +1,24 @@
+{
+  "name": "The Forge Deepens",
+  "icon": "create:brass_hand",
+  "category": "horizons:act_3",
+  "advancement": "horizons:storybook/act_3/tech_path",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Building the Future",
+      "text": "My first factory is a crude thing — a tangle of gears, belts, and piping that groans and clatters and occasionally spits sparks at passersby. But it works. Raw ore enters one end and processed ingots emerge from the other, shaped and refined without a single hammer stroke.$(br2)The $(thing)Create$() mechanisms are elegant in their brutality. Rotational force, channeled through brass fittings and iron shafts, can crush stone, weave fabric, press metal, and pump water. Chain enough of them together and you have an assembly line. Chain enough assembly lines together and you have an industrial revolution.$(br2)The $(thing)Mountain$() clans watch my progress with naked avarice. The $(thing)Coastal$() traders see profit. Everyone sees power."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Precursor Engineering",
+      "text": "Deeper study has revealed what the Precursors truly understood: that technology and the energy of Aetheria are not separate systems. The Gates, the ley lines, the strange power that fuels Cobblemon — all of it flows from the same source. The machines simply give it direction.$(br2)I have begun integrating $(thing)Immersive Engineering$() principles with Precursor designs. Electrical systems that draw from natural energy. Automated farms that process their own harvest. Transport networks of conveyor belts and rail lines that could connect settlements across vast distances.$(br2)Each breakthrough reveals how much more there is to learn. The Precursors spent generations building their civilization. I am trying to understand it in months. But with every machine I construct, the gap between what was and what could be grows a little smaller."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Responsibility",
+      "text": "$(thing)Sera$() asked me today if I ever worry about becoming like the Precursors. Building and building until the building itself becomes the purpose, until the machines serve only their own expansion.$(br2)I told her yes. Every day.$(br2)The power of creation is intoxicating. When a new mechanism clicks into place and the factory hums with coordinated purpose, I understand why the Precursors reached for the stars. The temptation to build bigger, faster, more is constant.$(br2)But I have seen what happens when that temptation goes unchecked. The ruins are everywhere. The silence of the Precursors is its own warning.$(br2)I build carefully. I build with purpose. And I remember, always, that the machines serve the people — never the other way around."
+    }
+  ]
+}

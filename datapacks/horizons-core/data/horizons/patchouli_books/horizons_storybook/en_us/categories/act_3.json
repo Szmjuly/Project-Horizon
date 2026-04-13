@@ -1,0 +1,7 @@
+{
+  "name": "Act 3: The Wider World",
+  "description": "Beyond the familiar valleys lie kingdoms in tension, dungeons that plunge deeper than any cave, and technology that predates memory. You must choose what kind of power to wield.",
+  "icon": "minecraft:spyglass",
+  "sortnum": 2,
+  "advancement": "horizons:storybook/act_3/act_3_started"
+}

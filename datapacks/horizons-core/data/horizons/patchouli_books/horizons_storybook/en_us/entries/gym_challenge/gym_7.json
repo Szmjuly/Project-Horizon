@@ -1,0 +1,24 @@
+{
+  "name": "Obscura, the Twilight",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:gym_challenge",
+  "advancement": "horizons:storybook/gyms/gym_7",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Between Light and Shadow",
+      "text": "$(thing)Obscura's$() arena is a place that should not exist. The $(thing)Twilight Sanctum$() shifts — literally shifts — between blazing light and absolute darkness on a cycle I could not predict. One moment, every detail was searing and sharp. The next, I could not see my own hands.$(br2)Obscura sat cross-legged in the center, eyes closed, as if the shifting meant nothing to her. Psychic and Dark types. The two forces that define the boundary between what is seen and what is hidden, what is known and what is feared.$(br2)$(italic)The hardest battles are fought in the mind$(), she said without opening her eyes. $(italic)Show me yours.$() The arena plunged into darkness."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mind Games",
+      "text": "I have fought strong opponents. Fast opponents. Opponents that hit like avalanches and moved like lightning. Obscura was none of those things. She was worse. She was inside my head.$(br2)Her Psychic types predicted my commands before I gave them. Her Dark types struck from shadows I could not see. The arena's shifting light meant I was fighting blind half the time and blinded the other half.$(br2)I felt my confidence crack. Every certainty I had built over six gyms wavered. My Cobblemon felt it — I know they did, because they hesitated. And Obscura's team pounced on that hesitation like wolves.$(br2)It was my partner who saved us. Not with a move, but with a look. Steady. Trusting. $(italic)I believe in you. Believe in me.$() I stopped thinking. I started trusting."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Eclipse Badge",
+      "text": "The light stabilized. Obscura opened her eyes — one light, one dark — and smiled. The $(thing)Eclipse Badge$() appeared in her palm as if conjured from nothing.$(br2)$(italic)You almost broke$(), she said. $(italic)But you did not. The mind is the last fortress. If it holds, everything holds. Remember that when the final trials come.$()$(br2)Seven badges. One remains. I left the Sanctum shaking, not from exhaustion but from the raw vulnerability of having my deepest doubts exposed and surviving them. My Cobblemon walked pressed against my leg the entire way back. Neither of us wanted to be alone after that."
+    }
+  ]
+}

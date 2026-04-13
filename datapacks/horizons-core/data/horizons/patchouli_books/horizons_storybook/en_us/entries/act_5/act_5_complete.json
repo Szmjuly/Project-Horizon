@@ -1,0 +1,24 @@
+{
+  "name": "The Story Ends",
+  "icon": "minecraft:dragon_head",
+  "category": "horizons:act_5",
+  "advancement": "horizons:storybook/act_5/act_5_complete",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "After the Choice",
+      "text": "The door closed behind me. The light faded. And for the first time since I arrived in $(thing)Aetheria$(), the world was quiet — not the silence of anticipation, but the silence of completion. Like the last note of a song hanging in the air before it dissolves into memory.$(br2)The $(thing)Watchers$() withdrew. Slowly, one by one, their vast forms receded into the upper atmosphere and beyond, their purpose fulfilled. They had witnessed. They had judged. And whatever they concluded, they kept to themselves."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The World Continues",
+      "text": "Aetheria did not end. That surprised me, somehow. After so much buildup, so much convergence, I half expected the world to dissolve once the choice was made. But the sun rose the next morning, the Cobblemon stirred in their nests, and the people of every faction went about their lives.$(br2)The story ended, but the world continued. The ruins still stand. The creatures still roam. The stars still burn. And somewhere, another stranger might wake on cold stone, memory shattered, staring up at a sky with two moons.$(br2)I hope they find their way as I found mine. I hope the journal I leave behind helps."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Pathfinder's Last Entry",
+      "text": "This is my final entry. Not because there is nothing left to write, but because the story that began with my awakening has reached its conclusion. What comes next is a different story — one that does not need a journal to give it shape.$(br2)To whoever reads this: Aetheria is real. The $(thing)Cobblemon$() are real. The bonds you form here will be the truest things you ever know. Do not be afraid of the choices ahead. Be afraid of never making them.$(br2)I was a stranger here once. Lost, afraid, uncertain. I became a $(thing)Pathfinder$(). And in the end, I found the path that was mine.$(br2)$(italic)The journal ends here. The last page is worn soft, as though it has been read many times.$()"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Champion Aren",
+  "icon": "cobblemon:master_ball",
+  "category": "horizons:gym_challenge",
+  "advancement": "horizons:storybook/gyms/champion",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Champion's Arena",
+      "text": "$(thing)Aren$() stood in the center of an arena that made every gym look like a playground. A vast circular platform suspended above a chasm of swirling energy — the raw power of the $(thing)Precursor network$() channeled into a stage fit for the ultimate battle.$(br2)He was younger than I imagined. Calm. His Cobblemon flanked him — six of them, each radiating a quiet, absolute confidence that comes from never having been beaten.$(br2)$(italic)I know who you are$(), he said. $(italic)Pathfinder. Faction mediator. Star traveler. You have done more than any challenger before you. But in this arena, none of that matters. Only the battle matters.$() He smiled. $(italic)Show me everything you have left.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Everything Against Everything",
+      "text": "Aren did not specialize. He mastered. Every type, every strategy, every combination I had faced across eight gyms and four Elite members — Aren wielded them all with a fluency that was terrifying. He switched styles mid-attack. He countered counters. He predicted predictions.$(br2)This was not a battle of strength or speed or tactics. It was a battle of everything I had ever learned against everything he had ever learned. And he had been learning longer.$(br2)My team fell. One by one. Each giving everything. Each earning Aren's quiet nod of respect as they went down. Until only my partner remained, facing Aren's final Cobblemon — the strongest creature I had ever seen."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Champion",
+      "text": "I cannot describe the final exchange in words. Language fails. It was a moment that existed beyond strategy, beyond training, beyond everything that can be taught. It was two souls — human and Cobblemon, bonded beyond breaking — giving everything they had in a single, blazing instant.$(br2)Aren's Cobblemon fell.$(br2)The arena went silent. Then Aren laughed — warm, genuine, full of joy — and crossed the platform to take my hand.$(br2)$(italic)$(thing)Champion$()$(), he said. $(italic)The title is yours. You have earned it in ways that go far beyond this battle.$()$(br2)I held my partner — barely conscious, trembling with exhaustion and triumph — and for a long moment, I could not speak. I had walked into Aetheria as a lost stranger. I walked out of that arena as $(thing)Champion$(). And my Cobblemon, my first and truest friend, walked with me."
+    }
+  ]
+}

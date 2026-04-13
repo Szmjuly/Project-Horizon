@@ -1,0 +1,24 @@
+{
+  "name": "The Moment of Choice",
+  "icon": "minecraft:written_book",
+  "category": "horizons:endings",
+  "advancement": "horizons:storybook/endings/ending_begun",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Five Doors, One Heart",
+      "text": "My hands are shaking as I write this. I stand in the heart of the $(thing)Nexus$(), five doorways blazing before me, each one a future I could live, a world I could shape, a self I could become.$(br2)The air tastes of ozone and possibility. My $(thing)Cobblemon$() stands so close I can feel its breath on my wrist. It knows. It always knows. And it waits, patient as it has always been, for me to decide where we go next.$(br2)There is no going back. The Nexus made that clear. Once I step through a door, it closes behind me forever. The other four futures collapse into might-have-beens."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What Brought Me Here",
+      "text": "I think about the journey. Every step, from that first confused morning on cold stone to this impossible moment. The badges earned. The factions navigated. The stars explored. The bonds forged with creatures that became more than companions — they became extensions of my own heart.$(br2)Every choice I made brought me here. The people I helped, the enemies I made, the quiet moments between crises when I sat with my Cobblemon and wondered what any of it was for.$(br2)Now I know what it was for. It was preparation. For this. For the most important decision anyone in $(thing)Aetheria$() has ever made."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Heart Pounding",
+      "text": "The $(thing)Watchers$() are silent above me. The factions are silent behind me. Even the network has gone quiet, as if the entire world is holding its breath.$(br2)I close my eyes. I think about who I was when I arrived — frightened, alone, clutching a stranger's journal for comfort. I think about who I am now — scarred, tested, bonded to creatures and causes I would die for.$(br2)I open my eyes. The five doors shimmer. My Cobblemon nudges my hand.$(br2)$(italic)Choose$(), the Nexus hums. $(italic)Choose, and become.$()$(br2)I step forward."
+    }
+  ]
+}

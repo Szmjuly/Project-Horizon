@@ -1,0 +1,7 @@
+{
+  "name": "Endings",
+  "description": "The final chapter of your story. Only the path you chose will be recorded here — a testament to the kind of Pathfinder you became.",
+  "icon": "minecraft:written_book",
+  "sortnum": 5,
+  "advancement": "horizons:storybook/endings/ending_begun"
+}

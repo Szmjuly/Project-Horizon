@@ -1,0 +1,24 @@
+{
+  "name": "Terra of the Plains",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:gym_challenge",
+  "advancement": "horizons:storybook/gyms/gym_1",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The First Gym",
+      "text": "I did not expect to be nervous. After everything — the ruins, the factions, the creatures that could level buildings — a gym battle should have felt small. It did not.$(br2)$(thing)Terra's$() gym sits in the middle of the $(thing)Plains of Verdance$(), a simple stone arena surrounded by wildflowers. No walls. No roof. Just open sky and flat earth stretching to every horizon. She stood at the far end, arms crossed, a patient smile on her weathered face.$(br2)$(italic)You look like you have been through a lot$(), she said. $(italic)Good. My Cobblemon do not respect those who have not struggled.$() Normal and Grass types. The fundamentals. The foundation everything else is built on."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Roots and Resolve",
+      "text": "Terra fights like the earth fights — slowly, patiently, and with devastating inevitability. Her Cobblemon rooted themselves, healed, endured. Every attack I landed was absorbed. Every opening I found closed before I could exploit it.$(br2)I learned more in that single battle than in a dozen skirmishes with wild Cobblemon. She was not trying to defeat me. She was trying to teach me. And the lesson was this: strength without patience is just noise.$(br2)My partner figured it out before I did. It stopped lunging, stopped forcing, and started reading the rhythm of the battle. When the opening finally came — a real one, not a trap — we took it together."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "First Badge",
+      "text": "The $(thing)Plains Badge$() is small. Unassuming. A green-and-brown emblem that fits in the palm of my hand. But when Terra pressed it into my palm, the weight of it felt enormous.$(br2)$(italic)The first badge is always the hardest$(), she said. $(italic)Not because the battle is the toughest, but because it is the first time you truly believe you can do this.$()$(br2)She was right. Standing in that field, badge in hand, my Cobblemon panting beside me, I believed. For the first time since arriving in Aetheria, I believed that maybe — just maybe — I could walk this path to the end."
+    }
+  ]
+}

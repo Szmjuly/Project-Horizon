@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.horizons.depsortfix",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DependencySorterMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

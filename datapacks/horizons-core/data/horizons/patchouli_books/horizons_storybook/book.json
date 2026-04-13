@@ -1,0 +1,10 @@
+{
+  "name": "Living Storybook",
+  "landing_text": "This journal writes itself. As you explore $(thing)Aetheria$(), face its dangers, and forge alliances, new pages will appear here — a living record of your journey.$(br2)Blank pages mean stories yet to be lived. Return often; the book remembers what you might forget.$(br2)$(italic)Your story begins with Act 1: Arrival.$()",
+  "book_texture": "patchouli:textures/gui/book_brown.png",
+  "model": "patchouli:book_brown",
+  "show_progress": true,
+  "i18n": false,
+  "version": "1",
+  "subtitle": "Your Journey Through Aetheria"
+}

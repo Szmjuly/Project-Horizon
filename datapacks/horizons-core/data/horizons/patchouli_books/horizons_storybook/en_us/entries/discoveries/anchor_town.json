@@ -1,0 +1,24 @@
+{
+  "name": "Anchor Town",
+  "icon": "minecraft:anchor",
+  "category": "horizons:discoveries",
+  "advancement": "horizons:storybook/discoveries/anchor_town",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Where It Begins",
+      "text": "Every Pathfinder's story starts in $(thing)Anchor Town$(). Mine was no different. I stumbled through the gate — disoriented, half-starved, with nothing but the clothes on my back and a head full of questions — and found myself in a settlement that felt like it had been waiting for me.$(br2)$(thing)Sera$() was the first face I saw. She runs the Pathfinder intake with a calm efficiency that borders on maternal, handing out supplies and directions with equal measure. She told me where to sleep, where to eat, and where to find the Guild Hall. She did not ask where I came from. I think she already knew the answer would not make sense."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Guild Hall",
+      "text": "The $(thing)Guild Hall$() sits at the center of Anchor Town like a heart. It is where $(thing)Aren$() holds court — though he would never call it that. He is the closest thing the Pathfinders have to a leader, a weathered man with kind eyes and a voice that carries without rising.$(br2)Aren explained what I was: a Pathfinder, pulled through the remnants of a gate that should not still be functioning. One of many, he said, though the arrivals have been slowing. He gave me my compass, my journal, and my first assignment. He also gave me advice that I carry with me still: $(italic)trust your instincts, but verify them with your eyes$().$(br2)$(thing)Petra$() runs the notice board beside the Hall. She collects news from across Aetheria — rumors, sightings, faction movements — and pins it up for anyone who cares to read. She is the best-informed person in Anchor Town and she knows it."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Starting Line",
+      "text": "Anchor Town is not much to look at. A cluster of buildings around a well-worn square, a market that sells more necessities than luxuries, walls that have been patched more often than painted. But there is a warmth to the place that has nothing to do with the climate.$(br2)It is where strangers become neighbors. Where Pathfinders who arrived with nothing learn to survive, then thrive, then venture out into a world that does not care whether they are ready. Every road in Aetheria leads back to Anchor Town eventually, and every Pathfinder who returns does so with stories that make the next generation braver.$(br2)I have traveled far since those first bewildered days. But when someone asks where I am from, I do not say Earth. I say $(thing)Anchor Town$(). Because that is where my real life began."
+    }
+  ]
+}

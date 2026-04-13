@@ -1,0 +1,19 @@
+{
+  "name": "The Artificer Path",
+  "icon": "minecraft:redstone",
+  "category": "horizons:act_3",
+  "advancement": "horizons:storybook/act_3/branch_tech",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Machines Awaken",
+      "text": "I chose the path of the $(thing)Artificer$(). The Precursor technology that once seemed alien and inscrutable now calls to me with a voice I cannot ignore — gears and circuits and mechanisms that hum with a logic I am only beginning to comprehend.$(br2)It started in a ruin east of the mountains. A workshop, still intact after centuries, its tools laid out as though the builder had merely stepped away for lunch. When I touched the central console, something activated. Lights flickered. Gears turned. A machine coughed to life with a sound like a giant clearing its throat.$(br2)I understood, in that moment, what the Precursors felt when they first bent the world to their will. The thrill of it. The danger."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Call of Engineering",
+      "text": "$(thing)Aren$() connected me with the few who still practice the old engineering — tinkerers and smiths who have preserved fragments of Precursor knowledge through generations of oral tradition and careful experimentation.$(br2)They speak of $(thing)Create$() mechanisms — rotational force harnessed through brass and iron. Of $(thing)Immersive$() industrial processes that transform raw materials into marvels. Of power systems that draw from the same energy that fuels the Gates.$(br2)The potential is staggering. Factories that could supply every faction. Machines that could reshape the landscape. Transportation networks that could reunite a fractured world.$(br2)But every tool is also a weapon. And the Precursors learned that lesson in the hardest way possible."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Beyond the Sky",
+  "icon": "minecraft:nether_star",
+  "category": "horizons:act_4",
+  "advancement": "horizons:storybook/act_4/act_4_started",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Launch Day",
+      "text": "The ground shook. Not from an earthquake or a creature stirring beneath the crust, but from something we built. Something that defied every limitation I thought this world imposed on us.$(br2)The $(thing)Stellaris rocket$() punched through Aetheria's atmosphere like a needle through silk, trailing fire and hope in equal measure. I watched from the command platform, my hands gripping the railing so hard my knuckles went white. We did it. We actually did it.$(br2)The $(thing)Moon$() was first. Cold, barren, but covered in $(thing)Precursor$() structures that made the ruins on Aetheria look like children's toys. Vast docking arrays. Silent terminals. Whatever came before us, they were spacefaring."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Red Dust and Frozen Seas",
+      "text": "$(thing)Mars$() was next — rust-colored plains stretching to every horizon, and beneath the dust, sealed vaults containing technology I cannot begin to understand. Data cores that hum when you touch them, as if they have been waiting for hands to hold them again.$(br2)Then $(thing)Europa$(). Beneath the ice, an ocean that glows faintly blue with bioluminescent life. The $(thing)Precursor$() artifacts there were different — organic, almost alive. Tendrils of crystal that pulse in rhythm, like a heartbeat.$(br2)Each world held a piece of a puzzle I did not know I was assembling. The Precursors did not just live on Aetheria. They built across the stars. And whatever ended them, it ended everywhere at once."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Weight of Discovery",
+      "text": "I brought the artifacts back. Every faction wants them. The $(thing)Ironclad Collective$() sees weapons. The scholars see knowledge. The traders see profit. And I see the thing that frightens me most — responsibility.$(br2)These relics are not trinkets. They are keys. Keys to a network that spans worlds, that could reconnect everything the $(thing)Dimming$() severed. Or destroy what little we have rebuilt.$(br2)The stars revealed their secrets to me. Now every faction on Aetheria waits to see what I will do with them. The easy part — reaching space — is over. The hard part is what comes next."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "First Gym Battle",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:act_2",
+  "advancement": "horizons:storybook/act_2/first_gym",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Arena",
+      "text": "The gym stood at the edge of the $(thing)Plains$() settlement — a circular arena of packed earth and standing stones, open to the sky. Banners snapped in the wind. Spectators lined the raised embankments, their faces expectant.$(br2)I had heard of the $(thing)Gym Challenge$() from traders and travelers. Organized $(thing)Cobblemon$() competition, sanctioned by the factions, each gym led by a specialist who had mastered a particular style. To earn their badge was to earn respect — not just as a trainer, but as someone who understood the bond between human and Cobblemon.$(br2)My hands were shaking. My partner sensed it and pressed against my leg, steady and sure."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Terra of the Plains",
+      "text": "$(thing)Terra$() entered the arena without ceremony — a weathered woman with calloused hands and eyes like the horizon. She nodded to me once, the way a craftsman acknowledges a peer, and released her first Cobblemon without a word.$(br2)The battle was unlike anything I had experienced in the Gates. There, fighting was survival. Here, it was art. Terra's Cobblemon moved with precision honed by years of training. Every attack flowed into the next. Every defense anticipated my strategy before I had finished forming it.$(br2)We lost the first round. And the second. But in the third, something clicked — my partner and I found a rhythm, a shared understanding that went beyond commands. We fought as one."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Badge",
+      "text": "I won. Barely, breathlessly, with my Cobblemon panting and battered but triumphant. The crowd erupted, and for a moment I forgot everything — the factions, the Watcher, the weight of choices yet to come.$(br2)$(thing)Terra$() crossed the arena and pressed the badge into my hand. It was warm from the sun, small and heavy.$(br2)$(italic)You fight like someone who has something to protect$(), she said. $(italic)Hold onto that.$(br2)I will. Whatever else this world demands of me, I will hold onto the bond that carried me through this day. There are more gyms ahead, more leaders to challenge. But this first victory — earned, not given — means more than I can properly express."
+    }
+  ]
+}

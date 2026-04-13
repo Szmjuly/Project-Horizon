@@ -1,0 +1,24 @@
+{
+  "name": "Mountain Forge",
+  "icon": "minecraft:anvil",
+  "category": "horizons:discoveries",
+  "advancement": "horizons:storybook/discoveries/mountain_forge",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Smoke and Steel",
+      "text": "You hear $(thing)Mountain Forge$() before you see it. The ring of hammers on anvils echoes down the mountain passes like a heartbeat, steady and relentless, day and night. The air shimmers with heat, and the smell of hot metal is so thick you can taste it on your tongue.$(br2)The settlement clings to the mountainside like something that grew there — terraced workshops, stone walkways, ventilation shafts cut into the rock that exhale plumes of white steam. Everything here is built to last. The Mountain faction does not do temporary.$(br2)I arrived covered in trail dust and was immediately out of place among people whose clothes were streaked with soot and whose hands were calloused from a lifetime of metalwork."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Smiths",
+      "text": "$(thing)Khael$() is the master smith, and watching him work is like watching a force of nature. He stands at his anvil for hours, his hammer rising and falling with a precision that makes every strike look effortless. He speaks rarely and only about things that matter — the carbon content of a blade, the proper quench temperature for Aetherian iron, the angle at which a tool should be ground.$(br2)$(thing)Veridia$() is his counterpart — an enchantress who works in the quieter forges, weaving magic into metal with a concentration so intense the air around her workbench crackles. She can take an ordinary sword and make it sing, an ordinary shield and make it hold against forces that would shatter stone.$(br2)Together, they produce gear that is sought after across all of Aetheria. A blade marked with Mountain Forge's seal is a guarantee."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Mountain's Heart",
+      "text": "What strikes me most about Mountain Forge is the pride. Not arrogance — $(italic)pride$(). Every smith here, from the newest apprentice to Khael himself, takes a fierce satisfaction in their work. A crooked nail is a personal failure. A well-tempered blade is a small triumph. Quality is not a goal here — it is a religion.$(br2)The mountain itself provides. Deep mines yield ores that do not exist anywhere else in Aetheria — alloys that hold enchantments better, metals that resist corrosion, crystals that amplify magical properties. The faction guards these resources jealously, and I cannot blame them.$(br2)I left Mountain Forge with a new respect for the craft of making things. In a world where survival depends on the quality of your tools, the people who forge those tools are not just artisans. They are the foundation everything else is built on."
+    }
+  ]
+}

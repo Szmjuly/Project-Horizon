@@ -1,0 +1,24 @@
+{
+  "name": "The Final Reckoning",
+  "icon": "minecraft:end_crystal",
+  "category": "horizons:act_5",
+  "advancement": "horizons:storybook/act_5/act_5_started",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "All Roads Lead Here",
+      "text": "I always thought the end would announce itself with thunder. Instead it arrived as silence — a hush that fell across Aetheria like a held breath. The birds stopped singing. The wind stopped blowing. Even my $(thing)Cobblemon$() went still, every muscle taut, every sense straining toward something I could not yet see.$(br2)Then the sky cracked.$(br2)Not shattered — cracked, like a window struck by a single precise stone. A line of light split the heavens from horizon to horizon, and through it poured a sound that was not a sound. A frequency. A summons. The $(thing)Precursor network$() was waking up. All of it. At once."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Every Path Converges",
+      "text": "Every choice I have made since waking on that cold stone has led to this moment. Every alliance forged or broken. Every gym badge earned in sweat and determination. Every rocket launched into the void. Every artifact retrieved from dead worlds.$(br2)The paths I walked — through battlefields and council chambers, through forests and across frozen moons — they were never separate roads. They were tributaries of a single river, and that river has reached its delta.$(br2)I can feel them all — the factions, the $(thing)Watchers$(), the $(thing)Precursor$() echoes, the Cobblemon — drawn toward the same point. The $(thing)Nexus$(). The heart of the network. The place where everything began and everything will end."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "No Turning Back",
+      "text": "I packed light. My journal. A few supplies. My original partner at my side, the same creature that found me stumbling through alien grass what feels like a lifetime ago. It pressed its head against my hand, and I felt its heartbeat — steady, certain, unafraid.$(br2)One of us is lying about not being scared.$(br2)The $(thing)Nexus$() pulses on the horizon, a column of light visible from every corner of Aetheria. There is no pretending this is not happening. No more preparation. No more delays. The final act begins, and I walk toward it with the strange, calm certainty of someone who has already decided that whatever happens, they will face it standing."
+    }
+  ]
+}

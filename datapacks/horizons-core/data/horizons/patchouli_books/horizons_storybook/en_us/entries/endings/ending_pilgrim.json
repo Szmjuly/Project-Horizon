@@ -1,0 +1,24 @@
+{
+  "name": "Pilgrim",
+  "icon": "minecraft:elytra",
+  "category": "horizons:endings",
+  "advancement": "horizons:storybook/endings/ending_pilgrim",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Indigo Door",
+      "text": "I chose $(thing)Pilgrim$(). The indigo light did not swallow me — it invited me. Gently, like an outstretched hand, it drew me forward into a darkness filled with stars I had never charted and worlds I had never imagined.$(br2)Behind me, Aetheria shrank. Not with sadness — with release. The world I had fought for, bled for, built upon — I loved it. But I was never meant to stay. I knew that now with a certainty that settled into my bones like warmth.$(br2)My $(thing)Cobblemon$() stood at the threshold with me, and I saw in its eyes the same restless fire that had driven me since the day I woke on cold stone. It wanted to go. It had always wanted to go."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Beyond the Stars",
+      "text": "The $(thing)Precursor$() network opened paths I did not know existed. Not to the Moon or Mars or Europa — those were local. These paths led beyond. To systems the Precursors had only dreamed of reaching. To worlds where the rules were different, where the creatures were strange beyond imagining, where the sky held colors with no names.$(br2)I sailed. Not in a rocket, but in something the network provided — a vessel of light and intent, powered by the bond between Pathfinder and Cobblemon. My partner rode at the prow, wind in its face, joy radiating from every fiber of its being.$(br2)The unknown called louder than home ever could. And I answered."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Endless Road",
+      "text": "I do not know where I am going. That is the point. The $(thing)Pilgrim's$() path has no destination. It is the journey itself — the act of moving forward, of discovering, of refusing to settle for the known when the unknown is so vast and so beautiful.$(br2)The $(thing)Watchers$() followed me to the edge of Aetheria's influence and stopped. I felt their gaze on my back as I sailed past their boundary. Their question had been answered: $(thing)Aetheria is a starting point, not a destination$().$(br2)I write this by the light of a star I have no name for, orbiting a world I have never read about, my Cobblemon asleep on my lap. I am farther from home than anyone has ever been. And I have never been happier.$(br2)$(italic)The journal continues. Many more pages are filled with sketches of alien skies.$()"
+    }
+  ]
+}

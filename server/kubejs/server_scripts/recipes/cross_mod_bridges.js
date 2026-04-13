@@ -3,7 +3,7 @@
 // ============================================================
 // File: kubejs/server_scripts/recipes/cross_mod_bridges.js
 // Phase: 1
-// Dependencies: Create, IE, Stellaris, Lightman's Currency
+// Dependencies: Create, IE, Stellaris, Lightman's Currency, AE2
 // Docs: HORIZONS_INTEGRATIONS.md Section 1.1
 // ============================================================
 //
@@ -18,6 +18,7 @@
 //   3. Space Suit        — IE steel + Create brass + vanilla = Stellaris suits
 //   4. Power Bridge      — Create SU ↔ FE conversion via Crafts & Additions
 //   5. Advanced Materials — Cross-mod ingredient chains
+//   6. AE2 Bridges      — Create/IE materials → AE2 components
 // ============================================================
 
 ServerEvents.recipes(event => {
@@ -209,6 +210,76 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'stellaris:space_suit_chestplate' });
   event.remove({ id: 'stellaris:space_suit_leggings' });
   event.remove({ id: 'stellaris:space_suit_boots' });
+
+  // =========================================================
+  // 7. AE2 BRIDGES — Create + IE → Applied Energistics 2
+  // AE2 is the endgame storage tier. These recipes bridge
+  // Create/IE materials into AE2 crafting chains.
+  // Only active if AE2 mod is loaded.
+  // =========================================================
+
+  if (Platform.isLoaded('ae2')) {
+    console.log('[Horizons] AE2 detected — registering AE2 recipe bridges');
+
+    // Certus Quartz from Create crushing — crush quartz ore into crystals
+    event.recipes.create.crushing([
+      'ae2:certus_quartz_crystal',
+      'ae2:certus_quartz_dust'
+    ], 'ae2:quartz_block').id('horizons:ae2/crush_certus_block');
+
+    // Fluix Crystal from Create mixing — combine charged certus + nether quartz + redstone
+    event.recipes.create.mixing(
+      'ae2:fluix_crystal',
+      [
+        'ae2:charged_certus_quartz_crystal',
+        'minecraft:quartz',
+        'minecraft:redstone'
+      ]
+    ).id('horizons:ae2/mix_fluix');
+
+    // Fluix Dust from Create crushing
+    event.recipes.create.crushing([
+      'ae2:fluix_dust'
+    ], 'ae2:fluix_crystal').id('horizons:ae2/crush_fluix');
+
+    // ME Controller requires Refined Storage 2 components as progression bridge
+    // RS2 controller + fluix blocks + engineering processors = ME controller
+    event.shaped('ae2:controller', [
+      'FPF',
+      'PCP',
+      'FPF'
+    ], {
+      F: 'ae2:fluix_block',
+      P: 'ae2:engineering_processor',
+      C: 'refinedstorage:controller'
+    }).id('horizons:ae2/me_controller_bridge');
+
+    // Remove default ME controller recipe (replaced by bridge)
+    event.remove({ id: 'ae2:network/blocks/controller' });
+
+    // Sky Stone from Stellaris meteor processing
+    // Create crushing a meteor block yields sky stone
+    event.recipes.create.crushing([
+      '2x ae2:sky_stone_block',
+      Item.of('ae2:certus_quartz_crystal').withChance(0.25)
+    ], 'stellaris:meteorite').id('horizons:ae2/crush_meteor_skystone');
+
+    // IE Arc Furnace: Sky Stone → Smooth Sky Stone (smelting alternative)
+    event.smelting('ae2:smooth_sky_stone_block', 'ae2:sky_stone_block')
+      .id('horizons:ae2/smelt_skystone');
+
+    // Inscriber Silicon from Create mixing
+    event.recipes.create.mixing(
+      'ae2:silicon',
+      [
+        'minecraft:quartz',
+        'minecraft:quartz',
+        'minecraft:coal'
+      ]
+    ).heated().id('horizons:ae2/mix_silicon');
+
+    console.log('[Horizons] AE2 recipe bridges registered');
+  }
 
   console.log('[Horizons] Cross-mod recipe bridges registered');
 });

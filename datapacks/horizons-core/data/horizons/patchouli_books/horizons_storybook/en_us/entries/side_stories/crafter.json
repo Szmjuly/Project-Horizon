@@ -1,0 +1,24 @@
+{
+  "name": "The Master Crafter",
+  "icon": "minecraft:anvil",
+  "category": "horizons:side_stories",
+  "advancement": "horizons:storybook/side/crafter",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Lyra's Workshop",
+      "text": "$(thing)Lyra$() did not accept me as an apprentice. She tolerated me. There is a difference, and she made sure I understood it from the first day.$(br2)Her workshop is a cathedral of organized chaos — ingots stacked by alloy and temper, tools hung in precise rows, workbenches scarred by a thousand projects. She moves through it like a conductor through an orchestra, every gesture deliberate, every tool placed back exactly where it belongs.$(br2)My first assignment was to craft a simple iron bracket. I made it in ten minutes and presented it with something close to pride. Lyra examined it for thirty seconds, pointed out eleven flaws I could not see, and told me to start over. I started over fourteen times before she nodded."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Language of Materials",
+      "text": "Every material in Aetheria has a story, Lyra says, and a crafter's job is to listen to it. Iron from $(thing)Mountain Forge$() rings differently than iron pulled from plains deposits. Wood from the $(thing)Forest Coalition$() bends in ways that defy what I know of grain and fiber.$(br2)She taught me to feel the grain of a metal under my fingertips, to hear when an alloy is ready for quenching by the pitch of its ring on the anvil. She taught me that crafting is not about imposing your will on raw materials — it is about understanding what the material wants to become and guiding it there.$(br2)I ruined a lot of good steel learning that lesson. Lyra never flinched. She just pointed at the scrap bin and told me to smelt it down and try again."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Every Creation Has a Purpose",
+      "text": "The day Lyra called me $(thing)Master Crafter$() was the day I finished a project she had not assigned. A set of tools for the Willowmere farmers — lightweight, balanced, designed for Aetherian soil. I had studied the cultivators, watched how they worked, and built something that fit their hands and their needs.$(br2)Lyra examined each piece in silence. Then she looked at me and said the thing I will carry with me forever: a true crafter does not build for the sake of building. Every creation must have a $(italic)purpose$(), must serve a $(italic)need$(), must make someone's life a little less difficult.$(br2)I understand now. The anvil is not a place of brute force. It is a place of empathy, disguised as iron and fire."
+    }
+  ]
+}

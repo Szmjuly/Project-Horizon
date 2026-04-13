@@ -1,0 +1,24 @@
+{
+  "name": "The Cultivator's Path",
+  "icon": "minecraft:diamond_hoe",
+  "category": "horizons:side_stories",
+  "advancement": "horizons:storybook/side/cultivator",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Seeds and Patience",
+      "text": "$(thing)Master Tomo$() found me struggling with a patch of dirt outside Willowmere, cursing at seeds that refused to sprout. He watched for a long time before he spoke. When he did, he asked me what I thought the soil wanted.$(br2)I told him soil does not want anything. He laughed — a deep, warm sound — and said that was my first mistake.$(br2)Tomo taught me that Aetherian soil is alive in ways Earth soil never was. It responds to intention, to care, to the rhythm of the seasons. Plant with anger and the crop withers. Plant with patience and the harvest comes in like a tide. I did not believe him until I saw it with my own eyes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mara's Vineyard",
+      "text": "$(thing)Vintner Mara$() took my education further. Where Tomo taught me the fundamentals — rotation, composting, reading the weather — Mara showed me the art. Her vineyard in Willowmere produces fruit that has no equivalent on Earth. Berries that glow faintly at dusk. Grapes that taste different depending on the phase of the twin moons.$(br2)She told me the secret is not in the growing but in the $(italic)listening$(). Every plant communicates if you know how to pay attention. A drooping leaf is not just thirst — it is a conversation about root depth and mineral balance and the angle of the sun through the canopy.$(br2)I spent weeks in that vineyard, my hands stained purple, learning a language I never knew existed."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Legendary Harvest",
+      "text": "The day I brought in my first legendary harvest, Tomo and Mara stood at the edge of the field and said nothing for a long time. The crops were enormous — luminous, heavy with life, humming with a faint energy I could feel through my gloves.$(br2)Tomo said I had finally stopped fighting the land and started working $(italic)with$() it. Mara said the soil had accepted me. I think the truth is somewhere in between.$(br2)I am a $(thing)Cultivator$() now. Not because I mastered some technique or unlocked some secret, but because I learned the hardest lesson Aetheria has to offer: the land does not belong to us. We belong to it. And when you understand that — truly understand it — everything grows."
+    }
+  ]
+}

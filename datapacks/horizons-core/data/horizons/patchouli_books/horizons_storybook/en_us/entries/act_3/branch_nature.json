@@ -1,0 +1,19 @@
+{
+  "name": "The Cultivator Path",
+  "icon": "minecraft:oak_sapling",
+  "category": "horizons:act_3",
+  "advancement": "horizons:storybook/act_3/branch_nature",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Living Power",
+      "text": "I chose the path of the $(thing)Cultivator$(). Not because it seemed easier — nothing in Aetheria is easy — but because the land spoke to me first, and I have learned to listen.$(br2)It began in my fields. The crops grew stronger than they should have, responding to my presence in ways that defied explanation. Fruit ripened overnight. Blighted plants recovered when I tended them. The soil shifted its composition to match what I planted, as though the earth itself was trying to help.$(br2)$(thing)Sera$() noticed before I did. $(italic)The land recognizes you$(), she said, with an expression I could not read. $(italic)That has not happened in a very long time.$()$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Growing with Purpose",
+      "text": "The old $(thing)Forest$() elders taught me what the Plains folk could not — that cultivation in Aetheria is not simply agriculture. It is communion. The land is alive in ways Earth's soil never was. It remembers. It responds. It rewards those who work with it rather than against it.$(br2)I can feel the ecosystems now, vast interconnected webs of life that pulse beneath the surface. When I plant, the web shifts to accommodate. When I harvest with care, it offers more freely the next season.$(br2)My brewing has deepened as well. The ingredients I grow carry more potency, more character. A tea brewed from my herbs now carries genuine power — healing, fortifying, sharpening the mind.$(br2)The Precursors tried to master nature with machines. I am learning to let nature master itself, with me as a willing partner."
+    }
+  ]
+}

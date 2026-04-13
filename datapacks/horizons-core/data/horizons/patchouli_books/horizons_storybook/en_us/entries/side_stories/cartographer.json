@@ -1,0 +1,24 @@
+{
+  "name": "The Cartographer's Record",
+  "icon": "minecraft:filled_map",
+  "category": "horizons:side_stories",
+  "advancement": "horizons:storybook/side/cartographer",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Blank Map",
+      "text": "$(thing)Vael$() spread a blank sheet of parchment across her desk and told me this was the most honest map of Aetheria in existence. Everything else — the Precursor charts, the faction sketches, the trader routes drawn on napkins — was incomplete, outdated, or outright wrong.$(br2)She wanted me to fix that. Not with guesswork or secondhand accounts, but with my own feet on the ground, my own eyes on the horizon. A true cartographer, she said, does not draw what they are told. They draw what they $(italic)see$(). $(br2)I packed light. Compass, ink, parchment, and enough dried rations to last a week. Then I walked into the unknown and started drawing."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Every Biome, Every Valley",
+      "text": "Aetheria is larger than I imagined. Beyond the settled lands — the plains, the forests, the coasts — there are biomes that no faction has claimed or even named. Mushroom fields that glow beneath a permanent twilight. Ice spires that sing when the wind passes through them. A desert of black sand where the stars feel close enough to touch.$(br2)I mapped them all. Every ridge, every river fork, every hidden valley where forgotten ruins sleep beneath centuries of overgrowth. I noted the Cobblemon territories — where the fire-types gather near volcanic vents, where the water-types school in underground lakes, where the ghost-types drift through ancient battlefields.$(br2)Each discovery changed the map. And each change in the map changed how I understood the world."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Map Is Never Finished",
+      "text": "I brought my maps back to Vael and she studied them for three days without speaking. When she finally looked up, she said something that surprised me: the best maps are the ones that show you how much you still do not know.$(br2)My charts are detailed. They mark settlements, trade routes, Precursor ruins, biome boundaries, and danger zones. They are, by any measure, the most complete record of Aetheria's geography ever assembled. And they are still full of blank spaces.$(br2)Vael pinned them to her wall beside the Precursor originals. She said a $(thing)Cartographer$() is not someone who finishes a map. A Cartographer is someone who keeps walking, keeps looking, keeps drawing — because the world is always larger than the parchment, and the horizon always has one more secret to give."
+    }
+  ]
+}

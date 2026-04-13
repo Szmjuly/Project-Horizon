@@ -1,0 +1,24 @@
+{
+  "name": "Act 3 Begins",
+  "icon": "minecraft:spyglass",
+  "category": "horizons:act_3",
+  "advancement": "horizons:storybook/act_3/act_3_started",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Wider World",
+      "text": "I left $(thing)Willowmere$() at dawn, my pack heavy with supplies and my mind heavier with purpose. The settled lands fell behind me within a day, and the true scope of $(thing)Aetheria$() opened before me like a book whose first chapters I had only skimmed.$(br2)The kingdoms here are old — far older than the settlements I have known. They have their own laws, their own histories, their own entangled webs of alliance and enmity. Walking among them as an outsider is like navigating a minefield where the mines are polite and offer you tea before detonating."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Diplomacy and Depth",
+      "text": "Diplomacy has become essential. Every conversation carries weight. Every gift, every refusal, every silence sends a message to people who have spent lifetimes learning to read them.$(br2)$(thing)Sera$() coaches me in the subtleties I keep missing. The way a $(thing)Mountain$() clan leader tilts her head means she is considering your words. The way a $(thing)Coastal$() merchant smiles means he is calculating your value. The $(thing)Forest$() say nothing at all, which says everything.$(br2)Meanwhile, the $(thing)Gates$() I encounter grow more complex. Their corridors stretch deeper, their guardians strike harder, and their secrets cut closer to the heart of what the Precursors truly intended."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Turning Point",
+      "text": "I stand at a threshold — not a literal one, though there are plenty of those. The first two acts of my story in Aetheria were about survival and choice. This third act will be about mastery.$(br2)Mastery of the land. Mastery of the bonds I have forged with my Cobblemon. Mastery of technology or nature or both. And mastery of myself — of the fears and doubts that still whisper in the quiet hours.$(br2)Another choice approaches. I can feel it like a change in the weather. The path branches again, and this time, the consequences will shape not just my journey but the future of Aetheria itself."
+    }
+  ]
+}

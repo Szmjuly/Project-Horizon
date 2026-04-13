@@ -1,0 +1,7 @@
+{
+  "name": "Act 4: The Stars",
+  "description": "The old arrays crackle to life. Rockets pierce the atmosphere. On distant moons and frozen worlds, the Precursors left something behind — and the Watchers grow restless.",
+  "icon": "minecraft:nether_star",
+  "sortnum": 3,
+  "advancement": "horizons:storybook/act_4/act_4_started"
+}

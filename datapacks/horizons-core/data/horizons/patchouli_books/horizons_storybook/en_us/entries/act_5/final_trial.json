@@ -1,0 +1,24 @@
+{
+  "name": "The Final Trial",
+  "icon": "minecraft:totem_of_undying",
+  "category": "horizons:act_5",
+  "advancement": "horizons:storybook/act_5/final_trial",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Everything I Am",
+      "text": "The $(thing)Nexus$() did not simply open. It tested me. Of course it did — the Precursors would not hand the keys to their civilization to someone unworthy. The trial began the moment I crossed the threshold, and it drew on everything I had ever learned.$(br2)Combat first. Waves of constructs — Precursor guardians reactivated after millennia of dormancy — that fought with tactics I had never seen. My $(thing)Cobblemon$() and I moved as one, years of trust and training compressed into split-second decisions. Dodge. Strike. Shield. Advance.$(br2)Then knowledge. Puzzles embedded in the architecture itself. Patterns from every world I had visited, every data core I had decoded, every ancient text I had translated by firelight."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bonds Tested",
+      "text": "The trial shifted. The constructs vanished. The puzzles dissolved. And in their place stood illusions of every ally I had ever made — and every enemy. The trial wanted to know not just what I could do, but who I had become.$(br2)Faction leaders I had befriended challenged me with questions only a true ally could answer. Gym leaders I had defeated appeared to test whether I had learned from those battles or merely survived them. Even the $(thing)Watchers$() participated, their cosmic gaze probing my intent.$(br2)My $(thing)Cobblemon$() pressed against me. I felt its warmth, its certainty. Whatever this trial demanded, we had built the answer together — in every bond forged, every creature healed, every trust honored."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Worthy",
+      "text": "I do not know how long the trial lasted. Hours. Days. Time moved strangely inside the Nexus. But I remember the moment it ended — a resonance that passed through me like a tuning fork struck against my soul. Every part of me vibrated in harmony with the network.$(br2)The Precursor constructs knelt. The illusions faded. And the $(thing)Nexus$() opened fully, revealing not a weapon or a treasure, but a choice. Five paths. Five futures. Five answers to the question the Watchers had asked.$(br2)$(thing)What is Aetheria for?$()$(br2)I had proven I was worthy of answering. Now I had to actually answer."
+    }
+  ]
+}

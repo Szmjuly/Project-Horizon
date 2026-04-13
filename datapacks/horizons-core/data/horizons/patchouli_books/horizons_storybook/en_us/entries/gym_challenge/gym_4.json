@@ -1,0 +1,24 @@
+{
+  "name": "Marina of the Coast",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:gym_challenge",
+  "advancement": "horizons:storybook/gyms/gym_4",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Tidal Arena",
+      "text": "$(thing)Marina's$() gym is built into the cliffs of the $(thing)Shattered Coast$(), half submerged, half exposed. The arena floor is a platform of smooth stone surrounded by churning sea — and every few minutes, the tide surges, reshaping the battlefield entirely. Platforms sink. Others rise. Nothing stays stable.$(br2)Marina herself stood on a pillar of ice, impossibly calm above the chaos. Water and Ice types. Fluid, adaptive, unpredictable — and cold. The spray alone was enough to numb my fingers. My Cobblemon shivered but held firm."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Waves of Pressure",
+      "text": "I have never fought a battle where the arena was actively trying to drown me. Marina's Cobblemon used the water as an extension of themselves — waves that redirected attacks, currents that pulled my team off balance, sheets of ice that formed and shattered in the space of a breath.$(br2)My partner slipped. Fell. Got hit by a wall of freezing water that should have ended the fight. But it stood back up. Shaking, gasping, ice forming in its fur — it stood back up and roared.$(br2)That moment changed the battle. Marina's eyes widened. She had not expected resilience. Her Cobblemon hesitated, and in that heartbeat of uncertainty, we struck."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Tide Badge",
+      "text": "The water stilled. Marina descended from her pillar, walking across the surface as if it were glass, and extended a hand holding the $(thing)Tide Badge$() — a shimmering blue-white emblem that was cold to the touch.$(br2)$(italic)The sea does not care how strong you are$(), she said. $(italic)It only cares whether you can endure. Your Cobblemon has heart. Protect that. It is worth more than any technique.$()$(br2)Four badges. Halfway there. I sat on the cliff afterward, watching the sun set over the ocean, my Cobblemon drying beside me, and felt the challenge shifting from something I was surviving to something I was growing through."
+    }
+  ]
+}

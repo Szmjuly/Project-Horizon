@@ -1,0 +1,7 @@
+{
+  "name": "Paths Chosen",
+  "description": "At three turning points in your journey, you faced a choice that shaped everything after. These pages record the roads you took — and the ones you left behind.",
+  "icon": "minecraft:oak_hanging_sign",
+  "sortnum": 7,
+  "advancement": "horizons:storybook/branches/first_branch"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "The Diplomat's Accord",
+  "icon": "minecraft:paper",
+  "category": "horizons:side_stories",
+  "advancement": "horizons:storybook/side/diplomat",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Words as Weapons",
+      "text": "$(thing)Mayor Theron$() told me that a diplomat's most dangerous weapon is silence. I did not understand until I sat across a table from a Skyborn operative and a Forest Coalition elder who both believed the other was acting in bad faith.$(br2)I opened my mouth to mediate. Theron put a hand on my arm and shook his head. We sat. The silence stretched. And eventually, the operative and the elder began to talk — not at each other, but $(italic)to$() each other. Because the silence left a space that words had been filling with noise.$(br2)That was my first lesson: sometimes the most powerful thing a diplomat can do is $(thing)nothing$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Building Bridges",
+      "text": "Every faction thinks it is reasonable and every other faction is stubborn. The $(thing)Plains$() folk cannot understand why the Mountain smiths charge so much for tools. The Mountain smiths cannot fathom why the Coastal traders mark up goods that cost nothing to ship. The Forest druids think everyone else is reckless, and the $(thing)Skyborn$() think everyone else is primitive.$(br2)Theron taught me to find the common ground beneath the complaints. Every faction wants security. Every faction wants prosperity. Every faction wants to be $(italic)heard$(). The disagreements are about method, not objective, and once you frame it that way, the impossible starts to look merely difficult.$(br2)I brokered my first accord between the Plains and the Mountain faction over a grain-for-iron exchange. It took eleven meetings. Both sides called it a compromise, which Theron said meant I had done it right."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Harder Than Walls",
+      "text": "Building bridges between factions is harder than building walls between them. A wall takes stone and mortar. A bridge takes trust, and trust is the most expensive material in Aetheria.$(br2)I have sat in meetings that lasted hours and produced nothing. I have watched accords fall apart because of a single misplaced word. I have been cursed by both sides of a negotiation and thanked by neither. Theron says that means I am doing it right.$(br2)But I have also seen the moment when two people who were certain they were enemies realize they are not. That moment — the softening of a jaw, the unclenching of a fist, the first cautious nod — is worth every hour of frustration.$(br2)I am a $(thing)Diplomat$() now. Not because I am eloquent, but because I learned that the hardest part of peace is not finding the words. It is finding the $(italic)patience$()."
+    }
+  ]
+}

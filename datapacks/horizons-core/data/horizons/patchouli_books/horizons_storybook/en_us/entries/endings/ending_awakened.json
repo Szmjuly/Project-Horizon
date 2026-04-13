@@ -1,0 +1,24 @@
+{
+  "name": "Awakened",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:endings",
+  "advancement": "horizons:storybook/endings/ending_awakened",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Green Door",
+      "text": "I chose $(thing)Awakened$(). The living green light did not surround me — it entered me. Through my skin, through my breath, through the bond I shared with my $(thing)Cobblemon$(). It threaded itself into every cell, every thought, every memory, and suddenly I understood what the Precursors had truly built.$(br2)Not a civilization. An ecosystem. The Cobblemon, the biomes, the network — it was all one living system, and the missing piece was a consciousness to hold it together. A mind vast enough to feel every leaf and small enough to care about every creature.$(br2)A bridge between human and Cobblemon. That was what the Precursors could never become. That was what I was about to be."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "More Than Human",
+      "text": "The transformation was not painful. It was overwhelming. One moment I was a person standing in a room. The next, I was every $(thing)Cobblemon$() in Aetheria. I felt a Charmander's tail-flame flicker in the eastern forest. I felt a Lapras surface in the northern sea. I felt ten thousand heartbeats, ten thousand breaths, ten thousand souls bonded to mine.$(br2)My body still stood in the Nexus. My partner pressed against me, and I felt its joy — not guessed at, not interpreted, but felt directly, as clearly as my own emotions. The barrier between human and Cobblemon dissolved.$(br2)I wept. Not from sadness. From the sheer, staggering beauty of being connected to everything alive."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Living World",
+      "text": "The $(thing)Watchers$() understood before anyone else. Their question had been answered: $(thing)Aetheria is for becoming$().$(br2)I am still me. I still think, still feel, still remember the frightened stranger who woke on cold stone. But I am also more. I am the forest and the ocean and the mountain. I am every Cobblemon that has ever bonded with a human, and every one that roams wild and free.$(br2)The factions adjusted. They had to. Their $(thing)Pathfinder$() was no longer just a person — I was the living pulse of their world. When I am happy, the flowers bloom brighter. When I grieve, the skies darken.$(br2)It is a strange life. A beautiful, terrifying, miraculous life. And I would not trade it for anything in any world.$(br2)$(italic)The journal's last pages are covered in sketches of Cobblemon, drawn with impossible detail, as if seen from inside.$()"
+    }
+  ]
+}

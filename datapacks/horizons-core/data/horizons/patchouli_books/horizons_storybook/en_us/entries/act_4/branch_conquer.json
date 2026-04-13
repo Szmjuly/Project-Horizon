@@ -1,0 +1,24 @@
+{
+  "name": "The Iron Path",
+  "icon": "minecraft:netherite_sword",
+  "category": "horizons:act_4",
+  "advancement": "horizons:storybook/act_4/branch_conquer",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "No More Patience",
+      "text": "I tried diplomacy. I did. But when three factions nearly went to war over a single $(thing)Precursor$() power core — people I had bled for turning weapons on each other over scraps — something in me snapped.$(br2)Patience is a luxury for those who have time. Aetheria does not have time. The $(thing)Watchers$() are stirring, the network is destabilizing, and these factions cannot stop squabbling long enough to see the cliff they are marching toward.$(br2)So I chose force. Not cruelty — I am not a tyrant. But I picked up the sword because the pen was too slow, and the world was burning while diplomats argued about ink."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Weight of Command",
+      "text": "My $(thing)Cobblemon$() felt the shift before anyone else did. My partner watched me with those knowing eyes as I donned armor instead of robes. It did not flinch. It trusted me. I hope that trust is not misplaced.$(br2)The first faction fell in line after a single decisive strike against their forward outpost. No casualties — I made sure of that. But the message was clear: fall in line, or be moved aside.$(br2)The second required more. A siege. Three days of standoff before their leader knelt. I hated every moment of it. But the alternative was watching Aetheria tear itself apart while I wrung my hands and hoped for the best."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Conquest's Mirror",
+      "text": "They call me $(thing)Warlord$() now. Some say it with respect. Others spit it like a curse. Both are probably right.$(br2)I chose the path of conquest because I believed it was necessary. I still believe that. But late at night, when the camp is quiet and my Cobblemon sleeps curled beside me, I wonder what the cost will be. Trust is harder to rebuild than walls.$(br2)The factions are united — by fear, if not by choice. The $(thing)Precursor network$() can be activated now, with all resources under one command. Mine. Whether that makes me a savior or a monster, I suppose, depends on what I do next."
+    }
+  ]
+}

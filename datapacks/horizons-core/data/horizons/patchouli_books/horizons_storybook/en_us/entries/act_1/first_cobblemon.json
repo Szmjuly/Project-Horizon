@@ -1,0 +1,24 @@
+{
+  "name": "First Cobblemon",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:act_1",
+  "advancement": "horizons:storybook/act_1/first_cobblemon",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Bond",
+      "text": "I caught one today. Or perhaps it allowed itself to be caught — I am still not certain which.$(br2)It happened at the river crossing. The creature had been watching me for days, always at the edge of my vision. A small thing, fierce-eyed and cautious. When I held out the $(thing)Poke Ball$() — a device I found in a Precursor cache, humming with strange energy — it did not flee.$(br2)It stepped forward. It chose me as much as I chose it."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "More Than Taming",
+      "text": "This is not like taming an animal. I have raised dogs, gentled horses. This is something else entirely.$(br2)My $(thing)Cobblemon$() understands me. Not my words, exactly, but my intent. When I am afraid, it bristles and faces the threat. When I am calm, it rests beside me. There is a thread between us — invisible but undeniable — as though some part of Aetheria's strange energy flows through us both.$(br2)The old Pathfinder journals call it a $(thing)bond$(). They say it grows stronger with time, with trust, with battle. I believe them. Even now, barely a day in, I feel less alone than I have since waking in this place."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Partner",
+      "text": "We traveled together today — my Cobblemon and I — and the world felt less hostile for it. It warned me of dangers I could not see, led me to clean water, chased off a territorial creature twice its size.$(br2)I am beginning to understand why the Pathfinders valued these bonds so highly. In a world where everything is unfamiliar, having a companion who belongs here — who knows this place in ways I never could — is more than comfort.$(br2)It is survival."
+    }
+  ]
+}

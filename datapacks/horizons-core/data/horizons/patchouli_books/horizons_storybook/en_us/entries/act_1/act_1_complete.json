@@ -1,0 +1,24 @@
+{
+  "name": "Act 1 Complete",
+  "icon": "minecraft:golden_apple",
+  "category": "horizons:act_1",
+  "advancement": "horizons:storybook/act_1/act_1_complete",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Taking Stock",
+      "text": "I sit tonight by a fire I built myself, in a shelter I raised with my own hands, eating food I grew from soil I have learned to read. My $(thing)Cobblemon$() sleeps beside me, its breath steady and warm. The twin moons are high, and the strange stars no longer feel quite so foreign.$(br2)I have come far since waking on that cold stone. I have explored $(thing)Gates$() and survived their trials. I have found people — wary, proud, complicated people — and begun to earn a place among them. I have learned that $(thing)Aetheria$() is not merely a place of exile. It is a world with its own logic, its own beauty, its own demands."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Companions and Questions",
+      "text": "$(thing)Sera$() has become something like a friend, though she guards her own story as carefully as I guard mine. The factions intrigue me — their rivalries, their histories, the way they circle one another like wary animals around a shared water source.$(br2)And then there are the questions. What were the $(thing)Precursors$()? Why did they build the Gates? What caused $(thing)The Dimming$(), and can it be reversed? The ruins whisper answers I cannot yet decipher.$(br2)Most pressing of all: the voice. Faint, formless, felt more than heard. It has been with me since the beginning, growing clearer with each passing day."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Voice Grows Louder",
+      "text": "Something watches me. I am certain of it now. Not the creatures, not the faction scouts — something else. Something vast and patient, observing from a distance I cannot measure.$(br2)The voice from the sky. Others have heard it too, though they will not speak of it openly. $(thing)The Watcher$(), some call it, in hushed tones that carry equal parts reverence and dread.$(br2)I have established myself in this world. I have companions, skills, a foundation. But the first chapter of my story in Aetheria is ending, and whatever comes next will demand more than survival.$(br2)The voice grows louder. And I think, very soon, it will have something to say."
+    }
+  ]
+}

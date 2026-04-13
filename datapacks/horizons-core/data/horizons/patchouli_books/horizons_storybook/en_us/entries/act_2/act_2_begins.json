@@ -1,0 +1,24 @@
+{
+  "name": "Act 2 Begins",
+  "icon": "minecraft:oak_sign",
+  "category": "horizons:act_2",
+  "advancement": "horizons:storybook/act_2/act_2_started",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Willowmere",
+      "text": "$(thing)Willowmere$() has become my anchor. What began as a crossroads settlement has grown into something resembling a true town — traders pass through daily, faction representatives maintain outposts along the main road, and the market square hums with commerce and argument in equal measure.$(br2)I have come to know its rhythms. The morning bell, the evening fires, the way conversation dims when certain topics arise. This place is alive with possibility, but beneath the surface, tensions coil like roots beneath stone."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mayor Theron",
+      "text": "$(thing)Mayor Theron$() is a careful man. He speaks in measured sentences and watches you with eyes that miss nothing. Today he invited me to his study — a cramped room above the tavern, maps pinned to every wall — and spoke plainly for the first time.$(br2)The factions are restless, he said. Old agreements are fraying. The $(thing)Mountain$() folk hoard resources. The $(thing)Coastal$() traders demand tariffs. The $(thing)Skyborn$() have gone quiet, which worries him more than any threat.$(br2)He did not ask for my help directly. Men like Theron never do. But the implication hung in the air like smoke."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Simmering Tensions",
+      "text": "I walked the market today and counted the friction. A Plains farmer arguing with a Mountain smith over iron prices. A Coastal merchant refusing to sell to a Wanderer. Two Forest scouts watching everything from the shadow of the bell tower, speaking to no one.$(br2)$(thing)The Dimming$() did not just sever Aetheria from Earth. It severed these people from each other — from the systems of trade and governance that once held them together. Now each faction turns inward, suspicious of the rest.$(br2)Something must change. Someone must bridge these divides, or Willowmere — and everything it represents — will fracture along the same lines."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "First Village",
+  "icon": "minecraft:bell",
+  "category": "horizons:act_1",
+  "advancement": "horizons:storybook/act_1/first_village",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Smoke on the Horizon",
+      "text": "I smelled the cookfires before I saw the walls. Woodsmoke and something savory carried on the wind, and for the first time since arriving in $(thing)Aetheria$(), I felt something close to hope.$(br2)The settlement was small — a ring of timber buildings behind a low palisade, fields stretching out to the south. A bell tower stood at its center, green with age. People moved between the buildings with the unhurried certainty of those who have made a place their own.$(br2)They saw me coming long before I reached the gate. I could feel their eyes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wary Welcome",
+      "text": "They did not turn me away, but they did not embrace me either. A guard with a weathered face asked my business, my name, where I had come from. When I said I did not know — when I described the light and the waking — something shifted in his expression. Recognition, maybe. Or pity.$(br2)They call themselves $(thing)Plains Faction$(). One of six, they told me, each aligned with a different aspect of Aetheria. The Plains folk value community and cultivation. Others — the $(thing)Forest$(), the $(thing)Mountain$(), the $(thing)Coastal$(), the $(thing)Skyborn$(), the $(thing)Wanderers$() — hold different principles.$(br2)Old loyalties run deep here. Old grudges, too."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Place Among Strangers",
+      "text": "They gave me a bed for the night and a bowl of stew that tasted like the best thing I have ever eaten. A woman named $(thing)Sera$() sat with me and answered my questions with patience I did not deserve.$(br2)She spoke of $(thing)The Dimming$() as though it were a wound still bleeding. Of supply lines severed and families separated. Of a world learning to survive without the connection that once sustained it.$(br2)I am a stranger here. But these people know what it is to be lost, to rebuild from nothing. Perhaps that is enough common ground to start."
+    }
+  ]
+}

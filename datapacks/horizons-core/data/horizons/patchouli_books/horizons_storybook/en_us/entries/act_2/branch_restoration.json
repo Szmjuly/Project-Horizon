@@ -1,0 +1,19 @@
+{
+  "name": "The Restoration Path",
+  "icon": "minecraft:beacon",
+  "category": "horizons:act_2",
+  "advancement": "horizons:storybook/act_2/branch_restoration",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Accepting the Design",
+      "text": "I have made my choice. I will follow $(thing)The Watcher's$() design.$(br2)It was not a decision I made lightly. For days I weighed the arguments — the danger of trusting an entity I do not understand, the arrogance of believing I could do better alone. In the end, it came down to this: the Precursors built something magnificent, and its ruin has caused immeasurable suffering. If there is a chance to restore it, how can I refuse?$(br2)The Watcher's presence settled over me like a mantle when I accepted. Heavy, but warm. A burden that is also a gift."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Weight of Choice",
+      "text": "Not everyone understands. $(thing)Sera$() looked at me with something between concern and disappointment when I told her. She has her own reasons to distrust cosmic forces and ancient designs.$(br2)But $(thing)Aren$(), the guild master, nodded as though he had expected it. Some of us are built for restoration, he said. Some for revolution. The trick is knowing which you are.$(br2)I feel the Watcher's guidance now — subtle nudges, a sense of direction that was not there before. Precursor sites call to me. Ancient mechanisms wait for hands willing to reactivate them. The old order wants to live again, and I have agreed to be its instrument."
+    }
+  ]
+}

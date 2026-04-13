@@ -1,0 +1,24 @@
+{
+  "name": "The Garden Deepens",
+  "icon": "minecraft:flowering_azalea",
+  "category": "horizons:act_3",
+  "advancement": "horizons:storybook/act_3/nature_path",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Ecosystem Responds",
+      "text": "My gardens have become something more than gardens. The land around my settlement has shifted — subtly at first, then unmistakably. Trees grow taller. Streams run clearer. The Cobblemon that nest nearby are healthier, stronger, more numerous.$(br2)The $(thing)Forest$() elders say I have become a $(thing)nexus$() — a point where the living energy of Aetheria concentrates and flourishes. They have not seen one in generations. Their reverence is flattering and deeply uncomfortable.$(br2)I am not special. I simply learned to listen when the land spoke, and to give back as much as I took. Anyone could do this, given time and patience. I think."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cultivation as Power",
+      "text": "My brewing has reached heights I did not think possible. A wine I aged through three seasons now carries properties that border on the miraculous — a single cup can mend broken bones or sharpen the mind to crystal clarity. My teas are sought by every faction, and my harvests yield more than any ten ordinary farms.$(br2)The colonies of Cobblemon around my settlement have formed their own ecosystem, balanced and self-sustaining. They patrol the borders, tend the young, and bring me gifts of rare herbs and minerals they find in their wanderings.$(br2)This is what the Precursors missed, I think. They built networks of stone and energy. They could have built networks of life. The land wanted to give them everything, and they were too busy mining it to notice."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Living Legacy",
+      "text": "$(thing)Sera$() walked through my gardens today and said nothing for a long time. Then: $(italic)This is what Aetheria was supposed to look like.$()$()$(br2)I do not know if that is true. But standing among the flowering trees, listening to the hum of bees and the distant calls of Cobblemon, feeling the pulse of the earth beneath my feet — it feels right. It feels like the world breathing deeply after holding its breath for centuries.$(br2)The other factions are beginning to understand. You cannot force abundance. You cannot engineer a thriving ecosystem. You can only create the conditions for life to flourish, and then step back and let it happen.$(br2)The Cultivator's path is slow. But what grows slowly grows deep."
+    }
+  ]
+}

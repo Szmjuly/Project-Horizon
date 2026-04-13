@@ -1,0 +1,24 @@
+{
+  "name": "The Second Crossroads",
+  "icon": "minecraft:oak_hanging_sign",
+  "category": "horizons:branches",
+  "advancement": "horizons:storybook/branches/second_branch",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Two Kinds of Power",
+      "text": "The world has laid another choice at my feet, and this one cuts deeper than the first.$(br2)$(thing)Technology$() or $(thing)Nature$(). The Precursor vaults I have uncovered hold machines that hum with dormant energy — devices that could reshape the land, automate what takes a hundred hands, project shields against threats we have not yet imagined. Marek and the $(thing)Skyborn$() practically vibrate with eagerness. They see the future in those circuits.$(br2)But Yshara showed me something in the deep forest that I cannot forget. A grove where the trees pulse with light, where Cobblemon gather in numbers I have never seen, where the air itself feels $(italic)alive$() in a way no machine can replicate. The $(thing)Forest Coalition$() believes this living power is Aetheria's true gift."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Cost of Each",
+      "text": "I have seen what unchecked technology does. The Precursors had it all — every advantage, every tool — and they still fell. $(thing)The Dimming$() swallowed them whole. Their machines sit in the dark now, monuments to the idea that power alone is not enough.$(br2)But I have also seen what happens when people reject progress entirely. Settlements without defenses, overrun in a single night. Crops that fail because no one thought to study the soil. Stubborn reverence for the old ways while people suffer.$(br2)Kira told me that her Cobblemon sense the tension in the land. They grow restless near Precursor sites, but they also thrive where the old machines irrigate the fields. Even the creatures of Aetheria cannot decide."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Neither Path Is Clean",
+      "text": "Vael, ever the scholar, reminded me that the Precursors themselves debated this. Their records show factions within factions — those who pushed for ever-greater machines and those who sought harmony with the world they inhabited. In the end, neither side won. $(thing)The Dimming$() did not discriminate.$(br2)So here I stand, asked to choose between lightning and roots. Between the hum of a reactor and the whisper of ancient wood. I know this much: whichever path I walk, I will carry the consequences for everyone who follows.$(br2)I only hope I am choosing for the right reasons and not simply for the version of the future that frightens me less."
+    }
+  ]
+}

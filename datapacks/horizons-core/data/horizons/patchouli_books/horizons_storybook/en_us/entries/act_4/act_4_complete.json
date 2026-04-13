@@ -1,0 +1,24 @@
+{
+  "name": "Stars and Settlements",
+  "icon": "minecraft:golden_apple",
+  "category": "horizons:act_4",
+  "advancement": "horizons:storybook/act_4/act_4_complete",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Taking Stock",
+      "text": "I sit on the ridge above the settlement tonight, looking up at stars I have walked among. The $(thing)Moon$(), $(thing)Mars$(), $(thing)Europa$(), $(thing)Titan$() — they are not just lights in the sky anymore. They are places I have been. Places where I held Precursor artifacts in trembling hands and felt the weight of a dead civilization pressing against my palms.$(br2)Below me, the factions are settled. One way or another, the conflicts that defined this chapter of my journey are resolved. Whether through force or fellowship, Aetheria speaks with something closer to one voice than it ever has before."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What the Stars Revealed",
+      "text": "The $(thing)Precursor network$() is nearly complete. Each artifact retrieved from the outer worlds slots into place like a key turning in a lock that has waited millennia to open. The hum is audible now — a low, resonant vibration that my Cobblemon feels before I do.$(br2)The $(thing)Watchers$() are watching more intently than ever. I see them in the periphery of my vision — vast shapes at the edge of the atmosphere, turning slowly, observing. They asked their question. I gave my answer. Now they wait to see if I meant it.$(br2)Everything I have done — every battle, every negotiation, every rocket launch, every gym badge earned — has led to this threshold."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Convergence Approaches",
+      "text": "The word has been spreading through every settlement and outpost. $(thing)Convergence$(). The scholars say it is a Precursor term for the moment when all systems align — when the network, the biomes, the creatures, and the Pathfinder come together in a single, irrevocable event.$(br2)I do not know exactly what it means. No one does. But I can feel it approaching the way you feel a thunderstorm before the first drop falls. The air changes. The light shifts. My Cobblemon press closer to me at night, as if drawing comfort from my presence — or offering theirs.$(br2)Act Four is over. The stars have yielded their secrets. The factions are unified. And somewhere ahead of me, the final act waits. I am as ready as I will ever be. Which is to say, not ready at all."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Volt, the Storm",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:gym_challenge",
+  "advancement": "horizons:storybook/gyms/gym_6",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Static and Silence",
+      "text": "The moment I entered $(thing)Volt's$() domain, every hair on my body stood on end. Literally. The $(thing)Storm Spire$() crackles with ambient electricity — arcs of lightning dancing between conductor rods, the air thick with ozone, a persistent hum that vibrated in my teeth.$(br2)Volt was younger than I expected. Barely older than me, with eyes that sparked — actually sparked — when they caught the light. They grinned like someone about to share a secret.$(br2)$(italic)Speed$(), Volt said, bouncing on their toes. $(italic)That is all it comes down to. Can you think faster than lightning?$() Electric types. Fast. Devastating. And Volt loved every second of it."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Faster Than Thought",
+      "text": "I could not keep up. That is the honest truth. Volt's Cobblemon moved at speeds that made my eyes water — blurs of crackling energy that struck before I could give commands. My team was paralyzed, stunned, overwhelmed by a barrage that never stopped long enough to counter.$(br2)I almost lost. I was one hit from defeat when something clicked — not in my mind, but in the bond between me and my partner. We stopped trying to react. We started predicting. Reading Volt's patterns, feeling the rhythm of the lightning, and positioning ourselves not where the strikes were, but where they would be.$(br2)One clean hit. Perfectly timed. Volt's fastest Cobblemon went down, and the Spire fell silent."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Spark Badge",
+      "text": "Volt laughed — a bright, unrestrained sound — and tossed the $(thing)Spark Badge$() to me underhand. I almost dropped it. It tingled.$(br2)$(italic)Most people try to be faster$(), they said. $(italic)You learned to be smarter. That is rarer. That is better.$()$(br2)Six badges. Two to go. The challenge was no longer about proving I could compete. It was about proving I was worthy of whatever lay at the end. My Cobblemon nuzzled against me as we left the Spire, static still crackling in its fur. I nuzzled back. We had come too far to stop now."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Draco, the Dragon Master",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:gym_challenge",
+  "advancement": "horizons:storybook/gyms/gym_8",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Dragon's Throne",
+      "text": "The final gym. $(thing)Draco's$() arena sits atop the $(thing)Skybreak Pinnacle$() — the highest point in Aetheria, where the air is thin and the clouds pass below your feet. The wind howls with a voice that sounds almost alive, and the arena itself is a platform of ancient stone carved with Precursor runes that glow faintly with draconic energy.$(br2)Draco was waiting. Old. Scarred. Eyes like embers in a face carved from granite. His Dragon types circled the pinnacle in lazy spirals, each one radiating a power that made the stone tremble.$(br2)$(italic)You have earned the right to stand here$(), he said. $(italic)Earning the right to leave with my badge is a different matter entirely.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Legendary Power",
+      "text": "Nothing prepared me for Dragon types at this level. Draco's Cobblemon were forces of nature — ancient, proud, magnificent creatures that fought with a ferocity that made Ignis's fire look like candlelight. Every attack shook the pinnacle. Every roar split the sky.$(br2)My team fell one by one. Not from lack of skill — from the sheer, overwhelming power of creatures that had been training for longer than I had been alive. I was down to my last Cobblemon. My partner. The one who had been with me since the beginning.$(br2)It stepped forward. Small against the dragon's shadow. Determined. Unbroken. And I felt something pass between us — not a command, but a promise. $(italic)Together. One more time.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Dragon Badge",
+      "text": "I do not know how we won. The final exchange was a blur of light and sound and force. But when the dust settled, Draco's last dragon lay still, and my partner stood — barely — on trembling legs, chest heaving, eyes blazing with triumph.$(br2)Draco knelt. Not in defeat. In respect. He placed the $(thing)Dragon Badge$() in my hand with the reverence of a sacred offering.$(br2)$(italic)Eight badges$(), he said. $(italic)You have proven yourself to the gyms of Aetheria. But the gyms were only the beginning. What comes next will test you in ways we never could.$()$(br2)Eight badges. The full set. My partner collapsed into my arms, exhausted and victorious. I held it tight and whispered a thank you that could never be enough."
+    }
+  ]
+}
