@@ -1,0 +1,18 @@
+{
+	"quest.0282C213AA34BFEB.title": "Tilling Soil"
+	"quest.0282C213AA34BFEB.quest_desc": "Use a hoe on grass or dirt to create farmland. Farmland near water stays hydrated and grows crops faster."
+	"task.00A0CCD59793043A.title": "Till a 4x4 area of farmland"
+	"quest.C2B6567110629BA8.title": "Planting and Harvesting"
+	"quest.C2B6567110629BA8.quest_desc": "Plant seeds on tilled soil and wait for them to grow. Harvest fully grown crops to collect food and more seeds."
+	"quest.578C28092883973D.title": "Soil Quality Levels"
+	"quest.578C28092883973D.quest_desc": "Soil has quality levels from Poor to Perfect. Higher quality means faster growth and better crop yields."
+	"task.35273C99CFEA6DB1.title": "Check soil quality with a hoe"
+	"quest.AE3D7404BC0ECFC6.title": "Crop Rotation"
+	"quest.AE3D7404BC0ECFC6.quest_desc": "Planting the same crop repeatedly degrades soil. Rotate between different crop families to maintain quality."
+	"task.0A7F413E8235CC56.title": "Rotate crops on a plot"
+	"quest.AB39BD1B0A13D2B2.title": "Composting"
+	"quest.AB39BD1B0A13D2B2.quest_desc": "Build a composter and process organic waste into bone meal. Applying compost to farmland improves soil quality."
+	"task.C3CA04598C38F048.title": "Compost and apply to soil"
+	"quest.30427D3426A98C4F.title": "Tiered Farming Tools"
+	"quest.30427D3426A98C4F.quest_desc": "Better hoes till larger areas and provide better soil quality bonuses. Upgrade from wood to netherite for maximum efficiency."
+}

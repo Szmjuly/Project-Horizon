@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_minecolonies"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "minecraft:villager_spawn_egg"
+	}
+	id: "F90E6B14EA7BC5CE"
+	images: [ ]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:lectern"
+			}
+			id: "E9D136CE9624540B"
+			rewards: [{
+				id: "79C0F899F699E8E8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3633E33FB7D36539"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E9D136CE9624540B"]
+			icon: {
+				id: "minecraft:stone_pickaxe"
+			}
+			id: "A004A9FE328AA9F5"
+			rewards: [{
+				id: "FC054059FED206D7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "78E131AEFF150AFD"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A004A9FE328AA9F5"]
+			icon: {
+				id: "minecraft:anvil"
+			}
+			id: "723C993285EE5785"
+			rewards: [{
+				id: "845DD6F92418FC09"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4FF4A44D574D5457"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["723C993285EE5785"]
+			icon: {
+				id: "lightmanscurrency:coin_copper"
+			}
+			id: "5573052C8741D1C7"
+			rewards: [{
+				id: "22CB5777C5AC3140"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1735D87061AD0632"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5573052C8741D1C7"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "11EF8FA58CA64F06"
+			rewards: [{
+				id: "0410F2C08311F4C8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "D97FC22964E51A95"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11EF8FA58CA64F06"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "EC006407AC7BB439"
+			rewards: [{
+				id: "D3AB2A3B3EBCC8F8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "FB00726977E7F217"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["723C993285EE5785"]
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "302A4A503AA49501"
+			rewards: [{
+				id: "0E605CBA4ED7C93A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "D494103B88C2E657"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["EC006407AC7BB439"]
+			icon: {
+				id: "minecraft:golden_helmet"
+			}
+			id: "309859C7F2D5F695"
+			rewards: [{
+				id: "D8B701EDDC2547FB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "84EAD03E82549E21"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+}

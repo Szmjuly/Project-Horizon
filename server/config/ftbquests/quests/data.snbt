@@ -15,5 +15,5 @@
 	progression_mode: "flexible"
 	show_lock_icons: true
 	verify_on_load: false
-	version: 13
+	version: 14
 }

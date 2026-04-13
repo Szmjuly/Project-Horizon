@@ -1,0 +1,17 @@
+{
+	"quest.42AE57F0B1A16D7D.title": "Individual Values (IVs)"
+	"quest.42AE57F0B1A16D7D.quest_desc": "Each Pokemon has hidden IVs from 0 to 31 in every stat. Higher IVs mean higher stats. Check IVs using the summary screen."
+	"task.24149368E94C95A6.title": "Check a Pokemon's IVs"
+	"quest.CCDCF32EEF045958.title": "Effort Values (EVs)"
+	"quest.CCDCF32EEF045958.quest_desc": "Pokemon gain EVs by defeating specific species. EVs boost stats beyond IV potential. Each stat can have up to 252 EVs."
+	"task.9D8E285E222402C6.title": "EV train a Pokemon in one stat"
+	"quest.CBEFB1E9756421DB.title": "Strategic Breeding"
+	"quest.CBEFB1E9756421DB.quest_desc": "Use a Destiny Knot to pass down 5 IVs and an Everstone to pass down natures. Combine these for optimal Pokemon."
+	"task.CF227A771DC4113E.title": "Breed with held items for IV inheritance"
+	"quest.978A8D8F2451D1E4.title": "Egg Moves"
+	"quest.978A8D8F2451D1E4.quest_desc": "Some moves can only be learned through breeding. The father passes egg moves to the offspring if compatible."
+	"task.E59E5FFE6EE4A725.title": "Breed a Pokemon with an egg move"
+	"quest.CEB81581F3828514.title": "Mega Evolution"
+	"quest.CEB81581F3828514.quest_desc": "Some Pokemon can Mega Evolve during battle using a Mega Stone. Mega Evolution dramatically boosts stats and may change type."
+	"task.DFDF0581969D40B2.title": "Mega Evolve a Pokemon in battle"
+}

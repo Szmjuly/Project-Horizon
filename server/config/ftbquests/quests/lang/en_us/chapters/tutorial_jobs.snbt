@@ -1,0 +1,14 @@
+{
+	"quest.A56A6C77E810A70A.title": "Choose a Job"
+	"quest.A56A6C77E810A70A.quest_desc": "Use /horizons branch to select your initial profession. Jobs determine your perk tree options and passive bonuses."
+	"task.8415907D9353B197.title": "Select a job via /horizons branch"
+	"quest.DFA6B602EBDD6121.title": "Earn Job XP"
+	"quest.DFA6B602EBDD6121.quest_desc": "Perform actions related to your job to earn job XP. Miners earn XP by mining, farmers by harvesting, trainers by battling."
+	"task.3354BAB72BC061C9.title": "Earn your first 100 job XP"
+	"quest.63D606AA24231C5F.title": "Level Up Your Job"
+	"quest.63D606AA24231C5F.quest_desc": "Reach job level 5. Each level unlocks new recipes, abilities, or perk tree nodes specific to your profession."
+	"task.60A0BE792C0367F5.title": "Reach job level 5"
+	"quest.D89595CC2B4A7708.title": "Custom Job Perks"
+	"quest.D89595CC2B4A7708.quest_desc": "At job level 10, you unlock a custom perk unique to your profession. Trainers get Pokemon XP boosts, crafters get recipe discounts."
+	"task.45F4F9ADD04805A1.title": "Unlock a custom job perk at level 10"
+}

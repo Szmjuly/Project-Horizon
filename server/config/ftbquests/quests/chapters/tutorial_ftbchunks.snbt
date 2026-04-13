@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_ftbchunks"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "minecraft:filled_map"
+	}
+	id: "1746826A02793AE2"
+	images: [ ]
+	order_index: 8
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "413ED2D4AE96824A"
+			rewards: [{
+				id: "161619B3E3B8647D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "B53BF4A31A39FC81"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["413ED2D4AE96824A"]
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "A9D5AABA9B81476E"
+			rewards: [{
+				id: "7844A11BB9A73AC4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "94A06A98ADF6A6CA"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A9D5AABA9B81476E"]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "1D5DCAE79BE29223"
+			rewards: [{
+				id: "D74789C3841D3BD5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "CE19F9D3815B272A"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D5DCAE79BE29223"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "39E5C1D797B559D7"
+			rewards: [{
+				id: "4EABB361BB4D9980"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2D7E32C872C4CDE9"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["413ED2D4AE96824A"]
+			icon: {
+				id: "minecraft:redstone_block"
+			}
+			id: "E469DA7E6C6153AD"
+			rewards: [{
+				id: "A592099684090AA8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "10D9A12BCBF0C19B"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:map"
+			}
+			id: "7D98828EB0637ABD"
+			rewards: [{
+				id: "991DB3172C9437EB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6465BA7502F61FE7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_lightmans"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "lightmanscurrency:coin_gold"
+	}
+	id: "27EC59C7D4EA7329"
+	images: [ ]
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "lightmanscurrency:coin_copper"
+			}
+			id: "96F947A2BCB41AA1"
+			rewards: [{
+				id: "71C91C2FBBB0DC8B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "D48B736F347762ED"
+				type: "item"
+				item: {
+					count: 1
+					id: "lightmanscurrency:coin_copper"
+				}
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["96F947A2BCB41AA1"]
+			icon: {
+				id: "lightmanscurrency:atm"
+			}
+			id: "9AF2FBB425089A9A"
+			rewards: [{
+				id: "79531CCDB21E96B4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3A4E30C9D995A775"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9AF2FBB425089A9A"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "372E15893CB3657B"
+			rewards: [{
+				id: "21168E3CF66F3275"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "ACB6682DDAA409EE"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["372E15893CB3657B"]
+			icon: {
+				id: "lightmanscurrency:coin_iron"
+			}
+			id: "22716FA9822AC8A9"
+			rewards: [{
+				id: "E4017079EE908104"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "E36A4FFFC229B582"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22716FA9822AC8A9"]
+			icon: {
+				id: "lightmanscurrency:terminal"
+			}
+			id: "E0F95F352024C637"
+			rewards: [{
+				id: "0E811223EE1C7E79"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "B6055BD830C1F630"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E0F95F352024C637"]
+			icon: {
+				id: "lightmanscurrency:coin_gold"
+			}
+			id: "2A4B9053F982B68B"
+			rewards: [{
+				id: "77E893306A2C661C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "81BDE819B5BBF2FB"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"quest.A146FF7862636029.title": "Build a Coke Oven"
+	"quest.A146FF7862636029.quest_desc": "Construct a coke oven multiblock. Coke ovens turn coal into coal coke and produce creosote oil as a byproduct."
+	"task.3565CB35D4BD440C.title": "Build a coke oven"
+	"quest.72842D5F15CB573B.title": "Thermoelectric Generator"
+	"quest.72842D5F15CB573B.quest_desc": "Build a thermoelectric generator to produce Forge Energy (FE) from temperature differentials."
+	"task.08ED05BCBE77B0E8.title": "Build a generator"
+	"quest.D75D952BDE87B173.title": "Wire Connections"
+	"quest.D75D952BDE87B173.quest_desc": "Use wire coils and connectors to transmit power between machines. Different wire types carry different amounts of power."
+	"task.265E5C4617035232.title": "Connect machines with wires"
+	"quest.FFA331E773060B1B.title": "IE Machines"
+	"quest.FFA331E773060B1B.quest_desc": "Build and use Immersive Engineering machines: the crusher, arc furnace, and metal press."
+	"task.5435BDD0B14585AB.title": "Use 3 different IE machines"
+	"quest.77647FE66997092C.title": "Steel Production"
+	"quest.77647FE66997092C.quest_desc": "Build a blast furnace multiblock and produce steel ingots. Steel is required for advanced IE machines and Stellaris components."
+	"task.7E4FDE886CD55952.title": "Produce steel ingots"
+}

@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_cobblemon_advanced"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "cobblemon:master_ball"
+	}
+	id: "81394BD104D17EB9"
+	images: [ ]
+	order_index: 12
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "42AE57F0B1A16D7D"
+			rewards: [{
+				id: "AF5A36CEA1DE3BB0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "24149368E94C95A6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42AE57F0B1A16D7D"]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "CCDCF32EEF045958"
+			rewards: [{
+				id: "D46D9BB3444EA2C0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "9D8E285E222402C6"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CCDCF32EEF045958"]
+			icon: {
+				id: "minecraft:turtle_egg"
+			}
+			id: "CBEFB1E9756421DB"
+			rewards: [{
+				id: "5BD6499B381CE2DE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "CF227A771DC4113E"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CBEFB1E9756421DB"]
+			icon: {
+				id: "minecraft:turtle_egg"
+			}
+			id: "978A8D8F2451D1E4"
+			rewards: [{
+				id: "B9A21AD84BEBE8D6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "E59E5FFE6EE4A725"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["978A8D8F2451D1E4"]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "CEB81581F3828514"
+			rewards: [{
+				id: "A3E355AC547DF98E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "DFDF0581969D40B2"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

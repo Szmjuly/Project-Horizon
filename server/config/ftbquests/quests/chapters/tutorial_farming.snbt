@@ -1,0 +1,138 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_farming"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "minecraft:iron_hoe"
+	}
+	id: "444F57A9AFE60094"
+	images: [ ]
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:iron_hoe"
+			}
+			id: "0282C213AA34BFEB"
+			rewards: [{
+				id: "26A68D05012C33DE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "00A0CCD59793043A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0282C213AA34BFEB"]
+			icon: {
+				id: "minecraft:wheat_seeds"
+			}
+			id: "C2B6567110629BA8"
+			rewards: [{
+				id: "23B9A833C5CCB4D1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1E614A9961B88986"
+				type: "item"
+				item: {
+					count: 8
+					id: "minecraft:wheat"
+				}
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C2B6567110629BA8"]
+			icon: {
+				id: "minecraft:farmland"
+			}
+			id: "578C28092883973D"
+			rewards: [{
+				id: "5B0F22F815141749"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "35273C99CFEA6DB1"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["578C28092883973D"]
+			icon: {
+				id: "minecraft:carrot"
+			}
+			id: "AE3D7404BC0ECFC6"
+			rewards: [{
+				id: "75D83675034AF3D3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0A7F413E8235CC56"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AE3D7404BC0ECFC6"]
+			icon: {
+				id: "minecraft:composter"
+			}
+			id: "AB39BD1B0A13D2B2"
+			rewards: [{
+				id: "764DD61E9BA138DF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "C3CA04598C38F048"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AB39BD1B0A13D2B2"]
+			icon: {
+				id: "minecraft:diamond_hoe"
+			}
+			id: "30427D3426A98C4F"
+			rewards: [{
+				id: "874BE3FF86AEC97B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5487CA13E4A2C241"
+				type: "item"
+				item: {
+					count: 1
+					id: "minecraft:diamond_hoe"
+				}
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+	]
+}

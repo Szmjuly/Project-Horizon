@@ -1,0 +1,140 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_brewing"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "minecraft:cauldron"
+	}
+	id: "A6BDA670FC01AEA6"
+	images: [ ]
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:cauldron"
+			}
+			id: "9ADFC85B145A65E4"
+			rewards: [{
+				id: "0C76F5DFE0F0275E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1FEF43C84B54E153"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9ADFC85B145A65E4"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "D9CAE89FEBFB0B10"
+			rewards: [{
+				id: "EAC0746C29413850"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "90B6E9C52CF9233F"
+				type: "item"
+				item: {
+					count: 4
+					id: "minecraft:bread"
+				}
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D9CAE89FEBFB0B10"]
+			icon: {
+				id: "minecraft:potion"
+			}
+			id: "A9374F1885C9F3E6"
+			rewards: [{
+				id: "F097C8E5309E8D0B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "9F759AD941C60AF7"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A9374F1885C9F3E6"]
+			icon: {
+				id: "vinery:red_wine"
+			}
+			id: "39C30D036468D093"
+			rewards: [{
+				id: "B8104548F02D8019"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "810FE0323C69A9B7"
+				type: "item"
+				item: {
+					count: 1
+					id: "vinery:red_wine"
+				}
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39C30D036468D093"]
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "C3A3A135DF0F858C"
+			rewards: [{
+				id: "BD418F33B2C1F1AD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6A2CEFC1DCFFAC1A"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C3A3A135DF0F858C"]
+			icon: {
+				id: "vinery:red_wine"
+			}
+			id: "30205637F923388D"
+			rewards: [{
+				id: "C71EB7FF73F3CADE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "9F176F9F169C4823"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+	]
+}

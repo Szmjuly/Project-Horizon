@@ -1,0 +1,130 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_curios"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "minecraft:totem_of_undying"
+	}
+	id: "077358E3AC135F39"
+	images: [ ]
+	order_index: 11
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "5B12E4FBD301ADC3"
+			rewards: [{
+				id: "E369CD2ECFB1DAD3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5554FDA1508F031F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B12E4FBD301ADC3"]
+			icon: {
+				id: "minecraft:chain"
+			}
+			id: "29E95FBE25E4A75B"
+			rewards: [{
+				id: "4A19C231A95994A5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "B0396F15504907F3"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29E95FBE25E4A75B"]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "A95FE753FA5FBC14"
+			rewards: [{
+				id: "98DA7818C168E408"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "C5117376AD935F85"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A95FE753FA5FBC14"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "654F27FCEACCBA1F"
+			rewards: [{
+				id: "51E369CC14C101EB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2A7B149A8CF3C987"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29E95FBE25E4A75B"]
+			icon: {
+				id: "lightmanscurrency:coin_gold"
+			}
+			id: "CE27528206C56268"
+			rewards: [{
+				id: "3C2B9A9C9DFBA5A1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "AEC30E8D1513B292"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["A95FE753FA5FBC14"]
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "1B96BBA267DA9DBF"
+			rewards: [{
+				id: "5C76D372687B5CB9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "F66E1051389C0A96"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+	]
+}

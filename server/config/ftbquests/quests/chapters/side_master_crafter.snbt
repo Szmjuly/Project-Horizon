@@ -469,7 +469,49 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["8CA37F4B66D18407", "4FC0690608DD7CCC"]
+			dependencies: ["8CA37F4B66D18407"]
+			icon: {
+				id: "horizons:precursor_artifact"
+			}
+			id: "7C438C572D235B3B"
+			rewards: [{
+				id: "23562BC70650CE96"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6F77ADD9DA47BE6D"
+				type: "checkmark"
+			}]
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["110FB13DF0B303B2", "44DBDAEA702251A3"]
+			icon: {
+				id: "minecraft:dispenser"
+			}
+			id: "B0EAD1B257AFBC47"
+			rewards: [{
+				id: "2AD44B844EDC88DB"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "14F9D933209DD878"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["8CA37F4B66D18407", "4FC0690608DD7CCC", "7C438C572D235B3B"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
@@ -494,7 +536,7 @@
 				id: "D3E6EEFF7C2BF2A8"
 				type: "checkmark"
 			}]
-			x: 25.0d
+			x: 27.5d
 			y: 0.0d
 		}
 	]

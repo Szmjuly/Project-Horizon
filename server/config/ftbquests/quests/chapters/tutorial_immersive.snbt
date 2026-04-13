@@ -1,0 +1,112 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_immersive"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "minecraft:blast_furnace"
+	}
+	id: "11FC14C1EF89724C"
+	images: [ ]
+	order_index: 9
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:bricks"
+			}
+			id: "A146FF7862636029"
+			rewards: [{
+				id: "130B2A252A0F26EE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3565CB35D4BD440C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A146FF7862636029"]
+			icon: {
+				id: "minecraft:redstone_block"
+			}
+			id: "72842D5F15CB573B"
+			rewards: [{
+				id: "809BC608E1790F18"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "08ED05BCBE77B0E8"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72842D5F15CB573B"]
+			icon: {
+				id: "minecraft:chain"
+			}
+			id: "D75D952BDE87B173"
+			rewards: [{
+				id: "537BCF9BDAB7ADA4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "265E5C4617035232"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D75D952BDE87B173"]
+			icon: {
+				id: "minecraft:iron_block"
+			}
+			id: "FFA331E773060B1B"
+			rewards: [{
+				id: "2131BB256A8C300E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5435BDD0B14585AB"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["FFA331E773060B1B"]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "77647FE66997092C"
+			rewards: [{
+				id: "724254ECA790939A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7E4FDE886CD55952"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

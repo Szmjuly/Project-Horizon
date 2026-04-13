@@ -623,5 +623,46 @@
 			x: 35.0d
 			y: 2.5d
 		}
+		{
+			dependencies: ["1A6AFCF1DD2676AE"]
+			icon: {
+				id: "minecraft:turtle_egg"
+			}
+			id: "85FB1A2732E35C04"
+			rewards: [{
+				id: "9C8AC4BF1DAC54B8"
+				type: "command"
+				command: "/horizons reward perkpoints 25"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "70A537D3B0431700"
+				type: "checkmark"
+			}]
+			x: 22.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["CE0696430DECF25E", "85FB1A2732E35C04"]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "350897C8AE29DE35"
+			rewards: [{
+				id: "18FC80422C70E899"
+				type: "command"
+				command: "/horizons reward perkpoints 60"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "CB8386FDBBAB69F9"
+				type: "checkmark"
+			}]
+			x: 25.0d
+			y: 2.5d
+		}
 	]
 }

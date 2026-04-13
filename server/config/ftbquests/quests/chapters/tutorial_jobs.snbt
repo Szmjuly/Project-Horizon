@@ -1,0 +1,93 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_jobs"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "minecraft:anvil"
+	}
+	id: "FCBB1CFCB1511263"
+	images: [ ]
+	order_index: 13
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:anvil"
+			}
+			id: "A56A6C77E810A70A"
+			rewards: [{
+				id: "E396A7D76C7211DD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "8415907D9353B197"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A56A6C77E810A70A"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "DFA6B602EBDD6121"
+			rewards: [{
+				id: "0C1E609F4BAB4BD2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3354BAB72BC061C9"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DFA6B602EBDD6121"]
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "63D606AA24231C5F"
+			rewards: [{
+				id: "29F636131BABE922"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "60A0BE792C0367F5"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63D606AA24231C5F"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "D89595CC2B4A7708"
+			rewards: [{
+				id: "214A44321FDB411C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "45F4F9ADD04805A1"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

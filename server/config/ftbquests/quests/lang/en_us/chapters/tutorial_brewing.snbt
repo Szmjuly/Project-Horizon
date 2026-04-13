@@ -1,0 +1,18 @@
+{
+	"quest.9ADFC85B145A65E4.title": "The Cooking Pot"
+	"quest.9ADFC85B145A65E4.quest_desc": "Place a cooking pot over a heat source. This is the foundation of all advanced cooking in Horizons."
+	"task.1FEF43C84B54E153.title": "Place and use a cooking pot"
+	"quest.D9CAE89FEBFB0B10.title": "Bake Bread"
+	"quest.D9CAE89FEBFB0B10.quest_desc": "Bake bread in a furnace or cooking pot. Bread is a staple grain that fills the grains nutrition category."
+	"quest.A9374F1885C9F3E6.title": "Brew Your First Beer"
+	"quest.A9374F1885C9F3E6.quest_desc": "Use a fermentation barrel with wheat and water to produce beer. Alcohol provides temporary buffs but has drawbacks."
+	"task.9F759AD941C60AF7.title": "Brew a beer"
+	"quest.39C30D036468D093.title": "Winemaking"
+	"quest.39C30D036468D093.quest_desc": "Grow grapes in a vineyard and process them into wine using the Vinery mod's wine press and fermentation barrel."
+	"quest.C3A3A135DF0F858C.title": "Quality System"
+	"quest.C3A3A135DF0F858C.quest_desc": "Learn about the quality system. Food and drink quality ranges from Poor to Legendary, affecting nutrition value and buffs."
+	"task.6A2CEFC1DCFFAC1A.title": "Produce a Good or higher quality item"
+	"quest.30205637F923388D.title": "Legendary Vintage"
+	"quest.30205637F923388D.quest_desc": "Age a wine in optimal conditions to achieve Legendary quality. Temperature, time, and cellar depth all matter."
+	"task.9F176F9F169C4823.title": "Age a wine to Legendary quality"
+}

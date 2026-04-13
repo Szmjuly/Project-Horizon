@@ -72,4 +72,10 @@
 	"task.9E186B1ABE29BE45.title": "Catch a legendary Pokemon"
 	"quest.4C6988AC97F86F7C.title": "Living Dex"
 	"quest.4C6988AC97F86F7C.quest_desc": "Catch one of every Pokemon species available in Horizons. The ultimate collection."
+	"quest.85FB1A2732E35C04.title": "Breeding Introduction"
+	"quest.85FB1A2732E35C04.quest_desc": "Set up a Pokemon daycare area with two compatible Pokemon. Learn compatibility groups and egg production timings."
+	"task.70A537D3B0431700.title": "Set up a breeding operation"
+	"quest.350897C8AE29DE35.title": "Competitive Battling"
+	"quest.350897C8AE29DE35.quest_desc": "Enter and win a competitive battle tournament. Build a team with proper EVs, IVs, held items, and synergy."
+	"task.CB8386FDBBAB69F9.title": "Win a competitive tournament"
 }
