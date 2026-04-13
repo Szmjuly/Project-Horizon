@@ -1,0 +1,18 @@
+{
+  "name": "Buff States",
+  "icon": "minecraft:potion",
+  "category": "horizons:nutrition",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Nutrition Buff States",
+      "text": "Your nutrition determines your buff state. These are passive effects that persist as long as you maintain the required food group scores.$(br2)$(thing)Malnourished$() -- Any group at 0 for 2+ days: -15% max HP, -10% movement speed. This is a serious penalty. Eat something from the depleted group immediately.$(br2)$(thing)Undernourished$() -- 3+ groups below 20: -5% HP regen. A warning sign that your diet is too narrow.$(br2)$(thing)Well Fed$() -- 3+ groups above 50: +10% XP gain, faster health regeneration. The first positive tier."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Higher States",
+      "text": "$(thing)Balanced Diet$() -- All 8 groups above 30: +15% max HP, +10% XP, +5% Cultivator perk XP. This is the target for most players. Maintaining all 8 groups requires intentional cooking and meal planning.$(br2)$(thing)Gourmet$() -- All 8 groups above 70, plus at least one $(l:nutrition/quality)Legendary-quality$() food eaten in the last day: +25% XP, rare drop chance boost, unique particle aura.$(br2)The Gourmet state is the reward for mastering the cooking and farming systems together. It requires premium ingredients, skilled preparation, and constant variety."
+    }
+  ]
+}

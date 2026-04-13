@@ -1,0 +1,23 @@
+{
+  "name": "Companions",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:cobblemon",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Living Companions",
+      "text": "Cobblemon are not just battle partners in Aetheria -- they are $(thing)living companions$() that integrate into every system. Each type provides unique passive benefits when walking beside you or stationed at your base.$(br2)$(thing)Fire-type$() -- Heat furnaces and smelters without fuel. Standing near a furnace with a Fire-type out automatically fuels it. Higher trust means faster smelting speed. Essential for early-game efficiency.$(br2)$(thing)Water-type$() -- Produce purified water on demand. Right-click with an empty $(item)Canteen$() to fill it. Higher trust extends water quality duration. Critical for desert and deep dungeon expeditions."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "More Companion Types",
+      "text": "$(thing)Grass-type$() -- Boost crop growth in a radius around them. Crops within 8 blocks grow 20% faster at base trust level, scaling up to 50% at max trust. Station a Grass-type near your farm for passive acceleration.$(br2)$(thing)Electric-type$() -- Generate Create rotational power when placed on a $(item)Cobblemon Dynamo$() block. Output scales with level and trust. A high-level Electric-type can power a small factory alone.$(br2)$(thing)Steel-type$() -- Increase ore yield when mining within 6 blocks. Base bonus is +10% extra drops, scaling to +30% at max trust. They also reduce tool durability loss."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Activation & Tips",
+      "text": "To activate companion benefits, the Cobblemon must be $(thing)walking beside you$() (send out from its ball). Benefits apply in a radius based on the companion's level and $(l:cobblemon/trust)trust$() score.$(br2)You can station a Cobblemon at a specific location using a $(item)Cobblemon Rest Station$(). Stationed companions provide their passive benefits in a fixed radius and do not follow you, but they still accumulate fatigue.$(br2)$(thing)Pro tip:$() Many types have secondary benefits. Poison-types boost fermentation speed near brewing stations. Bug-types increase beehive output. Ghost-types detect hidden rooms in Gates. Experiment with different companions to discover synergies."
+    }
+  ]
+}

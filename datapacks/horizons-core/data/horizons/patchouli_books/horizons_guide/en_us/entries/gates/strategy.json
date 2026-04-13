@@ -1,0 +1,18 @@
+{
+  "name": "Gate Strategy",
+  "icon": "minecraft:shield",
+  "category": "horizons:gates",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Preparation",
+      "text": "$(thing)Before entering a Gate:$()$(br2)1. $(thing)Eat a balanced meal$() -- $(l:nutrition/buff_states)Well Fed$() or $(thing)Balanced Diet$() buffs give you significant HP and regen advantages.$(br2)2. $(thing)Fill your canteen$() -- Floors 26+ apply extra thirst drain. Bring a Water-type companion or pack 3+ full canteens for deep dives.$(br2)3. $(thing)Bring healing items$() -- $(item)Golden Apples$(), $(item)Healing Potions$(), and Cobblemon $(item)Full Restores$() are essential for boss floors.$(br2)4. $(thing)Equip proper gear$() -- Diamond armor minimum for C-Rank. Netherite for B-Rank and above. Enchantments matter significantly.$(br2)5. $(thing)Bank your coins$() -- Death drops 15% of carried currency. Store excess at a $(item)Lightman's ATM$() before entering."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Companion Synergies",
+      "text": "The right Cobblemon companion transforms your Gate experience:$(br2)$(thing)Ghost-type$() -- Detects hidden rooms on each floor. Hidden rooms contain bonus loot chests and sometimes shortcuts to skip floors.$(br2)$(thing)Fire-type$() -- Provides ambient light and warmth. Some deep floors have cold effects that Fire-types negate.$(br2)$(thing)Steel-type$() -- Increases ore drops from Gate enemies. Gate mobs sometimes drop rare materials that only spawn inside dungeons.$(br2)$(thing)Psychic-type$() -- Reveals enemy positions through walls. Invaluable for avoiding ambushes on higher floors.$(br2)$(thing)Pro tip:$() During $(thing)Gate Surge$() world events, Gate difficulty increases but all loot rewards are doubled. These are the best times to push for new depth records."
+    }
+  ]
+}

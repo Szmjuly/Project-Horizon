@@ -1,0 +1,18 @@
+{
+  "name": "Mega Raids",
+  "icon": "cobblemon:master_ball",
+  "category": "horizons:cobblemon",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Mega Showdowns",
+      "text": "$(thing)Mega Showdowns$() are special events where powerful Mega-evolved Cobblemon appear at designated arenas across Aetheria. These are the ultimate Cobblemon challenges.$(br2)$(thing)How they work:$()$(br)- A beam of light signals a Mega Showdown location$(br)- Up to 4 players can participate simultaneously$(br)- The Mega Cobblemon has boosted stats and a unique moveset$(br)- Players take turns battling with their best team$(br)- Defeating it earns $(item)Mega Stones$(), $(item)Rare Candy$(), and $(item)Ability Patches$()$(br2)Mega Showdowns rotate on a weekly schedule. Check the $(thing)Guild Board$() in Anchor Town for the current schedule."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Raid Dens",
+      "text": "$(thing)Raid Dens$() are permanent locations scattered across Aetheria where wild Cobblemon with boosted stats can be challenged. Unlike Mega Showdowns, Raid Dens are always available but refresh on a daily timer.$(br2)$(thing)Raid tiers:$()$(br)$(thing)1-Star$() -- Lv.15-25, common species$(br)$(thing)2-Star$() -- Lv.25-35, uncommon species$(br)$(thing)3-Star$() -- Lv.35-45, rare species with hidden abilities$(br)$(thing)4-Star$() -- Lv.45-55, very rare with perfect IVs$(br)$(thing)5-Star$() -- Lv.55-65, legendary-adjacent with unique moves$(br2)Higher-tier dens appear in more dangerous biomes and near high-rank Gates. Bring a full team and stock up on $(item)Hyper Potions$() and $(item)Ultra Balls$()."
+    }
+  ]
+}

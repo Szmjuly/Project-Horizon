@@ -1,0 +1,18 @@
+{
+  "name": "Refined Storage",
+  "icon": "refinedstorage:creative_controller",
+  "category": "horizons:storage",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Digital Storage",
+      "text": "$(thing)Refined Storage$() is Aetheria's endgame storage solution. It stores items as digital data on disks, accessed through a unified network.$(br2)$(thing)Core components:$()$(br)$(item)Controller$() -- The brain of your network. Requires power (FE or Create rotation via adapter).$(br)$(item)Disk Drive$() -- Holds storage disks. Each disk stores thousands of item types.$(br)$(item)Grid$() -- Your access terminal. Search, deposit, and withdraw items.$(br)$(item)Crafting Grid$() -- Like the Grid but with a crafting table built in.$(br)$(item)Cable$() -- Connects components. Maximum 96 blocks from Controller.$(br2)$(thing)Storage Disks:$() Come in tiers from 1K (1,000 items) to 64K (64,000 items). Higher tiers require more expensive materials but hold dramatically more."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Autocrafting",
+      "text": "$(thing)Autocrafting$() is Refined Storage's most powerful feature. Set up patterns and the system crafts items on demand.$(br2)$(thing)Setup:$()$(br)1. Craft a $(item)Pattern Grid$() and $(item)Blank Patterns$()$(br)2. Encode recipes onto patterns using the Pattern Grid$(br)3. Place encoded patterns into a $(item)Crafter$()$(br)4. Request items from any Grid -- the system auto-crafts recursively$(br2)$(thing)Pro tips:$()$(br)- Chain crafters for multi-step recipes$(br)- Use $(item)External Storage$() to connect existing chests and drawers to your RS network$(br)- $(item)Importer$() blocks auto-pull items from adjacent inventories$(br)- $(item)Exporter$() blocks auto-push items to adjacent inventories$(br)- The $(item)Wireless Transmitter$() enables remote Grid access from anywhere in the same dimension"
+    }
+  ]
+}

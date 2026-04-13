@@ -1,0 +1,28 @@
+{
+  "name": "Choose Your Path",
+  "icon": "minecraft:writable_book",
+  "category": "horizons:getting_started",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Four Perk Trees",
+      "text": "At the Guild Hall, $(thing)Guild Master Aren$() asks you to choose an initial path. This gives you a starter kit and introduces you to a mentor, but does $(thing)not$() lock you in permanently. You earn $(thing)Pathfinder XP$() through all activities and can invest in any tree at any time.$(br2)The four paths are:$(br)- $(thing)Vanguard$() -- Combat and dungeons$(br)- $(thing)Artificer$() -- Crafting and engineering$(br)- $(thing)Cultivator$() -- Farming and nature$(br)- $(thing)Wayfinder$() -- Exploration and discovery$(br2)See $(l:combat/perk_trees)Perk Trees$() for full details on each."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Vanguard",
+      "text": "$(thing)Mentor: Master Vex$()$(br2)The path of the warrior. Vanguard perks improve melee damage, dungeon loot quality, boss resistance, and deep floor endurance.$(br2)Key perks: $(thing)Warrior's Resolve$() (+5 max HP), $(thing)Heavy Strikes$() (+10% melee damage), $(thing)Berserker Rage$() (+25% damage below 30% HP), $(thing)War Cry$() (AoE intimidation).$(br2)$(thing)Capstone: Avatar of War$() -- all combat stats +10%. The pinnacle of martial mastery."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Artificer & Cultivator",
+      "text": "$(thing)Artificer -- Mentor: Master Lyra$()$(br)The path of the engineer. Perks improve Create mechanical output, smelting yield, crafting speed, and machine processing.$(br)$(thing)Capstone: Mind of the Forge$() -- all engineering stats +10%.$(br2)$(thing)Cultivator -- Mentor: Master Tomo$()$(br)The path of the grower. Perks improve crop yield, soil quality, seed returns, animal drops, and MineColonies worker speed.$(br)$(thing)Capstone: Verdant Sovereign$() -- all farming stats +10%."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wayfinder",
+      "text": "$(thing)Mentor: Wandering Scholar Vael$()$(br2)The path of the explorer. Perks improve movement speed, discovery radius, compass range, Cobblemon catch rate, and structure loot quality.$(br2)Key perks: $(thing)Scout's Instinct$() (+25% discovery radius), $(thing)Cobblemon Whisperer$() (+15% catch rate), $(thing)Star Chart$() (+25% space travel speed), $(thing)Cosmic Awareness$() (detect rare spawns within 128 blocks).$(br2)$(thing)Capstone: Eternal Walker$() -- all exploration stats +10%. The world has no secrets from you."
+    }
+  ]
+}

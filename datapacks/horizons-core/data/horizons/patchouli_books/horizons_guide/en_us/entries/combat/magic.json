@@ -1,0 +1,18 @@
+{
+  "name": "Magic System",
+  "icon": "minecraft:enchanting_table",
+  "category": "horizons:combat",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Iron's Spells",
+      "text": "$(thing)Iron's Spells & Spellbooks$() provides Aetheria's magic system. Magic is a full combat alternative to melee, with deep spell schools and progression.$(br2)$(thing)Spell Schools:$()$(br)$(thing)Fire$() -- Damage-focused. Fireball, Fire Breath, Inferno Wall.$(br)$(thing)Ice$() -- Control and damage. Frost Bolt, Blizzard, Ice Cage.$(br)$(thing)Lightning$() -- High burst damage. Chain Lightning, Thunder Strike.$(br)$(thing)Holy$() -- Healing and buffs. Heal, Blessing, Divine Shield.$(br)$(thing)Nature$() -- Summons and terrain. Vine Trap, Poison Cloud, Summon Wolves.$(br)$(thing)Ender$() -- Teleportation and void. Blink, Void Beam, Dimensional Rift.$(br)$(thing)Blood$() -- Risk/reward. HP-cost spells with devastating power."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Spellbooks & Casting",
+      "text": "To cast spells, you need a $(item)Spellbook$() equipped in your offhand and known spells inscribed within it. Find spell scrolls in $(l:gates/basics)Gate$() loot chests, purchase them from the Skyborn Order, or craft them at an $(item)Inscription Table$().$(br2)$(thing)Mana$() powers your spells. The blue bar below your health shows your current mana. Mana regenerates slowly over time, faster while standing still. $(item)Mana Potions$() provide instant recovery.$(br2)$(thing)Spell levels:$() Each spell can be upgraded from Level 1 to Level 5 by finding duplicate scrolls. Higher levels increase damage, range, or add secondary effects.$(br2)$(thing)Cobblemon synergy:$() Psychic-type companions boost mana regeneration by 20%. Ghost-type companions increase spell range. Electric-types enhance Lightning school damage."
+    }
+  ]
+}

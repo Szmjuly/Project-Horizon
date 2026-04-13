@@ -1,0 +1,18 @@
+{
+  "name": "Kingdom Currencies",
+  "icon": "horizons:kingdom_mark",
+  "category": "horizons:economy",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Kingdom Trade",
+      "text": "Each of Aetheria's five kingdoms has a local currency used for premium purchases at kingdom-specific vendors. These currencies supplement Lightman's coins, not replace them.$(br2)$(thing)Plains Kingdom$() -- $(item)Plains Seal$()$(br)Earned through farming quests and crop deliveries.$(br2)$(thing)Forest Coalition$() -- $(item)Canopy Token$()$(br)Earned through foraging, conservation, and Cobblemon care quests.$(br2)$(thing)Mountain Forge$() -- $(item)Forge Mark$()$(br)Earned through smithing orders and ore deliveries.$(br2)$(thing)Coastal Republic$() -- $(item)Tide Coin$()$(br)Earned through trade route quests and shipping contracts.$(br2)$(thing)Skyborn Order$() -- $(item)Star Shard$()$(br)Earned through exploration milestones and Gate progression."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Exchange Rates",
+      "text": "Kingdom currencies can be exchanged at faction traders or at the $(thing)Grand Market$() in Anchor Town. Rates fluctuate based on supply and demand.$(br2)$(thing)Base exchange rates (to Gold Coins):$()$(br)1 Plains Seal = 50 Gold$(br)1 Canopy Token = 50 Gold$(br)1 Forge Mark = 75 Gold$(br)1 Tide Coin = 60 Gold$(br)1 Star Shard = 100 Gold$(br2)Rates shift by up to 20% based on player activity. If many players are selling Forge Marks, the rate drops. This creates a natural economy where underserved factions become more profitable.$(br2)$(thing)Kingdom Marks$() are a special currency dropped by Gate bosses that can be exchanged for any kingdom currency at a 1:1 ratio."
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 {
   "astages:block_component_provider": null,
   "cobblemonraiddens:raid_crystal": null,
+  "extrastorage:advanced_crafter": null,
+  "functionalstorage:armory": null,
   "immersiveengineering:multiblock_inventory": null,
   "immersiveengineering:multiblock_tank": null,
   "jade:object_name": null,
@@ -31,5 +33,8 @@
   "minecraft:redstone": null,
   "minecraft:zombie_villager": null,
   "supplementaries:present": null,
-  "supplementaries:safe": null
+  "supplementaries:safe": null,
+  "toms_storage:inventory_config": null,
+  "toms_storage:inventory_connector": null,
+  "toms_storage:inventory_hopper": null
 }

@@ -1,0 +1,18 @@
+{
+  "name": "Sophisticated Storage",
+  "icon": "sophisticatedstorage:gold_chest",
+  "category": "horizons:storage",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Tiered Containers",
+      "text": "$(thing)Sophisticated Storage$() adds tiered chests, barrels, and shulker boxes that scale from iron to netherite, with increasing capacity at each tier.$(br2)$(thing)Chest tiers:$()$(br)$(item)Wood$() -- 27 slots (vanilla equivalent)$(br)$(item)Iron$() -- 54 slots$(br)$(item)Gold$() -- 81 slots$(br)$(item)Diamond$() -- 108 slots$(br)$(item)Netherite$() -- 120 slots$(br2)Each tier can be upgraded in-place without moving contents. Right-click a chest with the next tier's ingot upgrade item to transform it instantly.$(br2)$(thing)Barrels$() follow the same tier system and are useful when you need front-access storage in tight spaces."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Upgrades & Create",
+      "text": "Sophisticated containers accept $(thing)upgrade modules$() that add automation:$(br2)$(item)Pickup Upgrade$() -- Auto-collects dropped items nearby$(br)$(item)Filter Upgrade$() -- Only allows specific items in/out$(br)$(item)Void Upgrade$() -- Destroys overflow items (great for mob farms)$(br)$(item)Feeding Upgrade$() -- Auto-feeds you from the container$(br)$(item)Magnet Upgrade$() -- Pulls items from a wider radius$(br)$(item)Compacting Upgrade$() -- Auto-compresses items (ingots to blocks)$(br2)$(thing)Create Integration:$() Sophisticated containers work seamlessly with Create funnels and chutes. A Create belt feeding into a Sophisticated barrel with a Filter Upgrade creates a powerful sorting system without redstone. Combine with $(item)Compacting Upgrades$() for fully automated ingot block storage."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Functional Storage",
+  "icon": "functionalstorage:oak_1",
+  "category": "horizons:storage",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Storage Drawers",
+      "text": "$(thing)Functional Storage$() adds drawer blocks that store massive quantities of a single item type. Perfect for bulk materials like cobblestone, wood, and farm output.$(br2)$(thing)Drawer types:$()$(br)$(item)1-Slot Drawer$() -- Stores one item type in enormous quantity$(br)$(item)2-Slot Drawer$() -- Two types, half capacity each$(br)$(item)4-Slot Drawer$() -- Four types, quarter capacity each$(br2)$(thing)Upgrades:$()$(br)$(item)Iron Upgrade$() -- 2x capacity$(br)$(item)Gold Upgrade$() -- 4x capacity$(br)$(item)Diamond Upgrade$() -- 8x capacity$(br)$(item)Netherite Upgrade$() -- 16x capacity$(br2)A single Netherite-upgraded 1-slot drawer can hold hundreds of thousands of items. Connect multiple drawers with a $(item)Storage Controller$() for unified access."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sorting & Ender Drawers",
+      "text": "$(thing)Bulk sorting:$() Place a $(item)Storage Controller$() adjacent to your drawer array. Items inserted into the Controller are automatically routed to the correct drawer. Combine with Create hoppers or Sophisticated containers for fully automated sorting.$(br2)$(thing)Linking Drawers:$() Use a $(item)Linking Tool$() to connect distant drawers to a single Controller. This lets you build expansive drawer walls that all funnel through one access point.$(br2)$(thing)Ender Drawers:$() Craft an $(item)Ender Drawer$() for cross-dimensional storage. Items placed in an Ender Drawer are accessible from any other Ender Drawer linked to the same frequency, even across dimensions. This is invaluable for Gate runs -- store loot in a portable Ender Drawer and it appears in your base instantly.$(br2)$(thing)Tip:$() Drawers can be connected to $(l:storage/refined_storage)Refined Storage$() networks via an $(item)External Storage$() connector. This adds your drawer array to your digital network."
+    }
+  ]
+}

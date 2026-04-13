@@ -1,0 +1,18 @@
+{
+  "name": "MineColonies",
+  "icon": "minecraft:beehive",
+  "category": "horizons:farming",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Building a Colony",
+      "text": "$(thing)MineColonies$() lets you build and manage a functioning settlement with NPC workers. In Aetheria, colonies are the backbone of the Living Pillar.$(br2)$(thing)Getting started:$()$(br)1. Craft a $(item)Supply Ship$() or $(item)Supply Camp$() to establish your colony$(br)2. Place a $(item)Town Hall$() as the colony center$(br)3. Build a $(item)Builder's Hut$() -- the Builder NPC constructs all future buildings$(br)4. Expand with homes, farms, mines, and workshops$(br2)Each building requires a specific NPC worker. Workers need $(thing)housing$(), $(thing)food$(), and $(thing)wages$() to function. Their efficiency scales with their skill level, happiness, and the building tier."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Workers & Wages",
+      "text": "$(thing)Hiring workers:$() NPCs move into homes automatically when housing is available. Assign them to work buildings by clicking the building block.$(br2)$(thing)Key workers:$()$(br)- $(thing)Farmer$() -- Tends crops at Farm buildings$(br)- $(thing)Miner$() -- Extracts resources underground$(br)- $(thing)Lumberjack$() -- Harvests trees sustainably$(br)- $(thing)Fisher$() -- Catches fish at Fishing Huts$(br)- $(thing)Cook$() -- Prepares meals at the Restaurant$(br)- $(thing)Guard$() -- Defends the colony perimeter$(br2)$(thing)Wages:$() Workers require payment in $(item)Lightman's Coins$(). Higher-tier buildings cost more in wages but produce significantly more output. The $(thing)Colony Architect$() Cultivator perk (+25% worker speed) dramatically improves your colony's efficiency.$(br2)Workers with $(l:farming/pokemon_workers)Cobblemon assistants$() gain additional bonuses."
+    }
+  ]
+}

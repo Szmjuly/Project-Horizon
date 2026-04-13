@@ -1,0 +1,18 @@
+{
+  "name": "Trust System",
+  "icon": "cobblemon:friendship_band",
+  "category": "horizons:cobblemon",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Building Trust",
+      "text": "Every Cobblemon has a $(thing)trust score$() from 0 to 100 that determines the strength of its passive benefits and combat bonuses. Trust is separate from Cobblemon friendship -- it represents how deeply your companion integrates with Aetheria's systems.$(br2)$(thing)Trust Tiers:$()$(br)$(thing)Wary$() (0-19) -- Minimal passive benefits. Basic combat ability.$(br)$(thing)Familiar$() (20-39) -- Half-strength passive benefits activate.$(br)$(thing)Bonded$() (40-59) -- Full passive benefits. Combat coordination improves.$(br)$(thing)Devoted$() (60-79) -- Enhanced passive benefits (+50% radius). Unique interactions unlock.$(br)$(thing)Soulbound$() (80-100) -- Maximum passive strength. Exclusive Soulbound abilities."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Gaining & Losing Trust",
+      "text": "$(thing)Gaining trust:$()$(br)- Walking together: +1 per Minecraft day$(br)- Feeding preferred berries: +2-5 per feeding$(br)- Winning battles together: +3 per victory$(br)- Completing quests with companion active: +5$(br)- Sleeping with companion out: +1 per night$(br2)$(thing)Losing trust:$()$(br)- Companion fainting in battle: -5$(br)- Ignoring fatigue warnings: -3$(br)- Extended time in Poke Ball without release: -1 per 3 days$(br2)$(thing)Fatigue:$() Companions tire after 2 Minecraft days of continuous activity. A fatigued companion's benefits drop by 50%. Rest them in their ball for 1 day to recover. Use $(thing)/horizons trust$() to check trust and fatigue levels."
+    }
+  ]
+}

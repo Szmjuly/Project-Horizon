@@ -1,0 +1,18 @@
+{
+  "name": "Jobs & Professions",
+  "icon": "minecraft:iron_pickaxe",
+  "category": "horizons:economy",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Jobs+ System",
+      "text": "The $(thing)Jobs+$() system lets you earn coins passively by performing tasks aligned with your profession. You can hold up to 3 jobs simultaneously, and each job levels up as you work.$(br2)$(thing)Available professions:$()$(br)$(thing)Miner$() -- Earn from mining ores and stone$(br)$(thing)Woodcutter$() -- Earn from chopping logs$(br)$(thing)Farmer$() -- Earn from harvesting crops$(br)$(thing)Fisher$() -- Earn from catching fish$(br)$(thing)Hunter$() -- Earn from killing hostile mobs$(br)$(thing)Brewer$() -- Earn from crafting potions and drinks$(br)$(thing)Enchanter$() -- Earn from enchanting items$(br)$(thing)Builder$() -- Earn from placing certain blocks$(br2)Use $(thing)/jobs$() to view and manage your professions."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Earning Rates",
+      "text": "Each job pays per action at a rate that scales with job level:$(br2)$(thing)Level 1-10$() -- Base rate. A Miner earns ~2 Copper per ore mined.$(br)$(thing)Level 11-25$() -- 1.5x base rate. Better materials pay more.$(br)$(thing)Level 26-50$() -- 2x base rate. Rare actions (diamond mining, legendary brewing) give bonus payouts.$(br)$(thing)Level 51-75$() -- 2.5x base rate. Milestone bonuses every 10 levels.$(br)$(thing)Level 76-100$() -- 3x base rate. Mastery perks unlock unique recipes and abilities tied to the job.$(br2)$(thing)Tip:$() Job income stacks with faction trade bonuses. A Farmer with $(thing)Trusted$() Plains reputation earns more from crop deliveries than the base job rate alone. Combine jobs with $(l:factions/benefits)faction benefits$() for maximum income."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Horizons Guide",
+  "landing_text": "Welcome to Project Horizons, Pathfinder! This guide covers every custom system in the modpack. Browse by category or use the search bar.",
+  "book_texture": "patchouli:textures/gui/book_purple.png",
+  "model": "patchouli:book_purple",
+  "show_progress": false,
+  "i18n": false,
+  "version": "1",
+  "subtitle": "A Pathfinder's Handbook"
+}

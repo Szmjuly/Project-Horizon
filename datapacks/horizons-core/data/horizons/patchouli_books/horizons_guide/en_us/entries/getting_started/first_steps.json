@@ -1,0 +1,23 @@
+{
+  "name": "First Steps",
+  "icon": "minecraft:leather_boots",
+  "category": "horizons:getting_started",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Your First 30 Minutes",
+      "text": "You wake near a glowing stone pillar. $(thing)Sera$(), your guide, welcomes you and gives you your first quest. Follow her instructions to get oriented.$(br2)$(thing)Immediate priorities:$()$(br)1. Eat something -- your $(l:nutrition/food_groups)hunger and nutrition$() matter here$(br)2. Drink water -- $(l:nutrition/quality)thirst$() is real in Aetheria$(br)3. Gather basic resources$(br)4. Build a simple shelter before nightfall$(br2)Unlike vanilla Minecraft, you keep your inventory on death. But death still costs you currency and dungeon progress."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Finding Anchor Town",
+      "text": "Smoke rises on the horizon toward $(thing)Anchor Town$(), the central settlement. Head toward it. Anchor Town contains:$(br2)- The $(thing)Guild Hall$() where you register as a Pathfinder$(br)- Shops selling seeds, tools, and Poke Balls$(br)- The $(thing)Bounty Board$() for hunting criminals$(br)- Path Mentors for each class$(br)- A Warp Anchor for fast travel$(br2)Speak to $(thing)Town Crier Petra$() when you arrive for your residency badge, then visit $(thing)Guild Master Aren$() at the Guild Hall to begin the main quest."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Choose Your Path",
+      "text": "At the Guild Hall, $(thing)Guild Master Aren$() asks you to choose an initial path. This gives you a starter kit and introduces you to a mentor, but does $(thing)not$() lock you in permanently. You earn $(thing)Pathfinder XP$() through all activities.$(br2)The four paths are:$(br)- $(thing)Vanguard$() -- Combat and dungeons (Mentor: Master Vex)$(br)- $(thing)Artificer$() -- Crafting and engineering (Mentor: Master Lyra)$(br)- $(thing)Cultivator$() -- Farming and nature (Mentor: Master Tomo)$(br)- $(thing)Wayfinder$() -- Exploration and discovery (Mentor: Scholar Vael)$(br2)See $(l:combat/perk_trees)Perk Trees$() for full details on each."
+    }
+  ]
+}

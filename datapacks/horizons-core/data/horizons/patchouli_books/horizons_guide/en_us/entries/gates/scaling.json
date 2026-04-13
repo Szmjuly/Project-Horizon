@@ -1,0 +1,18 @@
+{
+  "name": "Gate Scaling",
+  "icon": "minecraft:diamond_sword",
+  "category": "horizons:gates",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Mob Scaling",
+      "text": "Gate enemies scale with floor depth using a predictable formula. Understanding this helps you prepare for deeper dives.$(br2)$(thing)HP Formula:$() Base HP x (1 + 0.05 x Floor)$(br)$(thing)DMG Formula:$() Base DMG x (1 + 0.03 x Floor)$(br2)At Floor 10, mobs have 1.5x HP and 1.3x damage. By Floor 50, they have 3.5x HP and 2.5x damage. Floor 100 enemies have 6x HP and 4x damage -- only fully geared players with Ascension classes can handle this.$(br2)$(thing)Boss Floors$() (every 10th) feature a single powerful enemy with 5x the normal floor's HP, unique attack patterns, and guaranteed high-tier loot drops."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Loot Tiers",
+      "text": "Loot quality scales with depth:$(br2)$(thing)Floors 1-10 (Common):$() Basic materials, iron gear, $(item)Poke Balls$(), small coin rewards.$(br2)$(thing)Floors 11-25 (Uncommon):$() Better gear, $(item)Great Balls$(), moderate coins, occasional enchanted books.$(br2)$(thing)Floors 26-50 (Rare):$() Diamond-tier gear, $(item)Ultra Balls$(), $(item)Rare Candy$(), $(item)Kingdom Marks$(), enchanted books.$(br2)$(thing)Floors 51-75 (Epic):$() Netherite materials, $(item)Precursor Fragments$(), high-value coins.$(br2)$(thing)Floors 76-100 (Legendary):$() $(item)Precursor Artifacts$(), $(item)Ascension Crystals$(), $(item)Nether Stars$(), $(item)Ability Patches$(). The rarest items in Aetheria."
+    }
+  ]
+}

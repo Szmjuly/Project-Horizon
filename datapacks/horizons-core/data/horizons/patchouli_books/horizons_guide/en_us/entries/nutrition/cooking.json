@@ -1,0 +1,23 @@
+{
+  "name": "Cooking",
+  "icon": "farmersdelight:cooking_pot",
+  "category": "horizons:nutrition",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Farmer's Delight",
+      "text": "The $(thing)Farmer's Delight$() mod is the backbone of Aetheria's cooking system. It adds the $(item)Cooking Pot$(), $(item)Cutting Board$(), $(item)Skillet$(), and a wide range of ingredients and recipes.$(br2)$(thing)Cooking Pot$() -- Place over a heat source. Combine ingredients to make soups, stews, and complex meals. Most meals restore multiple food groups at once, making them excellent for maintaining Balanced Diet.$(br2)$(thing)Cutting Board$() -- Use a knife to slice ingredients. Many recipes require cut vegetables, shredded meat, or prepared ingredients."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Key Recipes",
+      "text": "Some of the most valuable meals for $(l:nutrition/nutrition)nutrition$() coverage:$(br2)$(item)Mixed Salad$() -- Covers Vegetables and Herbs$(br)$(item)Pasta with Meatballs$() -- Covers Grains and Proteins$(br)$(item)Mushroom Rice$() -- Covers Grains and Vegetables$(br)$(item)Fruit Salad$() -- Covers Fruits and Sugars$(br)$(item)Steak and Potatoes$() -- Covers Proteins and Vegetables$(br2)Complex meals that cover 3+ groups are the most efficient path to $(thing)Balanced Diet$() and $(thing)Gourmet$() states."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Croptopia & Bakery",
+      "text": "$(thing)Croptopia$() adds 250+ crops and foods, massively expanding your ingredient options. Barley, corn, oat, rice, and dozens of fruits and vegetables. Each tagged into the appropriate nutrition groups.$(br2)$(thing)Bakery$() (Let's Do) adds a baking system with crusty bread, baguettes, croissants, waffles, and pastries. These count toward the Grains and Sugars groups.$(br2)$(thing)Candlelight$() adds restaurant-style meals like pasta with mozzarella, bolognese, and lasagne. These are high-quality foods worth learning."
+    }
+  ]
+}

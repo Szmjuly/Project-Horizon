@@ -1,0 +1,23 @@
+{
+  "name": "Faction Overview",
+  "icon": "minecraft:banner",
+  "category": "horizons:factions",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Six Factions",
+      "text": "Aetheria is shaped by six factions, each with a distinct culture, territory, and philosophy. Your $(thing)reputation$() with each faction ranges from -100 (Hostile) to +100 (Allied) and affects prices, quests, dialogue, and access.$(br2)$(thing)Plains Kingdom$() -- Gold/Green$(br)Capital: $(thing)Anchor Town$(). Farmers, merchants, and the Guild Hall. The most accessible faction and your likely first ally. Values community, trade, and stability."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Forest, Mountain, Coast",
+      "text": "$(thing)Forest Coalition$() -- Green/Brown$(br)Capital: $(thing)Willowmere$(). Rangers, druids, and Cobblemon conservationists. Values nature, balance, and ancient wisdom. Best source of Cobblemon-related quests and rare berries.$(br2)$(thing)Mountain Forge$() -- Gray/Orange$(br)Capital: $(thing)Ironhold$(). Smiths, engineers, and miners. Values craftsmanship, strength, and innovation. Best source of Create components and high-tier gear.$(br2)$(thing)Coastal Republic$() -- Blue/White$(br)Capital: $(thing)Port Meridian$(). Traders, sailors, and diplomats. Values commerce, freedom, and exploration. Best exchange rates and trade route quests."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Skyborn & Wanderers",
+      "text": "$(thing)Skyborn Order$() -- Purple/Silver$(br)Capital: $(thing)Spire of Ascent$(). Scholars, astronomers, and Precursor researchers. Values knowledge, discovery, and cosmic understanding. Gate-focused faction with the best dungeon rewards.$(br2)$(thing)Wanderer's Guild$() -- No fixed color$(br)Capital: None (mobile caravans). Nomads, bounty hunters, and free agents. Values freedom, adaptability, and self-reliance. Unique neutral faction that trades with everyone.$(br2)You can be Allied with multiple factions simultaneously, but gaining reputation with one may cost reputation with rivals. The $(thing)Wanderer's Guild$() is neutral and never conflicts with other factions."
+    }
+  ]
+}

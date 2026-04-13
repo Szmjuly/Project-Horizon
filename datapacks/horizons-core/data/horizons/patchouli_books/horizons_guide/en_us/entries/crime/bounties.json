@@ -1,0 +1,18 @@
+{
+  "name": "Bounty Hunting",
+  "icon": "horizons:bounty_hunter_badge",
+  "category": "horizons:crime",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Bounty Board",
+      "text": "Every settlement at Town tier or higher has a $(thing)Bounty Board$(). These boards list players and NPCs with Crime Stat 3 or higher, along with their last known location and the reward for their capture.$(br2)$(thing)To become a Bounty Hunter:$()$(br)1. Visit any Bounty Board$(br)2. Accept a bounty contract$(br)3. Track and defeat the target$(br)4. Return to any Bounty Board to claim your reward$(br2)$(thing)Bounty rewards$() scale with the target's Crime Stat tier. Higher-tier criminals offer $(item)Gold Coins$(), $(item)Diamonds$(), $(item)Ultra Balls$(), $(item)Rare Candy$(), and $(item)Kingdom Marks$() as rewards. Tier 5 bounties also award a $(item)Bounty Hunter Badge$() that increases faction reputation."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Capture Mechanics",
+      "text": "Defeating a bounty target works differently for NPCs and players:$(br2)$(thing)NPC Bounties:$() Reduce the target to low HP, then right-click with a $(item)Capture Net$() to apprehend them. The NPC is removed and you receive a $(item)Bounty Proof$() item to turn in at the Board.$(br2)$(thing)Player Bounties:$() Defeat the player in combat. On death, a percentage of their dropped coins becomes your bonus reward. They receive a forced respawn at the nearest jail cell and their Crime Stat is reduced by 1.$(br2)$(thing)Tips:$()$(br)- Use $(thing)/bounty$() to view your active contracts$(br)- Bounty hunting earns Wanderer faction rep$(br)- Completing 10 bounties unlocks the $(thing)Hunter's Compass$() -- a tracking device for active bounty targets$(br)- Bounty hunting is one of the most profitable activities in Aetheria"
+    }
+  ]
+}

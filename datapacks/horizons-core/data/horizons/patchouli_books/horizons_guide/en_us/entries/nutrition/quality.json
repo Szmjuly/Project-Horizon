@@ -1,0 +1,18 @@
+{
+  "name": "Quality Tiers",
+  "icon": "minecraft:diamond",
+  "category": "horizons:nutrition",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Food Quality System",
+      "text": "Every crafted food and drink in Aetheria has a $(thing)Quality Tier$() that affects its nutrition contribution, buff strength, and trade value.$(br2)$(thing)Q1 - Table$()$(br)Basic quality. Default for simple recipes. Provides baseline nutrition gains (1x multiplier).$(br2)$(thing)Q2 - Fine$()$(br)Good ingredients and care. 2x nutrition score contribution. Minor buff improvement.$(br2)$(thing)Q3 - Grand Cru$()$(br)Excellent quality. Requires good $(l:farming/soil)soil$(), proper biome, and skilled preparation. 3x nutrition contribution. Sells for premium prices."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Legendary & Mythic",
+      "text": "$(thing)Q4 - Legendary$()$(br)Exceptional quality. Requires Master Farmer perks (51+ Cultivator points), optimal soil and biome conditions, or rare ingredients. 5x nutrition contribution. Strong unique buff effects. Kingdoms pay top coin.$(br2)$(thing)Q5 - Mythic$()$(br)Near-impossible perfection. Requires capstone perks, Precursor ingredients, or extraordinary luck. Sells for extreme prices. Grants the $(thing)Gourmet$() state on its own.$(br2)$(thing)What affects quality:$()$(br)- $(l:farming/soil)Soil Quality$() for grown ingredients$(br)- $(thing)Cultivator$() and $(thing)Artificer$() perk investment$(br)- $(thing)Fermentation time$() for wine and beer$(br)- $(thing)Cobblemon assistance$() near brewing stations"
+    }
+  ]
+}

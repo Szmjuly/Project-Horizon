@@ -1,0 +1,18 @@
+{
+  "name": "Top 10 Tips",
+  "icon": "minecraft:torch",
+  "category": "horizons:getting_started",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Tips 1-5",
+      "text": "$(thing)1. Eat a Varied Diet$()$(br)Eating the same food repeatedly gives diminishing returns. Maintain variety across all 8 food groups for powerful passive buffs. See $(l:nutrition/food_groups)Food Groups$().$(br2)$(thing)2. Carry a Canteen$()$(br)Thirst is real. Fill a canteen at any water source. A Water-type Cobblemon can produce purified water on demand.$(br2)$(thing)3. Catch Cobblemon Early$()$(br)Even one companion dramatically improves your experience. Fire-types heat furnaces. Grass-types boost crops. Electric-types generate power.$(br2)$(thing)4. Visit Anchor Town First$()$(br)The Guild Hall is your hub for quests, classes, and progression. Register as a Pathfinder before doing anything else.$(br2)$(thing)5. Do Not Fear Gates$()$(br)E-Rank Gates (floors 1-10) are designed for new players. The loot is worth the risk, and you keep your inventory on death."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tips 6-10",
+      "text": "$(thing)6. Build a Create Waterwheel$()$(br)Free rotational power from day one. This unlocks milling, pressing, and basic automation.$(br2)$(thing)7. Plant Grapes$()$(br)Wine is one of the most valuable trade goods in Aetheria. Start a vineyard early for long-term profit.$(br2)$(thing)8. Watch Your Crime Stat$()$(br)Stealing from NPC homes raises your Crime Stat. Guards will attack at tier 3+. See $(l:crime/crime_stat)Crime Stat$().$(br2)$(thing)9. Join a Faction$()$(br)Faction reputation unlocks exclusive quests, gear, and trade discounts. Choose wisely in Act 2.$(br2)$(thing)10. Check the Bounty Board$()$(br)Bounty hunting is profitable and earns faction reputation. The Board is in every Town or larger settlement."
+    }
+  ]
+}

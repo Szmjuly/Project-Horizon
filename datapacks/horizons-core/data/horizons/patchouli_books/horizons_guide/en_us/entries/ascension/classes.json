@@ -1,0 +1,23 @@
+{
+  "name": "Ascension Classes",
+  "icon": "minecraft:nether_star",
+  "category": "horizons:ascension",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Hybrid Classes",
+      "text": "$(thing)Hybrid Classes$() combine two perk trees into a single enhanced specialization. You choose your hybrid based on which two trees you have invested in most. There are 10 possible combinations:$(br2)$(thing)War-Smith$() (Vanguard + Artificer)$(br)Combat engineer. Enhanced weapon crafting and siege capabilities.$(br2)$(thing)Battle-Druid$() (Vanguard + Cultivator)$(br)Nature warrior. Combat abilities fueled by natural magic.$(br2)$(thing)War-Scout$() (Vanguard + Wayfinder)$(br)Elite ranger. Enhanced tracking, ambush tactics, and terrain mastery.$(br2)$(thing)Forge-Tender$() (Artificer + Cultivator)$(br)Agricultural engineer. Automated farming at unprecedented scale."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "More Hybrids",
+      "text": "$(thing)Tech-Explorer$() (Artificer + Wayfinder)$(br)Precursor archaeologist. Enhanced dungeon tech and artifact analysis.$(br2)$(thing)Wild-Walker$() (Cultivator + Wayfinder)$(br)Nomadic druid. Cobblemon synergies and biome mastery.$(br2)$(thing)Shadow-Blade$() (Outlaw + Vanguard)$(br)Dark warrior. Stealth combat and assassination techniques.$(br2)$(thing)Shadow-Smith$() (Outlaw + Artificer)$(br)Black market engineer. Contraband crafting and trap-making.$(br2)$(thing)Shadow-Grower$() (Outlaw + Cultivator)$(br)Underground botanist. Grows restricted plants and brews illicit potions.$(br2)$(thing)Shadow-Runner$() (Outlaw + Wayfinder)$(br)Master smuggler. Unmatched stealth and escape capabilities."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Transcendent Classes",
+      "text": "$(thing)Transcendent Classes$() are the rarest Ascension paths. They require a single perk tree at maximum investment (all nodes unlocked) plus completion of all 10 $(l:ascension/trials)Ascension Trials$().$(br2)$(thing)Warlord$() (Full Vanguard)$(br)The apex of martial power. Unique War Aura that buffs nearby allies. Can solo S-Rank Gate floors.$(br2)$(thing)Arcanum$() (Full Artificer)$(br)Master of all machines. Unique ability to create Precursor-tier technology. Can build devices no other class can.$(br2)$(thing)Primarch$() (Full Cultivator)$(br)Avatar of nature. Crops grow on contact. Cobblemon trust gain is doubled. Can terraform biomes.$(br2)$(thing)Starwalker$() (Full Wayfinder)$(br)Cosmic explorer. Can open personal Gates. Teleportation without Warp Anchors. Senses all rare spawns on the server."
+    }
+  ]
+}

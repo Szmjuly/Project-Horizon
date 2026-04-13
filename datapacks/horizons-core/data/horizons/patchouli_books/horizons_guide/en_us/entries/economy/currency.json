@@ -1,0 +1,18 @@
+{
+  "name": "Currency System",
+  "icon": "lightmanscurrency:coin_gold",
+  "category": "horizons:economy",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Lightman's Currency",
+      "text": "Aetheria uses $(thing)Lightman's Currency$() as its primary monetary system. Coins are physical items that can be carried, dropped, traded, and stored.$(br2)$(thing)Coin Tiers:$()$(br)$(item)Copper Coin$() -- 1 unit (base)$(br)$(item)Iron Coin$() -- 10 units$(br)$(item)Gold Coin$() -- 100 units$(br)$(item)Emerald Coin$() -- 1,000 units$(br)$(item)Diamond Coin$() -- 10,000 units$(br)$(item)Netherite Coin$() -- 100,000 units$(br2)Use $(thing)/bal$() to check your balance and $(thing)/pay [player] [amount]$() to send coins. Coins in your inventory count as your balance. Store excess at a $(item)Lightman's ATM$() to keep them safe from death penalties."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Minting & Create",
+      "text": "You can mint your own coins using the $(thing)Create$() mechanical system:$(br2)1. Smelt raw materials (copper, iron, gold) into ingots$(br)2. Press ingots on a $(item)Create Mechanical Press$() to form coin blanks$(br)3. Stamp blanks using a $(item)Coin Die$() on a $(item)Create Deployer$()$(br2)This process requires rotational power from waterwheels, windmills, or Electric-type Cobblemon dynamos.$(br2)$(thing)Important:$() The minting rate is balanced. Raw materials are worth less as coins than as crafting ingredients in most cases. Minting is profitable primarily when processing $(thing)Gate loot$() materials that have no other use."
+    }
+  ]
+}

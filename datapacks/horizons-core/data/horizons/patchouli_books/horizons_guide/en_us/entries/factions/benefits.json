@@ -1,0 +1,18 @@
+{
+  "name": "Faction Benefits",
+  "icon": "minecraft:enchanted_book",
+  "category": "horizons:factions",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Reputation Tiers",
+      "text": "$(thing)Hostile$() (-100 to -50) -- Guards attack on sight. No access to faction vendors or quests.$(br2)$(thing)Unfriendly$() (-49 to -1) -- Increased vendor prices (+25%). Limited quest access.$(br2)$(thing)Neutral$() (0 to 19) -- Default state. Normal prices and basic quest access.$(br2)$(thing)Friendly$() (20 to 49) -- 10% vendor discount. Access to tier 2 quests. Faction NPCs greet you warmly and offer hints about hidden content.$(br2)$(thing)Trusted$() (50 to 79) -- 20% vendor discount. Access to tier 3 quests and faction-exclusive gear recipes. Diplomacy quests unlock.$(br2)$(thing)Allied$() (80 to 100) -- 30% vendor discount. Access to all quests, exclusive gear, and faction capstone rewards."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Faction-Specific Rewards",
+      "text": "$(thing)Plains Allied:$() Access to $(item)Golden Harvest Hoe$() (auto-replant), bonus crop yield in Plains biome, exclusive farming quests.$(br2)$(thing)Forest Allied:$() Access to $(item)Ranger's Bow$() (tracking arrows), +15% Cobblemon catch rate in forests, exclusive conservation quests.$(br2)$(thing)Mountain Allied:$() Access to $(item)Forge Hammer$() (Create bonus), +20% smelting yield at Ironhold, exclusive smithing quests.$(br2)$(thing)Coastal Allied:$() Access to $(item)Captain's Compass$() (cross-kingdom warp), best trade rates in Aetheria, exclusive merchant quests.$(br2)$(thing)Skyborn Allied:$() Access to $(item)Astral Lens$() (Gate floor preview), +10% Gate loot quality, exclusive research quests.$(br2)$(thing)Wanderer Allied:$() Access to $(item)Nomad's Pack$() (extra inventory), bounty bonus rewards, exclusive bounty quests."
+    }
+  ]
+}

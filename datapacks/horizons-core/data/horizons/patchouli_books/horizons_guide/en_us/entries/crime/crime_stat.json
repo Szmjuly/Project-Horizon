@@ -1,0 +1,18 @@
+{
+  "name": "Crime Stat",
+  "icon": "horizons:hunters_compass",
+  "category": "horizons:crime",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Crime System",
+      "text": "Every player has a $(thing)Crime Stat$() from 0 to 5. Certain actions raise your Crime Stat, which triggers escalating consequences. Your Crime Stat is visible via $(thing)/horizons status$().$(br2)$(thing)Tier 0 -- Clean$()$(br)No criminal record. Full access to all services and vendors.$(br2)$(thing)Tier 1 -- Suspect$()$(br)Minor infractions. NPCs may comment disapprovingly. Some faction NPCs refuse to trade. Crime Stat decays by 1 tier per 3 real-time days of clean behavior.$(br2)$(thing)Tier 2 -- Wanted$()$(br)Moderate offenses. Vendor prices increase by 15%. Guards become alert but do not attack. A yellow marker appears above your head visible to other players."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Higher Tiers",
+      "text": "$(thing)Tier 3 -- Dangerous$()$(br)Serious criminal. Guards in towns will attack on sight. Vendor prices increase by 30%. Your name appears on the $(thing)Bounty Board$() for other players to hunt. Red marker visible above your head.$(br2)$(thing)Tier 4 -- Most Wanted$()$(br)Notorious criminal. All kingdom guards are hostile. No access to legal vendors. Bounty on your head increases significantly. Faction reputation drops with all non-Wanderer factions.$(br2)$(thing)Tier 5 -- Outlaw$()$(br)Maximum infamy. Permanent bounty. The $(thing)Shadow Ascension$() path opens. You can never return to Tier 0 without completing a special redemption quest chain. All legal services are locked. However, the $(l:crime/outlaw)Outlaw Path$() offers unique rewards unavailable to law-abiding players."
+    }
+  ]
+}

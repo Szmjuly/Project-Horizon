@@ -1,0 +1,23 @@
+{
+  "name": "Commands Reference",
+  "icon": "minecraft:command_block",
+  "category": "horizons:getting_started",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Status & Progression",
+      "text": "$(thing)/horizons status$() -- View your Pathfinder level, perk points, faction standings, and Crime Stat$(br2)$(thing)/horizons nutrition$() -- Check your current food group saturation scores$(br2)$(thing)/horizons reputation$() -- View your standing with all six factions$(br2)$(thing)/horizons gate$() -- View your deepest floor reached per Gate tier$(br2)$(thing)/horizons perks$() -- Open the perk tree interface$(br2)$(thing)/horizons trust$() -- Check companion trust levels for your active Cobblemon"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Social & Economy",
+      "text": "$(thing)/bal$() -- Check your Lightman's Currency balance$(br2)$(thing)/pay [player] [amount]$() -- Send coins to another player$(br2)$(thing)/jobs$() -- View available professions and your current job level$(br2)$(thing)/ftbteams$() -- Manage your team, invite players, set permissions$(br2)$(thing)/ftbchunks claim$() -- Claim the chunk you are standing in to protect it from other players$(br2)$(thing)/bounty$() -- View active bounties and your hunter status"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cobblemon & Travel",
+      "text": "$(thing)/pc$() -- Access your Cobblemon PC storage remotely$(br2)$(thing)/pokestats$() -- View your active Cobblemon team details$(br2)$(thing)/duel [player]$() -- Challenge another player to a Cobblemon duel$(br2)$(thing)/warp list$() -- View available Warp Anchor destinations$(br2)$(thing)/warp [name]$() -- Travel to a discovered Warp Anchor$(br2)$(thing)/home$() -- Return to your set home location$(br2)$(thing)/sethome$() -- Set your home spawn point at your current location"
+    }
+  ]
+}

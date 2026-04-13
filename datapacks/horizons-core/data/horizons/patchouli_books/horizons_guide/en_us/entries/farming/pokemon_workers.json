@@ -1,0 +1,18 @@
+{
+  "name": "Cobblemon Workers",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:farming",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Companion Pairings",
+      "text": "Station a Cobblemon at a $(item)Rest Station$() near a MineColonies work building to give the worker an efficiency bonus. The best pairings produce dramatic results.$(br2)$(thing)Farm Pairings:$()$(br)Grass-type + Farmer = +30% crop yield$(br)Bug-type + Beekeeper = +40% honey output$(br)Water-type + Fisher = +25% catch rate$(br)Poison-type + Brewer = +20% brew quality$(br2)$(thing)Resource Pairings:$()$(br)Ground-type + Miner = +25% ore yield$(br)Steel-type + Blacksmith = +20% crafting speed$(br)Fire-type + Smelter = +30% smelting speed$(br)Rock-type + Stone Mason = +25% stone output"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "More Pairings",
+      "text": "$(thing)Defense Pairings:$()$(br)Fighting-type + Guard = +20% damage$(br)Dark-type + Guard = +15% detection range$(br2)$(thing)Utility Pairings:$()$(br)Normal-type + Courier = +30% delivery speed$(br)Flying-type + Courier = +50% delivery speed$(br)Psychic-type + Enchanter = +25% enchant quality$(br)Ice-type + Cook = +15% food preservation$(br)Fairy-type + Healer = +30% healing speed$(br)Electric-type + any Workshop = +10% work speed$(br2)$(thing)Efficiency bonus scaling:$() The bonus listed above is the base value at $(l:cobblemon/trust)Familiar$() trust level. At $(thing)Bonded$(), multiply by 1.5x. At $(thing)Devoted$(), multiply by 2x. At $(thing)Soulbound$(), multiply by 2.5x.$(br2)A Soulbound Grass-type paired with a max-level Farmer produces extraordinary crop yields. This is endgame farming optimization."
+    }
+  ]
+}

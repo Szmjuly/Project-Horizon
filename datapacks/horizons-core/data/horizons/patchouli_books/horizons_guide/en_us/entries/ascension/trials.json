@@ -1,0 +1,18 @@
+{
+  "name": "Ascension Trials",
+  "icon": "minecraft:end_crystal",
+  "category": "horizons:ascension",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Ten Trials",
+      "text": "The $(thing)Ascension Trials$() are ten challenges that test every skill you have developed. Completing all 10 is required for $(thing)Transcendent Classes$() and awards unique cosmetic rewards for $(thing)Hybrid Classes$().$(br2)$(thing)1. Trial of Steel$() -- Defeat 3 Gate boss floors in a single session without dying.$(br2)$(thing)2. Trial of Roots$() -- Grow and harvest a Mythic-quality crop.$(br2)$(thing)3. Trial of Sparks$() -- Build a Create contraption with 1,000+ stress units of throughput.$(br2)$(thing)4. Trial of Horizons$() -- Discover every Warp Anchor in Aetheria.$(br2)$(thing)5. Trial of Bonds$() -- Reach Soulbound trust with 3 different Cobblemon."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Trials 6-10",
+      "text": "$(thing)6. Trial of Coin$() -- Accumulate 1,000,000 total lifetime currency earned.$(br2)$(thing)7. Trial of Voices$() -- Reach Allied with 3 different factions simultaneously.$(br2)$(thing)8. Trial of Flame$() -- Brew a Mythic-quality spirit.$(br2)$(thing)9. Trial of Stars$() -- Defeat the Cobblemon Champion.$(br2)$(thing)10. Trial of the Abyss$() -- Reach Gate Floor 100 and defeat the final boss.$(br2)$(thing)Rewards:$() Each completed trial grants a unique $(item)Trial Token$(). Collect all 10 to unlock Transcendent Ascension. Hybrid Ascension requires only 5 of the 10.$(br2)Trials can be completed in any order. Some players focus on their strengths first, while others tackle the hardest trials early. There is no time limit -- work toward them at your own pace."
+    }
+  ]
+}

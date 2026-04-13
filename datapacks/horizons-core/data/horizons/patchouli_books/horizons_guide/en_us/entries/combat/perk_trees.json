@@ -1,0 +1,18 @@
+{
+  "name": "Perk Trees",
+  "icon": "minecraft:nether_star",
+  "category": "horizons:combat",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Four Trees",
+      "text": "Aetheria has four $(thing)Perk Trees$() powered by $(thing)Pufferfish Skills$(). You earn $(thing)Pathfinder XP$() through all activities and invest points into any tree. You are not locked to your initial path choice.$(br2)$(thing)Vanguard$() -- Combat and endurance$(br)Root: $(thing)Warrior's Resolve$() (+5 max HP)$(br)Key: $(thing)Heavy Strikes$() (+10% melee), $(thing)Battle Focus$() (+15% attack speed), $(thing)Berserker Rage$() (+25% damage below 30% HP)$(br)Capstone: $(thing)Avatar of War$() (all combat stats +10%)$(br2)$(thing)Artificer$() -- Crafting and engineering$(br)Root: $(thing)Tinkerer's Insight$() (+10% crafting speed)$(br)Key: $(thing)Efficient Assembly$() (+15% Create output), $(thing)Master Crafter$() (+25% Q3+ chance)$(br)Capstone: $(thing)Mind of the Forge$() (all engineering stats +10%)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cultivator & Wayfinder",
+      "text": "$(thing)Cultivator$() -- Farming and nature$(br)Root: $(thing)Green Thumb$() (+10% crop yield)$(br)Key: $(thing)Soil Sense$() (+15% soil quality), $(thing)Master Brewer$() (+25% brew quality), $(thing)Harvest Moon$() (+30% farming at night), $(thing)Colony Architect$() (+25% MineColonies speed)$(br)Capstone: $(thing)Verdant Sovereign$() (all farming stats +10%)$(br2)$(thing)Wayfinder$() -- Exploration and discovery$(br)Root: $(thing)Pathfinder's Eye$() (+10% movement speed)$(br)Key: $(thing)Scout's Instinct$() (+25% discovery radius), $(thing)Cobblemon Whisperer$() (+15% catch rate), $(thing)Star Chart$() (+25% space travel speed), $(thing)Cosmic Awareness$() (detect rare spawns within 128 blocks)$(br)Capstone: $(thing)Eternal Walker$() (all exploration stats +10%)$(br2)Each perk costs 1-8 points. Capstones require all preceding perks. Invest broadly or focus deeply -- both strategies are viable."
+    }
+  ]
+}

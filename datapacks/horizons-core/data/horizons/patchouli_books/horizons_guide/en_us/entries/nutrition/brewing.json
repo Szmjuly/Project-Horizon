@@ -1,0 +1,28 @@
+{
+  "name": "Brewing & Drinks",
+  "icon": "minecraft:potion",
+  "category": "horizons:nutrition",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Winemaking",
+      "text": "$(thing)Vinery$() (Let's Do) is your winemaking mod. The process:$(br2)1. Grow grapes (grape varietals prefer hilly biomes)$(br)2. Press grapes using a $(item)Create Press$() to produce Must$(br)3. Place Must into a $(item)Fermentation Barrel$() for 1-3 Minecraft days$(br)4. Optionally age in an $(item)Aging Barrel$() (longer aging = higher quality)$(br)5. Bottle the finished wine$(br2)Quality tiers range from $(thing)Table$() to $(thing)Legendary$(). Quality is affected by grape type, soil quality, fermentation time, and Poison-type Cobblemon proximity."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Beer & Spirits",
+      "text": "$(thing)Brewery$() (Let's Do) handles beer production:$(br)1. Barley is malted using $(item)Create Heated Mixing$()$(br)2. Mash with water, boil with hops$(br)3. Ferment into beer varieties: Pale Ale, Stout, Wheat Beer$(br2)$(thing)Spirits$() are produced by distilling any fermented base:$(br)- Wine distills into $(item)Brandy$()$(br)- Beer distills into $(item)Whiskey$()$(br)- Sugarcane ferment becomes $(item)Rum$()$(br)- All spirits benefit from $(item)Charred Barrel$() aging (longest chain, highest value)$(br2)$(thing)Mead$() is made from Honey + Water through fermentation. Bug-type Cobblemon boost hive production."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tea & Herbal Brews",
+      "text": "$(thing)HerbalBrews$() (Let's Do) adds teas and herbal infusions:$(br2)Dry herbs (basil, rosemary, mint, lavender) and steep them in hot water. Different herbs produce different effects -- from healing teas to energizing brews.$(br2)Teas count toward both the $(thing)Herbs & Spices$() and $(thing)Beverages$() food groups, making them excellent for nutrition coverage. They also hydrate without the Tipsy side effect of alcoholic drinks."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Drink Effects",
+      "text": "Beverages provide both hydration and effects:$(br2)$(thing)Water, Juice, Tea$() -- +40% thirst, no side effects$(br)$(thing)Beer (light)$() -- +25% thirst, mild Tipsy buff$(br)$(thing)Wine (any quality)$() -- +30% thirst, Tipsy + temporary stat boost scaled by quality$(br)$(thing)Spirits$() -- +10% thirst, strong Tipsy, stronger stat boost$(br)$(thing)Legendary wine or spirit$() -- +35% thirst, stat boost, NO tipsy, unique effect$(br2)The $(thing)Tipsy$() debuff is humorous, not punishing -- slight screen wobble and movement randomization. Overdrinking stacks it. Beverages are premium trade goods -- kingdoms pay top price for quality drinks."
+    }
+  ]
+}

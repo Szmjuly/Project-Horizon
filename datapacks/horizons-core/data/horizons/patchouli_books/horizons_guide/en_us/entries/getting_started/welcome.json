@@ -1,0 +1,18 @@
+{
+  "name": "Welcome to Horizons",
+  "icon": "minecraft:book",
+  "category": "horizons:getting_started",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Welcome, Pathfinder",
+      "text": "You have arrived in $(thing)Aetheria$(), a world built on the ruins of a forgotten civilization. Three generations ago, $(thing)The Dimming$() severed the connection between Earth and its colony worlds. Now strange signals bleed through the old arrays, alien creatures appear in biomes where they have never been, and in deep caves, explorers find technology predating the colony by millennia.$(br2)You are a $(thing)Pathfinder$(). Explore. Build. Connect. Reignite the network that links the stars."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Two Pillars",
+      "text": "Project Horizons has two equally deep pillars of play:$(br2)$(thing)The Adventure Pillar$() -- Gates, combat, space exploration, and Cobblemon battles. Descend floor-based dungeons, fight with swords and spells, and launch rockets to distant planets.$(br2)$(thing)The Living Pillar$() -- Farming, brewing, nutrition, villages, colonies, and peaceful companionship. Tend a vineyard, brew legendary wine, and grow hamlets into kingdoms.$(br2)Neither is a side activity. Both offer 200+ hours of meaningful content."
+    }
+  ]
+}

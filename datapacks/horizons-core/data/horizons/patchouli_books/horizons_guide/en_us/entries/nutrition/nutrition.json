@@ -1,0 +1,28 @@
+{
+  "name": "Nutrition System",
+  "icon": "minecraft:golden_apple",
+  "category": "horizons:nutrition",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Eating Well Matters",
+      "text": "In Aetheria, the hunger bar tells you $(thing)how much$() you have eaten. The nutrition system tells you $(thing)what$() you have eaten. Eating the same food repeatedly gives diminishing returns. A varied, balanced diet unlocks powerful passive buffs that stack over time.$(br2)Every food is tagged into one or more of $(thing)8 food groups$(). Each group has a saturation score from 0 to 100, tracked per player. Eating a food raises its group score by 5-20 depending on quality. Scores decay by 1 per Minecraft day."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The 8 Food Groups",
+      "text": "$(thing)Grains$() -- Bread, pastries, pasta, rice dishes$(br)$(thing)Fruits$() -- Fresh, dried, juiced, fermented$(br)$(thing)Vegetables$() -- Cooked, raw, pickled$(br)$(thing)Proteins$() -- Meat, fish, eggs, legumes$(br)$(thing)Dairy$() -- Milk, cheese, yogurt, butter$(br)$(thing)Sugars$() -- Honey, sweets, desserts$(br)$(thing)Herbs & Spices$() -- Teas, seasonings, garnishes$(br)$(thing)Beverages$() -- Water, juice, wine, beer, spirits, tea$(br2)Hover over food items to see their group tags in the tooltip."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Buff States",
+      "text": "Your nutrition determines your buff state:$(br2)$(thing)Malnourished$() -- Any group at 0 for 2+ days: -15% max HP, -10% speed$(br2)$(thing)Undernourished$() -- 3+ groups below 20: -5% HP regen$(br2)$(thing)Well Fed$() -- 3+ groups above 50: +10% XP gain, faster regen$(br2)$(thing)Balanced Diet$() -- All 8 groups above 30: +15% max HP, +10% XP, +5% Cultivator perk XP$(br2)$(thing)Gourmet$() -- All 8 groups above 70, plus at least 1 Legendary-quality food in the last day: +25% XP, rare drop chance boost, unique particle aura"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Quality Synergy",
+      "text": "The $(l:nutrition/quality_tiers)Food Quality$() system multiplies your nutrition score gains. A $(thing)Legendary$() wine gives 5x the Beverages score of a Table wine. Higher quality cooking improves all group contributions.$(br2)This ties the brewing and cooking depth directly into nutrition. A farmer who grows premium ingredients and cooks quality meals gains a real mechanical advantage over someone eating plain bread.$(br2)Use $(thing)/horizons nutrition$() to check your current group scores at any time."
+    }
+  ]
+}

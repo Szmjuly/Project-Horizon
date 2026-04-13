@@ -1,0 +1,18 @@
+{
+  "name": "Ascension Requirements",
+  "icon": "horizons:ascension_crystal",
+  "category": "horizons:ascension",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Prerequisites",
+      "text": "$(thing)Ascension$() is Aetheria's endgame reclass system. It transforms your character into a hybrid or transcendent class with unique abilities. To begin Ascension, you must complete all six prerequisites:$(br2)$(thing)1. Reach Pathfinder Level 50$()$(br)This requires significant investment across all game systems. Level comes from quests, combat, crafting, and exploration.$(br2)$(thing)2. Earn at least one Perk Tree Capstone$()$(br)You must have $(thing)Avatar of War$(), $(thing)Mind of the Forge$(), $(thing)Verdant Sovereign$(), or $(thing)Eternal Walker$() unlocked. This proves mastery in at least one discipline."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "More Prerequisites",
+      "text": "$(thing)3. Reach Gate Floor 50+$()$(br)You must have cleared at least B-Rank Gate content. This ensures you can handle the $(l:ascension/trials)Ascension Trials$().$(br2)$(thing)4. Achieve Trusted (50+) with at least one Faction$()$(br)Ascension requires faction sponsorship. Your highest-reputation faction sponsors your ceremony.$(br2)$(thing)5. Defeat all 8 Gym Leaders$()$(br)All eight $(l:cobblemon/gyms)Badges$() must be earned. This proves mastery of the Cobblemon companion system.$(br2)$(thing)6. Collect 3 Ascension Crystals$()$(br)$(item)Ascension Crystals$() are rare drops from Gate bosses on floors 76+. They can also appear in $(thing)Precursor Caches$() found in the overworld. You need exactly 3 to begin the ceremony.$(br2)Once all prerequisites are met, visit the $(thing)Spire of Ascent$() in Skyborn territory to begin."
+    }
+  ]
+}

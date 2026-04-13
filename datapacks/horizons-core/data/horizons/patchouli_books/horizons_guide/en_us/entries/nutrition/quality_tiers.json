@@ -1,0 +1,23 @@
+{
+  "name": "Quality Tiers",
+  "icon": "minecraft:diamond",
+  "category": "horizons:nutrition",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Food Quality System",
+      "text": "Every crafted food and drink in Aetheria has a $(thing)Quality Tier$() that affects its nutrition contribution, buff strength, and trade value. Quality is determined by ingredient quality, cooking method, and Cultivator perks.$(br2)$(thing)Q1 - Table$()$(br)Basic quality. Default for simple recipes. Provides baseline nutrition gains.$(br2)$(thing)Q2 - Fine$()$(br)Good ingredients and care. 2x nutrition score contribution. Minor buff improvement."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Higher Tiers",
+      "text": "$(thing)Q3 - Grand Cru$()$(br)Excellent quality requiring good soil, proper biome, and skilled preparation. 3x nutrition contribution. Noticeable buff improvement. Sells for premium prices at kingdom shops.$(br2)$(thing)Q4 - Legendary$()$(br)Exceptional quality. Requires Master Farmer perks (51+ Cultivator points), optimal soil and biome conditions, or rare ingredients. 5x nutrition contribution. Strong unique buff effects. Kingdoms pay top coin.$(br2)$(thing)Q5 - Mythic$()$(br)Near-impossible perfection. Requires capstone perks, Precursor ingredients, or extraordinary luck. Sells for extreme prices. Grants the Gourmet state on its own."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What Affects Quality",
+      "text": "Several factors influence food quality:$(br2)$(thing)Soil Quality$() -- Crops grown in proper biomes with composted soil produce higher quality ingredients. See $(l:farming/soil_quality)Soil Quality$().$(br2)$(thing)Cultivator Perks$() -- Higher perk investment increases your chance for quality results. The $(thing)Master Crafter$() Artificer perk (+25% chance for Q3+) also helps.$(br2)$(thing)Fermentation Time$() -- Wine and beer quality improve with longer aging.$(br2)$(thing)Cobblemon Assistance$() -- Poison-type companions near brewing stations accelerate fermentation and boost quality."
+    }
+  ]
+}

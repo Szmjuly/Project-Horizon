@@ -1,0 +1,18 @@
+{
+  "name": "Gate Basics",
+  "icon": "horizons:gate_portal",
+  "category": "horizons:gates",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "What Are Gates?",
+      "text": "$(thing)Gates$() are floor-based vertical dungeons that appeared across Aetheria after The Dimming. Each Gate is a portal leading to a procedurally generated dungeon with 100 floors. You descend floor by floor, clearing enemies and looting chests to progress deeper.$(br2)Gates are ranked by difficulty:$(br)$(thing)E-Rank$() -- Floors 1-10. Entry-level, designed for new players.$(br)$(thing)D-Rank$() -- Floors 11-25. Moderate challenge, better loot.$(br)$(thing)C-Rank$() -- Floors 26-50. Serious danger. Thirst drains faster.$(br)$(thing)B-Rank$() -- Floors 51-75. Elite-tier combat and rare drops.$(br)$(thing)A-Rank$() -- Floors 76-90. Endgame difficulty.$(br)$(thing)S-Rank$() -- Floors 91-100. The final challenge. Precursor technology awaits."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Entering a Gate",
+      "text": "To enter a Gate, approach the portal and interact with it. You will be teleported to the highest unlocked floor. Your progress is saved per-player -- you always resume where you left off.$(br2)$(thing)Key rules:$()$(br)- You keep your inventory on death, but lose 3-5 floors of progress$(br)- Death drops 15% of carried currency as physical coins on the floor$(br)- Cobblemon can accompany you. Ghost-types detect hidden rooms.$(br)- Every 10th floor is a $(thing)Boss Floor$() with a powerful enemy and enhanced loot$(br)- Boss floors drop $(item)Precursor Fragments$(), $(item)Diamonds$(), $(item)Gold Coins$(), and occasionally $(item)Ascension Crystals$()$(br2)Use $(thing)/horizons gate$() to check your deepest floor reached."
+    }
+  ]
+}

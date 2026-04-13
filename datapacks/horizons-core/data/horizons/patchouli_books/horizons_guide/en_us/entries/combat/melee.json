@@ -1,0 +1,18 @@
+{
+  "name": "Melee Combat",
+  "icon": "minecraft:diamond_sword",
+  "category": "horizons:combat",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Better Combat",
+      "text": "Aetheria uses $(thing)Better Combat$() to transform melee into a fluid, skill-based system. Forget the vanilla click-and-wait -- here you chain attacks, dodge, and dual-wield.$(br2)$(thing)Key mechanics:$()$(br)- $(thing)Attack Combos$() -- Weapons have unique attack chains. A sword does slash-slash-thrust. An axe does overhead-sweep. Learning your weapon's rhythm is critical.$(br2)- $(thing)Dual Wielding$() -- Equip weapons in both hands for alternating strikes. Sword + dagger is fast. Dual axes hit harder but slower. The offhand weapon attacks between main-hand swings automatically."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dodge & Defense",
+      "text": "$(thing)Dodge Rolls$() -- Double-tap a movement key to perform a dodge roll with invincibility frames. Costs stamina. Essential for boss fights in $(l:gates/basics)Gates$() where telegraphed attacks can one-shot you.$(br2)$(thing)Blocking$() -- Shields block frontal damage. Better Combat makes blocking directional -- you must face the attack. Shields have durability and can be broken by heavy hits.$(br2)$(thing)Parrying$() -- Time a block perfectly (within 4 ticks of an incoming attack) to parry, staggering the enemy and opening them for a counter-attack. Parrying is high-risk, high-reward and essential for deep Gate floors.$(br2)$(thing)Stamina$() -- Dodging and attacking consume stamina. Running out leaves you briefly vulnerable. Manage your stamina bar alongside HP for survival."
+    }
+  ]
+}

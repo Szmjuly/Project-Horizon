@@ -1,0 +1,18 @@
+{
+  "name": "Gym Challenge",
+  "icon": "cobblemon:ultra_ball",
+  "category": "horizons:cobblemon",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The 8 Gym Leaders",
+      "text": "Aetheria has 8 Gym Leaders, each tied to a faction region. You must defeat them in order to earn Badges and eventually challenge the Elite Four.$(br2)$(thing)1. Leader Terra$() -- Normal/Grass, Lv.15-20$(br)Plains faction. Earns the $(thing)Plains Badge$().$(br2)$(thing)2. Leader Sylva$() -- Bug/Grass, Lv.22-25$(br)Forest faction. Earns the $(thing)Canopy Badge$().$(br2)$(thing)3. Leader Ferrum$() -- Rock/Steel, Lv.27-30$(br)Mountain faction. Earns the $(thing)Forge Badge$().$(br2)$(thing)4. Leader Marina$() -- Water/Ice, Lv.32-35$(br)Coastal faction. Earns the $(thing)Tide Badge$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Gyms 5-8 & Rewards",
+      "text": "$(thing)5. Leader Ignis$() -- Fire, Lv.37-40$(br)Earns the $(thing)Ember Badge$().$(br2)$(thing)6. Leader Volt$() -- Electric, Lv.42-45$(br)Earns the $(thing)Circuit Badge$().$(br2)$(thing)7. Leader Obscura$() -- Psychic/Dark, Lv.47-50$(br)Earns the $(thing)Eclipse Badge$().$(br2)$(thing)8. Leader Draco$() -- Dragon, Lv.52-55$(br)Earns the $(thing)Dragon Badge$().$(br2)Defeating all 8 leaders unlocks the $(thing)Elite Four$() challenge (Lv.72-76) and ultimately the $(thing)Champion$() battle (Lv.82-90). Each badge also awards $(item)Poke Balls$(), $(item)Gold Coins$(), and $(item)Sigil Fragments$() used in Ascension."
+    }
+  ]
+}

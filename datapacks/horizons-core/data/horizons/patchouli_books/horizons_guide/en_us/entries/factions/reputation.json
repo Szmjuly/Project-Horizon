@@ -1,0 +1,18 @@
+{
+  "name": "Reputation",
+  "icon": "minecraft:experience_bottle",
+  "category": "horizons:factions",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Gaining Reputation",
+      "text": "$(thing)Reputation$() ranges from -100 to +100. Every faction starts at 0 (Neutral). You gain reputation through:$(br2)- $(thing)Completing faction quests$() (+5 to +20 per quest)$(br)- $(thing)Trading with faction vendors$() (+1 per significant trade)$(br)- $(thing)Delivering requested materials$() (+3 to +10 per delivery)$(br)- $(thing)Defeating Gate bosses$() (+2 to the faction nearest the Gate)$(br)- $(thing)Winning Cobblemon gym battles$() (+5 to the gym's faction)$(br)- $(thing)Defending faction territory$() during events (+10 to +15)$(br2)$(thing)Losing reputation:$()$(br)- Stealing from faction NPCs (-10 per offense)$(br)- Attacking faction NPCs (-20)$(br)- Failing faction quests (-5)$(br)- Gaining rep with a rival faction (-1 to -3 of the rival)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Tension System",
+      "text": "Some factions have $(thing)tensions$() with others. Gaining reputation with one faction may reduce reputation with its rival at a reduced rate.$(br2)$(thing)Current tensions:$()$(br)Plains vs. Mountain -- Mild tension (1:3 ratio)$(br)Forest vs. Coastal -- Moderate tension (1:2 ratio)$(br)Skyborn vs. none -- No tensions$(br)Wanderers vs. none -- No tensions$(br2)This means gaining +6 Plains rep costs you -2 Mountain rep. The Skyborn Order and Wanderer's Guild have no rivalries and can be leveled freely.$(br2)Tensions can be $(thing)resolved$() through special diplomacy quests in Act 3, reducing or eliminating the ratio. Guild Master Aren offers these quests once you reach $(thing)Trusted$() with any faction. Use $(thing)/horizons reputation$() to check all standings."
+    }
+  ]
+}

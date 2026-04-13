@@ -1,0 +1,18 @@
+{
+  "name": "Soil Quality",
+  "icon": "minecraft:farmland",
+  "category": "horizons:farming",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Soil Matters",
+      "text": "In Aetheria, soil quality directly affects crop yield, growth speed, and the $(l:nutrition/quality)Quality Tier$() of harvested ingredients. Not all dirt is equal.$(br2)$(thing)Soil Quality Levels:$()$(br)$(thing)Poor$() -- Default untreated soil. Base yield, slowest growth. Q1 ingredients only.$(br)$(thing)Decent$() -- Composted once. +20% yield, +10% growth speed. Q1-Q2 ingredients.$(br)$(thing)Good$() -- Composted twice + correct biome. +40% yield, +25% growth speed. Q1-Q3 ingredients.$(br)$(thing)Rich$() -- Triple-composted + correct biome + Grass-type Cobblemon nearby. +60% yield, +40% growth speed. Q2-Q4 ingredients.$(br)$(thing)Pristine$() -- Rich soil + Cultivator perks + Precursor fertilizer. Maximum yield. Q3-Q5 ingredients possible."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Composting & Biomes",
+      "text": "$(thing)Composting:$() Use a $(item)Composter$() to convert plant matter and food scraps into $(item)Bone Meal$() or $(item)Rich Compost$(). Apply Rich Compost to farmland to raise its quality level. Each application lasts 10 harvest cycles before the soil degrades.$(br2)$(thing)Biome bonuses:$() Certain crops grow better in specific biomes:$(br)- $(thing)Plains$() -- Wheat, barley, corn (+15% quality)$(br)- $(thing)Forest$() -- Berries, mushrooms, herbs (+15% quality)$(br)- $(thing)Hills/Mountains$() -- Grapes, root vegetables (+15% quality)$(br)- $(thing)Jungle$() -- Tropical fruits, cocoa, sugarcane (+15% quality)$(br)- $(thing)Swamp$() -- Rice, certain herbs (+15% quality)$(br2)Growing crops in the wrong biome does not penalize you, but the correct biome unlocks the quality bonus needed for Q3+ results."
+    }
+  ]
+}

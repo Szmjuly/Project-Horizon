@@ -1,0 +1,18 @@
+{
+  "name": "The Outlaw Path",
+  "icon": "minecraft:wither_skeleton_skull",
+  "category": "horizons:crime",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Embracing Infamy",
+      "text": "At $(thing)Crime Stat 5$(), a player becomes a full $(thing)Outlaw$(). This is not just a punishment -- it is an alternative progression path with unique rewards unavailable to law-abiding players.$(br2)$(thing)Outlaw benefits:$()$(br)- Access to $(thing)Black Market$() vendors with exclusive items$(br)- $(thing)Shadow Contacts$() offer high-paying illegal quests$(br)- Unlock the $(thing)Shadow Ascension$() path -- a unique $(l:ascension/classes)Ascension class$() only available to Outlaws$(br)- Access to $(thing)Outlaw Hideouts$() -- secret safe zones hidden across Aetheria$(br)- $(thing)Counter-bounties$() -- place bounties on bounty hunters who target you$(br2)The Outlaw path is intentionally viable. It trades legal services and faction trust for raw power and underworld connections."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Shadow Ascension",
+      "text": "$(thing)Shadow Ascension$() is a unique Ascension path that requires both Crime Stat 5 and meeting the standard $(l:ascension/requirements)Ascension requirements$(). It replaces the normal Ascension ceremony with a darker ritual.$(br2)$(thing)Counter-bounties:$()$(br)At Outlaw status, you can place $(thing)Counter-bounties$() on players who have hunted you. Visit any Black Market vendor to post a contract. The target receives a notification and a timer. If they are defeated before the timer expires, you recover a portion of coins lost to their bounty hunting.$(br2)$(thing)Redemption:$() The Outlaw path is not permanent. A $(thing)Redemption Quest$() chain is available at Crime Stat 5 that, if completed, drops you to Tier 0. However, you lose all Outlaw-exclusive items and access. Choose carefully -- you cannot easily return to Outlaw status once redeemed."
+    }
+  ]
+}

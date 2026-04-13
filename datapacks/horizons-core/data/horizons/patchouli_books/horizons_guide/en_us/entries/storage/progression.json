@@ -1,0 +1,18 @@
+{
+  "name": "Storage Progression",
+  "icon": "minecraft:chest",
+  "category": "horizons:storage",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Storage Tiers",
+      "text": "Aetheria offers a deep storage progression from basic wooden chests to fully automated digital networks. Each tier unlocks new capabilities.$(br2)$(thing)Tier 1 -- Vanilla$()$(br)$(item)Chests$() and $(item)Barrels$(). Simple, accessible, no power required. Start here.$(br2)$(thing)Tier 2 -- Sophisticated$()$(br)$(item)Sophisticated Backpacks$(), $(item)Chests$(), and $(item)Barrels$(). Tiered upgrades from Iron to Netherite. Built-in sorting, filtering, and auto-feeding. See $(l:storage/sophisticated)Sophisticated Storage$().$(br2)$(thing)Tier 3 -- Functional Storage$()$(br)$(item)Storage Drawers$() for bulk single-item storage. Perfect for farms and resource processing. See $(l:storage/drawers)Functional Storage$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Advanced Tiers",
+      "text": "$(thing)Tier 4 -- Create Integration$()$(br)$(item)Create$() mechanical logistics -- conveyor belts, funnels, chutes, and smart observers. Combine with Sophisticated storage for physical automation that looks impressive and scales well.$(br2)$(thing)Tier 5 -- Refined Storage$()$(br)$(item)Refined Storage$() digital networks. The endgame storage system. Wireless access, autocrafting, cross-dimensional access. See $(l:storage/refined_storage)Refined Storage$().$(br2)$(thing)Recommended path:$() Start with vanilla chests. Upgrade to Sophisticated as soon as you can afford iron. Add Drawers for bulk farm output. Build Create logistics for mid-game automation. Transition to Refined Storage when you have the resources for a digital network."
+    }
+  ]
+}

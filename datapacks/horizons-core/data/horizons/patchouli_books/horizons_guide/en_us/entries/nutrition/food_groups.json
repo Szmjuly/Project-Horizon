@@ -1,0 +1,18 @@
+{
+  "name": "Food Groups",
+  "icon": "minecraft:golden_apple",
+  "category": "horizons:nutrition",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The 8 Food Groups",
+      "text": "In Aetheria, the hunger bar tells you $(thing)how much$() you have eaten. The nutrition system tells you $(thing)what$() you have eaten. Every food is tagged into one or more of $(thing)8 food groups$(). Each group has a satiety score from 0 to 100, tracked per player.$(br2)$(thing)Grains$() -- Bread, pastries, pasta, rice dishes$(br)$(thing)Fruits$() -- Fresh, dried, juiced, fermented$(br)$(thing)Vegetables$() -- Cooked, raw, pickled$(br)$(thing)Proteins$() -- Meat, fish, eggs, legumes$(br)$(thing)Dairy$() -- Milk, cheese, yogurt, butter$(br)$(thing)Sugars$() -- Honey, sweets, desserts$(br)$(thing)Herbs & Spices$() -- Teas, seasonings, garnishes$(br)$(thing)Beverages$() -- Water, juice, wine, beer, spirits, tea"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Satiety & Decay",
+      "text": "Eating a food raises its group score by 5-20 depending on $(l:nutrition/quality)quality$(). Scores decay by 1 per Minecraft day, so you must eat regularly and maintain variety.$(br2)Eating the same food repeatedly gives $(thing)diminishing returns$(). The third identical meal in a day gives half the score. The fifth gives nothing. Variety is essential.$(br2)Hover over food items in your inventory to see their group tags in the tooltip. Complex meals from $(item)Farmer's Delight$() or $(item)Croptopia$() often cover 2-3 groups at once, making them the most efficient path to a balanced diet.$(br2)Use $(thing)/horizons nutrition$() to check your current group scores at any time."
+    }
+  ]
+}

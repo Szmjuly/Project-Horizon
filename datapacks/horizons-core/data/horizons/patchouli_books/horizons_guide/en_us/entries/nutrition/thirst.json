@@ -1,0 +1,23 @@
+{
+  "name": "Thirst & Water",
+  "icon": "minecraft:water_bucket",
+  "category": "horizons:nutrition",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Staying Hydrated",
+      "text": "$(thing)Tough As Nails$() adds a thirst system to Aetheria. You have a water bar that drains over time, faster when sprinting or in hot biomes.$(br2)$(thing)Hydration stages:$()$(br)$(thing)Hydrated$() (100-75%) -- Normal$(br)$(thing)Thirsty$() (74-50%) -- Hunger bar fills slower$(br)$(thing)Parched$() (49-25%) -- -10% movement speed, mining fatigue$(br)$(thing)Dehydrated$() (24-1%) -- Damage over time, no regen$(br)$(thing)Dying of Thirst$() (0%) -- Rapid HP loss$(br2)Always carry a $(item)Canteen$() and refill it regularly."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Water Sources",
+      "text": "Not all water is equal:$(br2)$(thing)Puddles & Murky Swamps$() -- Dirty, high disease chance. Last resort.$(br)$(thing)Rivers & Lakes$() -- Unfiltered. Boil or purify first.$(br)$(thing)Rain Collection Barrels$() -- Clean, free with basic setup.$(br)$(thing)Village Wells$() -- Clean. Every Village-tier settlement has one.$(br)$(thing)Kingdom Aqueducts$() -- Purified. Kingdom-tier infrastructure.$(br)$(thing)Water-type Cobblemon$() -- Purified. Right-click a Water-type with an empty canteen to fill it with clean water.$(br)$(thing)Bottled Spring Water$() -- Premium quality, available in shops."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cobblemon Water Integration",
+      "text": "Water-type and Ice-type Cobblemon are invaluable for hydration:$(br2)$(thing)Water-type companions$() generate clean water on demand. Right-click with an empty $(item)Canteen$() to fill it with Purified water. Essential for desert and space expeditions.$(br2)$(thing)Ice-type companions$() preserve water quality. Canteens in your inventory will not spoil over time while an Ice-type is active.$(br2)Deep dungeon floors (26+) apply slow thirst drain on top of normal consumption. Floors 50+ reduce available water sources. Bring a Water-type or pack extra canteens for deep dives."
+    }
+  ]
+}
