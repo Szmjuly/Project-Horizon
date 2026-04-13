@@ -1,0 +1,67 @@
+{
+  "cobblemon.battle.start.slowstart": "%1$s hasn’t fully awakened yet!",
+  "cobblemon.battle.end.slowstart": "%1$s is moving at full power!",
+
+  "cobblemon.ui.stash.iron": "Iron",
+  "cobblemon.species.arceus-bug.desc": "Where all creation was born, that is the being's place of origin.", 
+  "cobblemon.species.arceus-dark.desc": "Two make matter, and three make spirit, shaping the world.",
+  "cobblemon.species.arceus-dragon.desc": "Three beings were born to bind time and space.",
+  "cobblemon.species.arceus-electric.desc": "The third being raged, raining down bolts of anger.",
+  "cobblemon.species.arceus-fairy.desc": "The Original One is in all things. The Original One is nowhere at all. From all creations, over all creations, does the Original One watch over all.",
+  "cobblemon.species.arceus-fighting.desc": "Three beings whose power can hold both time and space fixed. The rift is born of disorder on the other side of this world.",
+  "cobblemon.species.arceus-fire.desc": "The power of defeated giants infuses this Plate.",
+  "cobblemon.species.arceus-flying.desc": "The being poured the remains of its power into stone and buried it deep.",
+  "cobblemon.species.arceus-grass.desc": "The powers of Plates are shared among Pokémon.",
+  "cobblemon.species.arceus-ghost.desc": "The other side of this world was given by the Original One to its raging third.",
+  "cobblemon.species.arceus-ground.desc": "When the universe was created, its shards became this Plate.",
+  "cobblemon.species.arceus-ice.desc": "Two beings of time and space set free from the Original One.",
+  "cobblemon.species.arceus-poison.desc": "The rules of time and space change within the opposite world.",
+  "cobblemon.species.arceus-psychic.desc": "The Original One breathed alone before the universe came.",
+  "cobblemon.species.arceus-rock.desc": "It gathers power from the Plates, listening for the flute's song.",
+  "cobblemon.species.arceus-steel.desc": "That which fills the other side of the world can shape the rage and mold it.",
+  "cobblemon.species.arceus-water.desc": "The rightful bearer of a Plate draws from the Plate it holds.",
+
+  "cobblemon.species.deoxys-attack.desc": "This Deoxys has transformed into its aggressive guise, a tactic to fool enemies by altering its appearance.",
+  "cobblemon.species.deoxys-defense.desc": "This Deoxys has transformed into its defensive form, a tactic to enemies by altering its appearance.",
+  "cobblemon.species.deoxys-speed.desc": "This Deoxys has transformed into its fastest form, a tactic to enemies by altering its appearance.",
+
+  "cobblemon.species.furfrou-heart.desc":"There was an era when aristocrats would compete to see who could trim their Furfrou's fur into the most exquisite style. This one is made with love.",
+  "cobblemon.species.furfrou-star.desc":"There was an era when aristocrats would compete to see who could trim their Furfrou's fur into the most exquisite style. This one is shines like the stars.",
+  "cobblemon.species.furfrou-diamond.desc":"There was an era when aristocrats would compete to see who could trim their Furfrou's fur into the most exquisite style. This one is inspired by diamond shapes.",
+  "cobblemon.species.furfrou-debutante.desc":"There was an era when aristocrats would compete to see who could trim their Furfrou's fur into the most exquisite style. This one is inspired by upper-class dresses.",
+  "cobblemon.species.furfrou-matron.desc":"There was an era when aristocrats would compete to see who could trim their Furfrou's fur into the most exquisite style. This one is inspired by Matrons.",
+  "cobblemon.species.furfrou-dandy.desc":"There was an era when aristocrats would compete to see who could trim their Furfrou's fur into the most exquisite style. This one has a dandy look to it.",
+  "cobblemon.species.furfrou-lareine.desc":"There was an era when aristocrats would compete to see who could trim their Furfrou's fur into the most exquisite style. This one makes it look like a Queen.",
+  "cobblemon.species.furfrou-kabuki.desc":"There was an era when aristocrats would compete to see who could trim their Furfrou's fur into the most exquisite style. This one is inspired by Kabuki artists.",
+  "cobblemon.species.furfrou-pharaoh.desc":"There was an era when aristocrats would compete to see who could trim their Furfrou's fur into the most exquisite style. This one is inspired by pharaohs.",
+
+  "cobblemon.species.lugia-shadow.desc": "This Lugia has had the door to its heart shut by the criminal syndicate Cipher, believed to be the ultimate Shadow Pokémon and completely immune to purification.",
+
+  "cobblemon.species.mewtwo-armored.desc": "This Mewtwo was equipt with a durable armor by unknown scientists.",
+  "cobblemon.species.mewtwo-shadow.desc": "This Mewtwo was possessed by the Shadow Synergy Stone.",
+
+  "cobblemon.species.minior-meteor.desc": "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
+  "cobblemon.species.minior.desc": "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
+  "cobblemon.pokedex.minior-meteor.desc": "Originally making its home in the ozone layer, it hurtles to the ground when the shell enclosing its body grows too heavy.",
+  "cobblemon.pokedex.minior.desc": "It eats dust in the atmosphere. The composition of the dust determines the color of its core.",
+
+  "cobblemon.species.onix-crystal.desc": "An unique kind of Onix made out of glass crystal. It's also unique from other Onix in that it can live in water without being hurt by it.",
+
+  "cobblemon.species.zygarde-1.desc":"This is a single Zygarde cell that has much potential to grow immensily.",
+
+  "cobblemon.ui.pokedex.info.form.groudon": "",
+  "cobblemon.ui.pokedex.info.form.kyogre": "",
+  "cobblemon.ui.pokedex.info.form.kyurem": "",
+  "cobblemon.ui.pokedex.info.form.lugia": "",
+  "cobblemon.ui.pokedex.info.form.lugia-shadow": "Shadow",
+  "cobblemon.ui.pokedex.info.form.mewtwo-armored": "Armored",
+  "cobblemon.ui.pokedex.info.form.mewtwo-shadow": "Shadow",
+  "cobblemon.ui.pokedex.info.form.onix": "",
+  "cobblemon.ui.pokedex.info.form.onix-crystal": "Crystal",
+  "cobblemon.ui.pokedex.info.form.1%": "1%",
+  "cobblemon.ui.pokedex.info.form.zygarde-1%": "1%",
+  "cobblemon.ui.pokedex.info.form.10%": "10%",
+  "cobblemon.ui.pokedex.info.form.zygarde-10%": "10%",
+  "cobblemon.ui.pokedex.info.form.complete": "Complete",
+  "cobblemon.ui.pokedex.info.form.zygarde-complete": "Complete"
+}

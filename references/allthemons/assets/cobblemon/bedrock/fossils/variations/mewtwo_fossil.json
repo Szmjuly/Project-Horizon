@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:mewtwo_fossil",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mewtwo_fetus",
+      "model": "cobblemon:mewtwo_fetus.geo",
+      "texture": "cobblemon:textures/fossils/mewtwo_fetus.png",
+      "layers": []
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [ 0, -1.25, 0 ],
+  "profileScale": 1,
+  "profileTranslation": [0, 0.2, 0 ],
+  "animations": {
+    "faint": "q.bedrock_primary('shaymin', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('shaymin', 'cry')",
+    "recoil": "q.bedrock_stateful('shaymin', 'recoil')"
+  },
+
+  "poses": {
+    
+    "standing": {
+      "poseTypes": ["STAND", "NONE"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('shaymin', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shaymin', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('shaymin', 'headtilt_quirk', 4, 10, 1)",
+        "q.bedrock_quirk('shaymin', 'lookleft_quirk', 20, 60, 1)",
+        "q.bedrock_quirk('shaymin', 'lookright_quirk', 15, 45, 1)"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('shaymin', 'battle_idle')",
+        "q.bedrock_primary('shaymin', 'cry', q.curve('one'))"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shaymin', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('shaymin', 'headtilt_quirk', 4, 10, 1)"
+      ]
+    },
+
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')", 
+        "q.bedrock('shaymin', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shaymin', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('shaymin', 'headtilt_quirk', 4, 10, 1)",
+        "q.bedrock_quirk('shaymin', 'lookleft_quirk', 20, 60, 1)",
+        "q.bedrock_quirk('shaymin', 'lookright_quirk', 15, 45, 1)"
+      ]
+    },
+    "sleeping": {
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('shaymin', 'sleep')"
+      ]
+    },
+
+
+    "shoulder_left": { 
+      "poseName": "shoulder_left",
+      "transformTicks": 10,
+      "poseTypes": ["SHOULDER_LEFT"],
+      "animations": [
+        "q.look('head')", 
+        "bedrock(shaymin, shoulder_left)"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shaymin', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('shaymin', 'headtilt_quirk', 4, 10, 1)",
+        "q.bedrock_quirk('shaymin', 'lookleft_quirk', 20, 60, 1)"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [-7, 0, 0]
+        }
+      ]
+    },
+    "shoulder_right": {
+      "poseName": "shoulder_right",
+      "transformTicks": 10,
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "animations": [
+        "q.look('head')", 
+        "bedrock(shaymin, shoulder_right)"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('shaymin', 'blink', 2, 5, 1)",
+        "q.bedrock_quirk('shaymin', 'headtilt_quirk', 4, 10, 1)",
+        "q.bedrock_quirk('shaymin', 'lookright_quirk', 20, 60, 1)"
+      ],
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [7, 0, 0]
+        }
+      ]
+    }
+  }
+}

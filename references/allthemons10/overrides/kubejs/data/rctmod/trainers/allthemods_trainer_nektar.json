@@ -1,0 +1,179 @@
+{
+  "name": "Nektar",
+  "identity": "Nektar",
+  "ai": {
+    "type": "rct",
+    "data": {
+      "maxSelectMargin": 0.15
+    }
+  },
+  "battleRules": {
+    "maxItemUses": 2
+  },
+  "bag": [
+    {
+      "item": "cobblemon:hyper_potion",
+      "quantity": 2
+    }
+  ],
+  "team": [
+    {
+      "species": "growlithe",
+      "gender": "MALE",
+      "level": 85,
+      "nature": "naughty",
+      "ability": "intimidate",
+      "moveset": [
+        "crunch",
+        "incinerate",
+        "irontail",
+        "flamethrower"
+      ],
+      "ivs": {
+        "hp": 25,
+        "atk": 25,
+        "def": 25,
+        "spa": 25,
+        "spd": 25,
+        "spe": 25
+      },
+      "evs": {}
+    },
+    {
+      "species": "kakuna",
+      "gender": "FEMALE",
+      "level": 86,
+      "nature": "bold",
+      "ability": "shedskin",
+      "moveset": [
+        "harden",
+        "irondefense",
+        "bugbite",
+        "terablast"
+      ],
+      "ivs": {
+        "hp": 25,
+        "atk": 25,
+        "def": 25,
+        "spa": 25,
+        "spd": 25,
+        "spe": 25
+      },
+      "evs": {}
+    },
+    {
+      "species": "combee",
+      "gender": "MALE",
+      "level": 85,
+      "nature": "timid",
+      "ability": "hustle",
+      "moveset": [
+        "bugbite",
+        "bugbuzz",
+        "strugglebug",
+        "terablast"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 6,
+        "spa": 252,
+        "spe": 252
+      },
+      "heldItem": [
+        "focus_sash"
+      ]
+    },
+    {
+      "species": "persian",
+      "gender": "FEMALE",
+      "level": 86,
+      "nature": "adamant",
+      "ability": "technician",
+      "moveset": [
+        "feintattack",
+        "furyswipes",
+        "shadowclaw",
+        "hyperbeam"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "hp": 252,
+        "atk": 252
+      },
+      "heldItem": [
+        "sitrus_berry"
+      ]
+    },
+        {
+      "species": "typhlosion",
+      "gender": "MALE",
+      "level": 86,
+      "nature": "jolly",
+      "ability": "blaze",
+      "moveset": [
+        "quickattack",
+        "lavaplume",
+        "rocksmash",
+        "rollout"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "heldItem": [
+        "safety_goggles"
+      ]
+    },
+    {
+      "species": "venusaur",
+      "gender": "FEMALE",
+      "level": 90,
+      "nature": "jolly",
+      "ability": "overgrow",
+      "moveset": [
+        "gigadrain",
+        "earthquake",
+        "bodyslam",
+        "solarbeam"
+      ],
+      "ivs": {
+        "hp": 31,
+        "atk": 31,
+        "def": 31,
+        "spa": 31,
+        "spd": 31,
+        "spe": 31
+      },
+      "evs": {
+        "atk": 252,
+        "spd": 4,
+        "spe": 252
+      },
+      "heldItem": [
+        "luminous_moss"
+      ]
+    }
+  ]
+}

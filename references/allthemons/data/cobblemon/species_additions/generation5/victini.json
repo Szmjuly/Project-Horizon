@@ -1,0 +1,52 @@
+{
+  "target": "cobblemon:victini",
+  "implemented": true,
+  "shoulderMountable": true,
+  "baseScale": 0.6,
+  "hitbox": {
+	"width": 0.6,
+	"height": 1.0,
+	"fixed": false
+  },
+  "behaviour": {
+	"moving": {
+	  "canLook": true,
+	  "walk": {
+		"walkSpeed": 0.3,
+		"canWalk": true,
+		"avoidsLand": false
+	  }
+	},
+	"resting": {
+	  "canSleep": true,
+	  "willSleepOnBed": true,
+	  "depth": "normal",
+	  "light": "0-4"
+	}
+  },
+  "drops": {
+	"amount": 5,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "2-6"
+      },
+      {
+        "item": "cobblemon:fire_gem",
+        "percentage": 50.0
+      },
+      {
+        "item": "minecraft:nether_star",
+        "percentage": 8.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 10.0
+      }
+    ]
+  }
+}

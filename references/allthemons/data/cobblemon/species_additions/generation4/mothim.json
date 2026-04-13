@@ -1,0 +1,21 @@
+{
+  "target": "cobblemon:mothim",
+  "implemented": true,
+  "baseScale": 0.8,
+  "hitbox": {
+   "width": 2,
+   "height": 2.5,
+   "fixed": false
+ },
+ "behaviour": {
+    "moving": {
+      "walk": {
+		"walkSpeed": 0.31
+	  },
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.7
+      }
+    }
+  }
+}

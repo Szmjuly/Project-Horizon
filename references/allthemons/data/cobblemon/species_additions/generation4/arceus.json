@@ -1,0 +1,174 @@
+{
+  "target": "cobblemon:arceus",
+  "implemented": true,
+  "baseScale": 0.95,
+  "hitbox": {
+    "width": 2.75,
+    "height": 4.55,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.45,
+        "canWalk": true
+      },
+      "fly": {
+        "canFly": true
+      },
+      
+      "combat": {
+        "willDefendSelf": true,
+        "willDefendOwner": true,
+        "willFlee": false
+      },
+      "resting": {
+        "drowsyChance": 0.0333,
+        "rouseChance": 0.0042
+      }
+    }
+  },
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "speed": "Math.clamp(q.entity.velocity.horizontal_magnitude + 0.33, 0, 1)",
+        "key": "cobblemon:air/bird",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.wind",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "gravity": "q.gravity * (0.1 + (q.passenger_count - 1) * 0.1)",
+        "jumpVector": [0, "0.3*q.jump_strength/50", 0],
+        "stats": {
+          "ACCELERATION": "30-65",
+          "JUMP": "30-65",
+          "SKILL": "30-65",
+          "SPEED": "55-85",
+          "STAMINA": "80-160"
+        }
+      },
+      "LAND": {
+        "speed": "Math.clamp(q.entity.velocity.horizontal_magnitude + 0.33, 0, 1)",
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "gravity": "q.gravity * (0.1 + (q.passenger_count - 1) * 0.1)",
+        "jumpVector": [0, "0.3*q.jump_strength/50", "-1 * 0.5*q.jump_strength/50"],
+        "stats": {
+          "ACCELERATION": "60-75",
+          "JUMP": "55-85",
+          "SKILL": "60-85",
+          "SPEED": "50-85",
+          "STAMINA": "70-140"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ]
+  },
+  "drops": {
+    "amount": 10,
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "6-12"
+      },
+      {
+        "item": "cobblemon:bug_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:dark_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:dragon_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:fairy_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:fire_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:flying_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:ghost_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:grass_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:ground_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:ice_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:normal_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:poison_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:psychic_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:rock_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:steel_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "cobblemon:water_gem",
+        "percentage": 30.0
+      },
+      {
+        "item": "minecraft:nether_star",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:ability_capsule",
+        "percentage": 100.0
+      },
+      {
+        "item": "cobblemon:ability_patch",
+        "percentage": 25.0
+      }
+    ]
+  }
+}

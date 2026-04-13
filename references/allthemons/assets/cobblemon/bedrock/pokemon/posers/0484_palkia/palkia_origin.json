@@ -1,0 +1,111 @@
+{
+  
+  "portraitScale": 1.01,
+  "portraitTranslation": [-1.12,5.55, 0],
+  "profileScale": 0.2,
+  "profileTranslation": [0, 1.55, -20],
+    "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 0.25, 1],
+    "seat_1_reverse": [0, 0.45, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 0.45, 5],
+    "seat_1_reverse": [0, 0.45, 1]
+  },
+  "animations": {
+    "cry":"q.bedrock_stateful('palkia_origin', 'cry')"
+    
+  },
+  "poses": {
+    "battle-standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "WALK"],
+      "isBattle": true,
+      "condition": "!q.in_air && !q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('palkia_origin', 'battle_idle')"
+      ]
+    },
+    "standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "condition": "!q.in_air" ,
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('palkia_origin', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "transformTicks": 8,
+      "condition": "!q.in_air && !q.is_sprinting",
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('palkia_origin', 'ground_walk')"
+      ]
+    },
+     "in-air": {
+        "poseTypes": ["STAND", "WALK"],
+        "isBattle": false,
+        "condition": "q.in_air && q.is_ridden",
+        "animations": ["q.look('head')","q.bedrock('palkia_origin', 'ride_jump')"],
+        "transformTicks": 2,
+        "transformToTicks": 2
+      },
+    "hover": {
+      "transformTicks": 5,
+      "condition": "!q.in_air && !q.is_sprinting",
+      "poseTypes": ["HOVER", "FLOAT" ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('palkia_origin', 'air_idle')"
+       ]
+    },
+    "fly": {
+      "transformTicks": 5,
+      "condition": "!q.is_sprinting",
+      "poseTypes": [ "FLY" ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('palkia_origin', 'air_fly')"
+       ]
+    },
+    "float": {
+      "transformTicks": 5,
+      "condition": "!q.is_sprinting",
+      "poseTypes": ["FLOAT"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('palkia_origin', 'air_idle')"
+      ]
+    },
+    "swim": {
+      "transformTicks": 8,
+      "poseTypes": ["SWIM"],
+      "condition": "!q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('palkia_origin', 'ground_walk')"
+      ]
+    },
+    "run": {
+        "poseTypes": ["STAND","WALK"],
+        "isBattle": false,
+        "condition": "!q.in_air && q.is_sprinting",
+        "animations": [
+         "q.look('head')",
+          "q.bedrock('palkia_origin', 'ground_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('palkia', 'ride_ground_run')"
+        }
+        ],
+        "transformTicks": 10
+      }
+  }
+}

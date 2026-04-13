@@ -1,0 +1,68 @@
+{
+    "portraitScale":2.4,
+    "portraitTranslation":[-1.25,1.0,0],
+    "profileScale":0.75,
+    "profileTranslation":[0,0.65,0],
+    "head":"head",
+    "cry":"bedrock(sandaconda, cry)",
+    "poses":{
+        "standing":{
+            "poseName":"standing",
+            "transformTicks":10,
+            "poseTypes":["STAND"],
+            "animations":["bedrock(sandaconda, ground_idle)","look"],
+            "isBattle":false,
+            "quirks":[
+                {
+                    "name":"blink",
+                    "animations":["bedrock(sandaconda, blink)"]
+                }
+            ]
+        },
+        "dex":{
+            "poseName":"dex",
+            "transformationTicks":10,
+            "poseTypes":["NONE","PROFILE","PORTRAIT"],
+            "animations":["bedrock(sandaconda, dex)"],
+            "quirks":[
+                {
+                    "name":"blink",
+                    "animations":["bedrock(sandaconda,blink)"]
+                }
+            ]
+        },
+        "walking":{
+            "poseName":"walking",
+            "transformTicks":10,
+            "poseTypes":["WALK"],
+            "animations":["bedrock(sandaconda, ground_walk)","look"],
+            "isBattle":false,
+            "quirks":[
+                {
+                    "name":"blink",
+                    "animations":["bedrock(sandaconda, blink)"]
+                }
+            ]
+        },
+        "sleeping":{
+            "poseName":"sleeping",
+            "transformTicks":10,
+            "poseTypes":["SLEEP"],
+            "animations":["bedrock(sandaconda, sleep)"],
+            "quirks":[]
+        },
+        "battle_ground":{
+            "poseName":"battle_ground",
+            "transformTicks":10,
+            "poseTypes":["STAND","WALK"],
+            "isBattle":true,
+            "animations":["bedrock(sandaconda, battle_pose)","look"],
+            "quirks":[
+                {
+                    "name":"blink",
+                    "animations":["bedrock(sandaconda, blink)"]
+                }
+            ]
+        }
+    }
+}

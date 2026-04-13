@@ -1,0 +1,41 @@
+{
+  "target": "cobblemon:solgaleo",
+  "implemented": true,
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 2.2,
+    "height": 4.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.31
+      }
+    }
+  },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "45-75",
+          "JUMP": "40-75",
+          "SKILL": "55-85",
+          "SPEED": "50-80",
+          "STAMINA": "70-100"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    ]
+  }
+}

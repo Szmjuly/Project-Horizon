@@ -1,0 +1,38 @@
+{
+  "target": "cobblemon:minior",
+  "implemented": true,
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 0.65,
+    "height": 1.35,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "walk": {
+        "canWalk": true
+      }
+    },
+    "herd": {
+      "maxSize": "4",
+      "toleratedLeaders": [
+        {
+          "pokemon": "minior",
+          "tier": 1
+        }
+      ]
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "resting": {
+      "times": ["any"],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    }
+  }
+
+}

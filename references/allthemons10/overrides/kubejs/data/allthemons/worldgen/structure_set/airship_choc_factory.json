@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "allthemons:airship_choc_factory",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 32,
+    "count": 128,
+    "spread": 3,
+	"preferred_biomes": "#c:is_plateau",
+	"salt": 30084232
+  }
+}

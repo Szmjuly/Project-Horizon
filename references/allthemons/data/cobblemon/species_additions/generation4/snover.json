@@ -1,0 +1,10 @@
+{
+  "target": "cobblemon:snover",
+  "implemented": true,
+  "baseScale": 0.75,
+  "hitbox": {
+   "width": 0.9,
+   "height": 1.2,
+   "fixed": false
+  }
+}

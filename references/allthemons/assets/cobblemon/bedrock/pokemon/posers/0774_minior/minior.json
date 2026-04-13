@@ -1,0 +1,24 @@
+{
+  "portraitScale": 1.58,
+  "portraitTranslation": [0.03, 0.18, 0],
+  "profileScale": 1.25,
+  "profileTranslation": [0, 0.45, 0],
+  "faint": "q.bedrock_primary('minior', 'sleep', q.curve('one'))",
+  "poses": {
+    "standing": {
+      "transformTicks": 10,
+      "poseTypes": ["STAND","NONE","PORTRAIT","PROFILE"],
+      "animations": ["q.bedrock('minior', 'ground_idle')"]
+    },
+    "walking": {
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": [ "q.bedrock('minior', 'ground_idle')"]
+    },
+    "sleeping": {
+      "transformTicks": 10,
+      "poseTypes": ["SLEEP"],
+      "animations": [ "q.bedrock('minior', 'sleep')"]
+    }
+  }
+}
