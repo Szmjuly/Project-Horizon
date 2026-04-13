@@ -1,0 +1,86 @@
+{
+  "id": "2F542A7C484DE846",
+  "key": "horizons_gym_8",
+  "display_name": "Horizons Gym 8",
+  "type": "horizons_gym",
+  "team": [
+    {
+      "species": "flygon",
+      "level": 52,
+      "moves": [
+        "earthquake",
+        "dragonclaw",
+        "stoneedge",
+        "uturn"
+      ],
+      "ability": "levitate",
+      "nature": "jolly"
+    },
+    {
+      "species": "kingdra",
+      "level": 52,
+      "moves": [
+        "dragonpulse",
+        "hydropump",
+        "icebeam",
+        "raindance"
+      ],
+      "ability": "swiftswim",
+      "nature": "modest"
+    },
+    {
+      "species": "haxorus",
+      "level": 53,
+      "moves": [
+        "outrage",
+        "earthquake",
+        "poisonjab",
+        "swordsdance"
+      ],
+      "ability": "moldbreaker",
+      "nature": "adamant"
+    },
+    {
+      "species": "dragonite",
+      "level": 53,
+      "moves": [
+        "outrage",
+        "extremespeed",
+        "earthquake",
+        "dragondance"
+      ],
+      "ability": "multiscale",
+      "nature": "adamant"
+    },
+    {
+      "species": "salamence",
+      "level": 54,
+      "moves": [
+        "outrage",
+        "earthquake",
+        "fireblast",
+        "dragondance"
+      ],
+      "ability": "intimidate",
+      "nature": "naive"
+    },
+    {
+      "species": "garchomp",
+      "level": 55,
+      "moves": [
+        "outrage",
+        "earthquake",
+        "stoneedge",
+        "swordsdance"
+      ],
+      "ability": "roughskin",
+      "nature": "jolly"
+    }
+  ],
+  "dialogue": {
+    "intro": "I am Draco, last of the Gym Leaders. My dragons have ended the dreams of a thousand challengers. Will you be one thousand and one, or will you be the one who breaks through?",
+    "win": "By the ancient wyrms... you did it. The Dragon Badge is yours. You have bested all eight of us. The Elite Four awaits - if you dare.",
+    "lose": "Dragon fire burns the unworthy. You are not ready for what lies beyond. Return when your spirit can match a dragon's."
+  },
+  "rewards": {}
+}

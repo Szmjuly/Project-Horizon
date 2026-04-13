@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_gym_1",
+  "trainer_name": "Leader Terra",
+  "dialog": {
+    "intro": {
+      "text": "I am Terra, Guardian of the Plains. Show me your bond with your Pokemon!",
+      "type": "intro"
+    },
+    "win": {
+      "text": "Impressive! The Plains acknowledge your strength. You've earned the Plains Badge.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "The grasslands do not yield easily. Train harder and return when you're ready.",
+      "type": "lose"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "meteor_shower",
+  "name": "Meteor Shower",
+  "description": "Rare materials fall from the sky, scattered across the landscape for players to collect",
+  "type": "random",
+  "duration_ticks": 24000,
+  "cooldown_days": 14,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tentacool-1",
+            "pokemon": "tentacool",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": ["#cobblemon:is_ocean", "#cobblemon:is_coast", "#cobblemon:is_deep_ocean"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,188 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_combat_magic"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "minecraft:diamond_sword"
+	}
+	id: "4C3B4F175A519F82"
+	images: [ ]
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "C48FD75062A83587"
+			rewards: [{
+				id: "F476D07DAD3E0B1A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7FCC013FD6033BD9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C48FD75062A83587"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "69A6BC82F280757E"
+			rewards: [{
+				id: "227053C567FC4041"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5AE3F5D613B2E48E"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69A6BC82F280757E"]
+			icon: {
+				id: "minecraft:leather_boots"
+			}
+			id: "152741B687DE9C7C"
+			rewards: [{
+				id: "3B647EF3A0211151"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "13F8FA29C23398DE"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["152741B687DE9C7C"]
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "3A37B64937958B57"
+			rewards: [{
+				id: "59EB488EA84A3633"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "B415D9630C1D3FE6"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "32644279B2706382"
+			rewards: [{
+				id: "E36AC169C773295B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "E6A25FEC0D259A38"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["32644279B2706382"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "E5BA3BD74299985C"
+			rewards: [{
+				id: "7656900ADE634135"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "C01CCDFDD60CD953"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["E5BA3BD74299985C"]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "E93F8E9D0F69A898"
+			rewards: [{
+				id: "36EADF1C0271D360"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "C859A5CE1FA3D8CF"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["E93F8E9D0F69A898"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "F90E3088B7EC7D4D"
+			rewards: [{
+				id: "5E851F2D089E15C3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "848828332D30447C"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["C48FD75062A83587"]
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "734546CF90FDA69F"
+			rewards: [{
+				id: "F30AB61DE6944CDE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "636E1F421F9014A7"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+	]
+}

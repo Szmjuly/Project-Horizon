@@ -1,0 +1,76 @@
+{
+  "background": "minecraft:textures/block/deepslate_bricks.png",
+  "definitions": {
+    "warriors_resolve": {
+      "title": "Warrior's Resolve",
+      "description": "+5 max HP. The foundation of a true warrior.",
+      "icon": { "item": "minecraft:shield" },
+      "cost": 1,
+      "connections": ["heavy_strikes", "iron_skin"]
+    },
+    "heavy_strikes": {
+      "title": "Heavy Strikes",
+      "description": "+10% melee damage. Every blow lands harder.",
+      "icon": { "item": "minecraft:iron_sword" },
+      "cost": 2,
+      "connections": ["battle_focus"]
+    },
+    "iron_skin": {
+      "title": "Iron Skin",
+      "description": "+5% armor effectiveness. Your skin hardens like iron.",
+      "icon": { "item": "minecraft:iron_chestplate" },
+      "cost": 2,
+      "connections": ["shield_wall"]
+    },
+    "battle_focus": {
+      "title": "Battle Focus",
+      "description": "+15% attack speed. Strike before your enemy can react.",
+      "icon": { "item": "minecraft:golden_sword" },
+      "cost": 3,
+      "connections": ["berserker_rage"]
+    },
+    "shield_wall": {
+      "title": "Shield Wall",
+      "description": "+10% block chance. An impenetrable defense.",
+      "icon": { "item": "minecraft:iron_block" },
+      "cost": 3,
+      "connections": ["fortress"]
+    },
+    "berserker_rage": {
+      "title": "Berserker Rage",
+      "description": "+25% damage when below 30% HP. Fury fuels your strikes.",
+      "icon": { "item": "minecraft:blaze_powder" },
+      "cost": 4,
+      "connections": ["war_cry"]
+    },
+    "fortress": {
+      "title": "Fortress",
+      "description": "+20% armor effectiveness. You become an immovable bulwark.",
+      "icon": { "item": "minecraft:netherite_chestplate" },
+      "cost": 4,
+      "connections": ["unstoppable"]
+    },
+    "war_cry": {
+      "title": "War Cry",
+      "description": "AoE intimidation: nearby enemies gain Weakness I for 5s.",
+      "icon": { "item": "minecraft:goat_horn" },
+      "cost": 5,
+      "connections": ["avatar_of_war"]
+    },
+    "unstoppable": {
+      "title": "Unstoppable",
+      "description": "+50% knockback resistance. Nothing can move you.",
+      "icon": { "item": "minecraft:obsidian" },
+      "cost": 5,
+      "connections": ["avatar_of_war"]
+    },
+    "avatar_of_war": {
+      "title": "Avatar of War",
+      "description": "All combat stats +10%. The pinnacle of martial mastery.",
+      "icon": { "item": "minecraft:netherite_sword" },
+      "cost": 8,
+      "connections": []
+    }
+  },
+  "root": "warriors_resolve"
+}

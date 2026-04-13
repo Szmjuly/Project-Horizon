@@ -1,0 +1,11 @@
+{
+  "id": "precursor_activation",
+  "name": "Precursor Activation",
+  "description": "Ancient precursor technology powers up, revealing hidden mechanics and rewards",
+  "type": "triggered",
+  "duration_ticks": 24000,
+  "cooldown_days": 30,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

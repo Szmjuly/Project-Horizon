@@ -1,0 +1,50 @@
+{
+  "id": "7D935EA0BC72523B",
+  "key": "horizons_gym_2",
+  "display_name": "Horizons Gym 2",
+  "type": "horizons_gym",
+  "team": [
+    {
+      "species": "scyther",
+      "level": 23,
+      "moves": [
+        "wingattack",
+        "furycutter",
+        "quickattack",
+        "agility"
+      ],
+      "ability": "technician",
+      "nature": "jolly"
+    },
+    {
+      "species": "venusaur",
+      "level": 24,
+      "moves": [
+        "razorleaf",
+        "poisonpowder",
+        "sleeppowder",
+        "growth"
+      ],
+      "ability": "overgrow",
+      "nature": "modest"
+    },
+    {
+      "species": "sceptile",
+      "level": 25,
+      "moves": [
+        "leafblade",
+        "quickattack",
+        "detect",
+        "gigadrain"
+      ],
+      "ability": "overgrow",
+      "nature": "timid"
+    }
+  ],
+  "dialogue": {
+    "intro": "The forest watches, challenger. I am Sylva, voice of the canopy. Can you hear what the leaves whisper about you?",
+    "win": "The forest bows to you. Take the Canopy Badge and carry its blessing.",
+    "lose": "The forest is patient. Return when you have learned to listen to the wild."
+  },
+  "rewards": {}
+}

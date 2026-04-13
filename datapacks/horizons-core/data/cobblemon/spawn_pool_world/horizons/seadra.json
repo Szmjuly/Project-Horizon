@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "seadra-1",
+            "pokemon": "seadra",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "rare",
+            "level": "32-48",
+            "weight": 2.0,
+            "condition": {
+                "biomes": ["#cobblemon:is_ocean", "#cobblemon:is_deep_ocean"]
+            }
+        }
+    ]
+}

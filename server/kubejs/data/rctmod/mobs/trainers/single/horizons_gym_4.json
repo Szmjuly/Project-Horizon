@@ -1,0 +1,26 @@
+{
+  "battleCooldownTicks": 240,
+  "biomeTagBlacklist": [
+    "is_void",
+    "is_nether",
+    "is_end"
+  ],
+  "biomeTagWhitelist": [
+    "is_ocean",
+    "is_beach",
+    "is_river"
+  ],
+  "maxTrainerDefeats": 1,
+  "maxTrainerWins": -1,
+  "optional": false,
+  "requiredDefeats": [
+    [
+      "horizons_gym_3"
+    ]
+  ],
+  "series": [
+    "horizons_gym"
+  ],
+  "spawnWeightFactor": 0,
+  "type": "gym"
+}

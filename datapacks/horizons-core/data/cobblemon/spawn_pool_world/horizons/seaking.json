@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "seaking-1",
+            "pokemon": "seaking",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "33-45",
+            "weight": 4.0,
+            "condition": {
+                "biomes": ["#cobblemon:is_river"]
+            }
+        }
+    ]
+}

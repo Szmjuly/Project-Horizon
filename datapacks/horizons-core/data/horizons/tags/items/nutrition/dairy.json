@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:milk_bucket",
+    "farmersdelight:milk_bottle",
+    "farmersdelight:sweet_berry_cheesecake",
+    "farmersdelight:sweet_berry_cheesecake_slice",
+    "croptopia:cheese",
+    "croptopia:butter",
+    "croptopia:yoghurt",
+    "croptopia:whipping_cream",
+    "croptopia:crema",
+    "croptopia:soy_milk",
+    "croptopia:chocolate_milkshake",
+    "croptopia:grilled_cheese",
+    "croptopia:cheese_cake",
+    "croptopia:cheeseburger",
+    "croptopia:cheese_pizza",
+    "croptopia:tres_leche_cake",
+    "croptopia:milk_bottle",
+    "croptopia:vanilla_ice_cream",
+    "croptopia:mango_ice_cream",
+    "croptopia:pecan_ice_cream",
+    "croptopia:strawberry_ice_cream",
+    "croptopia:rum_raisin_ice_cream",
+    "croptopia:chocolate_ice_cream",
+    "farm_and_charm:butter",
+    "candlelight:mozzarella",
+    "candlelight:tomato_mozzarella_salad",
+    "candlelight:beef_with_mushroom_in_wine_and_potatoes"
+  ]
+}

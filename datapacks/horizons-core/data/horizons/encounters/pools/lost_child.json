@@ -1,0 +1,12 @@
+{
+  "id": "lost_child",
+  "name": "Lost Child",
+  "description": "An uncommon escort quest to guide a lost child back to safety",
+  "rarity": "uncommon",
+  "biome_filter": ["plains", "forest"],
+  "time_filter": "day",
+  "weather_filter": "any",
+  "npc_preset": "",
+  "rewards": [],
+  "enabled": true
+}

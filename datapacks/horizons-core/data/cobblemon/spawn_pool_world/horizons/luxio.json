@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "luxio-1","pokemon": "luxio","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "uncommon","level": "15-30","weight": 4.0,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_plains", "#cobblemon:is_savanna"]}}]
+}

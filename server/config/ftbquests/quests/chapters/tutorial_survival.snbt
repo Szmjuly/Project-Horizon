@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_survival"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "toughasnails:empty_leather_canteen"
+	}
+	id: "A8BC8C37E9FC9986"
+	images: [ ]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "toughasnails:empty_leather_canteen"
+			}
+			id: "E0BF5D6D1DCD9D29"
+			rewards: [{
+				id: "C815F11F3405AD9D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7D46F20F33D42F20"
+				type: "item"
+				item: {
+					count: 1
+					id: "toughasnails:empty_leather_canteen"
+				}
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E0BF5D6D1DCD9D29"]
+			icon: {
+				id: "toughasnails:charcoal_filter"
+			}
+			id: "9C54511603F8BBB2"
+			rewards: [{
+				id: "C492D70E3D87EAC5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5E2BD2496EADABDB"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9C54511603F8BBB2"]
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "7D38A92F6351C521"
+			rewards: [{
+				id: "38838CBB0488C092"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1677B613CC40FB3A"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D38A92F6351C521"]
+			icon: {
+				id: "minecraft:apple"
+			}
+			id: "B71E6B7A4E421895"
+			rewards: [{
+				id: "C36D4FC30FF6C438"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "D7D1146A51096FE2"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["B71E6B7A4E421895"]
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "ADAB3AB9AD756419"
+			rewards: [{
+				id: "3D61050613BF0051"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "69C0DD3BBA6D2EB2"
+				type: "stat"
+				stat: "horizons_balanced_diet"
+				value: 1
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:iron_hoe"
+			}
+			id: "80BA62F78AC13581"
+			rewards: [{
+				id: "46123901ED627212"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "93A6DAAB8C8A10E3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["80BA62F78AC13581"]
+			icon: {
+				id: "minecraft:cauldron"
+			}
+			id: "2399F55916675C8B"
+			rewards: [{
+				id: "6A89F70C10C22024"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "CC83B9674E3A52E5"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2399F55916675C8B"]
+			icon: {
+				id: "minecraft:farmland"
+			}
+			id: "95397A002AC960D1"
+			rewards: [{
+				id: "CDB070A9CD07F16D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "78E9185FC5337F70"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+	]
+}

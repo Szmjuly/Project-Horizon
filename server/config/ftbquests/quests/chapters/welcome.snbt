@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "F9895319B9A5CE96"
+	icon: {
+		id: "ftbquests:book"
+	}
+	id: "B2BB0EFA20BC1143"
+	images: [ ]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "593DCC5047C96E88"
+			rewards: [
+				{
+					id: "02615A7A438FDF8F"
+					type: "command"
+					command: "/horizons reward perkpoints 5"
+					player_command: false
+				}
+				{
+					id: "EF1CB3D1B5B1E18E"
+					type: "command"
+					command: "/horizons reward stage act_1_started"
+					player_command: false
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "57BA7F5944333613"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["593DCC5047C96E88"]
+			icon: {
+				id: "minecraft:bread"
+			}
+			id: "DF7C1DEA74970248"
+			rewards: [{
+				id: "D83B518E06303B19"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "5077AA46D8FFDFA5"
+					type: "item"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+				}
+				{
+					id: "0BC2731418CE7E5B"
+					type: "item"
+					item: {
+						count: 1
+						id: "toughasnails:leather_canteen"
+					}
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DF7C1DEA74970248"]
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "6C3F767E54C24A86"
+			rewards: [
+				{
+					id: "6F8836F7E1ECF9EA"
+					type: "command"
+					command: "/horizons reward perkpoints 10"
+					player_command: false
+				}
+				{
+					id: "05FF08848DC61B74"
+					type: "command"
+					command: "/horizons reward stage unlock_crafting"
+					player_command: false
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6CC26F1AEFFA9C31"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+}

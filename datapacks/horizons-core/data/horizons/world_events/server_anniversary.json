@@ -1,0 +1,11 @@
+{
+  "id": "server_anniversary",
+  "name": "Server Anniversary",
+  "description": "Celebration event with fireworks, gifts, and commemorative activities",
+  "type": "triggered",
+  "duration_ticks": 24000,
+  "cooldown_days": 365,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

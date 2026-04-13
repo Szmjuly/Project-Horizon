@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_e4_3",
+  "trainer_name": "Elite Taro",
+  "dialog": {
+    "intro": {
+      "text": "Name's Taro. Elite Four, Water and Earth. I've sailed every sea and walked every shore in this world. Let's see if you can weather my storm, kid.",
+      "type": "intro"
+    },
+    "win": {
+      "text": "Ha! You've got sea legs after all. Not many can ride out a squall like that. Go on, the next one's waiting.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "Washed ashore. The sea's no place for landlubbers. Come back when you've learned to swim with the current.",
+      "type": "lose"
+    }
+  }
+}

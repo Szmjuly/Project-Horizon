@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_gym_8",
+  "trainer_name": "Leader Draco",
+  "dialog": {
+    "intro": {
+      "text": "I am Draco, last of the Gym Leaders. My dragons have ended the dreams of a thousand challengers. Will you be one thousand and one, or will you be the one who breaks through?",
+      "type": "intro"
+    },
+    "win": {
+      "text": "By the ancient wyrms... you did it. The Dragon Badge is yours. You have bested all eight of us. The Elite Four awaits - if you dare.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "Dragon fire burns the unworthy. You are not ready for what lies beyond. Return when your spirit can match a dragon's.",
+      "type": "lose"
+    }
+  }
+}

@@ -1,0 +1,445 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "side_colony_builder"
+	group: "8FC869B86246990B"
+	icon: {
+		id: "minecraft:villager_spawn_egg"
+	}
+	id: "EFD6A93A9A5BB686"
+	images: [ ]
+	order_index: 6
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:villager_spawn_egg"
+			}
+			id: "1FF0C4972BD88032"
+			rewards: [{
+				id: "376CA0ACFB086FB6"
+				type: "command"
+				command: "/horizons reward perkpoints 10"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "A9619BE0FDD138DC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FF0C4972BD88032"]
+			icon: {
+				id: "minecraft:villager_spawn_egg"
+			}
+			id: "0255C68E09E5E85A"
+			rewards: [{
+				id: "468E727260187FF0"
+				type: "command"
+				command: "/horizons reward perkpoints 15"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2507BC43062D8E38"
+				type: "stat"
+				stat: "horizons_colony_workers"
+				value: 5
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0255C68E09E5E85A"]
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "E950B19D4ACC4688"
+			rewards: [{
+				id: "2C32A2FEAF216A23"
+				type: "command"
+				command: "/horizons reward perkpoints 15"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "242740E383BD4F84"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0255C68E09E5E85A"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "5B728D9DD52CCA3E"
+			rewards: [{
+				id: "184C04BFCFEE49D7"
+				type: "command"
+				command: "/horizons reward perkpoints 15"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "BC78E17154C326AA"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["E950B19D4ACC4688"]
+			icon: {
+				id: "minecraft:villager_spawn_egg"
+			}
+			id: "A71D4B68C4BDD745"
+			rewards: [{
+				id: "4E1B7C516D0B6016"
+				type: "command"
+				command: "/horizons reward perkpoints 20"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "438CF972AD3329D4"
+				type: "stat"
+				stat: "horizons_colony_workers"
+				value: 10
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A71D4B68C4BDD745"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "687831ED1E702796"
+			rewards: [{
+				id: "BD86C6246D0DA264"
+				type: "command"
+				command: "/horizons reward perkpoints 25"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "3194CB4941FC61FB"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["A71D4B68C4BDD745"]
+			icon: {
+				id: "minecraft:emerald"
+			}
+			id: "1FCF32D43C0B59F4"
+			rewards: [{
+				id: "1265E84E621D7F53"
+				type: "command"
+				command: "/horizons reward perkpoints 20"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "886D8AEB2EE8E09F"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["687831ED1E702796"]
+			icon: {
+				id: "minecraft:lectern"
+			}
+			id: "C451A57CADF9DC2C"
+			rewards: [{
+				id: "4FB0139B05223E19"
+				type: "command"
+				command: "/horizons reward perkpoints 20"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "537C7E18D6C114F8"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FCF32D43C0B59F4"]
+			icon: {
+				id: "minecraft:villager_spawn_egg"
+			}
+			id: "F794D0798DDD7BFB"
+			rewards: [{
+				id: "CD41FA97D454B3F4"
+				type: "command"
+				command: "/horizons reward perkpoints 25"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "D63D1C4074EF65DA"
+				type: "stat"
+				stat: "horizons_colony_workers"
+				value: 20
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F794D0798DDD7BFB"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "0623B668E170C1FB"
+			rewards: [{
+				id: "559F2772522B5E1E"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "86887BEE0078BD7D"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["F794D0798DDD7BFB"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "C1BAFDF0CF859375"
+			rewards: [{
+				id: "F6FE7A227F518BF7"
+				type: "command"
+				command: "/horizons reward perkpoints 25"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2A5E5BD56574448F"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0623B668E170C1FB"]
+			icon: {
+				id: "create:minecart_coupling"
+			}
+			id: "EF628A25EB21C798"
+			rewards: [{
+				id: "BCDFE345B87CEFA7"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7DAFAE6CFFDF7DCC"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["EF628A25EB21C798"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "56F8CA8F21A2116C"
+			rewards: [{
+				id: "99D7AFBF7D98323A"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "B240A753BE78A8AE"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56F8CA8F21A2116C"]
+			icon: {
+				id: "minecraft:villager_spawn_egg"
+			}
+			id: "AC81E6BB4CF87CD1"
+			rewards: [{
+				id: "A3D33D017919E04E"
+				type: "command"
+				command: "/horizons reward perkpoints 35"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5750F98A29197A24"
+				type: "stat"
+				stat: "horizons_colony_workers"
+				value: 50
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AC81E6BB4CF87CD1"]
+			icon: {
+				id: "minecraft:chain"
+			}
+			id: "9E37E195EAC00621"
+			rewards: [{
+				id: "EF51E65F8AB6EC98"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "F38C3F6A887E9B32"
+				type: "checkmark"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0623B668E170C1FB"]
+			icon: {
+				id: "stellaris:rocket_nose_cone"
+			}
+			id: "94F19306E364D200"
+			rewards: [{
+				id: "061D9A9258926CAB"
+				type: "command"
+				command: "/horizons reward perkpoints 35"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "432DE86A28CC9AAA"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["EF628A25EB21C798"]
+			icon: {
+				id: "minecraft:firework_rocket"
+			}
+			id: "73C8FFC93E33C704"
+			rewards: [{
+				id: "A50B3E48D9FDDD36"
+				type: "command"
+				command: "/horizons reward perkpoints 20"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "24688042C4461FE7"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56F8CA8F21A2116C"]
+			icon: {
+				id: "minecraft:written_book"
+			}
+			id: "1F0128C308A530DF"
+			rewards: [{
+				id: "3B06AC7531048678"
+				type: "command"
+				command: "/horizons reward perkpoints 25"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "84BDC75CCD6EDA45"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["9E37E195EAC00621"]
+			icon: {
+				id: "minecraft:villager_spawn_egg"
+			}
+			id: "57B71BB8DCF45C55"
+			rewards: [{
+				id: "EEACF19093E1D839"
+				type: "command"
+				command: "/horizons reward perkpoints 50"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "CEAE95E4A29ADFDC"
+				type: "stat"
+				stat: "horizons_colony_workers"
+				value: 100
+			}]
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["57B71BB8DCF45C55", "9E37E195EAC00621"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "C8368AA1AA91B88F"
+			rewards: [
+				{
+					id: "AB129ACC955F5719"
+					type: "command"
+					command: "/horizons reward stage title_kingdom_builder"
+					player_command: false
+				}
+				{
+					id: "4DE4D96A202C2912"
+					type: "command"
+					command: "/horizons reward perkpoints 100"
+					player_command: false
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6865DDD253F2BCF0"
+				type: "checkmark"
+			}]
+			x: 27.5d
+			y: 0.0d
+		}
+	]
+}

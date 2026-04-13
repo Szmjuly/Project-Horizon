@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "poliwhirl-1",
+            "pokemon": "poliwhirl",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "25-40",
+            "weight": 4.0,
+            "condition": {
+                "biomes": ["#cobblemon:is_river", "#cobblemon:is_swamp"]
+            }
+        }
+    ]
+}

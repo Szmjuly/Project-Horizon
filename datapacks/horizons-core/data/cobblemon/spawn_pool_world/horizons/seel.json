@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "seel-1",
+            "pokemon": "seel",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "8-22",
+            "weight": 5.0,
+            "condition": {
+                "biomes": ["#cobblemon:is_taiga", "#cobblemon:is_snowy", "#cobblemon:is_freezing"]
+            }
+        }
+    ]
+}

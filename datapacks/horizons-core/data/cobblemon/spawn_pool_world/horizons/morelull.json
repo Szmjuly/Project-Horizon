@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "morelull-1","pokemon": "morelull","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "uncommon","level": "5-18","weight": 5.0,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_mushroom", "#cobblemon:is_forest", "#cobblemon:is_lush"],"timeRange": "night"}}]
+}

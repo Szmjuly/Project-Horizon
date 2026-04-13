@@ -1,0 +1,463 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "side_merchant_prince"
+	group: "8FC869B86246990B"
+	icon: {
+		id: "lightmanscurrency:coin_gold"
+	}
+	id: "B0EC1B510B89EC44"
+	images: [ ]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "lightmanscurrency:coin_copper"
+			}
+			id: "06806EE92D7A89AE"
+			rewards: [{
+				id: "D887011C03A61748"
+				type: "command"
+				command: "/horizons reward perkpoints 10"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "30BD740ED7DFC43A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06806EE92D7A89AE"]
+			icon: {
+				id: "lightmanscurrency:coin_copper"
+			}
+			id: "30615C1B330B9118"
+			rewards: [{
+				id: "82AC06289D94B95F"
+				type: "command"
+				command: "/horizons reward perkpoints 15"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "123B4B9E1BF3EE48"
+				type: "item"
+				item: {
+					count: 100
+					id: "lightmanscurrency:coin_copper"
+				}
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30615C1B330B9118"]
+			icon: {
+				id: "minecraft:barrel"
+			}
+			id: "C102912A09FD9B98"
+			rewards: [{
+				id: "6F7429F13F04C2AA"
+				type: "command"
+				command: "/horizons reward perkpoints 20"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "8956E598EF4030F0"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C102912A09FD9B98"]
+			icon: {
+				id: "minecraft:minecart"
+			}
+			id: "88D1E3B1A44D06F0"
+			rewards: [{
+				id: "78E0EAA433257C73"
+				type: "command"
+				command: "/horizons reward perkpoints 20"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "69C82B0011F5C61A"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["88D1E3B1A44D06F0"]
+			icon: {
+				id: "minecraft:minecart"
+			}
+			id: "AACE9318D1EFC05E"
+			rewards: [{
+				id: "654AE5710C64CBEE"
+				type: "command"
+				command: "/horizons reward perkpoints 25"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6FFB1E7081103EFC"
+				type: "stat"
+				stat: "horizons_trade_routes"
+				value: 3
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AACE9318D1EFC05E"]
+			icon: {
+				id: "lightmanscurrency:coin_gold"
+			}
+			id: "426FB101F43BEAB9"
+			rewards: [{
+				id: "120CE235DB287940"
+				type: "command"
+				command: "/horizons reward perkpoints 20"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2B0B4A50F870EBAE"
+				type: "item"
+				item: {
+					count: 10
+					id: "lightmanscurrency:coin_gold"
+				}
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["426FB101F43BEAB9"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "8BE68B5E5B3193E7"
+			rewards: [{
+				id: "D0915350E2D5659A"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "D26E1BC973C41F69"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["8BE68B5E5B3193E7"]
+			icon: {
+				id: "lightmanscurrency:coin_gold"
+			}
+			id: "9E0BFCFBF8A07DDD"
+			rewards: [{
+				id: "AD8AB0A8A195FB8A"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "429219DBB63F525A"
+				type: "item"
+				item: {
+					count: 50
+					id: "lightmanscurrency:coin_gold"
+				}
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9E0BFCFBF8A07DDD"]
+			icon: {
+				id: "lightmanscurrency:coin_gold"
+			}
+			id: "578A319E3AB4FE01"
+			rewards: [{
+				id: "AEC13237E31C19C6"
+				type: "command"
+				command: "/horizons reward perkpoints 35"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6DB3218412AA25C5"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["578A319E3AB4FE01"]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "E727E987C2D6732A"
+			rewards: [{
+				id: "47FFA2F450EBF011"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "8D2D1B53D01FA3D9"
+				type: "stat"
+				stat: "horizons_trade_routes"
+				value: 6
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E727E987C2D6732A"]
+			icon: {
+				id: "lightmanscurrency:coin_gold"
+			}
+			id: "2FA389B72C0AC0B9"
+			rewards: [{
+				id: "9C620485E41E5528"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "93529535538F85C0"
+				type: "item"
+				item: {
+					count: 100
+					id: "lightmanscurrency:coin_gold"
+				}
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C102912A09FD9B98"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "35A3FB7EC7FF6273"
+			rewards: [{
+				id: "92E08A1F181D51A0"
+				type: "command"
+				command: "/horizons reward perkpoints 25"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6712DDF862EA5EDA"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["88D1E3B1A44D06F0"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "C490E9D814D07FBC"
+			rewards: [{
+				id: "1261EB7D5DAB6201"
+				type: "command"
+				command: "/horizons reward perkpoints 20"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1DEB69D7CAD235B2"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["426FB101F43BEAB9"]
+			icon: {
+				id: "lightmanscurrency:coin_gold"
+			}
+			id: "4C304C11507CCFD5"
+			rewards: [{
+				id: "32202E9FE10A8052"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "8E30F305B03C9C16"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C304C11507CCFD5"]
+			icon: {
+				id: "minecraft:lectern"
+			}
+			id: "2C7EE0C9AF4EA6F4"
+			rewards: [{
+				id: "5DBBB33FA25C5646"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2C5D052B85FB7662"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C304C11507CCFD5"]
+			icon: {
+				id: "minecraft:written_book"
+			}
+			id: "F3ED7D4CACA85AD5"
+			rewards: [{
+				id: "C48806CE16AEDAEA"
+				type: "command"
+				command: "/horizons reward perkpoints 15"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "115BF73ACD3B4F17"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["E727E987C2D6732A"]
+			icon: {
+				id: "stellaris:rocket_nose_cone"
+			}
+			id: "BFA5FBEB1148A538"
+			rewards: [{
+				id: "9E702A62797A3E0F"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "9C3BA408BCFBE666"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2FA389B72C0AC0B9"]
+			icon: {
+				id: "minecraft:emerald_block"
+			}
+			id: "BCF8994385F3CAAF"
+			rewards: [{
+				id: "D57A192338C0C5DA"
+				type: "command"
+				command: "/horizons reward perkpoints 50"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5DC168C79323ABE9"
+				type: "stat"
+				stat: "horizons_trade_volume"
+				value: 1000
+			}]
+			x: 20.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["BCF8994385F3CAAF", "2FA389B72C0AC0B9"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "128CE96F8E86AD9C"
+			rewards: [
+				{
+					id: "8E98C7CF179F71A1"
+					type: "command"
+					command: "/horizons reward stage title_economic_baron"
+					player_command: false
+				}
+				{
+					id: "956493A47825A29A"
+					type: "command"
+					command: "/horizons reward perkpoints 100"
+					player_command: false
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "233494B98843A93A"
+				type: "checkmark"
+			}]
+			x: 25.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["9E0BFCFBF8A07DDD"]
+			icon: {
+				id: "minecraft:golden_apple"
+			}
+			id: "DF215D7A9E626128"
+			rewards: [
+				{
+					id: "F9D1AFE0A7DF15EA"
+					type: "command"
+					command: "/horizons reward reputation all 50"
+					player_command: false
+				}
+				{
+					id: "1ECB743595E8B59A"
+					type: "command"
+					command: "/horizons reward perkpoints 25"
+					player_command: false
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "EAA946D0AF369D96"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+	]
+}

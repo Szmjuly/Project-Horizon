@@ -1,0 +1,127 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ending_pilgrim"
+	group: "9EFB6BDB9BF4E818"
+	icon: {
+		id: "minecraft:ender_pearl"
+	}
+	id: "CA63A4F0C89A00D1"
+	images: [ ]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63EF9BDC9E3C004B"]
+			icon: {
+				id: "minecraft:ender_chest"
+			}
+			id: "30E0AB8216E2F3A6"
+			rewards: [{
+				id: "E46C031E39A442E1"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "321FF573F5E1E31C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30E0AB8216E2F3A6"]
+			icon: {
+				id: "minecraft:red_tulip"
+			}
+			id: "A1C132A02CDB1882"
+			rewards: [{
+				id: "01860E672BD0BABE"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "FBBA4CE25B61AAD2"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["A1C132A02CDB1882"]
+			icon: {
+				id: "minecraft:sunflower"
+			}
+			id: "6834FC07094F6545"
+			rewards: [{
+				id: "DDFC522D3329618B"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "66340DA0F1068312"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6834FC07094F6545"]
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "BEA60863DC0DB059"
+			rewards: [{
+				id: "EB149E7A10C166B2"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "62E30DFC0CC32070"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BEA60863DC0DB059"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "24D8C0E0E47941D0"
+			rewards: [
+				{
+					id: "2D1A91CADE73F603"
+					type: "command"
+					command: "/horizons reward stage title_pilgrim"
+					player_command: false
+				}
+				{
+					id: "ADB2BB47156E039A"
+					type: "command"
+					command: "/horizons reward perkpoints 200"
+					player_command: false
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4D9B84B4359214D4"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

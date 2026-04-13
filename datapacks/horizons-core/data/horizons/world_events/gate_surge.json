@@ -1,0 +1,11 @@
+{
+  "id": "gate_surge",
+  "name": "Gate Surge",
+  "description": "Gate difficulty increases but loot rewards are doubled",
+  "type": "random",
+  "duration_ticks": 24000,
+  "cooldown_days": 7,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

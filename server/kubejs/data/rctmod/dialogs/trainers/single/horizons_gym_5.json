@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_gym_5",
+  "trainer_name": "Leader Ignis",
+  "dialog": {
+    "intro": {
+      "text": "I am Ignis! The eternal flame burns in my heart and in my Pokemon! You'd better bring your fireproof resolve, challenger!",
+      "type": "intro"
+    },
+    "win": {
+      "text": "Ha! You burned bright enough to match us! Take the Ember Badge - you've earned every spark of it!",
+      "type": "win"
+    },
+    "lose": {
+      "text": "Reduced to cinders! The flame doesn't forgive weakness. Come back when you can take the heat!",
+      "type": "lose"
+    }
+  }
+}

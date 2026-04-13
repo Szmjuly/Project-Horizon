@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_horizons_gym_6": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "horizons_gym_6"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Leader Volt and earn the Circuit Badge"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:ultra_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Circuit Badge - Leader Volt Defeated!"
+    }
+  },
+  "parent": "rctmod:trainers/defeat_horizons_gym_5",
+  "requirements": [
+    [
+      "defeat_horizons_gym_6"
+    ]
+  ]
+}

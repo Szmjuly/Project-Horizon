@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "lairon-1","pokemon": "lairon","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "rare","level": "32-45","weight": 2.0,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_cave", "#cobblemon:is_mountain"]}}]
+}

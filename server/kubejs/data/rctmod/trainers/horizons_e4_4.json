@@ -1,0 +1,62 @@
+{
+  "id": "8E041ED027CA9C46",
+  "key": "horizons_e4_4",
+  "display_name": "Horizons E4 4",
+  "type": "horizons_e4",
+  "team": [
+    {
+      "species": "chandelure",
+      "level": 73,
+      "moves": [
+        "shadowball",
+        "fireblast",
+        "energyball",
+        "trick"
+      ],
+      "ability": "flashfire",
+      "nature": "timid"
+    },
+    {
+      "species": "metagross",
+      "level": 74,
+      "moves": [
+        "meteormash",
+        "zenheadbutt",
+        "earthquake",
+        "icepunch"
+      ],
+      "ability": "clearbody",
+      "nature": "jolly"
+    },
+    {
+      "species": "gengar",
+      "level": 75,
+      "moves": [
+        "shadowball",
+        "sludgebomb",
+        "focusblast",
+        "nastyplot"
+      ],
+      "ability": "cursedbody",
+      "nature": "timid"
+    },
+    {
+      "species": "mismagius",
+      "level": 76,
+      "moves": [
+        "shadowball",
+        "mysticalfire",
+        "dazzlinggleam",
+        "nastyplot"
+      ],
+      "ability": "levitate",
+      "nature": "timid"
+    }
+  ],
+  "dialogue": {
+    "intro": "I am Marek, the final gate of the Elite Four. My ghosts see through walls and my psychics see through lies. There is nowhere to hide from what I bring. Are you certain you wish to proceed?",
+    "win": "Remarkable. You fought through illusion and shadow without flinching. The Champion awaits you. Go with my respect.",
+    "lose": "You looked into the abyss and it consumed you. The mind must be fortress and blade both. Return when yours is sharpened."
+  },
+  "rewards": {}
+}

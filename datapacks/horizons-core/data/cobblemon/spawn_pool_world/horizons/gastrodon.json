@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "gastrodon-1","pokemon": "gastrodon","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "uncommon","level": "30-48","weight": 3.0,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_coast", "#cobblemon:is_swamp", "#cobblemon:is_beach"]}}]
+}

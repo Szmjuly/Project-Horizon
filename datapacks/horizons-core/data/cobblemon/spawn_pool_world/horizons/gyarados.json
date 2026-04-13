@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gyarados-1",
+            "pokemon": "gyarados",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "ultra-rare",
+            "level": "40-55",
+            "weight": 0.8,
+            "condition": {
+                "biomes": ["#cobblemon:is_ocean", "#cobblemon:is_deep_ocean"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "sliggoo-1","pokemon": "sliggoo","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "rare","level": "40-52","weight": 1.5,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_swamp", "#cobblemon:is_jungle"]}}]
+}

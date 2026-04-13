@@ -1,0 +1,351 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "side_trainer_way"
+	group: "8FC869B86246990B"
+	icon: {
+		id: "cobblemon:great_ball"
+	}
+	id: "97D7A10153CC43FC"
+	images: [ ]
+	order_index: 7
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "66B2BCB546D256A7"
+			rewards: [{
+				id: "51A05D61714B1B28"
+				type: "command"
+				command: "/horizons reward perkpoints 15"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3D5CACD03E958B43"
+				type: "stat"
+				stat: "horizons_trainer_wins"
+				value: 10
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66B2BCB546D256A7"]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "9E76A3F5502B6044"
+			rewards: [{
+				id: "4FE2D01F07DC07C0"
+				type: "command"
+				command: "/horizons reward perkpoints 20"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "8490C4AC19BFA27F"
+				type: "stat"
+				stat: "horizons_trainer_wins"
+				value: 25
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["9E76A3F5502B6044"]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "BD0111BF85FE03FD"
+			rewards: [{
+				id: "F1689DF0B1324BCF"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "97199EC8869786B9"
+				type: "stat"
+				stat: "horizons_trainer_wins"
+				value: 50
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66B2BCB546D256A7"]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "11C9417AAE74FA9E"
+			rewards: [{
+				id: "295FF9AF8359C333"
+				type: "command"
+				command: "/horizons reward perkpoints 25"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "95EFFEADCB156875"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["11C9417AAE74FA9E"]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "50DE22486DBE24C0"
+			rewards: [{
+				id: "A26D98ED405B3A80"
+				type: "command"
+				command: "/horizons reward perkpoints 25"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "2AB25D035B73BB53"
+				type: "stat"
+				stat: "horizons_mono_type_wins"
+				value: 10
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["BD0111BF85FE03FD"]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "037503A479BFE90D"
+			rewards: [{
+				id: "DD404B7FD33E81F3"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "77279DF316D710FD"
+				type: "stat"
+				stat: "horizons_trainer_wins"
+				value: 75
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["037503A479BFE90D"]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "AFBFE0EAC460BDD3"
+			rewards: [{
+				id: "CB5F0CB544355887"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "AC9957B98B9F1303"
+				type: "stat"
+				stat: "horizons_trainer_wins"
+				value: 100
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BD0111BF85FE03FD"]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "E83ADB59BD091386"
+			rewards: [{
+				id: "A1848ACFA1777DCE"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6C13ACD607198E6B"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "27201E206495287D"
+			rewards: [{
+				id: "B844B7955E229354"
+				type: "command"
+				command: "/horizons reward perkpoints 20"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "F675C249FBC5AC07"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["E83ADB59BD091386"]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "44AAAB8D8BD0E96E"
+			rewards: [{
+				id: "3E3FCA93293D3F43"
+				type: "command"
+				command: "/horizons reward perkpoints 35"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "CB2E82D155345032"
+				type: "stat"
+				stat: "horizons_win_streak"
+				value: 10
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["AFBFE0EAC460BDD3"]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "B6466195EFA33D31"
+			rewards: [{
+				id: "62F8988C4DDD9914"
+				type: "command"
+				command: "/horizons reward perkpoints 50"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "CD0D7E3D90C3536A"
+				type: "stat"
+				stat: "horizons_trainer_wins"
+				value: 150
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AFBFE0EAC460BDD3"]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "42358FD1510E7015"
+			rewards: [{
+				id: "4F9381E51CF2CA70"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "A1AB5B2A93DD828F"
+				type: "stat"
+				stat: "horizons_gate_trainer_wins"
+				value: 10
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["50DE22486DBE24C0"]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "31986B0F0891BB4F"
+			rewards: [{
+				id: "F38262DF29B322FF"
+				type: "command"
+				command: "/horizons reward perkpoints 35"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "82B4038AA09B7BC5"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["B6466195EFA33D31"]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "D08F9FB8FA48AFBB"
+			rewards: [{
+				id: "9FDCCF0CCB00A2C3"
+				type: "command"
+				command: "/horizons reward perkpoints 60"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2187DC7B5741037D"
+				type: "stat"
+				stat: "horizons_trainer_wins"
+				value: 200
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D08F9FB8FA48AFBB", "31986B0F0891BB4F"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "AEAD0F7D9F0A0A10"
+			rewards: [
+				{
+					id: "25FAF65F8703C2F3"
+					type: "command"
+					command: "/horizons reward stage title_endless_road"
+					player_command: false
+				}
+				{
+					id: "8990750C5E41B59E"
+					type: "command"
+					command: "/horizons reward perkpoints 100"
+					player_command: false
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "8A8492AF72C5C7C3"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+	]
+}

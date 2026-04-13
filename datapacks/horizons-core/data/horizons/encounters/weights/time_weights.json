@@ -1,0 +1,7 @@
+{
+  "_comment": "Encounter spawn weight multipliers by time of day",
+  "dawn": 1.2,
+  "day": 1.0,
+  "dusk": 1.5,
+  "night": 0.5
+}

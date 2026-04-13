@@ -1,0 +1,62 @@
+{
+  "id": "52C14AE982D87B54",
+  "key": "horizons_e4_2",
+  "display_name": "Horizons E4 2",
+  "type": "horizons_e4",
+  "team": [
+    {
+      "species": "roserade",
+      "level": 72,
+      "moves": [
+        "sludgebomb",
+        "gigadrain",
+        "toxicspikes",
+        "synthesis"
+      ],
+      "ability": "naturalcure",
+      "nature": "timid"
+    },
+    {
+      "species": "togekiss",
+      "level": 73,
+      "moves": [
+        "airslash",
+        "dazzlinggleam",
+        "aurasphere",
+        "thunderwave"
+      ],
+      "ability": "serenegrace",
+      "nature": "timid"
+    },
+    {
+      "species": "florges",
+      "level": 74,
+      "moves": [
+        "moonblast",
+        "psychic",
+        "wish",
+        "aromatherapy"
+      ],
+      "ability": "flowerveil",
+      "nature": "calm"
+    },
+    {
+      "species": "whimsicott",
+      "level": 75,
+      "moves": [
+        "moonblast",
+        "energyball",
+        "encore",
+        "tailwind"
+      ],
+      "ability": "prankster",
+      "nature": "bold"
+    }
+  ],
+  "dialogue": {
+    "intro": "I am Ysha, Bloom of the Elite Four. The flowers and the fae walk with me. Beauty is not weakness, challenger. Let me show you the thorns beneath the petals.",
+    "win": "You danced through my garden without trampling a single petal. Beautifully done. Move forward.",
+    "lose": "The garden has claimed another. Do not feel shame - even the mightiest trees bow before the storm."
+  },
+  "rewards": {}
+}

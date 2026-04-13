@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_gym_7",
+  "trainer_name": "Leader Obscura",
+  "dialog": {
+    "intro": {
+      "text": "I am Obscura. I see the light in darkness and the shadow in light. Your mind is an open book to me... but can you close it in battle?",
+      "type": "intro"
+    },
+    "win": {
+      "text": "Intriguing. Your mind resisted my sight. The Eclipse Badge is yours. You are more than you appear.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "Your thoughts betrayed you before you even moved. Still your mind, and perhaps next time the shadows will be kind.",
+      "type": "lose"
+    }
+  }
+}

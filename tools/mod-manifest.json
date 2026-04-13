@@ -1,0 +1,280 @@
+{
+  "minecraft_version": "1.21.1",
+  "loader": "neoforge",
+  "loader_version": "latest",
+  "java_version": "21",
+  "total_server_mods": 152,
+  "deferred_mods": [
+    { "name": "Applied Energistics 2", "reason": "Causes StackOverflow with GuideMe dependency; deferred until fix available" },
+    { "name": "GuideMe", "reason": "AE2 dependency; causes StackOverflow crash on startup" }
+  ],
+  "server_mods": {
+    "libraries": [
+      { "name": "Architectury API", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Balm", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Cloth Config API", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Curios API", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "YUNG's API", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Geckolib", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Kotlin for Forge", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "playerAnimator", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Collective", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Bookshelf", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Moonlight Lib", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Puzzles Lib", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "CreativeCore", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "FTB Library", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "FTB XMod Compat", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "FTB Filter System", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "Replaced Item Filters" },
+      { "name": "Structurize", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "MultiPiston", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "BlockUI", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "RCTApi", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Cobblemon Trainers", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "GlitchCore", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Rhino", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "KubeJS dependency" },
+      { "name": "Lithostitched", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Domum Ornamentum", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "MineColonies dependency" },
+      { "name": "Potentials", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "EpheroLib", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Resourceful Lib", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "EMI", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "CristeLib", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Fzzy Config", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "ARC", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "YamlConfig", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Iron's Lib", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "Iron's Spells dependency (irons_patreon_lib)" },
+      { "name": "Lionfish API", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Accessories", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "owo-lib", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "TimCore", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Cobblemore Lib", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "core_engine": [
+      { "name": "KubeJS", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "KubeJS Create", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "LootJS", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "MoreJS", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "FTB Quests", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "FTB Teams", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "FTB Chunks", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "AStages", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "ProgressiveStages", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Polymorph", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "CraftTweaker", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Item Restrictions", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "automation": [
+      { "name": "Create", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Create: Steam 'n Rails", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Create: Crafts & Additions", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Create: Enchantment Industry", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Create: Slice & Dice", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Create: Garnished", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Create: Connected", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Create Dragons Plus", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Immersive Engineering", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Immersive Petroleum", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "space": [
+      { "name": "Stellaris", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Cobblemon/Stellaris Compatibility Patch", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "cobblemon": [
+      { "name": "Cobblemon", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "AllTheMons", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Cobblemon Loot Balls", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Cobblemon Outbreaks", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "TBCS", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "Replaced CNPC-Cobblemon-Addon" }
+    ],
+    "cobblemon_addons": [
+      { "name": "Mega Showdown", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Fight or Flight", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "CobbleNav", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Cobbreeding", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Raid Dens", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Battle Extras", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "CaptureXP", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "SafePastures", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "PastureLoot", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "SimpleTMs", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Cobblemon Create Industries", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "colonies": [
+      { "name": "MineColonies", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Better with MineColonies", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "npcs": [
+      { "name": "Custom NPCs Unofficial", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Easy NPC", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "Includes easy_npc_bundle and easy_npc_config_ui jars" },
+      { "name": "Radical Cobblemon Trainers", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Guard Villagers", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Villager Names", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "economy": [
+      { "name": "Lightman's Currency", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Lightman's Currency Tech", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Jobs+ Remastered", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "survival": [
+      { "name": "Tough As Nails", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "farming": [
+      { "name": "Farmer's Delight", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Croptopia", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Let's Do: Brewery", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Let's Do: Vinery", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Let's Do: Bakery", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Let's Do: Candlelight", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Let's Do: HerbalBrews", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Farm and Charm", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "Let's Do series" },
+      { "name": "Brewin' and Chewin'", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Cooking for Blockheads", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Serene Seasons", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "combat": [
+      { "name": "Better Combat", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Combat Roll", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Simply Swords", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Artifacts", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Iron's Spells 'n Spellbooks", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "dungeons": [
+      { "name": "Dungeon Crawl", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "When Dungeons Arise", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "YUNG's Better Dungeons", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "YUNG's Better Mineshafts", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "YUNG's Better Strongholds", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "YUNG's Better Nether Fortresses", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "YUNG's Better End Island", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "YUNG's Better Desert Temples", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "YUNG's Better Ocean Monuments", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "YUNG's Better Witch Huts", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Repurposed Structures", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "structures_extra": [
+      { "name": "L_Ender's Cataclysm", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Moog's Voyager Structures", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Moog's End Structures", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Farmer's Structures", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Radical Gyms", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "worldgen": [
+      { "name": "Terralith", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Tectonic", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Nullscape", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "ChoiceTheorem's Overhauled Village", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Towns and Towers", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Tidal Towns", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "building": [
+      { "name": "Supplementaries", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Chipped", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Handcrafted", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Macaw's Doors", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Macaw's Windows", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Macaw's Bridges", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Macaw's Roofs", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Macaw's Fences", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "skills": [
+      { "name": "Pufferfish Skills", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Pufferfish Attributes", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Dimensional Dungeons", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Reskillable Reimagined", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "utility": [
+      { "name": "Lootr", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Explorer's Compass", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Sparse Structures", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ],
+    "performance": [
+      { "name": "Chunky", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Spark", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Clumps", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Saturn", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "ModernFix", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "FerriteCore", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "ServerCore", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "Jade", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
+      { "name": "JourneyMap", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+    ]
+  },
+  "client_mods": {
+    "rendering_path_a": [
+      { "name": "Sodium", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Sodium Extra", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Reese's Sodium Options", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Iris Shaders", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Sodium Dynamic Lights", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Sodium Leaf Culling", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Sodium/Embeddium Options API", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" }
+    ],
+    "rendering_path_b": [
+      { "name": "Embeddium", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Chloride", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Oculus", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Embeddium Dynamic Lights", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" }
+    ],
+    "performance_memory": [
+      { "name": "ModernFix", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "FerriteCore", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Lazy DFU", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "ImmediatelyFast", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Entity Culling", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "More Culling", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Smooth Chunk Save", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" }
+    ],
+    "performance_network": [
+      { "name": "Connectivity", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Login Protection", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Loading Backgrounds", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "FancyMenu", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Splash Animation", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" }
+    ],
+    "visual": [
+      { "name": "Distant Horizons", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Ambient Sounds", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Sound Physics Remastered", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Effective", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Falling Leaves", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Particle Rain", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Better Clouds", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Not Enough Animations", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Model Gap Fix", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Chat Heads", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "3D Skin Layers", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Legendary Tooltips", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Equipment Compare", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Advancement Plaques", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Presence Footsteps", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "AmbientEnvironment", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Eating Animation", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" }
+    ],
+    "qol_navigation": [
+      { "name": "JourneyMap", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Just Enough Items", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "JEI Integration", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Just Enough Resources", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Just Enough Professions", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Jade", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "AppleSkin", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" }
+    ],
+    "qol_inventory": [
+      { "name": "Mouse Tweaks", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Inventory Profiles Next", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "TrashSlot", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Inventory Essentials", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Crafting Tweaks", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Controlling", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Configured", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Better Third Person", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Zoomify", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Carry On", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Toast Control", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Shulker Box Tooltip", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Dark Loading Screen", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "No Chat Reports", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" }
+    ]
+  }
+}

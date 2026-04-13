@@ -1,0 +1,62 @@
+{
+  "id": "B32E791B3249C52D",
+  "key": "horizons_gym_3",
+  "display_name": "Horizons Gym 3",
+  "type": "horizons_gym",
+  "team": [
+    {
+      "species": "onix",
+      "level": 28,
+      "moves": [
+        "rockthrow",
+        "irontail",
+        "screech",
+        "sandstorm"
+      ],
+      "ability": "sturdy",
+      "nature": "impish"
+    },
+    {
+      "species": "lairon",
+      "level": 28,
+      "moves": [
+        "ironhead",
+        "rockslide",
+        "protect",
+        "roar"
+      ],
+      "ability": "sturdy",
+      "nature": "adamant"
+    },
+    {
+      "species": "aggron",
+      "level": 29,
+      "moves": [
+        "ironhead",
+        "rockslide",
+        "aerialace",
+        "thunderwave"
+      ],
+      "ability": "rockhead",
+      "nature": "adamant"
+    },
+    {
+      "species": "steelix",
+      "level": 30,
+      "moves": [
+        "irontail",
+        "rockslide",
+        "earthquake",
+        "sandstorm"
+      ],
+      "ability": "sturdy",
+      "nature": "careful"
+    }
+  ],
+  "dialogue": {
+    "intro": "I am Ferrum, the Ironclad. My Pokemon are tempered in the furnace of the Mountain Forge. Show me your mettle!",
+    "win": "You strike true. The Forge Badge is yours. May it ring like steel in your journey ahead.",
+    "lose": "Brittle. You shattered against our defense. Come back when you've been forged stronger."
+  },
+  "rewards": {}
+}

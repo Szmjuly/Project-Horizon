@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "kingdra-1","pokemon": "kingdra","presets": ["natural"],"type": "pokemon","spawnablePositionType": "submerged","bucket": "ultra-rare","level": "45-60","weight": 0.5,"condition": {"biomes": ["#cobblemon:is_deep_ocean", "#cobblemon:is_ocean"]}}]
+}

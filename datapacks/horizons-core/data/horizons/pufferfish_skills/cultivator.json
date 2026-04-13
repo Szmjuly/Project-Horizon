@@ -1,0 +1,76 @@
+{
+  "background": "minecraft:textures/block/farmland_moist.png",
+  "definitions": {
+    "green_thumb": {
+      "title": "Green Thumb",
+      "description": "+10% crop yield. Your touch coaxes life from the soil.",
+      "icon": { "item": "minecraft:wheat_seeds" },
+      "cost": 1,
+      "connections": ["soil_sense", "seed_saver"]
+    },
+    "soil_sense": {
+      "title": "Soil Sense",
+      "description": "+15% soil quality bonus. You read the earth like a book.",
+      "icon": { "item": "minecraft:dirt" },
+      "cost": 2,
+      "connections": ["master_brewer"]
+    },
+    "seed_saver": {
+      "title": "Seed Saver",
+      "description": "+20% seed return on harvest. Nothing goes to waste.",
+      "icon": { "item": "minecraft:beetroot_seeds" },
+      "cost": 2,
+      "connections": ["livestock_tender"]
+    },
+    "master_brewer": {
+      "title": "Master Brewer",
+      "description": "+25% potion and brew quality. Your concoctions are legendary.",
+      "icon": { "item": "minecraft:brewing_stand" },
+      "cost": 3,
+      "connections": ["verdant_touch"]
+    },
+    "livestock_tender": {
+      "title": "Livestock Tender",
+      "description": "+15% animal drops. Your animals thrive under your care.",
+      "icon": { "item": "minecraft:wheat" },
+      "cost": 3,
+      "connections": ["harvest_moon"]
+    },
+    "verdant_touch": {
+      "title": "Verdant Touch",
+      "description": "Bone meal effect radius doubled. Life erupts at your command.",
+      "icon": { "item": "minecraft:bone_meal" },
+      "cost": 4,
+      "connections": ["natures_bounty"]
+    },
+    "harvest_moon": {
+      "title": "Harvest Moon",
+      "description": "+30% farming effectiveness at night. The moon empowers your harvest.",
+      "icon": { "item": "minecraft:clock" },
+      "cost": 4,
+      "connections": ["colony_architect"]
+    },
+    "natures_bounty": {
+      "title": "Nature's Bounty",
+      "description": "+40% crop yield at night. Moonlit harvests overflow with abundance.",
+      "icon": { "item": "minecraft:golden_carrot" },
+      "cost": 5,
+      "connections": ["verdant_sovereign"]
+    },
+    "colony_architect": {
+      "title": "Colony Architect",
+      "description": "+25% MineColonies worker speed. Your colony operates at peak efficiency.",
+      "icon": { "item": "minecraft:beehive" },
+      "cost": 5,
+      "connections": ["verdant_sovereign"]
+    },
+    "verdant_sovereign": {
+      "title": "Verdant Sovereign",
+      "description": "All farming stats +10%. Nature itself bows to your mastery.",
+      "icon": { "item": "minecraft:enchanted_golden_apple" },
+      "cost": 8,
+      "connections": []
+    }
+  },
+  "root": "green_thumb"
+}

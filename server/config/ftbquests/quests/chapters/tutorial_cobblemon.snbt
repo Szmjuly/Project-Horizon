@@ -1,0 +1,286 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_cobblemon"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "cobblemon:poke_ball"
+	}
+	id: "5E4BBAF297B902C1"
+	images: [ ]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "DBE465CAD5D4403B"
+			rewards: [{
+				id: "9E7CF1D2397BB65B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "CF64741E8BF8559F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["DBE465CAD5D4403B"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "360E76DE88BB02D7"
+			rewards: [{
+				id: "F956E273AE6A96F4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "F5F01D92D1A5CC5B"
+				type: "stat"
+				stat: "horizons_cobblemon_caught"
+				value: 1
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["360E76DE88BB02D7"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "10971CE9EAAE9B96"
+			rewards: [{
+				id: "FA92115D2BAE7D70"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "D67F6C7B3FB5F57B"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10971CE9EAAE9B96"]
+			icon: {
+				id: "cobblemon:potion"
+			}
+			id: "4C99DD3A311B0B6C"
+			rewards: [{
+				id: "A87D3169DEC7AAD9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "89830EFE465411B1"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C99DD3A311B0B6C"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "D88E167BF4315988"
+			rewards: [{
+				id: "0BF845FBEB6EB0CB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "B64622BFE5BEBC73"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10971CE9EAAE9B96"]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "B9F1566BFD7523D2"
+			rewards: [{
+				id: "6F876E5A6A24FAA1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0B5708AA44F310DC"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["B9F1566BFD7523D2"]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "CE68B402D0D1E425"
+			rewards: [{
+				id: "03F24B41DC331A29"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "F03F6E76A7BE445B"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["CE68B402D0D1E425"]
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "BDE56FA73EE6CDAC"
+			rewards: [{
+				id: "4141DFEE9BBD1634"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "A5287D1B3788DE29"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["D88E167BF4315988"]
+			icon: {
+				id: "minecraft:turtle_egg"
+			}
+			id: "CECB35427196095D"
+			rewards: [{
+				id: "6AFBDA85321FEDA2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "31741904EF87D949"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CECB35427196095D"]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "F0F9D6D439BE3772"
+			rewards: [{
+				id: "0AA0D76F0E969654"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0490631473E90A74"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BDE56FA73EE6CDAC"]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "BA8133D0EB219D8F"
+			rewards: [{
+				id: "31E7363CA46F087E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "DDF02BDAD7997048"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["F0F9D6D439BE3772"]
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "871020CF66696E0B"
+			rewards: [{
+				id: "1BB4BEEAE19D6690"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "AF44A06C82554123"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BA8133D0EB219D8F"]
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "3EC212E7E8193660"
+			rewards: [{
+				id: "12EA3CFDBCD0E7D0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "FF4E88227DA90395"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["360E76DE88BB02D7"]
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "6949861A63618EA8"
+			rewards: [{
+				id: "F6B9D320C2CD4EAB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "88FF4273F11886C2"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+}

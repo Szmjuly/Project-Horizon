@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ending_steward"
+	group: "9EFB6BDB9BF4E818"
+	icon: {
+		id: "minecraft:shield"
+	}
+	id: "050EACF9F61A684A"
+	images: [ ]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63EF9BDC9E3C004B"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "BAB45E0FEA37651D"
+			rewards: [{
+				id: "9F442C500823A7B3"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "86FFABA16F8FF8F0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["BAB45E0FEA37651D"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "982F279E2986D740"
+			rewards: [{
+				id: "1B09BA886065E571"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "C488BAA66CA49C32"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["982F279E2986D740"]
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "E1F20DBF86388F23"
+			rewards: [{
+				id: "42D4BFE007CC63F2"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "F18509DEEFE413A6"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["E1F20DBF86388F23"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "1FA4AF1F469C5307"
+			rewards: [{
+				id: "A59D42E6F6B124B3"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6FB80BD0673BCA76"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FA4AF1F469C5307"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "AC2809D0FE0394CE"
+			rewards: [
+				{
+					id: "2623F011514A562F"
+					type: "command"
+					command: "/horizons reward stage title_steward"
+					player_command: false
+				}
+				{
+					id: "D07141A72029C133"
+					type: "command"
+					command: "/horizons reward perkpoints 200"
+					player_command: false
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "931B62BCE6D2B62D"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

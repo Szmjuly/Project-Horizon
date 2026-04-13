@@ -1,0 +1,50 @@
+{
+  "id": "7C1EBD548113320D",
+  "key": "horizons_gym_1",
+  "display_name": "Horizons Gym 1",
+  "type": "horizons_gym",
+  "team": [
+    {
+      "species": "tauros",
+      "level": 18,
+      "moves": [
+        "headbutt",
+        "pursuit",
+        "stomp",
+        "workup"
+      ],
+      "ability": "intimidate",
+      "nature": "adamant"
+    },
+    {
+      "species": "sawsbuck",
+      "level": 19,
+      "moves": [
+        "hornleech",
+        "takedown",
+        "leechseed",
+        "feintattack"
+      ],
+      "ability": "chlorophyll",
+      "nature": "jolly"
+    },
+    {
+      "species": "leafeon",
+      "level": 20,
+      "moves": [
+        "razorleaf",
+        "quickattack",
+        "sunnyday",
+        "swordsdance"
+      ],
+      "ability": "leafguard",
+      "nature": "adamant"
+    }
+  ],
+  "dialogue": {
+    "intro": "I am Terra, Guardian of the Plains. Show me your bond with your Pokemon!",
+    "win": "Impressive! The Plains acknowledge your strength. You've earned the Plains Badge.",
+    "lose": "The grasslands do not yield easily. Train harder and return when you're ready."
+  },
+  "rewards": {}
+}

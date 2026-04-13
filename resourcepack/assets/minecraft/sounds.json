@@ -1,0 +1,64 @@
+{
+  "_comment": "Project Horizons — Custom music and ambient sound registration. Add .ogg files to the paths below.",
+
+  "music.horizons.overworld": {
+    "sounds": [
+      { "name": "music/horizons/overworld_01", "stream": true }
+    ]
+  },
+  "music.horizons.gates": {
+    "sounds": [
+      { "name": "music/horizons/gates_01", "stream": true }
+    ]
+  },
+  "music.horizons.boss": {
+    "sounds": [
+      { "name": "music/horizons/boss_01", "stream": true }
+    ]
+  },
+  "music.horizons.space": {
+    "sounds": [
+      { "name": "music/horizons/space_01", "stream": true }
+    ]
+  },
+  "music.horizons.kingdom": {
+    "sounds": [
+      { "name": "music/horizons/kingdom_01", "stream": true }
+    ]
+  },
+  "music.horizons.farming": {
+    "sounds": [
+      { "name": "music/horizons/farming_01", "stream": true }
+    ]
+  },
+  "music.horizons.colony": {
+    "sounds": [
+      { "name": "music/horizons/colony_01", "stream": true }
+    ]
+  },
+  "music.horizons.jail": {
+    "sounds": [
+      { "name": "music/horizons/jail_01", "stream": true }
+    ]
+  },
+  "music.horizons.nether": {
+    "sounds": [
+      { "name": "music/horizons/nether_01", "stream": true }
+    ]
+  },
+  "music.horizons.end": {
+    "sounds": [
+      { "name": "music/horizons/end_01", "stream": true }
+    ]
+  },
+  "ambient.horizons.wind": {
+    "sounds": [
+      { "name": "ambient/horizons/wind_01" }
+    ]
+  },
+  "ambient.horizons.village": {
+    "sounds": [
+      { "name": "ambient/horizons/village_01" }
+    ]
+  }
+}

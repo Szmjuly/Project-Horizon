@@ -1,0 +1,74 @@
+{
+  "id": "4FE70F27036964C6",
+  "key": "horizons_gym_7",
+  "display_name": "Horizons Gym 7",
+  "type": "horizons_gym",
+  "team": [
+    {
+      "species": "umbreon",
+      "level": 47,
+      "moves": [
+        "foulplay",
+        "toxic",
+        "moonlight",
+        "protect"
+      ],
+      "ability": "synchronize",
+      "nature": "calm"
+    },
+    {
+      "species": "alakazam",
+      "level": 48,
+      "moves": [
+        "psychic",
+        "shadowball",
+        "focusblast",
+        "energyball"
+      ],
+      "ability": "magicguard",
+      "nature": "timid"
+    },
+    {
+      "species": "espeon",
+      "level": 49,
+      "moves": [
+        "psychic",
+        "dazzlinggleam",
+        "shadowball",
+        "morningsun"
+      ],
+      "ability": "magicbounce",
+      "nature": "timid"
+    },
+    {
+      "species": "absol",
+      "level": 49,
+      "moves": [
+        "nightslash",
+        "psychocut",
+        "swordsdance",
+        "suckerpunch"
+      ],
+      "ability": "superluck",
+      "nature": "adamant"
+    },
+    {
+      "species": "gardevoir",
+      "level": 50,
+      "moves": [
+        "psychic",
+        "moonblast",
+        "shadowball",
+        "calmmind"
+      ],
+      "ability": "trace",
+      "nature": "modest"
+    }
+  ],
+  "dialogue": {
+    "intro": "I am Obscura. I see the light in darkness and the shadow in light. Your mind is an open book to me... but can you close it in battle?",
+    "win": "Intriguing. Your mind resisted my sight. The Eclipse Badge is yours. You are more than you appear.",
+    "lose": "Your thoughts betrayed you before you even moved. Still your mind, and perhaps next time the shadows will be kind."
+  },
+  "rewards": {}
+}

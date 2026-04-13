@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_horizons_gym_2": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "horizons_gym_2"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Leader Sylva and earn the Canopy Badge"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:poke_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Canopy Badge - Leader Sylva Defeated!"
+    }
+  },
+  "parent": "rctmod:trainers/defeat_horizons_gym_1",
+  "requirements": [
+    [
+      "defeat_horizons_gym_2"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lapras-1",
+            "pokemon": "lapras",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "ultra-rare",
+            "level": "25-50",
+            "weight": 0.5,
+            "condition": {
+                "biomes": ["#cobblemon:is_ocean", "#cobblemon:is_deep_ocean", "#cobblemon:is_freezing"]
+            }
+        }
+    ]
+}

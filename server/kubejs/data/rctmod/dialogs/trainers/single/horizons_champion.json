@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_champion",
+  "trainer_name": "Champion Aren",
+  "dialog": {
+    "intro": {
+      "text": "So you've made it. I'm Aren - Guild Master and Champion. I've watched your journey from the very beginning. Every badge, every battle, every choice. Now show me the trainer you've become. Hold nothing back!",
+      "type": "intro"
+    },
+    "win": {
+      "text": "I knew it. From the moment Sera brought you to my door, I knew you had this in you. You are the Champion now. The world of Horizons is yours to shape.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "Close, but not yet. The Champion's throne demands perfection. You have the heart - now sharpen the edge. I'll be waiting.",
+      "type": "lose"
+    }
+  }
+}

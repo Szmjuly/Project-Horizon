@@ -1,0 +1,9 @@
+{
+  "type": "horizons_gym",
+  "id": "AB47FE2418AC0399",
+  "display_name": "Horizons Gym",
+  "badge": "",
+  "battle_rules": {
+    "level_cap": 100
+  }
+}

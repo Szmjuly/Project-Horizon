@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_gym_2",
+  "trainer_name": "Leader Sylva",
+  "dialog": {
+    "intro": {
+      "text": "The forest watches, challenger. I am Sylva, voice of the canopy. Can you hear what the leaves whisper about you?",
+      "type": "intro"
+    },
+    "win": {
+      "text": "The forest bows to you. Take the Canopy Badge and carry its blessing.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "The forest is patient. Return when you have learned to listen to the wild.",
+      "type": "lose"
+    }
+  }
+}

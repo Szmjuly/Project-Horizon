@@ -1,0 +1,74 @@
+{
+  "id": "FAFF7776BF84A144",
+  "key": "horizons_gym_6",
+  "display_name": "Horizons Gym 6",
+  "type": "horizons_gym",
+  "team": [
+    {
+      "species": "electrode",
+      "level": 42,
+      "moves": [
+        "thunderbolt",
+        "voltswitch",
+        "signalbeam",
+        "lightscreen"
+      ],
+      "ability": "static",
+      "nature": "timid"
+    },
+    {
+      "species": "luxray",
+      "level": 43,
+      "moves": [
+        "wildcharge",
+        "crunch",
+        "icefang",
+        "superpower"
+      ],
+      "ability": "intimidate",
+      "nature": "adamant"
+    },
+    {
+      "species": "magnezone",
+      "level": 43,
+      "moves": [
+        "thunderbolt",
+        "flashcannon",
+        "voltswitch",
+        "triattack"
+      ],
+      "ability": "magnetpull",
+      "nature": "modest"
+    },
+    {
+      "species": "electivire",
+      "level": 44,
+      "moves": [
+        "wildcharge",
+        "icepunch",
+        "crosschop",
+        "earthquake"
+      ],
+      "ability": "motordrive",
+      "nature": "jolly"
+    },
+    {
+      "species": "jolteon",
+      "level": 45,
+      "moves": [
+        "thunderbolt",
+        "shadowball",
+        "signalbeam",
+        "voltswitch"
+      ],
+      "ability": "voltabsorb",
+      "nature": "timid"
+    }
+  ],
+  "dialogue": {
+    "intro": "I'm Volt. No big speeches, no grand declarations. Just pure, unfiltered voltage. Let's see if you can conduct.",
+    "win": "Fast reflexes. Good instincts. The Circuit Badge is yours. You've got real spark, challenger.",
+    "lose": "Too slow. Electricity doesn't wait for anyone. Speed up or stay grounded."
+  },
+  "rewards": {}
+}

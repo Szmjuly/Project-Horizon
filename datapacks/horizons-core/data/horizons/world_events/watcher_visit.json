@@ -1,0 +1,11 @@
+{
+  "id": "watcher_visit",
+  "name": "Watcher Visit",
+  "description": "A mysterious lore entity appears, offering cryptic knowledge and quests",
+  "type": "random",
+  "duration_ticks": 24000,
+  "cooldown_days": 30,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "tentacruel-1",
+            "pokemon": "tentacruel",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "30-48",
+            "weight": 4.0,
+            "condition": {
+                "biomes": ["#cobblemon:is_ocean", "#cobblemon:is_deep_ocean"]
+            }
+        }
+    ]
+}

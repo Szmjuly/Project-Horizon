@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "togepi-1","pokemon": "togepi","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "uncommon","level": "5-15","weight": 4.0,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_floral", "#cobblemon:is_plains", "#cobblemon:is_cherry_blossom"]}}]
+}

@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "houndour-1","pokemon": "houndour","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "uncommon","level": "10-25","weight": 5.0,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_nether", "#cobblemon:is_volcanic", "#cobblemon:is_desert"],"timeRange": "night"}}]
+}

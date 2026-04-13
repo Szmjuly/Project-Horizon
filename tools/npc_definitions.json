@@ -1,0 +1,1032 @@
+{
+  "meta": {
+    "id_seed": "horizons_npcs_v1",
+    "version": 1,
+    "description": "Named NPC definitions with dialogue trees for Project Horizons"
+  },
+  "npcs": {
+    "sera": {
+      "name": "Sera",
+      "title": "Guide of Anchor Town",
+      "faction": "plains",
+      "role": "guide",
+      "location": { "x": 0, "y": 64, "z": 10, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 0, "y": 64, "z": 10 },
+        "noon": { "x": 20, "y": 64, "z": 10 },
+        "dusk": { "x": 0, "y": 64, "z": 10 },
+        "night": { "x": -5, "y": 64, "z": 5 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Welcome to Anchor Town, Pathfinder. I've been waiting for you.",
+          "act_1_complete": "You've come far since we first met. The world opens before you.",
+          "act_2_started": "Willowmere awaits. Mayor Theron has much to discuss.",
+          "act_3_started": "The kingdoms stir. Your choices will shape their future.",
+          "act_4_started": "The stars call to you now. Be careful out there.",
+          "act_5_started": "It's nearly time. Choose wisely, Pathfinder."
+        },
+        "quests": {
+          "welcome_pathfinder": {
+            "offer": "You look lost. Everyone does at first. Let me help you get oriented.",
+            "accept": "Good. First things first - eat something, drink some water, find shelter.",
+            "decline": "Take your time. I'll be right here when you're ready.",
+            "complete": "Well done! You're a quick learner. There's much more ahead."
+          },
+          "find_sera": {
+            "offer": "Now that you've gotten your bearings, let me tell you about this place.",
+            "accept": "Anchor Town is the heart of the Plains Kingdom. Guild Master Aren runs things here.",
+            "decline": "Explore on your own if you like. Curiosity is a fine teacher.",
+            "complete": "You're ready to meet Aren. He's in the Guild Hall - the big building with the banner."
+          }
+        },
+        "faction_responses": {
+          "rep_plains_trusted": "The Plains folk speak highly of you. You've earned their trust.",
+          "rep_forest_hostile": "I hear the Forest Coalition isn't fond of you. Be careful.",
+          "crime_outlaw": "I've heard rumors. Whatever path you've chosen, be careful."
+        },
+        "idle_lines": [
+          "Beautiful day in Anchor Town, isn't it?",
+          "Have you tried the bread from the bakery? It's wonderful.",
+          "The Gate to the east has been active lately. Be cautious.",
+          "Every Pathfinder who comes through here has a different story. I wonder what yours will be.",
+          "If you're ever lost, just look for the guild banner. You can always find your way home."
+        ]
+      }
+    },
+    "petra": {
+      "name": "Petra",
+      "title": "Town Crier",
+      "faction": "plains",
+      "role": "crier",
+      "location": { "x": 15, "y": 64, "z": -5, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 15, "y": 64, "z": -5 },
+        "noon": { "x": 30, "y": 64, "z": 0 },
+        "dusk": { "x": 15, "y": 64, "z": -5 },
+        "night": { "x": 10, "y": 64, "z": -10 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Hear ye, hear ye! A new Pathfinder walks among us! Welcome, stranger!",
+          "act_1_complete": "Extra, extra! The Pathfinder has completed their first trials! The town buzzes with talk of you!",
+          "act_2_started": "News from Willowmere! Trade routes opening and the Pathfinder is at the center of it all!",
+          "act_3_started": "Tensions rise between the kingdoms! All eyes turn to you, Pathfinder!",
+          "act_4_started": "Strange lights in the sky! The Skyborn Order sends expeditions! What times we live in!",
+          "act_5_started": "The world holds its breath. Whatever happens next, they'll write songs about it."
+        },
+        "quests": {
+          "deliver_news_willowmere": {
+            "offer": "I've got urgent dispatches for Mayor Theron in Willowmere. The road's too dangerous for me alone. Would you carry them?",
+            "accept": "Bless you! Take the south road and stay clear of the ravine after dark. Theron will know what to do with these.",
+            "decline": "I understand. Maybe I'll find another courier. Or maybe the news will just have to wait.",
+            "complete": "You delivered them safely? Wonderful! Here's your courier's fee, well earned."
+          },
+          "gather_stories": {
+            "offer": "I'm putting together a chronicle of the kingdoms. Would you bring me stories from your travels? Talk to folk in other towns and report back.",
+            "accept": "Marvelous! I need tales from at least three different settlements. The more colorful, the better!",
+            "decline": "No rush. Stories aren't going anywhere, and neither am I.",
+            "complete": "These are magnificent! The people need to hear these. You have a gift for finding the heart of a story."
+          }
+        },
+        "faction_responses": {
+          "rep_plains_trusted": "The Plains folk love a good headline, and you've given them plenty!",
+          "rep_mountain_allied": "Word from the Mountain Forge says you're making quite a name for yourself up there!",
+          "crime_outlaw": "I, uh, haven't heard anything about you. Nope. Nothing at all. Please don't hurt me."
+        },
+        "idle_lines": [
+          "Read all about it! New trade route opens between the Plains and the Coast!",
+          "Have you heard? A rare Pokemon was spotted near the eastern gate!",
+          "News never sleeps, and neither do I! Well, sometimes I do. A little.",
+          "Psst - between you and me, I hear the Mountain Forge is working on something big."
+        ]
+      }
+    },
+    "aren": {
+      "name": "Aren",
+      "title": "Guild Master",
+      "faction": "plains",
+      "role": "quest_giver",
+      "location": { "x": 50, "y": 64, "z": 0, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 50, "y": 64, "z": 0 },
+        "noon": { "x": 50, "y": 64, "z": 0 },
+        "dusk": { "x": 55, "y": 64, "z": -5 },
+        "night": { "x": 55, "y": 70, "z": -10 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Another Pathfinder. Step forward. I am Aren, Guild Master of Anchor Town. Your journey begins here - if you have the resolve.",
+          "act_1_complete": "You've proven yourself capable. Good. I have need of capable people. The real work begins now.",
+          "act_2_started": "Willowmere's stability is critical to the Plains Kingdom. I'm trusting you with this, Pathfinder.",
+          "act_3_started": "The factions are fracturing. Diplomacy has failed before. Don't let it fail again.",
+          "act_4_started": "What the Skyborn have discovered changes everything. I need you ready for what comes next.",
+          "act_5_started": "This is it. Everything we've built, every alliance we've forged - it all comes down to what you do next."
+        },
+        "quests": {
+          "meet_the_guild": {
+            "offer": "Before you go charging into the wild, you need training. I've arranged for three mentors to evaluate you. Speak with Vex, Lyra, and Tomo.",
+            "accept": "Good. Each will teach you a discipline. Master all three and you'll be ready for what this world demands.",
+            "decline": "Hesitation is not always weakness, but don't mistake caution for cowardice. Come back when you're ready.",
+            "complete": "All three mentors speak well of you. That's rare. You've earned your place in the Guild."
+          },
+          "the_first_expedition": {
+            "offer": "Willowmere has gone silent. No trade caravans, no messengers. I need you to find out why and report back.",
+            "accept": "Take supplies and keep your wits about you. Something is wrong on that road.",
+            "decline": "I won't force you. But if Willowmere falls, Anchor Town won't be far behind.",
+            "complete": "So that's what happened. This is worse than I feared. We need to act quickly."
+          },
+          "forge_alliance": {
+            "offer": "The kingdoms must unite or fall separately. I need you to carry my seal to the Mountain Forge and the Coastal Republic. Negotiate treaties.",
+            "accept": "You carry the authority of the Plains Kingdom with you. Do not squander it.",
+            "decline": "Without alliances, we stand alone. Think carefully before you refuse.",
+            "complete": "Treaties signed. Alliances forged. You've done what diplomats couldn't. Well done."
+          },
+          "the_final_stand": {
+            "offer": "Everything comes to a head now. The threat we've been preparing for is here. Rally our allies and lead the defense.",
+            "accept": "This is what you were born for, Pathfinder. All of Horizons stands behind you.",
+            "decline": "I understand your fear. But there is no one else. Take a moment, then come back. We need you.",
+            "complete": "You did it. Against all odds, you did it. Horizons endures because of you."
+          }
+        },
+        "faction_responses": {
+          "rep_plains_trusted": "You've earned the trust of the Plains. That carries weight in this hall.",
+          "rep_all_allied": "Every kingdom speaks your name with respect. That is no small feat.",
+          "crime_outlaw": "I've heard troubling reports. I gave you my trust, Pathfinder. Don't make me regret it."
+        },
+        "idle_lines": [
+          "The Guild exists to protect this world. Never forget that.",
+          "Strategy wins battles. Strength alone is not enough.",
+          "I've seen many Pathfinders come and go. The ones who endure are the ones who listen."
+        ]
+      }
+    },
+    "vex": {
+      "name": "Vex",
+      "title": "Vanguard Mentor",
+      "faction": "plains",
+      "role": "mentor",
+      "location": { "x": 60, "y": 64, "z": 20, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 70, "y": 64, "z": 30 },
+        "noon": { "x": 60, "y": 64, "z": 20 },
+        "dusk": { "x": 60, "y": 64, "z": 20 },
+        "night": { "x": 55, "y": 70, "z": 15 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "So you're the new Pathfinder. You don't look like much. Let's see what you're made of.",
+          "act_1_complete": "Still standing, huh? Maybe there's hope for you after all.",
+          "act_2_started": "Willowmere isn't a training ground. Stay sharp or you'll be someone's lunch.",
+          "act_3_started": "War's coming. I can smell it. Hope you've been practicing.",
+          "act_5_started": "This is what we trained for. Every bruise, every early morning. Make them count."
+        },
+        "quests": {
+          "vanguard_trial": {
+            "offer": "The Vanguard path is about strength, grit, and never backing down. Think you can handle it? Prove it. Bring me trophies from three hostile mobs.",
+            "accept": "Good. Don't come back empty-handed. And don't come back dead - I hate paperwork.",
+            "decline": "Coward. Come back when you grow a spine.",
+            "complete": "Huh. Not bad. You might just survive out there. Welcome to the Vanguard path, kid."
+          },
+          "advanced_combat": {
+            "offer": "Basic combat won't cut it anymore. I'm going to teach you to fight smart. First, craft a proper weapon - iron tier or better.",
+            "accept": "A warrior is only as good as their blade. Forge it yourself and you'll understand your weapon.",
+            "decline": "Your funeral. Don't blame me when something bigger than you shows up.",
+            "complete": "Fine craftsmanship. You're learning that the forge is as important as the battlefield."
+          }
+        },
+        "faction_responses": {
+          "rep_plains_trusted": "The Plains warriors respect you. That means something coming from them.",
+          "rep_mountain_allied": "Mountain Forge folk say you can fight. High praise from smiths.",
+          "crime_outlaw": "I don't care what the law says. I care if you can fight. But clean up your act."
+        },
+        "idle_lines": [
+          "A dull blade and a dull mind will both get you killed.",
+          "I've been fighting since before you were born. Literally.",
+          "Train every day. No exceptions. Your enemies don't take days off.",
+          "The best armor in the world won't save you from stupidity."
+        ]
+      }
+    },
+    "lyra": {
+      "name": "Lyra",
+      "title": "Artificer Mentor",
+      "faction": "plains",
+      "role": "mentor",
+      "location": { "x": 65, "y": 64, "z": -15, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 65, "y": 64, "z": -15 },
+        "noon": { "x": 65, "y": 64, "z": -15 },
+        "dusk": { "x": 70, "y": 64, "z": -10 },
+        "night": { "x": 60, "y": 70, "z": -20 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Oh! A new face! Welcome, welcome! Have you ever seen a Create contraption before? No? Oh, you are going to LOVE this!",
+          "act_1_complete": "You're back! I've been working on something new - the gears keep jamming but I think if I reverse the polarity of the- oh, right, hello!",
+          "act_2_started": "Willowmere needs infrastructure! Waterways, conveyor systems, automated farms - oh, the possibilities!",
+          "act_3_started": "I've been studying the Mountain Forge's techniques. If we combine their metallurgy with our mechanics... extraordinary!",
+          "act_5_started": "I've built something for the final push. It's my masterwork. I hope it's enough."
+        },
+        "quests": {
+          "artificer_trial": {
+            "offer": "The Artificer path is about invention, creativity, and making things that go whirrrr! Build me a basic Create mechanism - anything that moves!",
+            "accept": "Brilliant! Don't worry about perfection. Worry about whether it spins! Or clicks! Or both!",
+            "decline": "Oh. That's okay! The machines will be here when you change your mind. They always wait.",
+            "complete": "IT MOVES! Oh, look at that beautiful rotation! You're a natural! Welcome to the Artificer path!"
+          },
+          "power_grid": {
+            "offer": "Anchor Town needs reliable power. I've designed a rotational power grid but I need someone to gather the components. Gears, shafts, and cogwheels - lots of them!",
+            "accept": "Wonderful! The spec sheet is in my workshop. Don't mind the scorch marks - minor explosion, totally controlled.",
+            "decline": "No worries! I'll just keep using the hamster wheel. Mr. Whiskers doesn't seem to mind.",
+            "complete": "The grid is online! Listen to that hum! That beautiful, mechanical hum! You've powered up the whole town!"
+          },
+          "stellaris_prototype": {
+            "offer": "The Mountain Forge has something called Stellaris alloy. If I can get a sample, I could build machines that run on starlight. STARLIGHT! Would you retrieve some for me?",
+            "accept": "High Smith Khael guards it jealously, but tell him Lyra sent you. He owes me for that gear assembly.",
+            "decline": "I understand. Stellaris is dangerous stuff. But oh, the things we could build with it...",
+            "complete": "Stellaris alloy in my hands at last! Oh, the machines I'll build! The future starts today!"
+          }
+        },
+        "faction_responses": {
+          "rep_plains_trusted": "The town loves what we've built together! Every gear and piston, a testament to progress!",
+          "rep_mountain_allied": "The Mountain Forge engineers respect our work! Cross-faction collaboration is the future!",
+          "crime_outlaw": "I don't really understand politics, but please don't break my machines. They're very sensitive."
+        },
+        "idle_lines": [
+          "If it doesn't have at least three gears, it's not interesting enough.",
+          "I once built a machine that could peel potatoes at four hundred per minute. The kitchen staff was not pleased.",
+          "Create mod mechanics are basically magic. Better than magic, actually. Magic doesn't have gears.",
+          "Ooh, do you hear that clicking? That's the sound of progress!",
+          "I haven't slept in three days. The machines needed me. Worth it."
+        ]
+      }
+    },
+    "tomo": {
+      "name": "Tomo",
+      "title": "Cultivator Mentor",
+      "faction": "plains",
+      "role": "mentor",
+      "location": { "x": 40, "y": 64, "z": 30, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 35, "y": 64, "z": 40 },
+        "noon": { "x": 40, "y": 64, "z": 30 },
+        "dusk": { "x": 40, "y": 64, "z": 30 },
+        "night": { "x": 38, "y": 70, "z": 25 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Ah, a new seedling in our garden. Welcome, young one. The soil has been expecting you.",
+          "act_1_complete": "You have taken root. Good. A plant that survives its first winter will grow strong.",
+          "act_2_started": "Willowmere's vineyards speak of your coming. Tend them well and they will repay you tenfold.",
+          "act_3_started": "When the wind blows hard, the tree that bends survives. Remember this in the days ahead.",
+          "act_4_started": "Even the stars are seeds, scattered across the sky. What grows from them, we shall see.",
+          "act_5_started": "The harvest comes. Every seed you planted, every choice you made - all of it bears fruit now."
+        },
+        "quests": {
+          "cultivator_trial": {
+            "offer": "The Cultivator path teaches patience and harmony with the land. Plant a small garden - any crops will do. Tend them from seed to harvest.",
+            "accept": "The seed does not rush. Water it, give it sun, and wait. The earth teaches on its own schedule.",
+            "decline": "The garden will be here when you are ready. It is in no hurry.",
+            "complete": "A fine harvest. You listened to the soil, and it spoke back. You walk the Cultivator's path now."
+          },
+          "rare_seeds": {
+            "offer": "There are rare seeds scattered across this world - plants that grow nowhere else. A true Cultivator seeks them out. Will you search?",
+            "accept": "Look where others do not. The rarest flowers bloom in the most forgotten places.",
+            "decline": "Perhaps the time is not right. Seeds know when to sprout.",
+            "complete": "These are magnificent specimens. Each one tells a story of the land it came from. Thank you, young one."
+          }
+        },
+        "faction_responses": {
+          "rep_plains_trusted": "The fields remember those who tend them with care. The Plains remember you.",
+          "rep_forest_allied": "The Forest Coalition honors those who respect the green. You have their blessing.",
+          "crime_outlaw": "A weed can become a flower, and a flower can become a weed. The choice is always yours."
+        },
+        "idle_lines": [
+          "The farmer who watches the sky forgets to water the roots.",
+          "Every great oak was once an acorn that held its ground.",
+          "Patience is not waiting. Patience is knowing that things grow in their own time.",
+          "I have spoken to the carrots this morning. They are doing well, thank you for asking.",
+          "The best fertilizer is the gardener's footsteps."
+        ]
+      }
+    },
+    "theron": {
+      "name": "Theron",
+      "title": "Mayor of Willowmere",
+      "faction": "plains",
+      "role": "quest_giver",
+      "location": { "x": 500, "y": 70, "z": 200, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 500, "y": 70, "z": 200 },
+        "noon": { "x": 510, "y": 70, "z": 210 },
+        "dusk": { "x": 500, "y": 70, "z": 200 },
+        "night": { "x": 495, "y": 74, "z": 195 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Ah, you must be the Pathfinder Aren sent. Good. Willowmere has problems, and I need solutions. Let's talk business.",
+          "act_2_started": "Welcome back. The colony grows, but so do its troubles. What news from Anchor Town?",
+          "act_3_started": "Politics. Everyone wants a piece of Willowmere. I need allies, not more headaches.",
+          "act_4_started": "The Skyborn are asking to build an outpost near town. I need your counsel on this.",
+          "act_5_started": "Whatever's coming, Willowmere stands with you. We've invested too much to turn back now."
+        },
+        "quests": {
+          "willowmere_survey": {
+            "offer": "I need a full survey of the town's resources. Walk the perimeter, check the farmland, assess the defenses. Give me an honest report.",
+            "accept": "Don't sugarcoat it. I need facts, not feelings. Take this ledger and record everything.",
+            "decline": "Fine. I'll find someone else. But time is not on our side.",
+            "complete": "This is thorough work. Some of this is worse than I thought, but at least now we know where we stand."
+          },
+          "trade_route_security": {
+            "offer": "Bandits have been hitting our trade caravans. Clear the road between here and Anchor Town and deal with whoever is behind this.",
+            "accept": "Show no mercy to bandits, but if any of them want to talk, let them. Sometimes a bandit is just a farmer who lost everything.",
+            "decline": "I understand the hesitation. But every day we wait, Willowmere starves a little more.",
+            "complete": "The trade routes are open again. Wagons are moving, goods are flowing. You've saved livelihoods today."
+          },
+          "establish_colony": {
+            "offer": "Willowmere needs to expand. I've identified three possible sites for new settlements. Scout them and tell me which is most viable.",
+            "accept": "Consider terrain, resources, defensibility. A colony that can't feed itself or defend itself is just a ruin waiting to happen.",
+            "decline": "Expansion waits for no one, but I respect your priorities. Come back when you're able.",
+            "complete": "Excellent analysis. I'll begin preparations immediately. This colony will bear your name, Pathfinder."
+          }
+        },
+        "faction_responses": {
+          "rep_plains_trusted": "The Plains Kingdom thrives because of people like you. Willowmere is grateful.",
+          "rep_coastal_allied": "The Coastal Republic has offered trade terms. Your reputation precedes you.",
+          "crime_outlaw": "I've heard whispers about your activities. In Willowmere, we follow the law. Remember that."
+        },
+        "idle_lines": [
+          "A mayor's work is never done. There's always another petition, another crisis.",
+          "Willowmere was a crossroads once. I intend to make it a capital.",
+          "The best policy is the one that feeds the most people.",
+          "Politics is the art of telling people what they need to hear without lying to them."
+        ]
+      }
+    },
+    "mara": {
+      "name": "Mara",
+      "title": "Vintner of Willowmere",
+      "faction": "plains",
+      "role": "quest_giver",
+      "location": { "x": 520, "y": 70, "z": 220, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 515, "y": 70, "z": 230 },
+        "noon": { "x": 520, "y": 70, "z": 220 },
+        "dusk": { "x": 525, "y": 70, "z": 215 },
+        "night": { "x": 518, "y": 74, "z": 218 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Hello there, traveler! Welcome to Mara's vineyard. The grapes won't grow themselves, but they do like company!",
+          "act_2_started": "Pathfinder! The vines are thriving this season. Come taste last autumn's vintage!",
+          "act_3_started": "Trade agreements mean new markets for my wine. You've opened doors I never could have alone.",
+          "act_4_started": "I've been experimenting with moonlight-harvested grapes. The flavor is... otherworldly.",
+          "act_5_started": "Whatever happens, the vines will endure. They always do. And so will we."
+        },
+        "quests": {
+          "vineyard_restoration": {
+            "offer": "My vineyard was damaged in the last storm. I need help replanting and building new trellises. It's honest work - interested?",
+            "accept": "Wonderful! The soil's already tilled. We need oak posts for trellises and fresh grape seeds. Let's get our hands dirty!",
+            "decline": "No worries, dear. The vines have waited this long, they can wait a little longer.",
+            "complete": "Look at these rows! Straight as an arrow and twice as true! You've got the hands of a vintner, Pathfinder!"
+          },
+          "rare_vintage": {
+            "offer": "There's a wild grape variety that grows deep in the forest - Moonpetal grapes. If I could get cuttings, I'd create the finest wine this world has ever tasted.",
+            "accept": "They grow near old ruins, where the moonlight pools between the canopy. Be gentle with the cuttings - they're delicate.",
+            "decline": "I understand. The forest can be dangerous. Maybe another time.",
+            "complete": "Moonpetal cuttings! Oh, feel the weight of them! These will produce a vintage that kings will fight over. You're a treasure!"
+          }
+        },
+        "faction_responses": {
+          "rep_plains_trusted": "The Plains folk have good taste - in wine and in friends! You're both to me.",
+          "rep_coastal_allied": "The Coastal merchants want to import my wine! It's because of your trade routes. Thank you!",
+          "crime_outlaw": "I don't judge people by what others say. I judge them by how they treat my vines."
+        },
+        "idle_lines": [
+          "A good wine tells the story of the soil, the sun, and the hands that tended it.",
+          "The secret to great wine? Love. And the right amount of rainfall. Mostly rainfall.",
+          "Every bottle is a time capsule. Open it, and you taste a moment from the past.",
+          "My grandmother planted these first vines. I plan to leave even more for the next generation."
+        ]
+      }
+    },
+    "brenna": {
+      "name": "Brenna",
+      "title": "Innkeeper of Willowmere",
+      "faction": "plains",
+      "role": "quest_giver",
+      "location": { "x": 505, "y": 70, "z": 195, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 505, "y": 70, "z": 195 },
+        "noon": { "x": 505, "y": 70, "z": 195 },
+        "dusk": { "x": 505, "y": 70, "z": 195 },
+        "night": { "x": 505, "y": 70, "z": 195 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Come in, come in! Welcome to the Willow's Rest! Best beds in town and the only beds in town, if I'm honest!",
+          "act_2_started": "The Pathfinder returns! I've kept your favorite table open. Sit down, eat, and tell me everything!",
+          "act_3_started": "You won't believe the rumors I've heard this week. Sit, eat, and I'll share the juicy ones.",
+          "act_4_started": "Strange folk passing through lately. Skyborn types, all hush-hush. Something big is happening.",
+          "act_5_started": "The inn's been packed with soldiers and diplomats. Whatever you're planning, the whole world is watching."
+        },
+        "quests": {
+          "gathering_supplies": {
+            "offer": "My pantry's looking thin. I need someone to gather fresh ingredients - wild herbs, mushrooms, and honey. The forest has all of it if you know where to look.",
+            "accept": "You're a dear! Wild thyme grows near the riverbank, chanterelles under the old oaks, and honey from the cliff hives. Don't get stung!",
+            "decline": "Oh well. Guess we're having porridge again tonight. The guests won't be thrilled.",
+            "complete": "Fresh thyme, perfect chanterelles, and golden honey! Tonight's dinner will be legendary! You're welcome at my table anytime!"
+          },
+          "the_lost_traveler": {
+            "offer": "A traveler came through last week - scholar type, heading east. Never arrived at the next town. Would you look for them along the eastern road?",
+            "accept": "Last I saw them, they were asking about old ruins east of here. Scholars and ruins - never a good combination.",
+            "decline": "I hope they're alright. If you change your mind, the offer stands.",
+            "complete": "You found them! And in one piece! Oh, thank goodness. The drinks are on me tonight!"
+          }
+        },
+        "faction_responses": {
+          "rep_plains_trusted": "Everyone in the Plains knows your name! Good for business, I must say.",
+          "rep_forest_allied": "Forest folk have been trading with us more since you built that relationship. Good mushrooms, too!",
+          "crime_outlaw": "Now listen here - I don't care what you've done out there. In my inn, everyone gets a warm meal and a fair deal."
+        },
+        "idle_lines": [
+          "You wouldn't believe the things travelers tell me after their third drink.",
+          "My secret ingredient? It's butter. It's always butter.",
+          "The inn has been in my family for three generations. I plan to keep that tradition alive.",
+          "Rumor has it the Mountain Forge is producing a new alloy. I heard it from a very reliable drunk.",
+          "A good innkeeper knows everyone's secrets and keeps every one of them. Mostly."
+        ]
+      }
+    },
+    "khael": {
+      "name": "Khael",
+      "title": "High Smith of Mountain Forge",
+      "faction": "mountain",
+      "role": "quest_giver",
+      "location": { "x": -300, "y": 120, "z": -400, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": -300, "y": 120, "z": -400 },
+        "noon": { "x": -300, "y": 120, "z": -400 },
+        "dusk": { "x": -295, "y": 120, "z": -395 },
+        "night": { "x": -310, "y": 124, "z": -410 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "State your business. The forge waits for no one, and neither do I.",
+          "act_2_started": "You again. Aren sent you, I expect. Fine. There may be work for you here, if your hands are steady.",
+          "act_3_started": "Alliances. Politics. I deal in metal, not words. But I respect what you've done for the Mountain.",
+          "act_4_started": "Stellaris ore behaves differently now. The stars are shifting. Something is coming.",
+          "act_5_started": "I've forged the finest weapons of my career for this moment. Take them and do not waste them."
+        },
+        "quests": {
+          "prove_your_mettle": {
+            "offer": "Everyone who enters the Mountain Forge must prove they can work metal. Smelt iron ore into ingots. Pure ingots - no slag, no impurities.",
+            "accept": "The furnace is there. The ore is there. The skill is either in your hands or it isn't. Show me.",
+            "decline": "Then you have no business in my forge. Come back when you're serious.",
+            "complete": "Clean pour. No bubbles. Acceptable. You may stay."
+          },
+          "stellaris_expedition": {
+            "offer": "Deep in the mountain, there's a vein of Stellaris ore - metal that fell from the sky eons ago. I need it extracted, carefully. One wrong strike and it explodes.",
+            "accept": "Use silk touch. Use patience. This ore does not forgive mistakes.",
+            "decline": "Smart. It is genuinely dangerous. But we need it.",
+            "complete": "Stellaris ore, intact and pure. You have the steady hands of a true smith. This changes everything we can build."
+          },
+          "masterwork_creation": {
+            "offer": "I will teach you to create a masterwork - a weapon or tool of legendary quality. But you must gather the materials yourself. They come from every kingdom.",
+            "accept": "You'll need Stellaris alloy, heartwood from the Forest, sea-glass from the Coast, and my blessing. Don't skip any steps.",
+            "decline": "A masterwork isn't for everyone. Most smiths go their whole lives without forging one.",
+            "complete": "It's perfect. Not a flaw, not a crack. You've created something that will outlast kingdoms. I am... proud."
+          }
+        },
+        "faction_responses": {
+          "rep_mountain_trusted": "The mountain accepts you. That is not a small thing. Our stone remembers.",
+          "rep_plains_allied": "Plains folk make poor smiths but excellent allies. Your Guild Master knows this.",
+          "crime_outlaw": "I care nothing for surface laws. But if you bring trouble to my forge, you will regret it."
+        },
+        "idle_lines": [
+          "Every strike of the hammer is a conversation with the metal. Listen to what it tells you.",
+          "A blade that shatters was never a blade. It was a wish.",
+          "The forge does not care about your feelings. It cares about temperature and timing."
+        ]
+      }
+    },
+    "veridia": {
+      "name": "Veridia",
+      "title": "Gear Witch",
+      "faction": "mountain",
+      "role": "quest_giver",
+      "location": { "x": -280, "y": 118, "z": -380, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": -280, "y": 118, "z": -380 },
+        "noon": { "x": -275, "y": 115, "z": -375 },
+        "dusk": { "x": -280, "y": 118, "z": -380 },
+        "night": { "x": -280, "y": 118, "z": -380 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Oh! Hello! Sorry, I was talking to Gerald. Gerald is a piston. He's been feeling sluggish. You're not a piston, are you? No? Pity. Come in!",
+          "act_2_started": "You! Perfect timing! I need someone with fingers - Gerald can't hold a wrench. Long story. Help me with this calibration?",
+          "act_3_started": "The Mountain Forge and the Plains are sharing technology! It's like a mechanical symphony! I cried. Gerald cried too, but he always does that. Oil leak.",
+          "act_4_started": "The Skyborn brought me star-charts. The GEARS I could make with celestial ratios... the HARMONICS!",
+          "act_5_started": "Everything I've built, every gear and gasket - it all leads to this. Gerald agrees. He vibrated approvingly."
+        },
+        "quests": {
+          "fix_the_mechanism": {
+            "offer": "My grand mechanism is stuck! Something in the tertiary gear assembly is misaligned by exactly 0.003 degrees. I can HEAR it. Can you help me find the problem?",
+            "accept": "Listen for the clicking. Not the regular clicking - the WRONG clicking. You'll know it when you hear it. Probably.",
+            "decline": "Oh. Gerald will be disappointed. He was looking forward to meeting you. He told me. In clicks.",
+            "complete": "PERFECT ALIGNMENT! Do you hear that? Silence! Beautiful, mechanical silence! Gerald is purring!"
+          },
+          "enchanted_components": {
+            "offer": "I'm trying to build a machine that bridges Create engineering and magical enchantment. I need enchanted components - specifically, enchanted gears. Nobody makes those! We'll have to invent the process!",
+            "accept": "We'll need an enchanting table, Create components, and a LOT of experimentation. Also possibly a fire extinguisher.",
+            "decline": "That's fair. The last experiment did set my eyebrows on fire. They grew back! Mostly.",
+            "complete": "ENCHANTED GEARS! They GLOW! Gerald is JEALOUS! This is the greatest day of my life! Well, second greatest. The first was when I found Gerald."
+          }
+        },
+        "faction_responses": {
+          "rep_mountain_trusted": "The Mountain Forge appreciates creativity! Even when it's loud! And on fire!",
+          "rep_plains_allied": "Lyra from Anchor Town sends me schematics sometimes! We're kindred spirits! She understands Gerald!",
+          "crime_outlaw": "Laws are like machines - someone designed them for a reason. Please don't break mine. Or Gerald."
+        },
+        "idle_lines": [
+          "Gerald says hello. Gerald is the third piston from the left. He's very social.",
+          "I once built a clock that ran backwards. It didn't tell time - it asked it questions.",
+          "Gears are just friends that haven't met yet. You introduce them, and they spin together forever!",
+          "The difference between magic and engineering is that engineering makes sense. Usually. Sometimes. Occasionally."
+        ]
+      }
+    },
+    "caelus": {
+      "name": "Caelus",
+      "title": "Merchant of the Coastal Republic",
+      "faction": "coastal",
+      "role": "quest_giver",
+      "location": { "x": 800, "y": 64, "z": 600, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 810, "y": 64, "z": 610 },
+        "noon": { "x": 800, "y": 64, "z": 600 },
+        "dusk": { "x": 790, "y": 64, "z": 590 },
+        "night": { "x": 805, "y": 68, "z": 605 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Well, well, well. A Pathfinder! I've heard you people are resourceful. Let me tell you, resourceful people can make a LOT of coin around here.",
+          "act_2_started": "My favorite customer! Or should I say, my favorite business partner? Let's talk margins.",
+          "act_3_started": "Trade agreements between kingdoms? You, my friend, have just multiplied every merchant's bottom line. I owe you a drink. A cheap drink, but a drink.",
+          "act_4_started": "Skyborn materials are flooding the market. Rare goods from beyond the atmosphere! The profit potential is astronomical. Literally.",
+          "act_5_started": "If the world ends, currencies collapse. So let's make sure the world doesn't end, shall we? I have inventory to move."
+        },
+        "quests": {
+          "trade_run": {
+            "offer": "I need someone to run cargo between here and Willowmere. Simple job - pick up goods here, deliver there, bring back payment. Interested?",
+            "accept": "Excellent! Don't open the crates, don't drop the crates, don't let anyone else take the crates. Simple, right?",
+            "decline": "Your loss. Literally. The commission was very generous.",
+            "complete": "On time, intact, and paid in full! You are a logistics dream! Here's your cut - earned fair and square."
+          },
+          "market_manipulation": {
+            "offer": "Here's the thing - someone is flooding the market with counterfeit goods and undercutting honest merchants. I need you to find out who and shut them down.",
+            "accept": "Follow the supply chain. Counterfeit goods need raw materials, workshops, and distribution. Find any of those and you find the source.",
+            "decline": "Can't blame you. Trade disputes can get ugly. But my wallet is getting uglier.",
+            "complete": "The counterfeiting ring is busted! Prices are stabilizing, merchants are happy, and I'm a little richer. You get a bonus for clean work."
+          },
+          "luxury_procurement": {
+            "offer": "A wealthy client wants rare materials from every kingdom - Mountain alloys, Forest heartwood, Plains silk, Skyborn crystals. Deliver them all and the reward is substantial.",
+            "accept": "Quality matters. No substitutes, no shortcuts. This client can tell the difference, and so can their wallet.",
+            "decline": "Understandable. Cross-kingdom procurement isn't for the faint of heart. Or the faint of wallet.",
+            "complete": "Every item, perfect quality. My client is ecstatic, and ecstatic clients pay premium rates. Here's your generous share."
+          }
+        },
+        "faction_responses": {
+          "rep_coastal_trusted": "A trusted partner in the Republic! Your credit rating is impeccable!",
+          "rep_mountain_allied": "Mountain Forge deals are the most profitable. You opened that door for us.",
+          "crime_outlaw": "Outlaw, you say? I prefer the term 'alternative entrepreneur.' But do keep it quiet around the guards."
+        },
+        "idle_lines": [
+          "Buy low, sell high, and always read the fine print. Words to live by.",
+          "The Coastal Republic runs on three things: salt, trade, and audacity.",
+          "I once sold a man his own shoes. He thanked me. That's salesmanship.",
+          "Money doesn't buy happiness, but it does buy a very comfortable variety of unhappiness."
+        ]
+      }
+    },
+    "taro_npc": {
+      "name": "Taro",
+      "title": "Sailor of the Coastal Republic",
+      "faction": "coastal",
+      "role": "quest_giver",
+      "location": { "x": 830, "y": 64, "z": 620, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 840, "y": 62, "z": 630 },
+        "noon": { "x": 830, "y": 64, "z": 620 },
+        "dusk": { "x": 820, "y": 64, "z": 610 },
+        "night": { "x": 825, "y": 68, "z": 615 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Ahoy! Name's Taro. Best sailor on the coast, or so they tell me. You look like someone who's never seen the open sea. Want to change that?",
+          "act_2_started": "Pathfinder! Ready for another voyage? The tides are favorable and my ship is itching to sail!",
+          "act_3_started": "Dangerous waters ahead, friend. The kingdoms are stirring, and the sea reflects the mood of the land.",
+          "act_4_started": "I've seen lights in the sky reflecting off the water at night. Stars that weren't there before. Something's changing out there.",
+          "act_5_started": "One last voyage, Pathfinder. Let's make it one for the history books."
+        },
+        "quests": {
+          "maiden_voyage": {
+            "offer": "Every great adventurer needs to know the sea! Let me take you on your first sailing trip. We'll hug the coast - nothing too dangerous. Probably.",
+            "accept": "Hop aboard! Don't worry about the creaking - that's just the ship talking. She's chatty.",
+            "decline": "Landlubber, eh? No shame in it. The sea's not for everyone. Just most people.",
+            "complete": "You didn't fall overboard once! That puts you ahead of most first-timers. You're a natural sailor!"
+          },
+          "uncharted_island": {
+            "offer": "I've found an island that's not on any map. Uncharted! Unexplored! Possibly full of treasure! Or monsters! Only one way to find out!",
+            "accept": "Pack light, bring weapons, and whatever you do, don't eat the purple berries. I made that mistake once. Don't ask.",
+            "decline": "Smart or cowardly? Hard to tell from here. The island will still be there when you're ready.",
+            "complete": "We mapped it, survived it, and found actual treasure! This is why I love the sea! Every horizon hides a story!"
+          },
+          "sea_monster": {
+            "offer": "Something big has been sinking fishing boats near the southern reef. The fishers are too scared to go out. I say we find whatever it is and deal with it.",
+            "accept": "Arm the harpoons and pray to whatever you pray to. This is going to be one for the tavern tales!",
+            "decline": "I don't blame you. Sea monsters are no joke. But those fishers need our help.",
+            "complete": "We did it! The beast is driven off and the fishers can work again! They're calling us heroes! I prefer 'legends' but heroes works too!"
+          }
+        },
+        "faction_responses": {
+          "rep_coastal_trusted": "A fellow sea-lover! The Republic's docks are always open to you!",
+          "rep_plains_allied": "Plains folk make surprisingly good sailors once they stop screaming at the waves!",
+          "crime_outlaw": "Outlaw? At sea, the only law is the tide and the wind. Out here, you're free."
+        },
+        "idle_lines": [
+          "I once sailed through a storm so fierce, the lightning was horizontal. True story. Mostly.",
+          "The sea doesn't care who you are. It treats kings and beggars exactly the same. Wet.",
+          "See that horizon? Everything beyond it is an adventure waiting to happen.",
+          "My ship's name is the Windchaser. She's ugly, leaky, and the best vessel on the water.",
+          "Did I ever tell you about the time I arm-wrestled a Gyarados? I lost, obviously. But I lived!"
+        ]
+      }
+    },
+    "yshara": {
+      "name": "Yshara",
+      "title": "Druid of the Forest Coalition",
+      "faction": "forest",
+      "role": "quest_giver",
+      "location": { "x": -500, "y": 80, "z": 300, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": -510, "y": 82, "z": 310 },
+        "noon": { "x": -500, "y": 80, "z": 300 },
+        "dusk": { "x": -490, "y": 78, "z": 290 },
+        "night": { "x": -505, "y": 85, "z": 305 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "The forest breathes. The canopy whispers your name, Pathfinder. You walk between the trees as a guest. Tread gently.",
+          "act_2_started": "The forest has watched your deeds in Willowmere. You show respect for the green places. This pleases us.",
+          "act_3_started": "The kingdoms quarrel, but the forest remains. Come, sit beneath the elder tree. Let us speak of balance.",
+          "act_4_started": "The stars are changing. Even the oldest trees feel it. Their roots reach deeper, seeking answers in the stone.",
+          "act_5_started": "The forest will endure, whatever comes. It has survived ice ages and fire storms. But it grieves for those who may not."
+        },
+        "quests": {
+          "commune_with_nature": {
+            "offer": "To understand the Forest Coalition, you must first understand the forest itself. Spend time among the ancient trees. Listen to what they tell you.",
+            "accept": "Sit beneath the Grandmother Oak at the heart of the grove. Close your eyes. Breathe. The forest will speak when it is ready.",
+            "decline": "The forest does not demand your time. But it remembers who came and who did not.",
+            "complete": "You heard them. I can see it in your eyes. The trees have accepted you. You are no longer a guest here - you are family."
+          },
+          "endangered_species": {
+            "offer": "A rare Pokemon species is nesting in the deep forest, but poachers are closing in. Protect the nesting grounds and drive the poachers away.",
+            "accept": "Violence should be the last resort, but if the poachers will not listen to words, let the forest's wrath speak through you.",
+            "decline": "Every moment we wait, the nest is in danger. But I will not force your hand.",
+            "complete": "The nest is safe. The eggs will hatch, and new life will fill the canopy. The forest thanks you with every rustling leaf."
+          },
+          "restore_the_grove": {
+            "offer": "There is a corrupted grove to the north. The soil is poisoned, the trees are dying. I need you to purify it using the old rituals.",
+            "accept": "Take this purification crystal. Plant it at the center of the corruption and channel nature's energy through it. The forest will guide you.",
+            "decline": "The corruption spreads slowly, but it does spread. We will need to act eventually.",
+            "complete": "I can feel it from here. The grove breathes again. New growth pushes through the blackened soil. You have given the forest a second chance."
+          }
+        },
+        "faction_responses": {
+          "rep_forest_trusted": "The trees bend to shelter you. The streams sing your name. You are beloved of the forest.",
+          "rep_mountain_allied": "The Mountain Forge takes from the earth, but they do so with respect. Your alliance shows wisdom.",
+          "crime_outlaw": "The forest does not judge as humans do. A wolf that kills is not evil. But a wolf that kills for sport..."
+        },
+        "idle_lines": [
+          "Every leaf is a letter. Every branch is a sentence. The forest is the longest story ever written.",
+          "Pokemon are the forest's children, as much as any tree or flower.",
+          "The old druids could speak to the rain. I am still learning.",
+          "Be still. Listen. Do you hear the heartbeat of the earth? It is slower than yours, but far stronger."
+        ]
+      }
+    },
+    "kira": {
+      "name": "Kira",
+      "title": "Pokemon Trainer of the Forest Coalition",
+      "faction": "forest",
+      "role": "quest_giver",
+      "location": { "x": -480, "y": 78, "z": 280, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": -470, "y": 76, "z": 270 },
+        "noon": { "x": -480, "y": 78, "z": 280 },
+        "dusk": { "x": -490, "y": 80, "z": 290 },
+        "night": { "x": -485, "y": 82, "z": 285 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Hey! You must be the Pathfinder everyone's been talking about! Got any Pokemon yet? No? Well, what are you waiting for? Let's GO!",
+          "act_1_complete": "Look at you, building a team! Not bad, not bad! But are they STRONG enough? Only one way to find out - battle me!",
+          "act_2_started": "Your Pokemon are getting tougher! I can tell by how they carry themselves. Ready for the gym challenge yet?",
+          "act_3_started": "The gym leaders are no joke, Pathfinder. I've been training my whole life to beat them. Let's prepare together!",
+          "act_4_started": "There are Pokemon out there beyond anything we've ever seen. Legendary-tier! My blood is PUMPING!",
+          "act_5_started": "Championship time! Everything we've trained for! Let's show the world what we're made of!"
+        },
+        "quests": {
+          "first_catch": {
+            "offer": "Every great trainer starts with their first catch! I'll teach you the basics - how to weaken a wild Pokemon, how to throw a ball, the whole deal!",
+            "accept": "Alright! Rule one: never throw a ball at full health unless you're feeling REALLY lucky! Weaken it first, then throw! Let's find something!",
+            "decline": "What?! You're missing out! Pokemon training is the best thing EVER! Come back when you're ready to have fun!",
+            "complete": "YOUR FIRST CATCH! Look at it! It's amazing! Every Pokemon is amazing! You're going to be a great trainer, I can feel it!"
+          },
+          "type_advantage": {
+            "offer": "Time for advanced training! Type advantages are the foundation of every great battle. Let me test you - beat me in a type-advantage match!",
+            "accept": "I'll use a specific type. You pick counters. If you win, you've learned the lesson. If you lose, we try again! No shame in practice!",
+            "decline": "Aww, come on! Battles are the best part! Fine, but you're missing out on crucial training!",
+            "complete": "You crushed it! Type advantages, reading your opponent, knowing when to switch - you've got the instincts! The gym leaders better watch out!"
+          },
+          "gym_preparation": {
+            "offer": "The gym challenge is serious business. Before you face the leaders, let me help you prepare. I'll simulate each gym's strategy so you know what you're walking into.",
+            "accept": "We'll start with Leader Terra and work our way up. Each gym has a theme and a trick. Learn the trick, win the match!",
+            "decline": "Going in blind? Bold strategy! Respect! But maybe at least look up type charts? Please?",
+            "complete": "You're READY! I've got chills! Go take on those gym leaders and show them what a real Pathfinder can do! I'll be cheering for you!"
+          }
+        },
+        "faction_responses": {
+          "rep_forest_trusted": "The Forest Coalition knows good trainers when they see them! You're one of us!",
+          "rep_plains_allied": "Plains folk battle differently - more straightforward. It's fun to mix up strategies!",
+          "crime_outlaw": "I don't care about politics. I care about Pokemon. Treat your team well and we're fine."
+        },
+        "idle_lines": [
+          "I train every single day. EVERY. SINGLE. DAY. My Pokemon respect the hustle!",
+          "Type advantages are everything! Water beats Fire, Fire beats Grass, Grass beats Water! It's beautiful!",
+          "My dream? Beat the Champion. Everyone's dream, I guess. But I'll be the one to do it!",
+          "Did you know Scyther can slice through falling rain without getting a single drop on its blade? COOL, right?!",
+          "Battle me anytime! I'm always ready! ALWAYS!"
+        ]
+      }
+    },
+    "marek_npc": {
+      "name": "Marek",
+      "title": "Operative of the Skyborn Order",
+      "faction": "skyborn",
+      "role": "quest_giver",
+      "location": { "x": 0, "y": 200, "z": -600, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 0, "y": 200, "z": -600 },
+        "noon": { "x": 10, "y": 200, "z": -590 },
+        "dusk": { "x": 0, "y": 200, "z": -600 },
+        "night": { "x": -5, "y": 200, "z": -605 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Identification. Pathfinder, correct? I'm Operative Marek, Skyborn Order. This is a restricted area, but you've been cleared. Barely.",
+          "act_3_started": "Pathfinder. Your reputation precedes you. The Skyborn Order has... use for someone with your skills.",
+          "act_4_started": "We've detected anomalies beyond the atmosphere. The Order is mobilizing. You need to be briefed.",
+          "act_5_started": "This is it. Everything we've observed, every data point - it all converges now. Stand ready, Pathfinder."
+        },
+        "quests": {
+          "security_clearance": {
+            "offer": "If you want to work with the Skyborn Order, you need security clearance. Complete this assessment - physical, mental, and tactical evaluations.",
+            "accept": "Report to the training facility at 0600. Tardiness is not tolerated. Failure will result in immediate dismissal. Questions? Good. No questions.",
+            "decline": "Understood. Not everyone is cut out for the Order. No judgment. Dismissed.",
+            "complete": "Assessment complete. You've passed. Welcome to clearance level two. You'll receive your assignments through secure channels."
+          },
+          "orbital_survey": {
+            "offer": "We need a ground team to install monitoring equipment at key locations. These devices will triangulate signals from beyond the atmosphere. Can you deploy them?",
+            "accept": "Three locations are marked on this map. Each device must be placed at exact coordinates. Precision is non-negotiable.",
+            "decline": "Acknowledged. The mission will be reassigned. Time is a factor, however.",
+            "complete": "All three devices are active and transmitting. The data is... significant. Well done, Pathfinder. Your clearance has been elevated."
+          },
+          "first_contact": {
+            "offer": "The signals we've been tracking... they're not natural phenomena. Something is responding. We need to establish communication. You'll lead the contact team.",
+            "accept": "This is classified beyond anything you've encountered. What happens here stays with the Order. Understood?",
+            "decline": "I understand the weight of this decision. But this opportunity may not come again.",
+            "complete": "Contact established. The implications are... beyond what I can express within protocol. Report to high command immediately."
+          }
+        },
+        "faction_responses": {
+          "rep_skyborn_trusted": "You've earned the Order's trust. That is not given lightly. Guard it.",
+          "rep_plains_allied": "The Plains Guild and the Order share a common interest in stability. Your alliances serve us well.",
+          "crime_outlaw": "Your record shows irregularities. The Order monitors everything, Pathfinder. Conduct yourself accordingly."
+        },
+        "idle_lines": [
+          "The Skyborn Order was founded to look upward when everyone else looked down.",
+          "Everything is data. Every event, every choice. The pattern reveals itself to those who watch.",
+          "Discipline is not restriction. It is the framework that allows precision."
+        ]
+      }
+    },
+    "vael": {
+      "name": "Vael",
+      "title": "Wandering Scholar",
+      "faction": "wanderers",
+      "role": "lore",
+      "location": { "x": 200, "y": 72, "z": -200, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 250, "y": 72, "z": -180 },
+        "noon": { "x": 200, "y": 72, "z": -200 },
+        "dusk": { "x": 150, "y": 72, "z": -220 },
+        "night": { "x": 200, "y": 72, "z": -200 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Hmm? Oh, a visitor. Tell me, Pathfinder - do you know the difference between a question and an answer? Neither do I. That's why I keep asking.",
+          "act_1_complete": "You've begun to scratch the surface. The surface, you see, is where most people stop. How deep are you willing to dig?",
+          "act_2_started": "Willowmere was built on ancient foundations. The stones remember what the people have forgotten.",
+          "act_3_started": "Every kingdom believes it is the center of the world. They are all correct. And all wrong. Isn't that delightful?",
+          "act_4_started": "The sky opens its eye, and the world trembles. But what the sky sees... ah, that is the true question.",
+          "act_5_started": "The last page of the story is blank, Pathfinder. Will you let someone else write it, or will you hold the pen?"
+        },
+        "quests": {
+          "lost_library": {
+            "offer": "I've been searching for the Lost Library of the First Pathfinders. Legend says it lies beneath the crossroads of the three kingdoms. Will you help me find it?",
+            "accept": "Look for the three sigil stones. Each points to the next, and the last points to the entrance. Or so the riddle goes.",
+            "decline": "Knowledge waits patiently. It is the seeker who grows impatient.",
+            "complete": "The Library! It exists! Centuries of knowledge, preserved in stone and crystal! Each book raises ten more questions. How wonderful!"
+          },
+          "ancient_riddles": {
+            "offer": "I've collected fragments of ancient riddles scattered across the world. Solve them all and they reveal a map to something... extraordinary.",
+            "accept": "The first riddle: 'I speak without a mouth, hear without ears, have no body but come alive with wind.' Find what this describes and bring it to me.",
+            "decline": "Not everyone appreciates a good riddle. More's the pity.",
+            "complete": "Every riddle solved! The map is complete! It points to... hmm. This raises more questions than answers. My favorite kind of discovery."
+          },
+          "the_forgotten_name": {
+            "offer": "There was a Pathfinder before you. Before all of us. Their name has been erased from every record, every monument. I want to know why. Help me find it.",
+            "accept": "Start with the oldest monuments in each kingdom. The erasure was thorough, but nothing is ever truly forgotten. Look for the absence of a name where one should be.",
+            "decline": "Perhaps some things are forgotten for a reason. Or perhaps that is what they want us to think.",
+            "complete": "The name is recovered. And now I understand why it was erased. This changes our understanding of everything, Pathfinder. Everything."
+          }
+        },
+        "faction_responses": {
+          "rep_wanderers_trusted": "A fellow traveler on the road of questions. The Wanderers are glad to have you among us.",
+          "rep_all_allied": "To be trusted by all kingdoms is either the greatest achievement or the deepest deception. Which is it, I wonder?",
+          "crime_outlaw": "Rules are stories people tell themselves to feel safe. You seem to be writing your own story."
+        },
+        "idle_lines": [
+          "I've been to every kingdom and found the same thing in each: people who are certain they are right.",
+          "The answer to every question is another question. That is either wisdom or madness. I've never been sure which.",
+          "If a tree falls in a forest and a scholar is there to observe it, did the tree fall, or did the ground rise?",
+          "My books are heavy, my feet are sore, and my curiosity is the only thing that never tires.",
+          "History is written by the victors. I prefer to read the losers' accounts. They're more honest."
+        ]
+      }
+    },
+    "whisper": {
+      "name": "Whisper",
+      "title": "The Shadow",
+      "faction": "wanderers",
+      "role": "quest_giver",
+      "location": { "x": -100, "y": 50, "z": -100, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": -120, "y": 48, "z": -110 },
+        "noon": { "x": -100, "y": 50, "z": -100 },
+        "dusk": { "x": -80, "y": 52, "z": -90 },
+        "night": { "x": -100, "y": 50, "z": -100 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "You found me. Or did I let you find me? Does it matter? You're here. I have work. Interested?",
+          "act_1_complete": "Still alive. That's more than most who come looking for me. What do you want?",
+          "act_2_started": "The shadows in Willowmere are deeper than they look. Careful where you step.",
+          "act_3_started": "Kingdoms rising, kingdoms falling. Same dance, different music. The shadows stay the same.",
+          "act_4_started": "Even the stars cast shadows, Pathfinder. Mine reach farther than most.",
+          "act_5_started": "Last act. The curtain falls. Make your move, and make sure no one sees you make it."
+        },
+        "quests": {
+          "the_outlaw_path": {
+            "offer": "There's another way to get things done in this world. Not the guild's way. Not the lawful way. My way. Interested?",
+            "accept": "Good. First rule: never ask my real name. Second rule: never mention this conversation to anyone. Third rule: there is no third rule. That's suspicious enough.",
+            "decline": "Smart. Or scared. Either way, you know where to find me. If I let you.",
+            "complete": "You're quick, quiet, and you kept your mouth shut. That's three out of three. Welcome to the shadow, Pathfinder."
+          },
+          "stolen_intelligence": {
+            "offer": "Someone has information that certain people would rather keep hidden. I need that information. Don't ask why. Don't ask for whom.",
+            "accept": "The documents are in a locked chest in the merchant district. Third building from the east, second floor, behind the painting of the ship. I never told you this.",
+            "decline": "Wise. Or cowardly. From where I stand, they look the same.",
+            "complete": "Clean job. No witnesses, no traces. You have a talent for this. That's not always a compliment."
+          }
+        },
+        "faction_responses": {
+          "rep_wanderers_trusted": "The Wanderers don't judge. That's why I tolerate them. Barely.",
+          "rep_plains_trusted": "The Plains trust you. Cute. Trust is a weapon other people point at you.",
+          "crime_outlaw": "One of us now. For better or worse. Mostly worse. But the pay is good."
+        },
+        "idle_lines": [
+          "You didn't see me. I wasn't here. This conversation never happened.",
+          "Everyone has secrets. I collect them. It's a hobby.",
+          "The difference between a shadow and a lie? Shadows are honest about what they're hiding."
+        ]
+      }
+    },
+    "lockhart": {
+      "name": "Lockhart",
+      "title": "Bounty Master",
+      "faction": "wanderers",
+      "role": "quest_giver",
+      "location": { "x": 100, "y": 64, "z": 50, "dimension": "minecraft:overworld" },
+      "schedule": {
+        "dawn": { "x": 100, "y": 64, "z": 50 },
+        "noon": { "x": 110, "y": 64, "z": 55 },
+        "dusk": { "x": 100, "y": 64, "z": 50 },
+        "night": { "x": 100, "y": 64, "z": 50 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "Name's Lockhart. Bounty Master. If something needs catching, killing, or retrieving, you've come to the right place. Terms are non-negotiable.",
+          "act_1_complete": "You've handled yourself well so far. I've got work that pays better and hurts more. Interested?",
+          "act_2_started": "Willowmere's got its own problems, but bounties cross borders. The work never stops.",
+          "act_3_started": "Kingdom conflicts are good for bounty business. Bad for sleep, but good for the wallet.",
+          "act_4_started": "Got some unusual contracts coming in. Things people have seen that shouldn't exist. High risk, high reward.",
+          "act_5_started": "One last board. The biggest bounties I've ever posted. You want in, you'd better be the best."
+        },
+        "quests": {
+          "first_bounty": {
+            "offer": "Got a contract here. Nothing fancy - hostile mob leader terrorizing a trade route. Bring me proof of the kill and you get paid. Simple.",
+            "accept": "Target details are on the poster. Don't get creative. Don't get dead. Just get the job done.",
+            "decline": "No skin off my nose. Plenty of hunters looking for work. But I remember who turns down easy money.",
+            "complete": "Proof of kill confirmed. Clean work. Here's your pay. Come back for more when you're ready."
+          },
+          "high_value_target": {
+            "offer": "This one's dangerous. A rogue Pokemon trainer who's been attacking travelers and stealing their teams. Last seen in the mountain passes. High bounty for capture, bonus for the stolen Pokemon.",
+            "accept": "This target fights dirty and fights hard. Bring backup or bring confidence. Your call.",
+            "decline": "Smart call if you're not ready. Dead hunters don't collect bounties.",
+            "complete": "Target captured and stolen Pokemon recovered. You've earned respect on the bounty board. And a hefty payday."
+          },
+          "legendary_hunt": {
+            "offer": "Biggest contract I've ever handled. Something ancient has been spotted in the deep wilderness. The client wants it found, documented, and reported - not captured. They're paying a fortune for information alone.",
+            "accept": "Track it. Observe it. Do NOT engage unless you have no choice. This thing is beyond anything on my board. The client was very clear: information only.",
+            "decline": "I respect that. This one is beyond most hunters. No shame in knowing your limits.",
+            "complete": "Documented and verified. The client is satisfied, and you've just completed the highest-tier bounty I've ever posted. Your name goes on the hall of legends."
+          }
+        },
+        "faction_responses": {
+          "rep_wanderers_trusted": "Free Wanderers know the value of good bounty work. You're among the best.",
+          "rep_all_allied": "A hunter with connections in every kingdom? That's either an asset or a liability. For now, it's an asset.",
+          "crime_outlaw": "Outlaw bounty hunters are either the worst kind of people or the most honest. I've seen both."
+        },
+        "idle_lines": [
+          "A good bounty hunter follows three rules: get the job done, get paid, and get home alive.",
+          "I've been doing this for thirty years. Every scar has a story, and every story has a payday.",
+          "The board always has work. The world never runs out of things that need dealing with.",
+          "I don't ask why the client wants the target. I ask how much they'll pay and whether the target bites."
+        ]
+      }
+    },
+    "the_watcher": {
+      "name": "The Watcher",
+      "title": "The Eternal Observer",
+      "faction": "cosmic",
+      "role": "cosmic_entity",
+      "location": { "x": 0, "y": 256, "z": 0, "dimension": "minecraft:the_end" },
+      "schedule": {
+        "dawn": { "x": 0, "y": 256, "z": 0 },
+        "noon": { "x": 0, "y": 256, "z": 0 },
+        "dusk": { "x": 0, "y": 256, "z": 0 },
+        "night": { "x": 0, "y": 256, "z": 0 }
+      },
+      "dialogue": {
+        "greetings": {
+          "default": "You should not be here. And yet, here is exactly where you are meant to be. Time is a river, Pathfinder, and you have just stepped into its deepest current.",
+          "act_4_started": "You have opened the door between sky and earth. I have watched many do so. Few survive what comes through.",
+          "act_5_started": "The final convergence approaches. All timelines narrow to a single point. You stand at that point, Pathfinder. You have always stood there.",
+          "ending_unity": "You chose to unite them. Interesting. The river flows as one. For now.",
+          "ending_independence": "You chose to set them free. Each stream finds its own path. Chaotic. Beautiful.",
+          "ending_sacrifice": "You chose to give yourself. The river absorbs what is freely given. You will not be forgotten. Not by me."
+        },
+        "quests": {
+          "the_first_vision": {
+            "offer": "I will show you what was, what is, and what may yet be. But to see, you must be willing to forget what you think you know. Are you ready?",
+            "accept": "Close your eyes. No, your inner eyes. The ones behind the ones behind the ones you use to see. There. Now look.",
+            "decline": "Wise, perhaps. Or fearful. In the grand design, the distinction is irrelevant.",
+            "complete": "You have seen. The knowledge will settle into you slowly, like rain into stone. You will understand more tomorrow than you do today."
+          },
+          "the_convergence": {
+            "offer": "The timelines are converging. Every choice every Pathfinder has ever made leads to this moment. You must choose: unity, independence, or sacrifice. I cannot tell you which is right. I have seen all three. All three are beautiful. All three are terrible.",
+            "accept": "Walk the three paths in your mind before you walk one with your feet. The choice cannot be undone. Not even by me.",
+            "decline": "You refuse to choose? That is itself a choice. The convergence does not wait for readiness.",
+            "complete": "It is done. The timeline crystallizes around your choice. I have watched this moment across every iteration, and each time, it is different. Each time, it is the same."
+          }
+        },
+        "faction_responses": {
+          "rep_all_allied": "You carry the weight of every kingdom's trust. Such weight bends the fabric of possibility.",
+          "rep_skyborn_trusted": "The Skyborn looked up and found me. You looked inward and found something greater.",
+          "crime_outlaw": "Morality is a construct of finite minds. What you call crime, the cosmos calls noise. But noise has consequences."
+        },
+        "idle_lines": [
+          "I have watched this world for longer than it has existed. That is not a contradiction.",
+          "Every star you see is a choice someone made. Every void is a choice they did not.",
+          "Time does not flow. It pools. You are standing in the deepest pool.",
+          "I do not interfere. I observe. The distinction is important. Or it is meaningless. Both are true."
+        ]
+      }
+    }
+  }
+}

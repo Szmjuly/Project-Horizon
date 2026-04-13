@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_gym_6",
+  "trainer_name": "Leader Volt",
+  "dialog": {
+    "intro": {
+      "text": "I'm Volt. No big speeches, no grand declarations. Just pure, unfiltered voltage. Let's see if you can conduct.",
+      "type": "intro"
+    },
+    "win": {
+      "text": "Fast reflexes. Good instincts. The Circuit Badge is yours. You've got real spark, challenger.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "Too slow. Electricity doesn't wait for anyone. Speed up or stay grounded.",
+      "type": "lose"
+    }
+  }
+}

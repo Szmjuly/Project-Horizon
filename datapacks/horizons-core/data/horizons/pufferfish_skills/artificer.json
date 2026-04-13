@@ -1,0 +1,76 @@
+{
+  "background": "minecraft:textures/block/smithing_table_top.png",
+  "definitions": {
+    "tinkerers_insight": {
+      "title": "Tinkerer's Insight",
+      "description": "+10% crafting speed. Your hands move with practiced precision.",
+      "icon": { "item": "minecraft:crafting_table" },
+      "cost": 1,
+      "connections": ["efficient_assembly", "metallurgist"]
+    },
+    "efficient_assembly": {
+      "title": "Efficient Assembly",
+      "description": "+15% Create mechanical output. Machines work harder for you.",
+      "icon": { "item": "create:cogwheel" },
+      "cost": 2,
+      "connections": ["power_engineer"]
+    },
+    "metallurgist": {
+      "title": "Metallurgist",
+      "description": "+10% smelting yield. Extract more from every ore.",
+      "icon": { "item": "minecraft:blast_furnace" },
+      "cost": 2,
+      "connections": ["circuit_master"]
+    },
+    "power_engineer": {
+      "title": "Power Engineer",
+      "description": "+20% stress unit efficiency. Rotational power goes further.",
+      "icon": { "item": "create:large_cogwheel" },
+      "cost": 3,
+      "connections": ["master_crafter"]
+    },
+    "circuit_master": {
+      "title": "Circuit Master",
+      "description": "+15% redstone signal range. Your circuits reach further.",
+      "icon": { "item": "minecraft:redstone" },
+      "cost": 3,
+      "connections": ["machine_whisperer"]
+    },
+    "master_crafter": {
+      "title": "Master Crafter",
+      "description": "+25% chance for Quality 3+ crafting results.",
+      "icon": { "item": "minecraft:diamond" },
+      "cost": 4,
+      "connections": ["automation_expert"]
+    },
+    "machine_whisperer": {
+      "title": "Machine Whisperer",
+      "description": "+15% machine processing speed. Machines sing for you.",
+      "icon": { "item": "create:mechanical_press" },
+      "cost": 4,
+      "connections": ["alloy_master"]
+    },
+    "automation_expert": {
+      "title": "Automation Expert",
+      "description": "+50% auto-crafting interaction range. Control from afar.",
+      "icon": { "item": "create:deployer" },
+      "cost": 5,
+      "connections": ["mind_of_the_forge"]
+    },
+    "alloy_master": {
+      "title": "Alloy Master",
+      "description": "+20% alloy output. Your metallurgy produces superior results.",
+      "icon": { "item": "create:brass_ingot" },
+      "cost": 5,
+      "connections": ["mind_of_the_forge"]
+    },
+    "mind_of_the_forge": {
+      "title": "Mind of the Forge",
+      "description": "All engineering stats +10%. The forge bends to your will.",
+      "icon": { "item": "create:mechanical_crafter" },
+      "cost": 8,
+      "connections": []
+    }
+  },
+  "root": "tinkerers_insight"
+}

@@ -1,0 +1,357 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_4_the_stars"
+	group: "F9895319B9A5CE96"
+	icon: {
+		id: "stellaris:space_suit_helmet"
+	}
+	id: "6ADD035CEE3D5249"
+	images: [ ]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "stellaris:rocket_nose_cone"
+			}
+			id: "66861903A15390F5"
+			rewards: [{
+				id: "A8FAD9BD59A635A5"
+				type: "command"
+				command: "/horizons reward perkpoints 50"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2C8A62676E6C17B0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66861903A15390F5"]
+			icon: {
+				id: "stellaris:moon_dust"
+			}
+			id: "49562AB536D4FE1B"
+			rewards: [{
+				id: "0B6F9EFC1F9EC0C2"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3C8AC84A17132F57"
+				type: "item"
+				item: {
+					count: 1
+					id: "stellaris:moon_dust"
+				}
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "7EA45D7DAD5C9586"
+			rewards: [{
+				id: "C52BFD5FFF69D537"
+				type: "command"
+				command: "/horizons reward perkpoints 25"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "63525E26689E3235"
+				type: "stat"
+				stat: "horizons_cobblemon_caught"
+				value: 10
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66861903A15390F5"]
+			icon: {
+				id: "minecraft:red_sand"
+			}
+			id: "3BFFB52E0B43DC4F"
+			rewards: [{
+				id: "458574620850B1C3"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "8F81A7BD60C09F68"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "5468BAE81C1A33B6"
+			rewards: [{
+				id: "ACDE0E4A6D39AADD"
+				type: "command"
+				command: "/horizons reward perkpoints 50"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "3A97C8B81701A2A8"
+				type: "stat"
+				stat: "horizons_gate_floor_reached"
+				value: 35
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BFFB52E0B43DC4F"]
+			icon: {
+				id: "minecraft:prismarine"
+			}
+			id: "C7FB9F54C0C3D63E"
+			rewards: [{
+				id: "3AC63642DE636C9A"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "DF39CFD4A919408D"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["C7FB9F54C0C3D63E"]
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
+			id: "ECC11590A8C7CECB"
+			rewards: [{
+				id: "59D15BE7865913BA"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "1841D8C4F6741B72"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "30FF657C5EBDAC56"
+			rewards: [
+				{
+					id: "1CB76CBCEB0CD28D"
+					type: "command"
+					command: "/horizons reward perkpoints 60"
+					player_command: false
+				}
+				{
+					id: "576CD5D063671A28"
+					type: "item"
+					item: {
+						count: 1
+						id: "horizons:soul_forged_blade"
+					}
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "877BAA1524FFC7E9"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:flowering_azalea"
+			}
+			id: "A25F57465D3E99A1"
+			rewards: [{
+				id: "9BE91FAA97E2D82E"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "94F915B97256B78A"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["ECC11590A8C7CECB", "30FF657C5EBDAC56"]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "09E152A5E40F67B7"
+			rewards: [{
+				id: "EEF4C6F9BBACE178"
+				type: "command"
+				command: "/horizons reward perkpoints 50"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4D33D91C1D263170"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09E152A5E40F67B7"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "E7E477E2E0F174D3"
+			rewards: [{
+				id: "78BD46E0843CFBE3"
+				type: "command"
+				command: "/horizons reward stage quest_ending_chosen"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "7510DC1FFF6C6619"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "6E7C472595697FB9"
+			rewards: [{
+				id: "1D47942B04A6AFF0"
+				type: "command"
+				command: "/horizons reward perkpoints 60"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "55E4BD34C0BAF813"
+				type: "stat"
+				stat: "horizons_gate_floor_reached"
+				value: 76
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "ED568A500A3FA183"
+			rewards: [{
+				id: "D4E7B4F004760DEA"
+				type: "command"
+				command: "/horizons reward perkpoints 50"
+				player_command: false
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4AB2ECED75557967"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "AC4591C3559FF7E7"
+			rewards: [
+				{
+					id: "AEE16E4D0CB712AB"
+					type: "command"
+					command: "/horizons reward stage gate_floor_50"
+					player_command: false
+				}
+				{
+					id: "7E5F629CCE5AC90C"
+					type: "command"
+					command: "/horizons reward perkpoints 75"
+					player_command: false
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "C2D7A4E6755E94C9"
+				type: "stat"
+				stat: "horizons_gate_floor_reached"
+				value: 50
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["E7E477E2E0F174D3", "AC4591C3559FF7E7"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "748A0636E2BCFB42"
+			rewards: [
+				{
+					id: "21E515121E5DAF3A"
+					type: "command"
+					command: "/horizons reward stage quest_act4_complete"
+					player_command: false
+				}
+				{
+					id: "F9BA2570BB3392D9"
+					type: "command"
+					command: "/horizons reward perkpoints 100"
+					player_command: false
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "553E9E5CD0A4DAAA"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+	]
+}

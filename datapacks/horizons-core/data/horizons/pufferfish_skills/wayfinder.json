@@ -1,0 +1,76 @@
+{
+  "background": "minecraft:textures/block/moss_block.png",
+  "definitions": {
+    "pathfinders_eye": {
+      "title": "Pathfinder's Eye",
+      "description": "+10% movement speed. You move with purpose across every terrain.",
+      "icon": { "item": "minecraft:compass" },
+      "cost": 1,
+      "connections": ["scouts_instinct", "navigator"]
+    },
+    "scouts_instinct": {
+      "title": "Scout's Instinct",
+      "description": "+25% discovery radius. Your senses reach beyond the horizon.",
+      "icon": { "item": "minecraft:spyglass" },
+      "cost": 2,
+      "connections": ["monster_hunter"]
+    },
+    "navigator": {
+      "title": "Navigator",
+      "description": "+15% compass and map effective range. No path escapes your notice.",
+      "icon": { "item": "minecraft:filled_map" },
+      "cost": 2,
+      "connections": ["cobblemon_whisperer"]
+    },
+    "monster_hunter": {
+      "title": "Monster Hunter",
+      "description": "+20% XP from hostile mobs. Every kill teaches a lesson.",
+      "icon": { "item": "minecraft:diamond_sword" },
+      "cost": 3,
+      "connections": ["dimensional_traveler"]
+    },
+    "cobblemon_whisperer": {
+      "title": "Cobblemon Whisperer",
+      "description": "+15% Cobblemon catch rate. Wild creatures sense your kinship.",
+      "icon": { "item": "cobblemon:poke_ball" },
+      "cost": 3,
+      "connections": ["star_chart"]
+    },
+    "dimensional_traveler": {
+      "title": "Dimensional Traveler",
+      "description": "-20% portal cooldown. Dimensions bend to your will.",
+      "icon": { "item": "minecraft:ender_pearl" },
+      "cost": 4,
+      "connections": ["master_explorer"]
+    },
+    "star_chart": {
+      "title": "Star Chart",
+      "description": "+25% space travel speed. The stars are your roadmap.",
+      "icon": { "item": "minecraft:nether_star" },
+      "cost": 4,
+      "connections": ["cosmic_awareness"]
+    },
+    "master_explorer": {
+      "title": "Master Explorer",
+      "description": "+30% structure loot quality. Ruins reveal their finest treasures to you.",
+      "icon": { "item": "minecraft:chest" },
+      "cost": 5,
+      "connections": ["eternal_walker"]
+    },
+    "cosmic_awareness": {
+      "title": "Cosmic Awareness",
+      "description": "Detect rare mob spawns and structures within 128 blocks.",
+      "icon": { "item": "minecraft:ender_eye" },
+      "cost": 5,
+      "connections": ["eternal_walker"]
+    },
+    "eternal_walker": {
+      "title": "Eternal Walker",
+      "description": "All exploration stats +10%. The world has no secrets from you.",
+      "icon": { "item": "minecraft:elytra" },
+      "cost": 8,
+      "connections": []
+    }
+  },
+  "root": "pathfinders_eye"
+}

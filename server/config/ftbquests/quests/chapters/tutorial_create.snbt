@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_create"
+	group: "CB442371B2E6FDA5"
+	icon: {
+		id: "create:wrench"
+	}
+	id: "C97C157F8B0809E5"
+	images: [ ]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "2E8A3A1BC923F577"
+			rewards: [{
+				id: "9B0D6F4A07C0CA40"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "AF4F7444AE945441"
+				type: "item"
+				item: {
+					count: 4
+					id: "create:andesite_alloy"
+				}
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E8A3A1BC923F577"]
+			icon: {
+				id: "create:shaft"
+			}
+			id: "660AB92F412305FE"
+			rewards: [{
+				id: "31743BB80706A0CB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "0EFA22A5B1FC7BEB"
+					type: "item"
+					item: {
+						count: 4
+						id: "create:shaft"
+					}
+				}
+				{
+					id: "D8C0E3BFF6423D1D"
+					type: "item"
+					item: {
+						count: 2
+						id: "create:cogwheel"
+					}
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["660AB92F412305FE"]
+			icon: {
+				id: "create:mechanical_press"
+			}
+			id: "4EC9248D6A7C3D6D"
+			rewards: [{
+				id: "A76EC63EC3B99740"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "253615DC252382B9"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EC9248D6A7C3D6D"]
+			icon: {
+				id: "create:water_wheel"
+			}
+			id: "86A2905DEF554150"
+			rewards: [{
+				id: "1F42309845F58956"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7C0E0447FA56C143"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["86A2905DEF554150"]
+			icon: {
+				id: "create:belt_connector"
+			}
+			id: "D34D6880DD7B5359"
+			rewards: [{
+				id: "E38D50CE596BFE31"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "053976C51114B9A8"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["D34D6880DD7B5359"]
+			icon: {
+				id: "create:deployer"
+			}
+			id: "CD7C1023C11DAE76"
+			rewards: [{
+				id: "3FAF51D3E9D6FC67"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "A9AEFDA68F07473C"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["CD7C1023C11DAE76"]
+			icon: {
+				id: "create:track"
+			}
+			id: "96643A6DFC16F769"
+			rewards: [{
+				id: "A39AE00A80C5FCF5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "D3B639E3A4F05C2B"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["96643A6DFC16F769"]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "1769AF5C3660183B"
+			rewards: [{
+				id: "5B9C5FD18CB990CC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5B08F87407869156"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1769AF5C3660183B"]
+			icon: {
+				id: "create:mechanical_crafter"
+			}
+			id: "0C9D156E0AD49549"
+			rewards: [{
+				id: "C41EFF971727E890"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "B239999C467E561B"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["86A2905DEF554150"]
+			icon: {
+				id: "create:stressometer"
+			}
+			id: "9D6F27CD8E958A82"
+			rewards: [{
+				id: "AC23A9ACBEE0C873"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "E4BF7271653B4BD9"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+	]
+}

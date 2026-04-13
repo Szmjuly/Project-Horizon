@@ -1,0 +1,129 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ending_architect"
+	group: "9EFB6BDB9BF4E818"
+	icon: {
+		id: "create:mechanical_arm"
+	}
+	id: "31DA12F0353851CA"
+	images: [ ]
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["63EF9BDC9E3C004B"]
+			icon: {
+				id: "create:mechanical_arm"
+			}
+			id: "7145EF1427CACC20"
+			rewards: [{
+				id: "C933589317130A18"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "0DDA53FFD5A0BBF8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7145EF1427CACC20"]
+			icon: {
+				id: "minecraft:oak_fence"
+			}
+			id: "AD42CC4DE4A2BD64"
+			rewards: [{
+				id: "83CE6E2D4E4735E7"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "44DC8279AE5880A6"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["AD42CC4DE4A2BD64"]
+			icon: {
+				id: "minecraft:written_book"
+			}
+			id: "0DF267E14065B23A"
+			rewards: [{
+				id: "3C530D369746A75F"
+				type: "command"
+				command: "/horizons reward perkpoints 30"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "8D5583A2EC7B0E10"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DF267E14065B23A"]
+			icon: {
+				id: "minecraft:golden_helmet"
+			}
+			id: "283B8526E5D4D3ED"
+			rewards: [{
+				id: "B64478D4249D9495"
+				type: "command"
+				command: "/horizons reward perkpoints 40"
+				player_command: false
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "AC4843680C5FFFD8"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["283B8526E5D4D3ED"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "96EB84691438B6D7"
+			rewards: [
+				{
+					id: "7A58235C52AA3339"
+					type: "command"
+					command: "/horizons reward stage title_architect_king"
+					player_command: false
+				}
+				{
+					id: "3BA1A752349BAC88"
+					type: "command"
+					command: "/horizons reward perkpoints 200"
+					player_command: false
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3C4838660CABDD39"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

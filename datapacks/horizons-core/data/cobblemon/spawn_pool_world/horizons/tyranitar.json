@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "tyranitar-1","pokemon": "tyranitar","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "ultra-rare","level": "50-65","weight": 0.5,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_mountain", "#cobblemon:is_peak"]}}]
+}

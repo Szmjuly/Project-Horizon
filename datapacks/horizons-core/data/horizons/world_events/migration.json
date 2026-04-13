@@ -1,0 +1,11 @@
+{
+  "id": "migration",
+  "name": "Migration",
+  "description": "Cobblemon herd moves through biomes, offering unique encounter opportunities",
+  "type": "scheduled",
+  "duration_ticks": 24000,
+  "cooldown_days": 7,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

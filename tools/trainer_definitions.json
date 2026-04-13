@@ -1,0 +1,901 @@
+{
+  "meta": {
+    "id_seed": "horizons_trainers_v1",
+    "version": 1,
+    "description": "RCT trainer definitions for Project Horizons gym challenge series"
+  },
+  "trainer_types": [
+    { "key": "horizons_gym", "name": "Horizons Gym Leader", "color": "44ff44" },
+    { "key": "horizons_e4", "name": "Horizons Elite Four", "color": "ff4444" },
+    { "key": "horizons_champion", "name": "Horizons Champion", "color": "ffaa00" }
+  ],
+  "series": "horizons_gym",
+  "trainers": [
+    {
+      "key": "horizons_gym_1",
+      "name": "Leader Terra",
+      "type": "horizons_gym",
+      "gym_number": 1,
+      "faction": "plains",
+      "type_theme": "Normal/Grass",
+      "level_range": [15, 20],
+      "ai": { "moveBias": 0.1, "switchBias": 0.3, "itemBias": 0.2 },
+      "team": [
+        {
+          "species": "tauros",
+          "level": 18,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "intimidate",
+          "moves": ["headbutt", "pursuit", "stomp", "workup"],
+          "ivs": { "hp": 18, "atk": 20, "def": 17, "spa": 10, "spd": 17, "spe": 18 }
+        },
+        {
+          "species": "sawsbuck",
+          "level": 19,
+          "gender": "FEMALE",
+          "nature": "jolly",
+          "ability": "chlorophyll",
+          "moves": ["hornleech", "takedown", "leechseed", "feintattack"],
+          "ivs": { "hp": 17, "atk": 19, "def": 16, "spa": 12, "spd": 16, "spe": 20 }
+        },
+        {
+          "species": "leafeon",
+          "level": 20,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "leafguard",
+          "moves": ["razorleaf", "quickattack", "sunnyday", "swordsdance"],
+          "ivs": { "hp": 19, "atk": 20, "def": 18, "spa": 10, "spd": 18, "spe": 19 }
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:potion", "quantity": 2 }
+      ],
+      "loot": {
+        "common": ["cobblemon:poke_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:sigil_fragment"]
+      },
+      "required_defeats": [],
+      "quest_stage": "quest_gym_1_complete",
+      "dialogue": {
+        "intro": "I am Terra, Guardian of the Plains. Show me your bond with your Pokemon!",
+        "win": "Impressive! The Plains acknowledge your strength. You've earned the Plains Badge.",
+        "lose": "The grasslands do not yield easily. Train harder and return when you're ready."
+      }
+    },
+    {
+      "key": "horizons_gym_2",
+      "name": "Leader Sylva",
+      "type": "horizons_gym",
+      "gym_number": 2,
+      "faction": "forest",
+      "type_theme": "Bug/Grass",
+      "level_range": [22, 25],
+      "ai": { "moveBias": 0.15, "switchBias": 0.3, "itemBias": 0.2 },
+      "team": [
+        {
+          "species": "scyther",
+          "level": 23,
+          "gender": "MALE",
+          "nature": "jolly",
+          "ability": "technician",
+          "moves": ["wingattack", "furycutter", "quickattack", "agility"],
+          "ivs": { "hp": 19, "atk": 22, "def": 18, "spa": 10, "spd": 18, "spe": 22 }
+        },
+        {
+          "species": "venusaur",
+          "level": 24,
+          "gender": "FEMALE",
+          "nature": "modest",
+          "ability": "overgrow",
+          "moves": ["razorleaf", "poisonpowder", "sleeppowder", "growth"],
+          "ivs": { "hp": 20, "atk": 15, "def": 19, "spa": 22, "spd": 20, "spe": 19 }
+        },
+        {
+          "species": "sceptile",
+          "level": 25,
+          "gender": "MALE",
+          "nature": "timid",
+          "ability": "overgrow",
+          "moves": ["leafblade", "quickattack", "detect", "gigadrain"],
+          "ivs": { "hp": 19, "atk": 21, "def": 18, "spa": 22, "spd": 19, "spe": 22 }
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:potion", "quantity": 2 },
+        { "item": "cobblemon:antidote", "quantity": 1 }
+      ],
+      "loot": {
+        "common": ["cobblemon:poke_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:sigil_fragment"]
+      },
+      "required_defeats": ["horizons_gym_1"],
+      "quest_stage": "quest_gym_2_complete",
+      "dialogue": {
+        "intro": "The forest watches, challenger. I am Sylva, voice of the canopy. Can you hear what the leaves whisper about you?",
+        "win": "The forest bows to you. Take the Canopy Badge and carry its blessing.",
+        "lose": "The forest is patient. Return when you have learned to listen to the wild."
+      }
+    },
+    {
+      "key": "horizons_gym_3",
+      "name": "Leader Ferrum",
+      "type": "horizons_gym",
+      "gym_number": 3,
+      "faction": "mountain",
+      "type_theme": "Rock/Steel",
+      "level_range": [27, 30],
+      "ai": { "moveBias": 0.2, "switchBias": 0.35, "itemBias": 0.25 },
+      "team": [
+        {
+          "species": "onix",
+          "level": 28,
+          "gender": "MALE",
+          "nature": "impish",
+          "ability": "sturdy",
+          "moves": ["rockthrow", "irontail", "screech", "sandstorm"],
+          "ivs": { "hp": 21, "atk": 23, "def": 24, "spa": 12, "spd": 21, "spe": 18 }
+        },
+        {
+          "species": "lairon",
+          "level": 28,
+          "gender": "FEMALE",
+          "nature": "adamant",
+          "ability": "sturdy",
+          "moves": ["ironhead", "rockslide", "protect", "roar"],
+          "ivs": { "hp": 22, "atk": 24, "def": 24, "spa": 10, "spd": 21, "spe": 19 }
+        },
+        {
+          "species": "aggron",
+          "level": 29,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "rockhead",
+          "moves": ["ironhead", "rockslide", "aerialace", "thunderwave"],
+          "ivs": { "hp": 22, "atk": 25, "def": 25, "spa": 10, "spd": 22, "spe": 20 }
+        },
+        {
+          "species": "steelix",
+          "level": 30,
+          "gender": "MALE",
+          "nature": "careful",
+          "ability": "sturdy",
+          "moves": ["irontail", "rockslide", "earthquake", "sandstorm"],
+          "ivs": { "hp": 23, "atk": 25, "def": 25, "spa": 10, "spd": 23, "spe": 18 },
+          "heldItem": "cobblemon:sitrus_berry"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:super_potion", "quantity": 2 }
+      ],
+      "loot": {
+        "common": ["cobblemon:great_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:sigil_fragment", "cobblemon:metal_coat"]
+      },
+      "required_defeats": ["horizons_gym_2"],
+      "quest_stage": "quest_gym_3_complete",
+      "dialogue": {
+        "intro": "I am Ferrum, the Ironclad. My Pokemon are tempered in the furnace of the Mountain Forge. Show me your mettle!",
+        "win": "You strike true. The Forge Badge is yours. May it ring like steel in your journey ahead.",
+        "lose": "Brittle. You shattered against our defense. Come back when you've been forged stronger."
+      }
+    },
+    {
+      "key": "horizons_gym_4",
+      "name": "Leader Marina",
+      "type": "horizons_gym",
+      "gym_number": 4,
+      "faction": "coastal",
+      "type_theme": "Water/Ice",
+      "level_range": [32, 35],
+      "ai": { "moveBias": 0.25, "switchBias": 0.35, "itemBias": 0.25 },
+      "team": [
+        {
+          "species": "dewgong",
+          "level": 32,
+          "gender": "FEMALE",
+          "nature": "calm",
+          "ability": "thickfat",
+          "moves": ["icebeam", "surf", "aquaring", "signalbeam"],
+          "ivs": { "hp": 23, "atk": 14, "def": 22, "spa": 24, "spd": 25, "spe": 20 }
+        },
+        {
+          "species": "gyarados",
+          "level": 33,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "intimidate",
+          "moves": ["waterfall", "icefang", "crunch", "dragondance"],
+          "ivs": { "hp": 24, "atk": 25, "def": 22, "spa": 12, "spd": 22, "spe": 23 }
+        },
+        {
+          "species": "lapras",
+          "level": 34,
+          "gender": "FEMALE",
+          "nature": "modest",
+          "ability": "waterabsorb",
+          "moves": ["icebeam", "surf", "thunderbolt", "confuseray"],
+          "ivs": { "hp": 25, "atk": 12, "def": 23, "spa": 25, "spd": 24, "spe": 21 },
+          "heldItem": "cobblemon:sitrus_berry"
+        },
+        {
+          "species": "milotic",
+          "level": 35,
+          "gender": "FEMALE",
+          "nature": "bold",
+          "ability": "marvelscale",
+          "moves": ["surf", "icebeam", "recover", "dragontail"],
+          "ivs": { "hp": 25, "atk": 10, "def": 24, "spa": 26, "spd": 25, "spe": 22 },
+          "heldItem": "cobblemon:leftovers"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:super_potion", "quantity": 2 },
+        { "item": "cobblemon:full_heal", "quantity": 1 }
+      ],
+      "loot": {
+        "common": ["cobblemon:great_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:sigil_fragment", "cobblemon:mystic_water"]
+      },
+      "required_defeats": ["horizons_gym_3"],
+      "quest_stage": "quest_gym_4_complete",
+      "dialogue": {
+        "intro": "I am Marina, Tidekeeper of the Coastal Republic. The sea tests all who dare to sail it. Are you ready to face the current?",
+        "win": "You ride the waves with grace. The Tide Badge is yours - may the currents always carry you true.",
+        "lose": "The tide swallowed you whole. Learn to read the currents before challenging the sea again."
+      }
+    },
+    {
+      "key": "horizons_gym_5",
+      "name": "Leader Ignis",
+      "type": "horizons_gym",
+      "gym_number": 5,
+      "faction": "fire",
+      "type_theme": "Fire",
+      "level_range": [37, 40],
+      "ai": { "moveBias": 0.3, "switchBias": 0.35, "itemBias": 0.3 },
+      "team": [
+        {
+          "species": "magmortar",
+          "level": 37,
+          "gender": "MALE",
+          "nature": "modest",
+          "ability": "flamebody",
+          "moves": ["flamethrower", "thunderbolt", "psychic", "confuseray"],
+          "ivs": { "hp": 24, "atk": 14, "def": 22, "spa": 27, "spd": 24, "spe": 23 }
+        },
+        {
+          "species": "arcanine",
+          "level": 38,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "intimidate",
+          "moves": ["flareblitz", "extremespeed", "wildcharge", "closecombat"],
+          "ivs": { "hp": 25, "atk": 27, "def": 23, "spa": 14, "spd": 23, "spe": 26 },
+          "heldItem": "cobblemon:charcoal"
+        },
+        {
+          "species": "charizard",
+          "level": 39,
+          "gender": "MALE",
+          "nature": "timid",
+          "ability": "blaze",
+          "moves": ["flamethrower", "airslash", "dragonclaw", "swordsdance"],
+          "ivs": { "hp": 25, "atk": 24, "def": 22, "spa": 27, "spd": 23, "spe": 27 }
+        },
+        {
+          "species": "blaziken",
+          "level": 40,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "speedboost",
+          "moves": ["blazekick", "skyuppercut", "swordsdance", "protect"],
+          "ivs": { "hp": 25, "atk": 28, "def": 22, "spa": 16, "spd": 23, "spe": 27 },
+          "heldItem": "cobblemon:life_orb"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:hyper_potion", "quantity": 2 },
+        { "item": "cobblemon:full_heal", "quantity": 1 }
+      ],
+      "loot": {
+        "common": ["cobblemon:ultra_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:sigil_fragment", "cobblemon:charcoal"]
+      },
+      "required_defeats": ["horizons_gym_4"],
+      "quest_stage": "quest_gym_5_complete",
+      "dialogue": {
+        "intro": "I am Ignis! The eternal flame burns in my heart and in my Pokemon! You'd better bring your fireproof resolve, challenger!",
+        "win": "Ha! You burned bright enough to match us! Take the Ember Badge - you've earned every spark of it!",
+        "lose": "Reduced to cinders! The flame doesn't forgive weakness. Come back when you can take the heat!"
+      }
+    },
+    {
+      "key": "horizons_gym_6",
+      "name": "Leader Volt",
+      "type": "horizons_gym",
+      "gym_number": 6,
+      "faction": "electric",
+      "type_theme": "Electric",
+      "level_range": [42, 45],
+      "ai": { "moveBias": 0.35, "switchBias": 0.4, "itemBias": 0.3 },
+      "team": [
+        {
+          "species": "electrode",
+          "level": 42,
+          "gender": "GENDERLESS",
+          "nature": "timid",
+          "ability": "static",
+          "moves": ["thunderbolt", "voltswitch", "signalbeam", "lightscreen"],
+          "ivs": { "hp": 25, "atk": 14, "def": 23, "spa": 27, "spd": 24, "spe": 29 }
+        },
+        {
+          "species": "luxray",
+          "level": 43,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "intimidate",
+          "moves": ["wildcharge", "crunch", "icefang", "superpower"],
+          "ivs": { "hp": 26, "atk": 28, "def": 24, "spa": 14, "spd": 24, "spe": 26 }
+        },
+        {
+          "species": "magnezone",
+          "level": 43,
+          "gender": "GENDERLESS",
+          "nature": "modest",
+          "ability": "magnetpull",
+          "moves": ["thunderbolt", "flashcannon", "voltswitch", "triattack"],
+          "ivs": { "hp": 26, "atk": 10, "def": 27, "spa": 29, "spd": 25, "spe": 22 }
+        },
+        {
+          "species": "electivire",
+          "level": 44,
+          "gender": "MALE",
+          "nature": "jolly",
+          "ability": "motordrive",
+          "moves": ["wildcharge", "icepunch", "crosschop", "earthquake"],
+          "ivs": { "hp": 26, "atk": 29, "def": 24, "spa": 16, "spd": 24, "spe": 28 },
+          "heldItem": "cobblemon:expert_belt"
+        },
+        {
+          "species": "jolteon",
+          "level": 45,
+          "gender": "FEMALE",
+          "nature": "timid",
+          "ability": "voltabsorb",
+          "moves": ["thunderbolt", "shadowball", "signalbeam", "voltswitch"],
+          "ivs": { "hp": 25, "atk": 10, "def": 23, "spa": 29, "spd": 26, "spe": 29 },
+          "heldItem": "cobblemon:choice_specs"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:hyper_potion", "quantity": 2 },
+        { "item": "cobblemon:full_heal", "quantity": 1 }
+      ],
+      "loot": {
+        "common": ["cobblemon:ultra_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:sigil_fragment", "cobblemon:magnet"]
+      },
+      "required_defeats": ["horizons_gym_5"],
+      "quest_stage": "quest_gym_6_complete",
+      "dialogue": {
+        "intro": "I'm Volt. No big speeches, no grand declarations. Just pure, unfiltered voltage. Let's see if you can conduct.",
+        "win": "Fast reflexes. Good instincts. The Circuit Badge is yours. You've got real spark, challenger.",
+        "lose": "Too slow. Electricity doesn't wait for anyone. Speed up or stay grounded."
+      }
+    },
+    {
+      "key": "horizons_gym_7",
+      "name": "Leader Obscura",
+      "type": "horizons_gym",
+      "gym_number": 7,
+      "faction": "psychic_dark",
+      "type_theme": "Psychic/Dark",
+      "level_range": [47, 50],
+      "ai": { "moveBias": 0.4, "switchBias": 0.45, "itemBias": 0.3 },
+      "team": [
+        {
+          "species": "umbreon",
+          "level": 47,
+          "gender": "MALE",
+          "nature": "calm",
+          "ability": "synchronize",
+          "moves": ["foulplay", "toxic", "moonlight", "protect"],
+          "ivs": { "hp": 28, "atk": 14, "def": 28, "spa": 16, "spd": 29, "spe": 24 }
+        },
+        {
+          "species": "alakazam",
+          "level": 48,
+          "gender": "MALE",
+          "nature": "timid",
+          "ability": "magicguard",
+          "moves": ["psychic", "shadowball", "focusblast", "energyball"],
+          "ivs": { "hp": 26, "atk": 10, "def": 24, "spa": 30, "spd": 26, "spe": 30 },
+          "heldItem": "cobblemon:life_orb"
+        },
+        {
+          "species": "espeon",
+          "level": 49,
+          "gender": "FEMALE",
+          "nature": "timid",
+          "ability": "magicbounce",
+          "moves": ["psychic", "dazzlinggleam", "shadowball", "morningsun"],
+          "ivs": { "hp": 27, "atk": 10, "def": 24, "spa": 30, "spd": 27, "spe": 29 }
+        },
+        {
+          "species": "absol",
+          "level": 49,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "superluck",
+          "moves": ["nightslash", "psychocut", "swordsdance", "suckerpunch"],
+          "ivs": { "hp": 26, "atk": 30, "def": 23, "spa": 14, "spd": 24, "spe": 28 },
+          "heldItem": "cobblemon:scope_lens"
+        },
+        {
+          "species": "gardevoir",
+          "level": 50,
+          "gender": "FEMALE",
+          "nature": "modest",
+          "ability": "trace",
+          "moves": ["psychic", "moonblast", "shadowball", "calmmind"],
+          "ivs": { "hp": 27, "atk": 10, "def": 25, "spa": 30, "spd": 29, "spe": 28 },
+          "heldItem": "cobblemon:choice_specs"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:hyper_potion", "quantity": 2 },
+        { "item": "cobblemon:full_restore", "quantity": 1 }
+      ],
+      "loot": {
+        "common": ["cobblemon:ultra_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:sigil_fragment", "cobblemon:twisted_spoon"]
+      },
+      "required_defeats": ["horizons_gym_6"],
+      "quest_stage": "quest_gym_7_complete",
+      "dialogue": {
+        "intro": "I am Obscura. I see the light in darkness and the shadow in light. Your mind is an open book to me... but can you close it in battle?",
+        "win": "Intriguing. Your mind resisted my sight. The Eclipse Badge is yours. You are more than you appear.",
+        "lose": "Your thoughts betrayed you before you even moved. Still your mind, and perhaps next time the shadows will be kind."
+      }
+    },
+    {
+      "key": "horizons_gym_8",
+      "name": "Leader Draco",
+      "type": "horizons_gym",
+      "gym_number": 8,
+      "faction": "dragon",
+      "type_theme": "Dragon",
+      "level_range": [52, 55],
+      "ai": { "moveBias": 0.45, "switchBias": 0.5, "itemBias": 0.35 },
+      "team": [
+        {
+          "species": "flygon",
+          "level": 52,
+          "gender": "MALE",
+          "nature": "jolly",
+          "ability": "levitate",
+          "moves": ["earthquake", "dragonclaw", "stoneedge", "uturn"],
+          "ivs": { "hp": 28, "atk": 30, "def": 27, "spa": 18, "spd": 27, "spe": 30 }
+        },
+        {
+          "species": "kingdra",
+          "level": 52,
+          "gender": "FEMALE",
+          "nature": "modest",
+          "ability": "swiftswim",
+          "moves": ["dragonpulse", "hydropump", "icebeam", "raindance"],
+          "ivs": { "hp": 29, "atk": 14, "def": 28, "spa": 31, "spd": 28, "spe": 27 }
+        },
+        {
+          "species": "haxorus",
+          "level": 53,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "moldbreaker",
+          "moves": ["outrage", "earthquake", "poisonjab", "swordsdance"],
+          "ivs": { "hp": 28, "atk": 31, "def": 27, "spa": 10, "spd": 26, "spe": 29 },
+          "heldItem": "cobblemon:lum_berry"
+        },
+        {
+          "species": "dragonite",
+          "level": 53,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "multiscale",
+          "moves": ["outrage", "extremespeed", "earthquake", "dragondance"],
+          "ivs": { "hp": 29, "atk": 31, "def": 28, "spa": 18, "spd": 28, "spe": 29 },
+          "heldItem": "cobblemon:weakness_policy"
+        },
+        {
+          "species": "salamence",
+          "level": 54,
+          "gender": "MALE",
+          "nature": "naive",
+          "ability": "intimidate",
+          "moves": ["outrage", "earthquake", "fireblast", "dragondance"],
+          "ivs": { "hp": 29, "atk": 31, "def": 27, "spa": 28, "spd": 26, "spe": 30 },
+          "heldItem": "cobblemon:life_orb"
+        },
+        {
+          "species": "garchomp",
+          "level": 55,
+          "gender": "MALE",
+          "nature": "jolly",
+          "ability": "roughskin",
+          "moves": ["outrage", "earthquake", "stoneedge", "swordsdance"],
+          "ivs": { "hp": 29, "atk": 31, "def": 28, "spa": 14, "spd": 27, "spe": 31 },
+          "heldItem": "cobblemon:choice_scarf"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:full_restore", "quantity": 2 },
+        { "item": "cobblemon:revive", "quantity": 1 }
+      ],
+      "loot": {
+        "common": ["cobblemon:ultra_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:sigil_fragment", "cobblemon:dragon_fang"]
+      },
+      "required_defeats": ["horizons_gym_7"],
+      "quest_stage": "quest_gym_8_complete",
+      "dialogue": {
+        "intro": "I am Draco, last of the Gym Leaders. My dragons have ended the dreams of a thousand challengers. Will you be one thousand and one, or will you be the one who breaks through?",
+        "win": "By the ancient wyrms... you did it. The Dragon Badge is yours. You have bested all eight of us. The Elite Four awaits - if you dare.",
+        "lose": "Dragon fire burns the unworthy. You are not ready for what lies beyond. Return when your spirit can match a dragon's."
+      }
+    },
+    {
+      "key": "horizons_e4_1",
+      "name": "Elite Kael",
+      "type": "horizons_e4",
+      "gym_number": 9,
+      "faction": "mountain",
+      "type_theme": "Fighting/Steel",
+      "level_range": [72, 75],
+      "ai": { "moveBias": 0.5, "switchBias": 0.55, "itemBias": 0.4 },
+      "team": [
+        {
+          "species": "lucario",
+          "level": 72,
+          "gender": "MALE",
+          "nature": "jolly",
+          "ability": "justified",
+          "moves": ["closecombat", "meteormash", "extremespeed", "swordsdance"],
+          "ivs": { "hp": 29, "atk": 31, "def": 29, "spa": 22, "spd": 29, "spe": 31 },
+          "heldItem": "cobblemon:life_orb"
+        },
+        {
+          "species": "conkeldurr",
+          "level": 73,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "guts",
+          "moves": ["drainpunch", "machpunch", "icepunch", "knockoff"],
+          "ivs": { "hp": 31, "atk": 31, "def": 30, "spa": 14, "spd": 29, "spe": 22 },
+          "heldItem": "cobblemon:flame_orb"
+        },
+        {
+          "species": "metagross",
+          "level": 74,
+          "gender": "GENDERLESS",
+          "nature": "adamant",
+          "ability": "clearbody",
+          "moves": ["meteormash", "earthquake", "zenheadbutt", "bulletpunch"],
+          "ivs": { "hp": 30, "atk": 31, "def": 31, "spa": 18, "spd": 30, "spe": 29 },
+          "heldItem": "cobblemon:assault_vest"
+        },
+        {
+          "species": "scizor",
+          "level": 75,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "technician",
+          "moves": ["bulletpunch", "uturn", "superpower", "knockoff"],
+          "ivs": { "hp": 30, "atk": 31, "def": 31, "spa": 10, "spd": 30, "spe": 29 },
+          "heldItem": "cobblemon:choice_band"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:full_restore", "quantity": 3 }
+      ],
+      "loot": {
+        "common": ["cobblemon:ultra_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:elite_sigil", "cobblemon:black_belt"]
+      },
+      "required_defeats": ["horizons_gym_8"],
+      "quest_stage": "quest_e4_1_complete",
+      "dialogue": {
+        "intro": "I am Kael, the Iron Fist of the Elite Four. Steel and spirit are my weapons. Every punch I throw carries the weight of the mountains. Prepare yourself!",
+        "win": "Your strength is undeniable. Steel bends, but your will did not. Proceed to the next trial.",
+        "lose": "You crumbled like iron without carbon. The forge of the Elite Four is too hot for you - for now."
+      }
+    },
+    {
+      "key": "horizons_e4_2",
+      "name": "Elite Ysha",
+      "type": "horizons_e4",
+      "gym_number": 10,
+      "faction": "forest",
+      "type_theme": "Fairy/Grass",
+      "level_range": [72, 75],
+      "ai": { "moveBias": 0.5, "switchBias": 0.55, "itemBias": 0.4 },
+      "team": [
+        {
+          "species": "roserade",
+          "level": 72,
+          "gender": "FEMALE",
+          "nature": "timid",
+          "ability": "naturalcure",
+          "moves": ["sludgebomb", "gigadrain", "toxicspikes", "synthesis"],
+          "ivs": { "hp": 29, "atk": 10, "def": 28, "spa": 31, "spd": 30, "spe": 31 },
+          "heldItem": "cobblemon:black_sludge"
+        },
+        {
+          "species": "togekiss",
+          "level": 73,
+          "gender": "FEMALE",
+          "nature": "timid",
+          "ability": "serenegrace",
+          "moves": ["airslash", "dazzlinggleam", "aurasphere", "thunderwave"],
+          "ivs": { "hp": 30, "atk": 10, "def": 29, "spa": 31, "spd": 31, "spe": 30 },
+          "heldItem": "cobblemon:kings_rock"
+        },
+        {
+          "species": "florges",
+          "level": 74,
+          "gender": "FEMALE",
+          "nature": "calm",
+          "ability": "flowerveil",
+          "moves": ["moonblast", "psychic", "wish", "aromatherapy"],
+          "ivs": { "hp": 31, "atk": 10, "def": 29, "spa": 31, "spd": 31, "spe": 28 },
+          "heldItem": "cobblemon:leftovers"
+        },
+        {
+          "species": "whimsicott",
+          "level": 75,
+          "gender": "FEMALE",
+          "nature": "bold",
+          "ability": "prankster",
+          "moves": ["moonblast", "energyball", "encore", "tailwind"],
+          "ivs": { "hp": 30, "atk": 10, "def": 30, "spa": 30, "spd": 31, "spe": 31 },
+          "heldItem": "cobblemon:focus_sash"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:full_restore", "quantity": 3 }
+      ],
+      "loot": {
+        "common": ["cobblemon:ultra_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:elite_sigil", "cobblemon:miracle_seed"]
+      },
+      "required_defeats": ["horizons_gym_8"],
+      "quest_stage": "quest_e4_2_complete",
+      "dialogue": {
+        "intro": "I am Ysha, Bloom of the Elite Four. The flowers and the fae walk with me. Beauty is not weakness, challenger. Let me show you the thorns beneath the petals.",
+        "win": "You danced through my garden without trampling a single petal. Beautifully done. Move forward.",
+        "lose": "The garden has claimed another. Do not feel shame - even the mightiest trees bow before the storm."
+      }
+    },
+    {
+      "key": "horizons_e4_3",
+      "name": "Elite Taro",
+      "type": "horizons_e4",
+      "gym_number": 11,
+      "faction": "coastal",
+      "type_theme": "Water/Ground",
+      "level_range": [72, 75],
+      "ai": { "moveBias": 0.5, "switchBias": 0.55, "itemBias": 0.4 },
+      "team": [
+        {
+          "species": "quagsire",
+          "level": 72,
+          "gender": "MALE",
+          "nature": "relaxed",
+          "ability": "unaware",
+          "moves": ["earthquake", "scald", "toxic", "recover"],
+          "ivs": { "hp": 31, "atk": 28, "def": 31, "spa": 22, "spd": 30, "spe": 18 },
+          "heldItem": "cobblemon:leftovers"
+        },
+        {
+          "species": "gastrodon",
+          "level": 73,
+          "gender": "FEMALE",
+          "nature": "bold",
+          "ability": "stormdrain",
+          "moves": ["scald", "earthpower", "icebeam", "recover"],
+          "ivs": { "hp": 31, "atk": 10, "def": 30, "spa": 30, "spd": 31, "spe": 20 },
+          "heldItem": "cobblemon:assault_vest"
+        },
+        {
+          "species": "swampert",
+          "level": 74,
+          "gender": "MALE",
+          "nature": "adamant",
+          "ability": "torrent",
+          "moves": ["earthquake", "waterfall", "icepunch", "stealthrock"],
+          "ivs": { "hp": 31, "atk": 31, "def": 30, "spa": 16, "spd": 29, "spe": 28 },
+          "heldItem": "cobblemon:life_orb"
+        },
+        {
+          "species": "kingdra",
+          "level": 75,
+          "gender": "FEMALE",
+          "nature": "modest",
+          "ability": "swiftswim",
+          "moves": ["hydropump", "dragonpulse", "icebeam", "raindance"],
+          "ivs": { "hp": 30, "atk": 10, "def": 29, "spa": 31, "spd": 30, "spe": 31 },
+          "heldItem": "cobblemon:choice_specs"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:full_restore", "quantity": 3 }
+      ],
+      "loot": {
+        "common": ["cobblemon:ultra_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:elite_sigil", "cobblemon:mystic_water"]
+      },
+      "required_defeats": ["horizons_gym_8"],
+      "quest_stage": "quest_e4_3_complete",
+      "dialogue": {
+        "intro": "Name's Taro. Elite Four, Water and Earth. I've sailed every sea and walked every shore in this world. Let's see if you can weather my storm, kid.",
+        "win": "Ha! You've got sea legs after all. Not many can ride out a squall like that. Go on, the next one's waiting.",
+        "lose": "Washed ashore. The sea's no place for landlubbers. Come back when you've learned to swim with the current."
+      }
+    },
+    {
+      "key": "horizons_e4_4",
+      "name": "Elite Marek",
+      "type": "horizons_e4",
+      "gym_number": 12,
+      "faction": "skyborn",
+      "type_theme": "Ghost/Psychic",
+      "level_range": [73, 76],
+      "ai": { "moveBias": 0.55, "switchBias": 0.6, "itemBias": 0.4 },
+      "team": [
+        {
+          "species": "chandelure",
+          "level": 73,
+          "gender": "FEMALE",
+          "nature": "timid",
+          "ability": "flashfire",
+          "moves": ["shadowball", "fireblast", "energyball", "trick"],
+          "ivs": { "hp": 28, "atk": 10, "def": 27, "spa": 31, "spd": 29, "spe": 31 },
+          "heldItem": "cobblemon:choice_scarf"
+        },
+        {
+          "species": "metagross",
+          "level": 74,
+          "gender": "GENDERLESS",
+          "nature": "jolly",
+          "ability": "clearbody",
+          "moves": ["meteormash", "zenheadbutt", "earthquake", "icepunch"],
+          "ivs": { "hp": 30, "atk": 31, "def": 31, "spa": 14, "spd": 30, "spe": 30 },
+          "heldItem": "cobblemon:life_orb"
+        },
+        {
+          "species": "gengar",
+          "level": 75,
+          "gender": "MALE",
+          "nature": "timid",
+          "ability": "cursedbody",
+          "moves": ["shadowball", "sludgebomb", "focusblast", "nastyplot"],
+          "ivs": { "hp": 29, "atk": 10, "def": 27, "spa": 31, "spd": 29, "spe": 31 },
+          "heldItem": "cobblemon:black_sludge"
+        },
+        {
+          "species": "mismagius",
+          "level": 76,
+          "gender": "FEMALE",
+          "nature": "timid",
+          "ability": "levitate",
+          "moves": ["shadowball", "mysticalfire", "dazzlinggleam", "nastyplot"],
+          "ivs": { "hp": 29, "atk": 10, "def": 28, "spa": 31, "spd": 31, "spe": 31 },
+          "heldItem": "cobblemon:leftovers"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:full_restore", "quantity": 3 },
+        { "item": "cobblemon:revive", "quantity": 1 }
+      ],
+      "loot": {
+        "common": ["cobblemon:ultra_ball", "lightmanscurrency:coin_gold"],
+        "rare": ["horizons:elite_sigil", "cobblemon:spell_tag"]
+      },
+      "required_defeats": ["horizons_gym_8"],
+      "quest_stage": "quest_e4_4_complete",
+      "dialogue": {
+        "intro": "I am Marek, the final gate of the Elite Four. My ghosts see through walls and my psychics see through lies. There is nowhere to hide from what I bring. Are you certain you wish to proceed?",
+        "win": "Remarkable. You fought through illusion and shadow without flinching. The Champion awaits you. Go with my respect.",
+        "lose": "You looked into the abyss and it consumed you. The mind must be fortress and blade both. Return when yours is sharpened."
+      }
+    },
+    {
+      "key": "horizons_champion",
+      "name": "Champion Aren",
+      "type": "horizons_champion",
+      "gym_number": 13,
+      "faction": "plains",
+      "type_theme": "Mixed",
+      "level_range": [82, 90],
+      "ai": { "moveBias": 0.7, "switchBias": 0.7, "itemBias": 0.5 },
+      "team": [
+        {
+          "species": "lucario",
+          "level": 82,
+          "gender": "MALE",
+          "nature": "jolly",
+          "ability": "justified",
+          "moves": ["closecombat", "meteormash", "extremespeed", "swordsdance"],
+          "ivs": { "hp": 31, "atk": 31, "def": 31, "spa": 24, "spd": 31, "spe": 31 },
+          "heldItem": "cobblemon:life_orb"
+        },
+        {
+          "species": "togekiss",
+          "level": 83,
+          "gender": "FEMALE",
+          "nature": "timid",
+          "ability": "serenegrace",
+          "moves": ["airslash", "dazzlinggleam", "aurasphere", "nastyplot"],
+          "ivs": { "hp": 31, "atk": 10, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+          "heldItem": "cobblemon:leftovers"
+        },
+        {
+          "species": "charizard",
+          "level": 85,
+          "gender": "MALE",
+          "nature": "timid",
+          "ability": "solarpower",
+          "moves": ["fireblast", "airslash", "solarbeam", "sunnyday"],
+          "ivs": { "hp": 31, "atk": 14, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+          "heldItem": "cobblemon:choice_specs"
+        },
+        {
+          "species": "metagross",
+          "level": 86,
+          "gender": "GENDERLESS",
+          "nature": "adamant",
+          "ability": "clearbody",
+          "moves": ["meteormash", "earthquake", "icepunch", "bulletpunch"],
+          "ivs": { "hp": 31, "atk": 31, "def": 31, "spa": 18, "spd": 31, "spe": 31 },
+          "heldItem": "cobblemon:assault_vest"
+        },
+        {
+          "species": "garchomp",
+          "level": 88,
+          "gender": "MALE",
+          "nature": "jolly",
+          "ability": "roughskin",
+          "moves": ["earthquake", "outrage", "stoneedge", "swordsdance"],
+          "ivs": { "hp": 31, "atk": 31, "def": 31, "spa": 14, "spd": 31, "spe": 31 },
+          "heldItem": "cobblemon:choice_scarf"
+        },
+        {
+          "species": "gengar",
+          "level": 90,
+          "gender": "MALE",
+          "nature": "timid",
+          "ability": "cursedbody",
+          "moves": ["shadowball", "sludgebomb", "focusblast", "nastyplot"],
+          "ivs": { "hp": 31, "atk": 10, "def": 31, "spa": 31, "spd": 31, "spe": 31 },
+          "heldItem": "cobblemon:focus_sash"
+        }
+      ],
+      "bag": [
+        { "item": "cobblemon:full_restore", "quantity": 4 },
+        { "item": "cobblemon:revive", "quantity": 2 }
+      ],
+      "loot": {
+        "common": ["cobblemon:master_ball", "lightmanscurrency:coin_emerald"],
+        "rare": ["horizons:champion_sigil", "horizons:legendary_key"]
+      },
+      "required_defeats": ["horizons_e4_1", "horizons_e4_2", "horizons_e4_3", "horizons_e4_4"],
+      "quest_stage": "quest_champion_complete",
+      "dialogue": {
+        "intro": "So you've made it. I'm Aren - Guild Master and Champion. I've watched your journey from the very beginning. Every badge, every battle, every choice. Now show me the trainer you've become. Hold nothing back!",
+        "win": "I knew it. From the moment Sera brought you to my door, I knew you had this in you. You are the Champion now. The world of Horizons is yours to shape.",
+        "lose": "Close, but not yet. The Champion's throne demands perfection. You have the heart - now sharpen the edge. I'll be waiting."
+      }
+    }
+  ]
+}

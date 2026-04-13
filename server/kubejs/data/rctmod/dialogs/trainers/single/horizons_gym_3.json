@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_gym_3",
+  "trainer_name": "Leader Ferrum",
+  "dialog": {
+    "intro": {
+      "text": "I am Ferrum, the Ironclad. My Pokemon are tempered in the furnace of the Mountain Forge. Show me your mettle!",
+      "type": "intro"
+    },
+    "win": {
+      "text": "You strike true. The Forge Badge is yours. May it ring like steel in your journey ahead.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "Brittle. You shattered against our defense. Come back when you've been forged stronger.",
+      "type": "lose"
+    }
+  }
+}

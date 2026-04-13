@@ -1,0 +1,62 @@
+{
+  "id": "87026A9DD1752EAF",
+  "key": "horizons_e4_1",
+  "display_name": "Horizons E4 1",
+  "type": "horizons_e4",
+  "team": [
+    {
+      "species": "lucario",
+      "level": 72,
+      "moves": [
+        "closecombat",
+        "meteormash",
+        "extremespeed",
+        "swordsdance"
+      ],
+      "ability": "justified",
+      "nature": "jolly"
+    },
+    {
+      "species": "conkeldurr",
+      "level": 73,
+      "moves": [
+        "drainpunch",
+        "machpunch",
+        "icepunch",
+        "knockoff"
+      ],
+      "ability": "guts",
+      "nature": "adamant"
+    },
+    {
+      "species": "metagross",
+      "level": 74,
+      "moves": [
+        "meteormash",
+        "earthquake",
+        "zenheadbutt",
+        "bulletpunch"
+      ],
+      "ability": "clearbody",
+      "nature": "adamant"
+    },
+    {
+      "species": "scizor",
+      "level": 75,
+      "moves": [
+        "bulletpunch",
+        "uturn",
+        "superpower",
+        "knockoff"
+      ],
+      "ability": "technician",
+      "nature": "adamant"
+    }
+  ],
+  "dialogue": {
+    "intro": "I am Kael, the Iron Fist of the Elite Four. Steel and spirit are my weapons. Every punch I throw carries the weight of the mountains. Prepare yourself!",
+    "win": "Your strength is undeniable. Steel bends, but your will did not. Proceed to the next trial.",
+    "lose": "You crumbled like iron without carbon. The forge of the Elite Four is too hot for you - for now."
+  },
+  "rewards": {}
+}

@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_e4_4",
+  "trainer_name": "Elite Marek",
+  "dialog": {
+    "intro": {
+      "text": "I am Marek, the final gate of the Elite Four. My ghosts see through walls and my psychics see through lies. There is nowhere to hide from what I bring. Are you certain you wish to proceed?",
+      "type": "intro"
+    },
+    "win": {
+      "text": "Remarkable. You fought through illusion and shadow without flinching. The Champion awaits you. Go with my respect.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "You looked into the abyss and it consumed you. The mind must be fortress and blade both. Return when yours is sharpened.",
+      "type": "lose"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "shinx-1","pokemon": "shinx","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "common","level": "5-18","weight": 8.0,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_plains", "#cobblemon:is_grassland", "#cobblemon:is_savanna"]}}]
+}

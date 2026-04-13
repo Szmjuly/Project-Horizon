@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "spiritomb-1","pokemon": "spiritomb","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "ultra-rare","level": "30-50","weight": 0.3,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_cave", "#cobblemon:is_nether"],"timeRange": "night"}}]
+}

@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "hydreigon-1","pokemon": "hydreigon","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "ultra-rare","level": "64-70","weight": 0.3,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_nether", "#cobblemon:is_end"]}}]
+}

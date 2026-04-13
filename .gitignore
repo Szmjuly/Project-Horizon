@@ -1,0 +1,61 @@
+# ======================
+# Project Horizons .gitignore
+# ======================
+
+# Mod JARs (managed by mod-manifest.json, not tracked in git)
+server/mods/*.jar
+*.jar
+
+# Server runtime files
+server/world/
+server/logs/
+server/crash-reports/
+server/.fabric/
+server/.mixin.out/
+server/libraries/
+server/versions/
+server/*.log
+server/usercache.json
+server/whitelist.json
+server/ops.json
+server/banned-ips.json
+server/banned-players.json
+server/eula.txt
+server/server.properties
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build output
+build/
+dist/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Codebase reference (large, not part of modpack)
+codebases/
+codebase-zips/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~

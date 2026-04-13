@@ -1,0 +1,25 @@
+{
+  "battleCooldownTicks": 240,
+  "biomeTagBlacklist": [
+    "is_void",
+    "is_nether",
+    "is_end"
+  ],
+  "biomeTagWhitelist": [
+    "is_forest",
+    "is_flower_forest"
+  ],
+  "maxTrainerDefeats": 1,
+  "maxTrainerWins": -1,
+  "optional": false,
+  "requiredDefeats": [
+    [
+      "horizons_gym_8"
+    ]
+  ],
+  "series": [
+    "horizons_gym"
+  ],
+  "spawnWeightFactor": 0,
+  "type": "e4"
+}

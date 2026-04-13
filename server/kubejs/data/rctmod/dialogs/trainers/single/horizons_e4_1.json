@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_e4_1",
+  "trainer_name": "Elite Kael",
+  "dialog": {
+    "intro": {
+      "text": "I am Kael, the Iron Fist of the Elite Four. Steel and spirit are my weapons. Every punch I throw carries the weight of the mountains. Prepare yourself!",
+      "type": "intro"
+    },
+    "win": {
+      "text": "Your strength is undeniable. Steel bends, but your will did not. Proceed to the next trial.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "You crumbled like iron without carbon. The forge of the Elite Four is too hot for you - for now.",
+      "type": "lose"
+    }
+  }
+}

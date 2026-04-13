@@ -1,0 +1,62 @@
+{
+  "id": "61EA651417D5CF05",
+  "key": "horizons_gym_5",
+  "display_name": "Horizons Gym 5",
+  "type": "horizons_gym",
+  "team": [
+    {
+      "species": "magmortar",
+      "level": 37,
+      "moves": [
+        "flamethrower",
+        "thunderbolt",
+        "psychic",
+        "confuseray"
+      ],
+      "ability": "flamebody",
+      "nature": "modest"
+    },
+    {
+      "species": "arcanine",
+      "level": 38,
+      "moves": [
+        "flareblitz",
+        "extremespeed",
+        "wildcharge",
+        "closecombat"
+      ],
+      "ability": "intimidate",
+      "nature": "adamant"
+    },
+    {
+      "species": "charizard",
+      "level": 39,
+      "moves": [
+        "flamethrower",
+        "airslash",
+        "dragonclaw",
+        "swordsdance"
+      ],
+      "ability": "blaze",
+      "nature": "timid"
+    },
+    {
+      "species": "blaziken",
+      "level": 40,
+      "moves": [
+        "blazekick",
+        "skyuppercut",
+        "swordsdance",
+        "protect"
+      ],
+      "ability": "speedboost",
+      "nature": "adamant"
+    }
+  ],
+  "dialogue": {
+    "intro": "I am Ignis! The eternal flame burns in my heart and in my Pokemon! You'd better bring your fireproof resolve, challenger!",
+    "win": "Ha! You burned bright enough to match us! Take the Ember Badge - you've earned every spark of it!",
+    "lose": "Reduced to cinders! The flame doesn't forgive weakness. Come back when you can take the heat!"
+  },
+  "rewards": {}
+}

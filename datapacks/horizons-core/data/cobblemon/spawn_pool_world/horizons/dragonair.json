@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dragonair-1",
+            "pokemon": "dragonair",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "ultra-rare",
+            "level": "30-45",
+            "weight": 0.8,
+            "condition": {
+                "biomes": ["#cobblemon:is_ocean", "#cobblemon:is_deep_ocean"]
+            }
+        }
+    ]
+}

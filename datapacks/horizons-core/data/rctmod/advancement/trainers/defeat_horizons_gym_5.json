@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_horizons_gym_5": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "horizons_gym_5"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Leader Ignis and earn the Ember Badge"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:great_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Ember Badge - Leader Ignis Defeated!"
+    }
+  },
+  "parent": "rctmod:trainers/defeat_horizons_gym_4",
+  "requirements": [
+    [
+      "defeat_horizons_gym_5"
+    ]
+  ]
+}

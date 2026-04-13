@@ -1,0 +1,29 @@
+{
+  "_comment": "Project Horizons — Custom item, block, and UI translations",
+
+  "itemGroup.horizons.main": "Project Horizons",
+
+  "item.horizons.precursor_fragment": "Precursor Fragment",
+  "item.horizons.precursor_artifact": "Precursor Artifact",
+  "item.horizons.precursor_token": "Precursor Token",
+  "item.horizons.warp_shard": "Warp Shard",
+  "item.horizons.psychic_resonance_crystal": "Psychic Resonance Crystal",
+  "item.horizons.trainer_card": "Trainer Card",
+
+  "item.horizons.hood_of_shadows": "Hood of Shadows",
+  "item.horizons.hunters_compass": "Hunter's Compass",
+  "item.horizons.capture_net": "Capture Net",
+  "item.horizons.duel_challenge_token": "Duel Challenge Token",
+
+  "block.horizons.psychic_relay": "Psychic Relay",
+  "block.horizons.pokemon_treadmill": "Pokemon Treadmill",
+  "block.horizons.route_marker": "Route Marker",
+  "block.horizons.descent_pad": "Descent Pad",
+  "block.horizons.warp_anchor": "Warp Anchor",
+  "block.horizons.precursor_terminal": "Precursor Terminal",
+  "block.horizons.gate_portal": "Gate Portal",
+  "block.horizons.companion_hut": "Companion Hut",
+  "block.horizons.bounty_board": "Bounty Board",
+
+  "fluid.horizons.warp_propellant": "Warp Propellant"
+}

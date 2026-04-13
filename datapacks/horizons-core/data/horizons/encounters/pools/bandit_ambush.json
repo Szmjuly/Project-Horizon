@@ -1,0 +1,12 @@
+{
+  "id": "bandit_ambush",
+  "name": "Bandit Ambush",
+  "description": "A hostile combat encounter with bandits lurking in the shadows",
+  "rarity": "uncommon",
+  "biome_filter": ["forest", "mountain"],
+  "time_filter": "night",
+  "weather_filter": "any",
+  "npc_preset": "",
+  "rewards": [],
+  "enabled": true
+}

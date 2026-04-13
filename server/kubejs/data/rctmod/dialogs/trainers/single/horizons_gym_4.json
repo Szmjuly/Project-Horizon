@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_gym_4",
+  "trainer_name": "Leader Marina",
+  "dialog": {
+    "intro": {
+      "text": "I am Marina, Tidekeeper of the Coastal Republic. The sea tests all who dare to sail it. Are you ready to face the current?",
+      "type": "intro"
+    },
+    "win": {
+      "text": "You ride the waves with grace. The Tide Badge is yours - may the currents always carry you true.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "The tide swallowed you whole. Learn to read the currents before challenging the sea again.",
+      "type": "lose"
+    }
+  }
+}

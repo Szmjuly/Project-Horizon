@@ -1,0 +1,11 @@
+{
+  "id": "eclipse",
+  "name": "Eclipse",
+  "description": "Hostile mobs spawn in daylight during a solar eclipse",
+  "type": "scheduled",
+  "duration_ticks": 24000,
+  "cooldown_days": 30,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "stranger_caravan",
+  "name": "Stranger Caravan",
+  "description": "Mysterious traders arrive with rare and unusual goods",
+  "type": "random",
+  "duration_ticks": 24000,
+  "cooldown_days": 14,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

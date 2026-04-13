@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "defeat_horizons_e4_2": {
+      "conditions": {
+        "count": 1,
+        "entity": {
+          "type": null
+        },
+        "trainer_ids": [
+          "horizons_e4_2"
+        ],
+        "trainer_type": null
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": null,
+    "description": {
+      "text": "Defeat Elite Ysha, the Bloom of the Elite Four"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "id": "cobblemon:ultra_ball"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Elite Four - Ysha Defeated!"
+    }
+  },
+  "parent": "rctmod:trainers/defeat_horizons_gym_8",
+  "requirements": [
+    [
+      "defeat_horizons_e4_2"
+    ]
+  ]
+}

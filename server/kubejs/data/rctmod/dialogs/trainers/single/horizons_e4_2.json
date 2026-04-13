@@ -1,0 +1,18 @@
+{
+  "trainer_id": "horizons_e4_2",
+  "trainer_name": "Elite Ysha",
+  "dialog": {
+    "intro": {
+      "text": "I am Ysha, Bloom of the Elite Four. The flowers and the fae walk with me. Beauty is not weakness, challenger. Let me show you the thorns beneath the petals.",
+      "type": "intro"
+    },
+    "win": {
+      "text": "You danced through my garden without trampling a single petal. Beautifully done. Move forward.",
+      "type": "win"
+    },
+    "lose": {
+      "text": "The garden has claimed another. Do not feel shame - even the mightiest trees bow before the storm.",
+      "type": "lose"
+    }
+  }
+}

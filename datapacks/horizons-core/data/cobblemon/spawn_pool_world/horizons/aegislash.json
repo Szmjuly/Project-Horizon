@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "aegislash-1","pokemon": "aegislash","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "ultra-rare","level": "45-60","weight": 0.8,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_cave"]}}]
+}

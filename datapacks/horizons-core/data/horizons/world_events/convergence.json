@@ -1,0 +1,11 @@
+{
+  "id": "convergence",
+  "name": "Convergence",
+  "description": "Dimension barriers thin, allowing rare creatures to spawn across worlds",
+  "type": "random",
+  "duration_ticks": 24000,
+  "cooldown_days": 21,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

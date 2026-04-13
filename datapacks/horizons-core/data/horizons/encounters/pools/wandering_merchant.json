@@ -1,0 +1,12 @@
+{
+  "id": "wandering_merchant",
+  "name": "Wandering Merchant",
+  "description": "A traveling merchant selling random goods and supplies",
+  "rarity": "common",
+  "biome_filter": [],
+  "time_filter": "day",
+  "weather_filter": "any",
+  "npc_preset": "",
+  "rewards": [],
+  "enabled": true
+}

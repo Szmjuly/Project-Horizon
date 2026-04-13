@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "shiinotic-1","pokemon": "shiinotic","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "rare","level": "24-40","weight": 2.0,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_mushroom", "#cobblemon:is_lush"],"timeRange": "night"}}]
+}

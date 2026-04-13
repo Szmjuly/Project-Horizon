@@ -1,0 +1,62 @@
+{
+  "id": "C844C189234E66B4",
+  "key": "horizons_e4_3",
+  "display_name": "Horizons E4 3",
+  "type": "horizons_e4",
+  "team": [
+    {
+      "species": "quagsire",
+      "level": 72,
+      "moves": [
+        "earthquake",
+        "scald",
+        "toxic",
+        "recover"
+      ],
+      "ability": "unaware",
+      "nature": "relaxed"
+    },
+    {
+      "species": "gastrodon",
+      "level": 73,
+      "moves": [
+        "scald",
+        "earthpower",
+        "icebeam",
+        "recover"
+      ],
+      "ability": "stormdrain",
+      "nature": "bold"
+    },
+    {
+      "species": "swampert",
+      "level": 74,
+      "moves": [
+        "earthquake",
+        "waterfall",
+        "icepunch",
+        "stealthrock"
+      ],
+      "ability": "torrent",
+      "nature": "adamant"
+    },
+    {
+      "species": "kingdra",
+      "level": 75,
+      "moves": [
+        "hydropump",
+        "dragonpulse",
+        "icebeam",
+        "raindance"
+      ],
+      "ability": "swiftswim",
+      "nature": "modest"
+    }
+  ],
+  "dialogue": {
+    "intro": "Name's Taro. Elite Four, Water and Earth. I've sailed every sea and walked every shore in this world. Let's see if you can weather my storm, kid.",
+    "win": "Ha! You've got sea legs after all. Not many can ride out a squall like that. Go on, the next one's waiting.",
+    "lose": "Washed ashore. The sea's no place for landlubbers. Come back when you've learned to swim with the current."
+  },
+  "rewards": {}
+}

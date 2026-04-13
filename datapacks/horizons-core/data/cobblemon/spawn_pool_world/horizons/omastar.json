@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "omastar-1",
+            "pokemon": "omastar",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "ultra-rare",
+            "level": "40-55",
+            "weight": 0.8,
+            "condition": {
+                "biomes": ["#cobblemon:is_deep_ocean"]
+            }
+        }
+    ]
+}

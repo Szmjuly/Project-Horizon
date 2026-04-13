@@ -1,0 +1,8 @@
+{
+  "_comment": "Encounter spawn weights per biome category",
+  "plains": { "wandering_merchant": 10, "lost_child": 5, "bandit_ambush": 2 },
+  "forest": { "wandering_merchant": 8, "lost_child": 6, "bandit_ambush": 5 },
+  "mountain": { "wandering_merchant": 5, "lost_child": 2, "bandit_ambush": 8 },
+  "coastal": { "wandering_merchant": 12, "lost_child": 3, "bandit_ambush": 1 },
+  "desert": { "wandering_merchant": 6, "lost_child": 1, "bandit_ambush": 4 }
+}

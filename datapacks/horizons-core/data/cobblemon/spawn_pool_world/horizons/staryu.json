@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "staryu-1",
+            "pokemon": "staryu",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "5-20",
+            "weight": 5.0,
+            "condition": {
+                "biomes": ["#cobblemon:is_ocean", "#cobblemon:is_coast", "#cobblemon:is_beach"],
+                "timeRange": "night"
+            }
+        }
+    ]
+}

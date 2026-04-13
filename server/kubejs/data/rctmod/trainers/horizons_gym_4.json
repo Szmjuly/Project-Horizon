@@ -1,0 +1,62 @@
+{
+  "id": "FBD745791FA4D510",
+  "key": "horizons_gym_4",
+  "display_name": "Horizons Gym 4",
+  "type": "horizons_gym",
+  "team": [
+    {
+      "species": "dewgong",
+      "level": 32,
+      "moves": [
+        "icebeam",
+        "surf",
+        "aquaring",
+        "signalbeam"
+      ],
+      "ability": "thickfat",
+      "nature": "calm"
+    },
+    {
+      "species": "gyarados",
+      "level": 33,
+      "moves": [
+        "waterfall",
+        "icefang",
+        "crunch",
+        "dragondance"
+      ],
+      "ability": "intimidate",
+      "nature": "adamant"
+    },
+    {
+      "species": "lapras",
+      "level": 34,
+      "moves": [
+        "icebeam",
+        "surf",
+        "thunderbolt",
+        "confuseray"
+      ],
+      "ability": "waterabsorb",
+      "nature": "modest"
+    },
+    {
+      "species": "milotic",
+      "level": 35,
+      "moves": [
+        "surf",
+        "icebeam",
+        "recover",
+        "dragontail"
+      ],
+      "ability": "marvelscale",
+      "nature": "bold"
+    }
+  ],
+  "dialogue": {
+    "intro": "I am Marina, Tidekeeper of the Coastal Republic. The sea tests all who dare to sail it. Are you ready to face the current?",
+    "win": "You ride the waves with grace. The Tide Badge is yours - may the currents always carry you true.",
+    "lose": "The tide swallowed you whole. Learn to read the currents before challenging the sea again."
+  },
+  "rewards": {}
+}

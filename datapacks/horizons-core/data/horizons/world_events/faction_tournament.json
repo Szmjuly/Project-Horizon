@@ -1,0 +1,11 @@
+{
+  "id": "faction_tournament",
+  "name": "Faction Tournament",
+  "description": "PvP and PvE combat event where factions compete for glory and rewards",
+  "type": "scheduled",
+  "duration_ticks": 24000,
+  "cooldown_days": 14,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "budew-1","pokemon": "budew","presets": ["natural"],"type": "pokemon","spawnablePositionType": "grounded","bucket": "common","level": "5-15","weight": 8.0,"condition": {"minSkyLight": 8,"maxSkyLight": 15,"biomes": ["#cobblemon:is_floral", "#cobblemon:is_forest", "#cobblemon:is_cherry_blossom"]}}]
+}

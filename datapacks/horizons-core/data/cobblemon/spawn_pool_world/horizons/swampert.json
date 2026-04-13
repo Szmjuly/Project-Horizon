@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "swampert-1",
+            "pokemon": "swampert",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "ultra-rare",
+            "level": "36-55",
+            "weight": 0.8,
+            "condition": {
+                "biomes": ["#cobblemon:is_river", "#cobblemon:is_swamp"]
+            }
+        }
+    ]
+}

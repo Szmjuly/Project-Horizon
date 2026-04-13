@@ -1,0 +1,86 @@
+{
+  "id": "2F16097117EBD4E3",
+  "key": "horizons_champion",
+  "display_name": "Horizons Champion",
+  "type": "horizons_champion",
+  "team": [
+    {
+      "species": "lucario",
+      "level": 82,
+      "moves": [
+        "closecombat",
+        "meteormash",
+        "extremespeed",
+        "swordsdance"
+      ],
+      "ability": "justified",
+      "nature": "jolly"
+    },
+    {
+      "species": "togekiss",
+      "level": 83,
+      "moves": [
+        "airslash",
+        "dazzlinggleam",
+        "aurasphere",
+        "nastyplot"
+      ],
+      "ability": "serenegrace",
+      "nature": "timid"
+    },
+    {
+      "species": "charizard",
+      "level": 85,
+      "moves": [
+        "fireblast",
+        "airslash",
+        "solarbeam",
+        "sunnyday"
+      ],
+      "ability": "solarpower",
+      "nature": "timid"
+    },
+    {
+      "species": "metagross",
+      "level": 86,
+      "moves": [
+        "meteormash",
+        "earthquake",
+        "icepunch",
+        "bulletpunch"
+      ],
+      "ability": "clearbody",
+      "nature": "adamant"
+    },
+    {
+      "species": "garchomp",
+      "level": 88,
+      "moves": [
+        "earthquake",
+        "outrage",
+        "stoneedge",
+        "swordsdance"
+      ],
+      "ability": "roughskin",
+      "nature": "jolly"
+    },
+    {
+      "species": "gengar",
+      "level": 90,
+      "moves": [
+        "shadowball",
+        "sludgebomb",
+        "focusblast",
+        "nastyplot"
+      ],
+      "ability": "cursedbody",
+      "nature": "timid"
+    }
+  ],
+  "dialogue": {
+    "intro": "So you've made it. I'm Aren - Guild Master and Champion. I've watched your journey from the very beginning. Every badge, every battle, every choice. Now show me the trainer you've become. Hold nothing back!",
+    "win": "I knew it. From the moment Sera brought you to my door, I knew you had this in you. You are the Champion now. The world of Horizons is yours to shape.",
+    "lose": "Close, but not yet. The Champion's throne demands perfection. You have the heart - now sharpen the edge. I'll be waiting."
+  },
+  "rewards": {}
+}

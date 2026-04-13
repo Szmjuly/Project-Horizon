@@ -1,0 +1,11 @@
+{
+  "id": "grand_market",
+  "name": "Grand Market",
+  "description": "Special merchants appear with exclusive wares and limited-time trades",
+  "type": "scheduled",
+  "duration_ticks": 24000,
+  "cooldown_days": 14,
+  "conditions": {},
+  "effects": [],
+  "enabled": true
+}

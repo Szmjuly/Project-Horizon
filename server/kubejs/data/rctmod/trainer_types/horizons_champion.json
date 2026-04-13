@@ -1,0 +1,9 @@
+{
+  "type": "horizons_champion",
+  "id": "E0290836BC854795",
+  "display_name": "Horizons Champion",
+  "badge": "",
+  "battle_rules": {
+    "level_cap": 100
+  }
+}

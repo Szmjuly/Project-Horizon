@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "swinub-1",
+            "pokemon": "swinub",
+            "presets": ["natural"],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "5-18",
+            "weight": 8.0,
+            "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": ["#cobblemon:is_taiga", "#cobblemon:is_snowy", "#cobblemon:is_tundra", "#cobblemon:is_freezing"]
+            }
+        }
+    ]
+}

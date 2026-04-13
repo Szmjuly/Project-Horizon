@@ -1,0 +1,6 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [{"id": "feebas-1","pokemon": "feebas","presets": ["natural"],"type": "pokemon","spawnablePositionType": "submerged","bucket": "rare","level": "10-25","weight": 1.5,"condition": {"biomes": ["#cobblemon:is_river", "#cobblemon:is_ocean"]}}]
+}
