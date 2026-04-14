@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "side_lorekeeper"
-	group: "8FC869B86246990B"
+	group: ""
 	icon: {
 		id: "minecraft:enchanted_book"
 	}
 	id: "4D513D436EAFAE1B"
-	images: [ ]
-	order_index: 4
+	order_index: 18
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,40 +15,37 @@
 			icon: {
 				id: "minecraft:paper"
 			}
-			id: "ECEC50D1A7611AA6"
+			id: "4FCCC2BD9CBB2CDE"
 			rewards: [{
-				id: "E3AB38BF119D9809"
-				type: "command"
 				command: "/horizons reward perkpoints 10"
-				player_command: false
+				id: "09C965240EF4FD52"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "49B98A3D542255CE"
+				stat: "minecraft:horizons_lore_fragments"
 				type: "stat"
-				stat: "horizons_lore_fragments"
 				value: 1
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["ECEC50D1A7611AA6"]
 			icon: {
 				id: "minecraft:paper"
 			}
 			id: "7B2A177913A340F8"
 			rewards: [{
-				id: "C4BBFF316A06CE64"
-				type: "command"
 				command: "/horizons reward perkpoints 15"
-				player_command: false
+				id: "00D12F1EA8B40A7D"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "874F5EBE6ECF045F"
+				id: "71A18C9CDA539B2B"
+				stat: "minecraft:horizons_lore_fragments"
 				type: "stat"
-				stat: "horizons_lore_fragments"
 				value: 5
 			}]
 			x: 2.5d
@@ -62,15 +58,14 @@
 			}
 			id: "6D583FBE1568B813"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "2579EB29F4C5147B"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "A0536C12FFC07859"
+				id: "5F161E66B6DD71A1"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -83,10 +78,9 @@
 			}
 			id: "39E660FC8640BE4E"
 			rewards: [{
-				id: "C5DF2D2BCEFF7400"
-				type: "command"
 				command: "/horizons reward perkpoints 15"
-				player_command: false
+				id: "55AB81CFDEBAE8F5"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -101,39 +95,36 @@
 			icon: {
 				id: "minecraft:written_book"
 			}
-			id: "EB9A539ED78E1B48"
+			id: "08F8984B1ACE51F5"
 			rewards: [{
+				command: "/horizons reward perkpoints 25"
 				id: "701F7AFA585C17EB"
 				type: "command"
-				command: "/horizons reward perkpoints 25"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "979D060EA63C7C60"
+				id: "1A9BFD4CC5D27A41"
 				type: "checkmark"
 			}]
 			x: 10.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["EB9A539ED78E1B48"]
 			icon: {
 				id: "minecraft:paper"
 			}
 			id: "1C453E5152DAC82A"
 			rewards: [{
-				id: "E8B2922C9E3FF5D8"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "302401212B17BF3B"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "350D4A1422C333D5"
+				stat: "minecraft:horizons_lore_fragments"
 				type: "stat"
-				stat: "horizons_lore_fragments"
 				value: 15
 			}]
 			x: 12.5d
@@ -144,12 +135,11 @@
 			icon: {
 				id: "minecraft:enchanted_book"
 			}
-			id: "E7346AEB1B05F751"
+			id: "4ABE8CD41E002B5E"
 			rewards: [{
-				id: "A601539E848F7334"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "47993F8C3E671B5D"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -160,16 +150,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["E7346AEB1B05F751"]
 			icon: {
 				id: "minecraft:written_book"
 			}
 			id: "0FA2A28248858CC5"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "1530CBA2733A1507"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -187,16 +175,15 @@
 			}
 			id: "124963D7053944DB"
 			rewards: [{
+				command: "/horizons reward perkpoints 25"
 				id: "510EA523F317F3FC"
 				type: "command"
-				command: "/horizons reward perkpoints 25"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "E418F7CBDC219EC0"
+				id: "59650F77B82B61C8"
+				stat: "minecraft:horizons_lore_fragments"
 				type: "stat"
-				stat: "horizons_lore_fragments"
 				value: 25
 			}]
 			x: 20.0d
@@ -207,12 +194,11 @@
 			icon: {
 				id: "minecraft:written_book"
 			}
-			id: "B6425BF05DD28B7B"
+			id: "4AC11C957D42A4BF"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "1EBC8A272807A2CA"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -224,20 +210,18 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["B6425BF05DD28B7B"]
 			icon: {
 				id: "minecraft:enchanted_book"
 			}
 			id: "0A415B9097A67350"
 			rewards: [{
-				id: "FAD4ED09C417E8B0"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "5E44AAD75B820F62"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "B07E8A4B7896E2F8"
+				id: "2B4E92A369D347B3"
 				type: "checkmark"
 			}]
 			x: 25.0d
@@ -250,10 +234,9 @@
 			}
 			id: "03FE24472C58F4D9"
 			rewards: [{
-				id: "ED7AAE66918A273D"
-				type: "command"
 				command: "/horizons reward perkpoints 40"
-				player_command: false
+				id: "782A747F64DED539"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -271,10 +254,9 @@
 			}
 			id: "28C640345429AF3F"
 			rewards: [{
-				id: "917E0F53C7EE1DF6"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "1ED811E64B709344"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -292,14 +274,13 @@
 			}
 			id: "563975FA88881D63"
 			rewards: [{
-				id: "AC8EC5251ECF067F"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "4388CE07EFB0F76B"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "DC5E9E93417541B8"
+				id: "4411ABBCBACB5CB0"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -310,17 +291,16 @@
 			icon: {
 				id: "minecraft:iron_golem_spawn_egg"
 			}
-			id: "A998394C0F076E62"
+			id: "39B22943DB4C0F3F"
 			rewards: [{
+				command: "/horizons reward perkpoints 40"
 				id: "27612117D4BE4ACA"
 				type: "command"
-				command: "/horizons reward perkpoints 40"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "E966313159D55ECE"
+				id: "3919504C7A743E4F"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -330,39 +310,36 @@
 			icon: {
 				id: "minecraft:chiseled_stone_bricks"
 			}
-			id: "C5D75F401CA8F30C"
+			id: "5FE0ABF4DEDD614C"
 			rewards: [{
-				id: "F483794B8869BDD4"
-				type: "command"
 				command: "/horizons reward perkpoints 15"
-				player_command: false
+				id: "4039B98844034DA6"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "DD2A589D3CA18053"
+				id: "66DBD6CB02ED1752"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["C5D75F401CA8F30C"]
 			icon: {
 				id: "minecraft:enchanted_book"
 			}
 			id: "5FFCE1542A981C51"
 			rewards: [{
-				id: "BCD343B6A0DBC447"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "1CB05301514D0258"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "93A91EFFABDCCDA1"
+				id: "5A8FA598F6A49A37"
+				stat: "minecraft:horizons_lore_fragments"
 				type: "stat"
-				stat: "horizons_lore_fragments"
 				value: 10
 			}]
 			x: 2.5d
@@ -373,19 +350,18 @@
 			icon: {
 				id: "minecraft:paper"
 			}
-			id: "EC9C99105DF0F3DF"
+			id: "7A0B9875832DB100"
 			rewards: [{
+				command: "/horizons reward perkpoints 50"
 				id: "58CEC40D7C348590"
 				type: "command"
-				command: "/horizons reward perkpoints 50"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "A34C12CF893EDD3E"
+				id: "4ED9671E06DB0C43"
+				stat: "minecraft:horizons_lore_fragments"
 				type: "stat"
-				stat: "horizons_lore_fragments"
 				value: 40
 			}]
 			x: 27.5d
@@ -398,10 +374,9 @@
 			}
 			id: "5CA74E4F9EE35987"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "09C71331EB57727A"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
@@ -412,23 +387,20 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["EC9C99105DF0F3DF", "A998394C0F076E62"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
 			id: "6E0CDF61F3B6528F"
 			rewards: [
 				{
-					id: "E703CD2ADC7A6952"
-					type: "command"
 					command: "/horizons reward stage title_lorekeeper"
-					player_command: false
+					id: "7CA0D853FE6FA82D"
+					type: "command"
 				}
 				{
-					id: "9E33FC9FCE55E4E3"
-					type: "command"
 					command: "/horizons reward perkpoints 100"
-					player_command: false
+					id: "1726667D27036FEE"
+					type: "command"
 				}
 			]
 			shape: "hexagon"

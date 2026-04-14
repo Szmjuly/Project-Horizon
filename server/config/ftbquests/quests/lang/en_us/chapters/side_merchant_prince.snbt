@@ -52,4 +52,8 @@
 	"quest.DF215D7A9E626128.title": "Philanthropist"
 	"quest.DF215D7A9E626128.quest_desc": "Donate 50 gold coins to village improvement projects."
 	"task.EAA946D0AF369D96.title": "Donate to village projects"
+	"quest.6D4E8A3F1B2C7509.title": "Silver Tongue"
+	"quest.6D4E8A3F1B2C7509.quest_desc": "Your wealth and reputation have earned you the art of persuasion. Craft a Merchant's Ledger and use it to negotiate with villagers — sneak + right-click to convince them to reconsider their trade offerings. Each reroll costs 1 gold coin."
+	"task.9E2F4A8D6C3B1705.title": "Craft a Merchant's Ledger"
+	"task.A1B3C5D7E9F20486.title": "Reroll a villager's trades"
 }

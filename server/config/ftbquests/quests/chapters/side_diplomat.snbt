@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "side_diplomat"
-	group: "8FC869B86246990B"
+	group: ""
 	icon: {
 		id: "minecraft:written_book"
 	}
-	id: "CA8F190C9FA2474A"
-	images: [ ]
-	order_index: 11
+	id: "2A0F048130213C39"
+	order_index: 33
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -18,10 +17,9 @@
 			}
 			id: "5DC7A31D4167E4D3"
 			rewards: [{
+				command: "/horizons reward perkpoints 15"
 				id: "61489C067D659B51"
 				type: "command"
-				command: "/horizons reward perkpoints 15"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
@@ -36,12 +34,11 @@
 			icon: {
 				id: "minecraft:written_book"
 			}
-			id: "A57FCC6DB9F3C830"
+			id: "3DD2ADFE965A966E"
 			rewards: [{
-				id: "87D49F92424D81BB"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "030E73990DD96899"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -52,63 +49,57 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A57FCC6DB9F3C830"]
 			icon: {
 				id: "minecraft:golden_helmet"
 			}
-			id: "DCCDD41D071F299D"
+			id: "60534B8B37A7E6D9"
 			rewards: [{
-				id: "A57D4567420E77D7"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "1FE6EFA8356C5C07"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "9C0C4214AB64A31D"
+				id: "07CDA1E797F58F5C"
 				type: "checkmark"
 			}]
 			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["DCCDD41D071F299D"]
 			icon: {
 				id: "minecraft:paper"
 			}
-			id: "A397D3EB3A333894"
+			id: "0460E28934F77342"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "232A1C9BED3313B3"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "ACFE3F6689FE9562"
+				id: "11967ECE7324D0AE"
 				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A397D3EB3A333894"]
 			icon: {
 				id: "minecraft:written_book"
 			}
 			id: "2B39E62BA9E920AA"
 			rewards: [{
-				id: "9AC13B35B35B4E42"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "4CBA19DD1A11B48C"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "94C32CEB272A0245"
+				id: "6462FA631B1211E2"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -121,10 +112,9 @@
 			}
 			id: "396EBBE61AA5CF52"
 			rewards: [{
+				command: "/horizons reward perkpoints 40"
 				id: "6DDA45D3DF1788A4"
 				type: "command"
-				command: "/horizons reward perkpoints 40"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -136,37 +126,33 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A397D3EB3A333894"]
 			icon: {
 				id: "minecraft:writable_book"
 			}
 			id: "3F5E58D4BF74A94C"
 			rewards: [{
-				id: "C25E984DCE289F80"
-				type: "command"
 				command: "/horizons reward perkpoints 35"
-				player_command: false
+				id: "5F5629C2CBEA3441"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "C268F274CA0D10BE"
+				id: "4E3A77A8A970AD5E"
 				type: "checkmark"
 			}]
 			x: 10.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["DCCDD41D071F299D"]
 			icon: {
 				id: "minecraft:emerald"
 			}
 			id: "433D70E0BCFF2AEB"
 			rewards: [{
-				id: "DE98D046E69805FB"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "0CED9C3361DABBE9"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -177,23 +163,24 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["396EBBE61AA5CF52", "3F5E58D4BF74A94C"]
+			dependencies: [
+				"396EBBE61AA5CF52"
+				"3F5E58D4BF74A94C"
+			]
 			icon: {
 				id: "minecraft:nether_star"
 			}
 			id: "19E19637EB023BED"
 			rewards: [
 				{
-					id: "EEF9E399F04D6FCA"
-					type: "command"
 					command: "/horizons reward stage title_ambassador"
-					player_command: false
+					id: "1BFF54458BF10F53"
+					type: "command"
 				}
 				{
-					id: "916C796418BD70A7"
-					type: "command"
 					command: "/horizons reward perkpoints 100"
-					player_command: false
+					id: "17EDDF02D834B7E7"
+					type: "command"
 				}
 			]
 			shape: "hexagon"

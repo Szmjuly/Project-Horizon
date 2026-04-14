@@ -1,0 +1,24 @@
+{
+  "name": "Silver Tongue",
+  "icon": "horizons:merchants_ledger",
+  "category": "horizons:economy",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Trade Rerolling",
+      "text": "The $(thing)Silver Tongue$() skill allows master merchants to persuade villagers to reconsider their trade offerings.$(br2)To unlock this ability, complete the $(thing)Silver Tongue$() quest in the Merchant Prince quest chain. You must first accumulate 100 gold coins and prove your economic prowess.$(br2)Once unlocked, craft a $(item)Merchant's Ledger$() and $(thing)sneak + right-click$() any villager while holding it to reroll their trades."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "horizons:merchants_ledger",
+      "title": "Merchant's Ledger",
+      "text": "$(l)Crafting:$() Paper + Book + Ink Sac + Gold Coin$(br2)$(l)Cost per reroll:$() 1 gold coin (consumed)$(br)$(l)Cooldown:$() 20 minutes per villager$(br)$(l)Requirement:$() Silver Tongue skill$(br2)$(italic)The ledger records your negotiations. Each villager remembers your last attempt, so you cannot reroll the same villager endlessly. Plan your negotiations wisely!$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Faction Bonuses",
+      "text": "Your $(thing)faction reputation$() affects trade rerolling:$(br2)$(6)Friendly$() (100+ rep): The villager acknowledges your standing with their aligned faction.$(br2)$(b)Trusted$() (500+ rep): Your reputation as a trusted ally precedes you, and villagers are more receptive to renegotiation.$(br2)Higher reputation with the kingdom aligned to the villager's region gives better flavor feedback, though the mechanical reroll is the same regardless."
+    }
+  ]
+}

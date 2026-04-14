@@ -1,0 +1,18 @@
+{
+  "name": "Pok\u00e9 Ball Factory",
+  "icon": "cobblemon:poke_ball",
+  "category": "horizons:cobblemon",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Cobblemon x Create",
+      "text": "$(thing)Cobblemon: Create Industries$() bridges two of Aetheria's core systems — Cobblemon and Create. Instead of hand-crafting Pok\u00e9 Balls one at a time, build a full $(thing)production line$() using Create machinery to manufacture them at scale.$(br2)This addon adds custom recipes that turn raw materials into Pok\u00e9 Ball components through pressing, mixing, and assembly — all automatable with belts, deployers, and mechanical arms."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Production Line",
+      "text": "Setting up your factory:$(br2)1. $(thing)Smelt Apricorns$() in a blast furnace or Create mixer to produce ball discs$(br)2. Use $(thing)Mechanical Presses$() to stamp discs into top and bottom halves$(br)3. $(thing)Deployers$() attach buttons and hinges to assemble the shell$(br)4. A final $(thing)Mixing$() step combines shells with iron and redstone for the capture mechanism$(br)5. Output finished $(thing)Pok\u00e9 Balls$() onto a belt leading to storage$(br2)$(italic)Tip:$() Different Apricorn colors produce different ball types. Set up parallel lines with color-sorted inputs to manufacture Great Balls, Ultra Balls, and specialty variants."
+    }
+  ]
+}

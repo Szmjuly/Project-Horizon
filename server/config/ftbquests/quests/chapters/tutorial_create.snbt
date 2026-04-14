@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_create"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "create:wrench"
 	}
-	id: "C97C157F8B0809E5"
-	images: [ ]
-	order_index: 0
+	id: "02F8D11AFB548453"
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -18,18 +17,15 @@
 			}
 			id: "2E8A3A1BC923F577"
 			rewards: [{
-				id: "9B0D6F4A07C0CA40"
+				id: "39BF69B6FC621ED8"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "AF4F7444AE945441"
+				id: "173752DA357A5E0B"
+				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
-				item: {
-					count: 4
-					id: "create:andesite_alloy"
-				}
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -49,19 +45,13 @@
 			tasks: [
 				{
 					id: "0EFA22A5B1FC7BEB"
+					item: { count: 1, id: "create:shaft" }
 					type: "item"
-					item: {
-						count: 4
-						id: "create:shaft"
-					}
 				}
 				{
-					id: "D8C0E3BFF6423D1D"
+					id: "0090F6BFB7E7910A"
+					item: { count: 1, id: "create:cogwheel" }
 					type: "item"
-					item: {
-						count: 2
-						id: "create:cogwheel"
-					}
 				}
 			]
 			x: 2.5d
@@ -74,7 +64,7 @@
 			}
 			id: "4EC9248D6A7C3D6D"
 			rewards: [{
-				id: "A76EC63EC3B99740"
+				id: "21479B3B9C14E452"
 				type: "xp"
 				xp: 10
 			}]
@@ -91,7 +81,7 @@
 			icon: {
 				id: "create:water_wheel"
 			}
-			id: "86A2905DEF554150"
+			id: "50529A3F574955BB"
 			rewards: [{
 				id: "1F42309845F58956"
 				type: "xp"
@@ -106,13 +96,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["86A2905DEF554150"]
 			icon: {
 				id: "create:belt_connector"
 			}
-			id: "D34D6880DD7B5359"
+			id: "18E28E4A951A19CF"
 			rewards: [{
-				id: "E38D50CE596BFE31"
+				id: "5EDF51DBCC96EBC5"
 				type: "xp"
 				xp: 10
 			}]
@@ -125,11 +114,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["D34D6880DD7B5359"]
 			icon: {
 				id: "create:deployer"
 			}
-			id: "CD7C1023C11DAE76"
+			id: "6486B69EE7A867CE"
 			rewards: [{
 				id: "3FAF51D3E9D6FC67"
 				type: "xp"
@@ -137,34 +125,32 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "A9AEFDA68F07473C"
+				id: "4AB18F5F0985B962"
 				type: "checkmark"
 			}]
 			x: 12.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["CD7C1023C11DAE76"]
 			icon: {
 				id: "create:track"
 			}
-			id: "96643A6DFC16F769"
+			id: "7EF22E81BE33953C"
 			rewards: [{
-				id: "A39AE00A80C5FCF5"
+				id: "0E946AEC2DD007FF"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "D3B639E3A4F05C2B"
+				id: "449838392F981841"
 				type: "checkmark"
 			}]
 			x: 15.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["96643A6DFC16F769"]
 			icon: {
 				id: "create:precision_mechanism"
 			}
@@ -190,33 +176,32 @@
 			}
 			id: "0C9D156E0AD49549"
 			rewards: [{
-				id: "C41EFF971727E890"
+				id: "16E30DCF37D47D6A"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "B239999C467E561B"
+				id: "34BCC7C2C22682C8"
 				type: "checkmark"
 			}]
 			x: 20.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["86A2905DEF554150"]
 			icon: {
 				id: "create:stressometer"
 			}
-			id: "9D6F27CD8E958A82"
+			id: "01C5E0DBD1FC2F81"
 			rewards: [{
-				id: "AC23A9ACBEE0C873"
+				id: "6D2B7127EBF88758"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "E4BF7271653B4BD9"
+				id: "7AD0F84B3BB3D4BB"
 				type: "checkmark"
 			}]
 			x: 7.5d

@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_cobblemon_advanced"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "cobblemon:master_ball"
 	}
-	id: "81394BD104D17EB9"
-	images: [ ]
-	order_index: 12
+	id: "1D69BFF32D079395"
+	order_index: 35
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -18,7 +17,7 @@
 			}
 			id: "42AE57F0B1A16D7D"
 			rewards: [{
-				id: "AF5A36CEA1DE3BB0"
+				id: "2D7CEE0EC2FF1D54"
 				type: "xp"
 				xp: 10
 			}]
@@ -35,26 +34,25 @@
 			icon: {
 				id: "cobblemon:great_ball"
 			}
-			id: "CCDCF32EEF045958"
+			id: "15FED56274DE4D39"
 			rewards: [{
-				id: "D46D9BB3444EA2C0"
+				id: "6493437D526B5615"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "9D8E285E222402C6"
+				id: "682EA6EE0B3C27FE"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["CCDCF32EEF045958"]
 			icon: {
 				id: "minecraft:turtle_egg"
 			}
-			id: "CBEFB1E9756421DB"
+			id: "0AD1DD27B0B66B4D"
 			rewards: [{
 				id: "5BD6499B381CE2DE"
 				type: "xp"
@@ -63,46 +61,44 @@
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "CF227A771DC4113E"
+				id: "2EA0FADEBD4106C5"
 				type: "checkmark"
 			}]
 			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["CBEFB1E9756421DB"]
 			icon: {
 				id: "minecraft:turtle_egg"
 			}
-			id: "978A8D8F2451D1E4"
+			id: "4DD83D4AEDE70608"
 			rewards: [{
-				id: "B9A21AD84BEBE8D6"
+				id: "23D439D2C041C1AA"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "E59E5FFE6EE4A725"
+				id: "4096B78D76A1662A"
 				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["978A8D8F2451D1E4"]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "CEB81581F3828514"
+			id: "63B23A6F2FCDC06A"
 			rewards: [{
-				id: "A3E355AC547DF98E"
+				id: "1EC2F1A283B78E2F"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "DFDF0581969D40B2"
+				id: "48ECEB705A966E39"
 				type: "checkmark"
 			}]
 			x: 10.0d

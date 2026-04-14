@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "act_2_first_steps"
-	group: "F9895319B9A5CE96"
+	group: ""
 	icon: {
 		id: "minecraft:map"
 	}
-	id: "8B35553941E3C90F"
-	images: [ ]
-	order_index: 2
+	id: "1C253AD49C367323"
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,125 +15,110 @@
 			icon: {
 				id: "minecraft:map"
 			}
-			id: "D1F4F7F75D72E35D"
+			id: "3290AAD348848737"
 			rewards: [
 				{
-					id: "87004DCF6A2C6BA4"
-					type: "command"
 					command: "/horizons reward perkpoints 20"
-					player_command: false
+					id: "437CDCFD39E5F24C"
+					type: "command"
 				}
 				{
+					command: "/horizons reward reputation plains 50"
 					id: "0AD3B8C617863A66"
 					type: "command"
-					command: "/horizons reward reputation plains 50"
-					player_command: false
 				}
 			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "FB3757F382D87CB5"
+				id: "3A3D778C97B29B9F"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["D1F4F7F75D72E35D"]
 			icon: {
 				id: "minecraft:golden_helmet"
 			}
-			id: "B14A76193DD97B2C"
+			id: "644D365B0B91E7D9"
 			rewards: [{
+				command: "/horizons reward perkpoints 15"
 				id: "00791AD03EF4ED1D"
 				type: "command"
-				command: "/horizons reward perkpoints 15"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "F6F46EE1B72C2B86"
+				id: "00EA500B71F639F3"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: -1.5d
 		}
 		{
-			dependencies: ["D1F4F7F75D72E35D"]
 			icon: {
 				id: "vinery:red_grape"
 			}
-			id: "F6468E9CE56DFF4D"
+			id: "798768222A629E14"
 			rewards: [{
+				command: "/horizons reward perkpoints 15"
 				id: "41B9D49371494577"
 				type: "command"
-				command: "/horizons reward perkpoints 15"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "D5D18477C9E36143"
+				id: "2E413AC829B6A3D2"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["F6468E9CE56DFF4D"]
 			icon: {
 				id: "vinery:red_wine"
 			}
-			id: "C94C667760F48487"
+			id: "7247E9D77264D746"
 			rewards: [
 				{
+					command: "/horizons reward stage quest_first_brew"
 					id: "43BFAC5436F693AA"
 					type: "command"
-					command: "/horizons reward stage quest_first_brew"
-					player_command: false
 				}
 				{
+					command: "/horizons reward perkpoints 20"
 					id: "155C784415E1567D"
 					type: "command"
-					command: "/horizons reward perkpoints 20"
-					player_command: false
 				}
 			]
 			shape: "square"
 			tasks: [{
 				id: "33BC17DCD956DE8B"
+				item: { count: 1, id: "vinery:red_wine" }
 				type: "item"
-				item: {
-					count: 1
-					id: "vinery:red_wine"
-				}
 			}]
 			x: 5.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["B14A76193DD97B2C"]
 			icon: {
 				id: "minecraft:villager_spawn_egg"
 			}
 			id: "6EEFEE8685D9EB65"
 			rewards: [
 				{
-					id: "ABABACD167CEB975"
-					type: "command"
 					command: "/horizons reward perkpoints 20"
-					player_command: false
+					id: "4F8AEFC1CC68C447"
+					type: "command"
 				}
 				{
+					command: "/horizons reward reputation plains 25"
 					id: "7739718EBA363E7C"
 					type: "command"
-					command: "/horizons reward reputation plains 25"
-					player_command: false
 				}
 			]
 			shape: "square"
 			tasks: [{
-				id: "E5231E081B54FD97"
+				id: "2AE4CA7C0F988ACA"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -147,44 +131,40 @@
 			id: "4FB58879DF3B9AA0"
 			rewards: [
 				{
+					command: "/horizons reward perkpoints 30"
 					id: "0937D306ADB5C779"
 					type: "command"
-					command: "/horizons reward perkpoints 30"
-					player_command: false
 				}
 				{
-					id: "9D3CB5EDE0DDF17B"
-					type: "command"
 					command: "/horizons reward stage gate_floor_10"
-					player_command: false
+					id: "09FDEEB45E96487F"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "FEEAF20B3C042709"
+				id: "440CEFEF909266A6"
+				stat: "minecraft:horizons_gate_floor_reached"
 				type: "stat"
-				stat: "horizons_gate_floor_reached"
 				value: 10
 			}]
 			x: 0.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["D1F4F7F75D72E35D"]
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
 			id: "7430BF8D5AD4733C"
 			rewards: [{
+				command: "/horizons reward perkpoints 15"
 				id: "3316B7E9356884F4"
 				type: "command"
-				command: "/horizons reward perkpoints 15"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "CD881A450264748D"
+				id: "1874F08EC155A2F8"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -195,19 +175,17 @@
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
-			id: "FC0E104B6C84CFA3"
+			id: "05A930579ED730EB"
 			rewards: [
 				{
-					id: "AA956275266DC881"
-					type: "command"
 					command: "/horizons reward stage quest_gym_1_complete"
-					player_command: false
+					id: "1086CE1B420605AA"
+					type: "command"
 				}
 				{
-					id: "8ED60CFAFDD6DECD"
-					type: "command"
 					command: "/horizons reward perkpoints 25"
-					player_command: false
+					id: "578460729CB2720C"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -224,12 +202,11 @@
 			icon: {
 				id: "create:minecart_coupling"
 			}
-			id: "E3FA3D428CD810DE"
+			id: "268B78F5B212794E"
 			rewards: [{
-				id: "9E47978D2F4E8ED6"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "68702A6D56C8D121"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -241,16 +218,17 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["B14A76193DD97B2C"]
 			icon: {
-				id: "minecraft:banner"
+				components: {
+					"ftbquests:missing_item": "minecraft:banner"
+				}
+				id: "ftbquests:missing_item"
 			}
-			id: "9AC3AA82C3C74791"
+			id: "7C80BE345CB91C97"
 			rewards: [{
-				id: "90D1B0661731C134"
-				type: "command"
 				command: "/horizons reward reputation chosen_faction 100"
-				player_command: false
+				id: "281254F114299369"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -265,21 +243,17 @@
 			icon: {
 				id: "minecraft:spyglass"
 			}
-			id: "F71F87AB3883B58C"
+			id: "2D8C1234BD50FD71"
 			rewards: [{
-				id: "E4E4470270C0FA1E"
-				type: "command"
 				command: "/horizons reward perkpoints 10"
-				player_command: false
+				id: "4734BA8CCD5FD7C0"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "222B626D0B370917"
+				item: { count: 1, id: "minecraft:spyglass" }
 				type: "item"
-				item: {
-					count: 1
-					id: "minecraft:spyglass"
-				}
 			}]
 			x: 0.0d
 			y: -3.0d
@@ -288,20 +262,17 @@
 			icon: {
 				id: "lightmanscurrency:coin_gold"
 			}
-			id: "F9A9218B79CBB8B6"
+			id: "531E51DF5655C39C"
 			rewards: [{
-				id: "882BB032E504D04D"
+				id: "5029AD393697423D"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
 				id: "513EAB3223ED770E"
+				item: { count: 1, id: "lightmanscurrency:coin_gold" }
 				type: "item"
-				item: {
-					count: 10
-					id: "lightmanscurrency:coin_gold"
-				}
 			}]
 			x: 2.5d
 			y: -3.0d
@@ -310,26 +281,24 @@
 			icon: {
 				id: "minecraft:golden_apple"
 			}
-			id: "982F89B96243D4EB"
+			id: "304447328C811C58"
 			rewards: [
 				{
-					id: "E650D3EC2F526F31"
-					type: "command"
 					command: "/horizons reward perkpoints 20"
-					player_command: false
+					id: "67D76A351C02C02D"
+					type: "command"
 				}
 				{
-					id: "8AA50A995D22C69F"
-					type: "command"
 					command: "/horizons reward stage nutrition_balanced"
-					player_command: false
+					id: "5CFDF0F07BDEBB58"
+					type: "command"
 				}
 			]
 			shape: "square"
 			tasks: [{
 				id: "5DFA266836B2972A"
+				stat: "minecraft:horizons_balanced_diet"
 				type: "stat"
-				stat: "horizons_balanced_diet"
 				value: 1
 			}]
 			x: 5.0d
@@ -342,44 +311,41 @@
 			}
 			id: "416C64B338E40D6B"
 			rewards: [{
-				id: "A1D9682C63772A80"
-				type: "command"
 				command: "/horizons reward stage act_2_started"
-				player_command: false
+				id: "0B2970728B0260E4"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "C4309B46E511CCD0"
+				id: "1F8E389E203682A3"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["FC0E104B6C84CFA3", "E3FA3D428CD810DE", "9AC3AA82C3C74791", "4FB58879DF3B9AA0"]
+			dependencies: ["4FB58879DF3B9AA0"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
 			id: "1EB6D9EEB7C3835F"
 			rewards: [
 				{
+					command: "/horizons reward stage quest_act2_complete"
 					id: "7F5AC50F3AEDBB42"
 					type: "command"
-					command: "/horizons reward stage quest_act2_complete"
-					player_command: false
 				}
 				{
+					command: "/horizons reward perkpoints 50"
 					id: "0EEA38EC5779A19C"
 					type: "command"
-					command: "/horizons reward perkpoints 50"
-					player_command: false
 				}
 			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "D98ACB98521FC0D5"
+				id: "3A7CA9C43A09E0E7"
 				type: "checkmark"
 			}]
 			x: 10.0d

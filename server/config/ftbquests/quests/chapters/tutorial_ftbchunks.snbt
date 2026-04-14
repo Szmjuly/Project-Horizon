@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_ftbchunks"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "minecraft:filled_map"
 	}
 	id: "1746826A02793AE2"
-	images: [ ]
-	order_index: 8
+	order_index: 28
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -24,7 +23,7 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "B53BF4A31A39FC81"
+				id: "522E20F11FC0E47B"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -35,7 +34,7 @@
 			icon: {
 				id: "minecraft:player_head"
 			}
-			id: "A9D5AABA9B81476E"
+			id: "66E7ACA7D7CAAC88"
 			rewards: [{
 				id: "7844A11BB9A73AC4"
 				type: "xp"
@@ -43,26 +42,25 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "94A06A98ADF6A6CA"
+				id: "38EC8612322D0AAB"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A9D5AABA9B81476E"]
 			icon: {
 				id: "minecraft:writable_book"
 			}
 			id: "1D5DCAE79BE29223"
 			rewards: [{
-				id: "D74789C3841D3BD5"
+				id: "5E42F3CD70A75487"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "CE19F9D3815B272A"
+				id: "6D4E4755712CBBE6"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -93,9 +91,9 @@
 			icon: {
 				id: "minecraft:redstone_block"
 			}
-			id: "E469DA7E6C6153AD"
+			id: "4D052F204756C809"
 			rewards: [{
-				id: "A592099684090AA8"
+				id: "679E92FF31BAEE4C"
 				type: "xp"
 				xp: 10
 			}]
@@ -113,7 +111,7 @@
 			}
 			id: "7D98828EB0637ABD"
 			rewards: [{
-				id: "991DB3172C9437EB"
+				id: "035C39FABE5E72EF"
 				type: "xp"
 				xp: 10
 			}]

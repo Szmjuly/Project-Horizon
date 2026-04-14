@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_survival"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "toughasnails:empty_leather_canteen"
 	}
-	id: "A8BC8C37E9FC9986"
-	images: [ ]
-	order_index: 2
+	id: "78D55B4F6C62B6D1"
+	order_index: 11
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,32 +15,31 @@
 			icon: {
 				id: "toughasnails:empty_leather_canteen"
 			}
-			id: "E0BF5D6D1DCD9D29"
+			id: "70F09BB9447EFD90"
 			rewards: [{
-				id: "C815F11F3405AD9D"
+				id: "726E67679831BFA2"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
 				id: "7D46F20F33D42F20"
+				item: { count: 1, id: "toughasnails:empty_leather_canteen" }
 				type: "item"
-				item: {
-					count: 1
-					id: "toughasnails:empty_leather_canteen"
-				}
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["E0BF5D6D1DCD9D29"]
 			icon: {
-				id: "toughasnails:charcoal_filter"
+				components: {
+					"ftbquests:missing_item": "toughasnails:charcoal_filter"
+				}
+				id: "ftbquests:missing_item"
 			}
-			id: "9C54511603F8BBB2"
+			id: "4236085827588BCD"
 			rewards: [{
-				id: "C492D70E3D87EAC5"
+				id: "611FB673545DA071"
 				type: "xp"
 				xp: 10
 			}]
@@ -54,7 +52,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["9C54511603F8BBB2"]
 			icon: {
 				id: "minecraft:campfire"
 			}
@@ -77,26 +74,25 @@
 			icon: {
 				id: "minecraft:apple"
 			}
-			id: "B71E6B7A4E421895"
+			id: "519511B11FF5A9E1"
 			rewards: [{
-				id: "C36D4FC30FF6C438"
+				id: "1D3EC18DF9992735"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "D7D1146A51096FE2"
+				id: "6CC5BAFE7FF4C484"
 				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["B71E6B7A4E421895"]
 			icon: {
 				id: "minecraft:golden_apple"
 			}
-			id: "ADAB3AB9AD756419"
+			id: "6342E885CA4C1C12"
 			rewards: [{
 				id: "3D61050613BF0051"
 				type: "xp"
@@ -106,8 +102,8 @@
 			size: 1.25d
 			tasks: [{
 				id: "69C0DD3BBA6D2EB2"
+				stat: "minecraft:horizons_balanced_diet"
 				type: "stat"
-				stat: "horizons_balanced_diet"
 				value: 1
 			}]
 			x: 10.0d
@@ -117,7 +113,7 @@
 			icon: {
 				id: "minecraft:iron_hoe"
 			}
-			id: "80BA62F78AC13581"
+			id: "286A3C8B86DCED45"
 			rewards: [{
 				id: "46123901ED627212"
 				type: "xp"
@@ -125,14 +121,13 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "93A6DAAB8C8A10E3"
+				id: "0C9507CBE945A335"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["80BA62F78AC13581"]
 			icon: {
 				id: "minecraft:cauldron"
 			}
@@ -144,7 +139,7 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "CC83B9674E3A52E5"
+				id: "333F315A759D5DD5"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -155,9 +150,9 @@
 			icon: {
 				id: "minecraft:farmland"
 			}
-			id: "95397A002AC960D1"
+			id: "430FBDFCA555E6C8"
 			rewards: [{
-				id: "CDB070A9CD07F16D"
+				id: "7B32FC878D211E74"
 				type: "xp"
 				xp: 10
 			}]

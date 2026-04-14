@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "side_cartographer"
-	group: "8FC869B86246990B"
+	group: ""
 	icon: {
 		id: "minecraft:filled_map"
 	}
 	id: "052D77AC64CAC05F"
-	images: [ ]
-	order_index: 3
+	order_index: 14
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -18,16 +17,15 @@
 			}
 			id: "340C9CE7208AF2F9"
 			rewards: [{
-				id: "F504949201B80D94"
-				type: "command"
 				command: "/horizons reward perkpoints 10"
-				player_command: false
+				id: "75389A76DC644702"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "D72F96F567ED1D3D"
+				id: "00320B9C83F5085F"
+				stat: "minecraft:horizons_locations_discovered"
 				type: "stat"
-				stat: "horizons_locations_discovered"
 				value: 5
 			}]
 			x: 0.0d
@@ -38,40 +36,37 @@
 			icon: {
 				id: "minecraft:map"
 			}
-			id: "F1DFBF5BC4FF1B92"
+			id: "1D024BF2F1944D65"
 			rewards: [{
+				command: "/horizons reward perkpoints 15"
 				id: "36462DD022910EEE"
 				type: "command"
-				command: "/horizons reward perkpoints 15"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "F404750B35526C6C"
+				id: "39F386BD145FA06F"
+				stat: "minecraft:horizons_locations_discovered"
 				type: "stat"
-				stat: "horizons_locations_discovered"
 				value: 10
 			}]
 			x: 2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F1DFBF5BC4FF1B92"]
 			icon: {
 				id: "minecraft:filled_map"
 			}
 			id: "4722F675E7AB50FE"
 			rewards: [{
-				id: "9C0EC1858498469B"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "034FF81053AF1F6F"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "A1343E7C65C77C73"
+				id: "5B0DF1B3DD183141"
+				stat: "minecraft:horizons_locations_discovered"
 				type: "stat"
-				stat: "horizons_locations_discovered"
 				value: 25
 			}]
 			x: 5.0d
@@ -84,51 +79,46 @@
 			}
 			id: "4D094F6FC7C0A6BB"
 			rewards: [{
-				id: "BDC67661D4A4A2F0"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "3DF2215472B613D3"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "98C768578C9D4C12"
+				id: "05033A3AF43A383E"
 				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F1DFBF5BC4FF1B92"]
 			icon: {
 				id: "minecraft:bell"
 			}
-			id: "B89FC8C6AD59B418"
+			id: "5EF5BFE9CEA930DE"
 			rewards: [{
-				id: "9FACE2E7BFD88047"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "5FD08B714064FB50"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "887B783846F35249"
+				id: "76157177C29E810A"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["B89FC8C6AD59B418"]
 			icon: {
 				id: "minecraft:golden_helmet"
 			}
 			id: "30F80431430CDE8C"
 			rewards: [{
-				id: "D12402AB1757E7E5"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "52C707AD17BDA137"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -146,10 +136,9 @@
 			}
 			id: "05C5A58565A70AF9"
 			rewards: [{
-				id: "A2A31220C7A78789"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "2BB83F696772CF21"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -164,12 +153,11 @@
 			icon: {
 				id: "minecraft:end_stone"
 			}
-			id: "CFA2B5021DF32B7F"
+			id: "25616456AE2FF60D"
 			rewards: [{
+				command: "/horizons reward perkpoints 25"
 				id: "56FC5E66F98A0847"
 				type: "command"
-				command: "/horizons reward perkpoints 25"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
@@ -182,14 +170,16 @@
 		{
 			dependencies: ["4D094F6FC7C0A6BB"]
 			icon: {
-				id: "stellaris:moon_dust"
+				components: {
+					"ftbquests:missing_item": "stellaris:moon_dust"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "7B70DEF70D6975F2"
 			rewards: [{
-				id: "D2F2A390651234B5"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "2DB1D33A312E4EAC"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -207,15 +197,14 @@
 			}
 			id: "0AC38A780FFC510F"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "43EF2AFFD4D7C76B"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "AB1658B0C21D3C04"
+				id: "16ABF24CDE426E70"
 				type: "checkmark"
 			}]
 			x: 12.5d
@@ -226,17 +215,16 @@
 			icon: {
 				id: "minecraft:ender_eye"
 			}
-			id: "EBBF3E7AB21AE312"
+			id: "2E2F776BDE55A864"
 			rewards: [{
-				id: "A74EE3C1055D5D43"
-				type: "command"
 				command: "/horizons reward perkpoints 40"
-				player_command: false
+				id: "2DADB740D24ADE6D"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "834622EC595DFFE3"
+				id: "6ACF06024279541C"
 				type: "checkmark"
 			}]
 			x: 15.0d
@@ -246,63 +234,58 @@
 			icon: {
 				id: "minecraft:ender_pearl"
 			}
-			id: "E75B7727F378D981"
+			id: "1D909C9231AC68BD"
 			rewards: [{
-				id: "E46252626272552B"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "4714D8A894B2CAF4"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "AF189C3F91F7D9D8"
+				id: "78588479B5ABC1E1"
+				stat: "minecraft:horizons_secrets_found"
 				type: "stat"
-				stat: "horizons_secrets_found"
 				value: 5
 			}]
 			x: 0.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["CFA2B5021DF32B7F"]
 			icon: {
 				id: "minecraft:end_portal_frame"
 			}
-			id: "DF636A10E019B5A5"
+			id: "01D8332CAD91CCFC"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "6D800A4361284663"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
 				id: "6D0D2961338DA438"
+				stat: "minecraft:horizons_gate_floors_mapped"
 				type: "stat"
-				stat: "horizons_gate_floors_mapped"
 				value: 20
 			}]
 			x: 12.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["EBBF3E7AB21AE312", "DF636A10E019B5A5"]
 			icon: {
 				id: "minecraft:filled_map"
 			}
 			id: "713C64CF6218F6C6"
 			rewards: [{
+				command: "/horizons reward perkpoints 50"
 				id: "2A166A6E0D4E1CBB"
 				type: "command"
-				command: "/horizons reward perkpoints 50"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "7B489ABEAA1E9B9B"
+				stat: "minecraft:horizons_locations_discovered"
 				type: "stat"
-				stat: "horizons_locations_discovered"
 				value: 50
 			}]
 			x: 15.0d
@@ -316,16 +299,14 @@
 			id: "24187263EEDC013C"
 			rewards: [
 				{
+					command: "/horizons reward stage title_cartographer"
 					id: "18BBD12C8522EE8F"
 					type: "command"
-					command: "/horizons reward stage title_cartographer"
-					player_command: false
 				}
 				{
-					id: "B5C3F1FCBE9DEFF1"
-					type: "command"
 					command: "/horizons reward perkpoints 100"
-					player_command: false
+					id: "17D599B3DE0103B7"
+					type: "command"
 				}
 			]
 			shape: "hexagon"

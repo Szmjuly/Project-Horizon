@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_immersive"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "minecraft:blast_furnace"
 	}
 	id: "11FC14C1EF89724C"
-	images: [ ]
-	order_index: 9
+	order_index: 30
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,7 +15,7 @@
 			icon: {
 				id: "minecraft:bricks"
 			}
-			id: "A146FF7862636029"
+			id: "4762E6D8C600AD7A"
 			rewards: [{
 				id: "130B2A252A0F26EE"
 				type: "xp"
@@ -31,13 +30,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A146FF7862636029"]
 			icon: {
 				id: "minecraft:redstone_block"
 			}
 			id: "72842D5F15CB573B"
 			rewards: [{
-				id: "809BC608E1790F18"
+				id: "33FCCB47B4403F92"
 				type: "xp"
 				xp: 10
 			}]
@@ -54,7 +52,7 @@
 			icon: {
 				id: "minecraft:chain"
 			}
-			id: "D75D952BDE87B173"
+			id: "3698725CBFF3D426"
 			rewards: [{
 				id: "537BCF9BDAB7ADA4"
 				type: "xp"
@@ -69,11 +67,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["D75D952BDE87B173"]
 			icon: {
 				id: "minecraft:iron_block"
 			}
-			id: "FFA331E773060B1B"
+			id: "50CC89B0B1B2B0A6"
 			rewards: [{
 				id: "2131BB256A8C300E"
 				type: "xp"
@@ -89,7 +86,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["FFA331E773060B1B"]
 			icon: {
 				id: "minecraft:iron_ingot"
 			}

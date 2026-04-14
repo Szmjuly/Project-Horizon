@@ -1,0 +1,204 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tutorial_create_power"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:missing_item": "createnewage:solar_panel"
+		}
+		id: "ftbquests:missing_item"
+	}
+	id: "5E2D8C4F1A3B76D0"
+	order_index: 39
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:missing_item": "createnewage:solar_panel"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "5E2D8C4F1A3B76D1"
+			rewards: [
+				{
+					command: "/horizons reward perkpoints 15"
+					id: "5E2D8C4F1A3B76E1"
+					type: "command"
+				}
+				{
+					command: "/horizons reward stage quest_power_start"
+					id: "5E2D8C4F1A3B76E2"
+					type: "command"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5E2D8C4F1A3B76F1"
+				item: { components: { "ftbquests:missing_item": "4x createnewage:solar_panel" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E2D8C4F1A3B76D1"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "createnewage:nuclear_reactor"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "5E2D8C4F1A3B76D2"
+			rewards: [{
+				command: "/horizons reward perkpoints 30"
+				id: "5E2D8C4F1A3B76E3"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5E2D8C4F1A3B76F2"
+				item: { components: { "ftbquests:missing_item": "createnewage:nuclear_reactor" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E2D8C4F1A3B76D1"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "createcentralkitchen:cooking_pot"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "5E2D8C4F1A3B76D3"
+			rewards: [{
+				command: "/horizons reward perkpoints 20"
+				id: "5E2D8C4F1A3B76E4"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "5E2D8C4F1A3B76F3"
+					item: { components: { "ftbquests:missing_item": "createcentralkitchen:cooking_pot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5E2D8C4F1A3B76F4"
+					item: { count: 1, id: "create:mechanical_arm" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E2D8C4F1A3B76D1"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "createfluids:mechanical_pipette"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "5E2D8C4F1A3B76D4"
+			rewards: [{
+				command: "/horizons reward perkpoints 15"
+				id: "5E2D8C4F1A3B76E5"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "5E2D8C4F1A3B76F5"
+					item: { components: { "ftbquests:missing_item": "createfluids:mechanical_pipette" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "5E2D8C4F1A3B76F6"
+					item: { components: { "ftbquests:missing_item": "createfluids:centrifugal_pump" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E2D8C4F1A3B76D4"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "create:mechanical_extruder"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "5E2D8C4F1A3B76D5"
+			rewards: [{
+				command: "/horizons reward perkpoints 15"
+				id: "5E2D8C4F1A3B76E6"
+				type: "command"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5E2D8C4F1A3B76F7"
+				item: { components: { "ftbquests:missing_item": "create:mechanical_extruder" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E2D8C4F1A3B76D2"]
+			icon: {
+				id: "createteleporters:teleporter"
+			}
+			id: "5E2D8C4F1A3B76D6"
+			rewards: [{
+				command: "/horizons reward perkpoints 25"
+				id: "5E2D8C4F1A3B76E7"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5E2D8C4F1A3B76F8"
+				item: { count: 1, id: "createteleporters:teleporter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E2D8C4F1A3B76D6"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "cobblemonindustries:poke_ball"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "5E2D8C4F1A3B76D7"
+			rewards: [
+				{
+					command: "/horizons reward perkpoints 40"
+					id: "5E2D8C4F1A3B76E8"
+					type: "command"
+				}
+				{
+					command: "/horizons reward stage quest_power_mastery"
+					id: "5E2D8C4F1A3B76E9"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5E2D8C4F1A3B76F9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+}

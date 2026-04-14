@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ending_pilgrim"
-	group: "9EFB6BDB9BF4E818"
+	group: ""
 	icon: {
 		id: "minecraft:ender_pearl"
 	}
-	id: "CA63A4F0C89A00D1"
-	images: [ ]
-	order_index: 1
+	id: "7E64B9AD00317533"
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -19,10 +18,9 @@
 			}
 			id: "30E0AB8216E2F3A6"
 			rewards: [{
-				id: "E46C031E39A442E1"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "7184546345D39F29"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -38,32 +36,29 @@
 			icon: {
 				id: "minecraft:red_tulip"
 			}
-			id: "A1C132A02CDB1882"
+			id: "4C481611A79D3EA6"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "01860E672BD0BABE"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "FBBA4CE25B61AAD2"
+				id: "5A69A75E082104B7"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A1C132A02CDB1882"]
 			icon: {
 				id: "minecraft:sunflower"
 			}
 			id: "6834FC07094F6545"
 			rewards: [{
-				id: "DDFC522D3329618B"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "68308E8B51D0AF0B"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -78,12 +73,11 @@
 			icon: {
 				id: "minecraft:ender_pearl"
 			}
-			id: "BEA60863DC0DB059"
+			id: "5FB7C4872D5801AF"
 			rewards: [{
-				id: "EB149E7A10C166B2"
-				type: "command"
 				command: "/horizons reward perkpoints 40"
-				player_command: false
+				id: "3095A2858CCF7021"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -95,23 +89,20 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["BEA60863DC0DB059"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
 			id: "24D8C0E0E47941D0"
 			rewards: [
 				{
+					command: "/horizons reward stage title_pilgrim"
 					id: "2D1A91CADE73F603"
 					type: "command"
-					command: "/horizons reward stage title_pilgrim"
-					player_command: false
 				}
 				{
-					id: "ADB2BB47156E039A"
-					type: "command"
 					command: "/horizons reward perkpoints 200"
-					player_command: false
+					id: "7D02DE64E7C6F075"
+					type: "command"
 				}
 			]
 			shape: "hexagon"

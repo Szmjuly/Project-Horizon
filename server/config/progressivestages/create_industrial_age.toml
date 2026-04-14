@@ -1,0 +1,62 @@
+# ============================================================================
+# Stage definition for Create Industrial Age — Heavy Industry & Power
+# ============================================================================
+#
+# Gates advanced Create addon mods that add steel processing, diesel power,
+# electricity grids, nuclear/solar energy, teleportation, and industrial
+# Cobblemon integration. These represent a significant power leap beyond
+# basic Create and vanilla diamond-tier equipment.
+#
+# Progression: iron_age -> diamond_age -> create_industrial_age -> ae2_age
+# ============================================================================
+
+[stage]
+id = "create_industrial_age"
+display_name = "Industrial Age"
+description = "Steel mills, diesel generators, power grids, and industrial automation"
+icon = "tfmg:steel_ingot"
+unlock_message = "&6&lIndustrial Age Unlocked! &r&7Steel processing, power generation, and heavy industry are now available."
+dependency = "diamond_age"
+
+[locks]
+
+# Lock ALL content from these advanced Create addon mods
+mods = [
+    "tfmg",
+    "createdieselgenerators",
+    "powergrid",
+    "create_new_age",
+    "createteleporters",
+    "cobblemon_industries"
+]
+
+# Whitelist: Allow naturally-found items and basic quest-preview items
+unlocked_items = [
+    # TFMG crude oil bucket — can be found near oil wells in the world
+    "tfmg:crude_oil_bucket",
+
+    # TFMG basic steel items — visible for quest previews / loot finds
+    "tfmg:steel_ingot",
+    "tfmg:steel_nugget",
+
+    # Power Grid basic wire — visible for quest preview
+    "powergrid:basic_wire"
+]
+
+[enforcement]
+
+# Allow picking up steel and crude oil found in the world
+allowed_pickup = [
+    "tfmg:crude_oil_bucket",
+    "tfmg:steel_ingot",
+    "tfmg:steel_nugget",
+    "powergrid:basic_wire"
+]
+
+# Allow keeping whitelisted items in inventory for stockpiling
+allowed_inventory = [
+    "tfmg:crude_oil_bucket",
+    "tfmg:steel_ingot",
+    "tfmg:steel_nugget",
+    "powergrid:basic_wire"
+]

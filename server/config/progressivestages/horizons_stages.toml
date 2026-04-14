@@ -984,6 +984,11 @@ name = "Side Chain: Merchant"
 description = "Completed the Merchant side quest chain capstone."
 dependencies = []
 
+[stages.skill_silver_tongue]
+name = "Silver Tongue"
+description = "Unlocks villager trade rerolling via Merchant's Ledger. Granted by completing the Silver Tongue quest in the Merchant Prince chain."
+dependencies = []
+
 [stages.sidechain_scholar_complete]
 name = "Side Chain: Scholar"
 description = "Completed the Scholar side quest chain capstone."

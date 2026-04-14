@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "side_bounty_hunter"
-	group: "8FC869B86246990B"
+	group: ""
 	icon: {
 		id: "minecraft:crossbow"
 	}
 	id: "3D6DF8CE98E1F554"
-	images: [ ]
-	order_index: 8
+	order_index: 27
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -18,14 +17,13 @@
 			}
 			id: "3E2FD69CF7453DCD"
 			rewards: [{
+				command: "/horizons reward perkpoints 10"
 				id: "4EA04206AB678225"
 				type: "command"
-				command: "/horizons reward perkpoints 10"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "8D8771735CE37C1A"
+				id: "4F27A0733F19EF71"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -36,18 +34,17 @@
 			icon: {
 				id: "minecraft:crossbow"
 			}
-			id: "E925961118D100D6"
+			id: "550C162281FFBAFA"
 			rewards: [{
+				command: "/horizons reward perkpoints 15"
 				id: "45706B8709435F9F"
 				type: "command"
-				command: "/horizons reward perkpoints 15"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
 				id: "4511EE013EC7F3E1"
+				stat: "minecraft:horizons_bounties_completed"
 				type: "stat"
-				stat: "horizons_bounties_completed"
 				value: 5
 			}]
 			x: 2.5d
@@ -60,37 +57,34 @@
 			}
 			id: "5E22FFBA74825DFA"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "62B5A2228C1BE5F6"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "C81FD0B874740AE9"
+				id: "254D9FC256468054"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["E925961118D100D6"]
 			icon: {
 				id: "minecraft:crossbow"
 			}
-			id: "8EC04639678A62DB"
+			id: "40C63552E5E1C1BE"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "3122FAFF77F4AB28"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "85224E3E32D4AD46"
+				id: "089A93F64DA736C6"
+				stat: "minecraft:horizons_bounties_completed"
 				type: "stat"
-				stat: "horizons_bounties_completed"
 				value: 10
 			}]
 			x: 5.0d
@@ -103,10 +97,9 @@
 			}
 			id: "47F7F81BC971BC04"
 			rewards: [{
+				command: "/horizons reward perkpoints 25"
 				id: "7681E4EB9D7E5590"
 				type: "command"
-				command: "/horizons reward perkpoints 25"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -124,10 +117,9 @@
 			}
 			id: "1314F54EB8B16D1A"
 			rewards: [{
-				id: "E6C41C667377B04E"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "63FE3B10BC3108BA"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -138,52 +130,47 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["8EC04639678A62DB"]
 			icon: {
 				id: "minecraft:crossbow"
 			}
-			id: "DDB05E2948AF7DAE"
+			id: "6D800596B9BE8647"
 			rewards: [{
+				command: "/horizons reward perkpoints 25"
 				id: "1EF75A1E48B89521"
 				type: "command"
-				command: "/horizons reward perkpoints 25"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
 				id: "2B1889E3237A7E3E"
+				stat: "minecraft:horizons_bounties_completed"
 				type: "stat"
-				stat: "horizons_bounties_completed"
 				value: 20
 			}]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["DDB05E2948AF7DAE"]
 			icon: {
 				id: "minecraft:shield"
 			}
-			id: "85DAC454F6686E7D"
+			id: "0220FC8567C741DD"
 			rewards: [
 				{
-					id: "9C73B2715DEF1980"
-					type: "command"
 					command: "/horizons reward perkpoints 25"
-					player_command: false
+					id: "7E90EB6692E8E47D"
+					type: "command"
 				}
 				{
+					command: "/horizons reward reputation hunters 50"
 					id: "3CE3CDD1FF32E040"
 					type: "command"
-					command: "/horizons reward reputation hunters 50"
-					player_command: false
 				}
 			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "E5ECAED1D0246882"
+				id: "2543F41A0D8F108E"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -194,12 +181,11 @@
 			icon: {
 				id: "minecraft:end_portal_frame"
 			}
-			id: "F9F91E3FB9F669F9"
+			id: "04B6114A5AE8677D"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "71698FB4FE6937DE"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -211,23 +197,21 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["85DAC454F6686E7D"]
 			icon: {
 				id: "minecraft:crossbow"
 			}
 			id: "053F845EA06C35EB"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "2FC52F98E869FEB0"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "D5C9324F2D1C197B"
+				id: "444415AC80BA6F66"
+				stat: "minecraft:horizons_bounties_completed"
 				type: "stat"
-				stat: "horizons_bounties_completed"
 				value: 35
 			}]
 			x: 12.5d
@@ -238,12 +222,11 @@
 			icon: {
 				id: "minecraft:netherite_sword"
 			}
-			id: "C766606C4DDD37CA"
+			id: "01E9FE994A8C761C"
 			rewards: [{
-				id: "A54166AFA1868565"
-				type: "command"
 				command: "/horizons reward perkpoints 40"
-				player_command: false
+				id: "54F0AFFB5E5415D0"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -255,16 +238,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["C766606C4DDD37CA"]
 			icon: {
 				id: "minecraft:netherite_sword"
 			}
-			id: "D7DE51B6C7292123"
+			id: "4ED7B87CF3FF4BAE"
 			rewards: [{
-				id: "CB053FACBD15DE27"
-				type: "command"
 				command: "/horizons reward perkpoints 40"
-				player_command: false
+				id: "420ACED883A77395"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -276,21 +257,19 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["D7DE51B6C7292123"]
 			icon: {
 				id: "minecraft:netherite_sword"
 			}
 			id: "66EDEAA87C461085"
 			rewards: [{
+				command: "/horizons reward perkpoints 40"
 				id: "1520D15ADE75FC76"
 				type: "command"
-				command: "/horizons reward perkpoints 40"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "FBA1CFF18BBDFFC0"
+				id: "3822D1813CCB94CD"
 				type: "checkmark"
 			}]
 			x: 20.0d
@@ -303,33 +282,30 @@
 			}
 			id: "2468F100EDBB2246"
 			rewards: [{
+				command: "/horizons reward perkpoints 40"
 				id: "48E74A3295BDEC84"
 				type: "command"
-				command: "/horizons reward perkpoints 40"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "F8DBCA3AB45880C7"
+				id: "1E4BC63F2CC67344"
+				stat: "minecraft:horizons_bounties_completed"
 				type: "stat"
-				stat: "horizons_bounties_completed"
 				value: 50
 			}]
 			x: 22.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F9F91E3FB9F669F9"]
 			icon: {
 				id: "stellaris:rocket_nose_cone"
 			}
-			id: "FDAD01612E59BD5D"
+			id: "7D6ABB2FC77222E6"
 			rewards: [{
-				id: "A87478E9AC38138B"
-				type: "command"
 				command: "/horizons reward perkpoints 35"
-				player_command: false
+				id: "1FE5548723895D99"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -341,16 +317,14 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["F9F91E3FB9F669F9"]
 			icon: {
 				id: "minecraft:oak_sign"
 			}
-			id: "BFF6C6DB709EACE9"
+			id: "3EFF56A75ACA39BD"
 			rewards: [{
-				id: "F09DC415D1B13793"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "2A7E7C741FC74535"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -362,92 +336,84 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["DDB05E2948AF7DAE"]
 			icon: {
 				id: "minecraft:crossbow"
 			}
 			id: "7ACB68959604FF46"
 			rewards: [{
-				id: "F3008F4B38047C33"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "22957B7649FCF990"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "F4A16796C4DC7896"
+				id: "10AC9C3E51F091A1"
 				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["BFF6C6DB709EACE9"]
 			icon: {
 				id: "minecraft:spectral_arrow"
 			}
-			id: "CDD82B617E50657B"
+			id: "22AFD735A16A7912"
 			rewards: [{
+				command: "/horizons reward perkpoints 35"
 				id: "58F56C1F1276BA6E"
 				type: "command"
-				command: "/horizons reward perkpoints 35"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "98E6C7D1F77E3472"
+				id: "3EEB9FD5F5844AD2"
 				type: "checkmark"
 			}]
 			x: 17.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["D7DE51B6C7292123"]
 			icon: {
 				id: "minecraft:painting"
 			}
 			id: "239EDE24FA205368"
 			rewards: [{
-				id: "AF6B7B69271F2066"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "0145FAD8C4E804F0"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "9CE977C2A39D3FAF"
+				id: "481F099272824604"
+				stat: "minecraft:horizons_wanted_posters"
 				type: "stat"
-				stat: "horizons_wanted_posters"
 				value: 20
 			}]
 			x: 20.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["2468F100EDBB2246", "CDD82B617E50657B"]
+			dependencies: ["2468F100EDBB2246"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
 			id: "3C74F3612B86DE31"
 			rewards: [
 				{
-					id: "9F6A864A723BAE1E"
-					type: "command"
 					command: "/horizons reward stage title_iron_hand"
-					player_command: false
+					id: "60D173F753E4576D"
+					type: "command"
 				}
 				{
-					id: "F46036D34309E7A1"
-					type: "command"
 					command: "/horizons reward perkpoints 100"
-					player_command: false
+					id: "5E2890C780B9C5CE"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "9264F366C19C862F"
+				id: "29242ADA8D7A236B"
 				type: "checkmark"
 			}]
 			x: 25.0d

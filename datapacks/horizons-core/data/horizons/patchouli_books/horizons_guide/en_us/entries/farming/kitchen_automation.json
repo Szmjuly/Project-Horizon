@@ -1,0 +1,23 @@
+{
+  "name": "Kitchen Automation",
+  "icon": "farmersdelight:cooking_pot",
+  "category": "horizons:farming",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "The Central Kitchen",
+      "text": "$(thing)Create: Central Kitchen$() lets you automate cooking with Create machinery. Connect $(thing)Cooking Pots$(), $(thing)Cutting Boards$(), and $(thing)Skillets$() to belts and mechanical arms for hands-free meal production.$(br2)In Aetheria, where the $(thing)Nutrition System$() demands variety across 8 food groups, an automated kitchen is not a luxury — it is a necessity for any serious colony."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Setup Guide",
+      "text": "Building your automated kitchen:$(br2)1. Place $(thing)Cooking Pots$() on $(thing)Blaze Burners$() or $(thing)Stoves$()$(br)2. Use $(thing)Mechanical Arms$() to insert raw ingredients$(br)3. Connect $(thing)Conveyor Belts$() to pull finished dishes out$(br)4. Add $(thing)Smart Chutes$() with filters to sort outputs by food group$(br)5. Route meals to a $(thing)Storage Drawer$() bank sorted by nutrition category$(br2)$(italic)Tip:$() Use $(thing)Brass Funnels$() with filter slots to ensure the right ingredients reach the right pot."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Advanced Recipes",
+      "text": "Central Kitchen supports recipes from all of Aetheria's food mods:$(br2)$(thing)Farmer's Delight$() — Cooking Pot stews, skillet meals, cutting board prep$(br)$(thing)Brewin' and Chewin'$() — Automated brewing and fermentation$(br)$(thing)Croptopia$() — Hundreds of crop-based dishes and baked goods$(br2)Chain multiple stations together: a cutting board prep line feeds into cooking pots, whose output feeds a packaging station. Fully automated farm-to-table in minutes."
+    }
+  ]
+}

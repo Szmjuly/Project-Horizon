@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_ae2"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "ae2:controller"
 	}
-	id: "AE2CHAPTER000001"
-	images: [ ]
-	order_index: 25
+	id: "4DAB0257D6798DE3"
+	order_index: 37
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,209 +15,166 @@
 			icon: {
 				id: "ae2:certus_quartz_crystal"
 			}
-			id: "AE2QUEST00000001"
+			id: "1EB276CB85F0FACF"
 			rewards: [
 				{
-					id: "AE2REWARD0000001"
-					type: "command"
 					command: "/horizons reward perkpoints 10"
-					player_command: false
+					id: "06C9C1733CED202B"
+					type: "command"
 				}
 				{
-					id: "AE2REWARD0000002"
-					type: "command"
 					command: "/horizons reward stage quest_ae2_start"
-					player_command: false
+					id: "35374C98576CF447"
+					type: "command"
 				}
 			]
 			shape: "square"
 			tasks: [{
-				id: "AE2TASK000000001"
+				id: "4E7A5C1AF04A0112"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
 				type: "item"
-				item: {
-					count: 16
-					id: "ae2:certus_quartz_crystal"
-				}
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["AE2QUEST00000001"]
 			icon: {
 				id: "ae2:inscriber"
 			}
-			id: "AE2QUEST00000002"
+			id: "4373BE6B06ADA4F6"
 			rewards: [{
-				id: "AE2REWARD0000003"
-				type: "command"
 				command: "/horizons reward perkpoints 15"
-				player_command: false
+				id: "439A6D4A8FB39828"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "AE2TASK000000002"
+				id: "74F6819E27F05891"
+				item: { count: 1, id: "ae2:inscriber" }
 				type: "item"
-				item: {
-					count: 1
-					id: "ae2:inscriber"
-				}
 			}]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["AE2QUEST00000002"]
 			icon: {
 				id: "ae2:controller"
 			}
-			id: "AE2QUEST00000003"
+			id: "713FB684F93C6ED7"
 			rewards: [
 				{
-					id: "AE2REWARD0000004"
-					type: "command"
 					command: "/horizons reward perkpoints 25"
-					player_command: false
+					id: "192936819FF8DBA4"
+					type: "command"
 				}
 				{
-					id: "AE2REWARD0000005"
-					type: "command"
 					command: "/horizons reward stage quest_ae2_network"
-					player_command: false
+					id: "6FE4404FF1B5B88B"
+					type: "command"
 				}
 			]
 			shape: "square"
 			tasks: [{
-				id: "AE2TASK000000003"
+				id: "03AF8F5C1D1F4884"
+				item: { count: 1, id: "ae2:controller" }
 				type: "item"
-				item: {
-					count: 1
-					id: "ae2:controller"
-				}
 			}]
 			x: 0.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["AE2QUEST00000003"]
 			icon: {
 				id: "ae2:drive"
 			}
-			id: "AE2QUEST00000004"
+			id: "57C0F94D935643CC"
 			rewards: [{
-				id: "AE2REWARD0000006"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "5C4A893900671AF4"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [
 				{
-					id: "AE2TASK000000004"
+					id: "186B6C65CDB0EF09"
+					item: { count: 1, id: "ae2:drive" }
 					type: "item"
-					item: {
-						count: 4
-						id: "ae2:drive"
-					}
 				}
 				{
-					id: "AE2TASK000000005"
+					id: "29D6C2C933E82B07"
+					item: { count: 1, id: "ae2:item_storage_cell_4k" }
 					type: "item"
-					item: {
-						count: 4
-						id: "ae2:item_storage_cell_4k"
-					}
 				}
 			]
 			x: 0.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["AE2QUEST00000004"]
 			icon: {
 				id: "ae2:molecular_assembler"
 			}
-			id: "AE2QUEST00000005"
+			id: "7B0B65EE87516E4F"
 			rewards: [{
-				id: "AE2REWARD0000007"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "44BC9CA5D31D9043"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [
 				{
-					id: "AE2TASK000000006"
+					id: "7A4184BE4952F73B"
+					item: { count: 1, id: "ae2:crafting_terminal" }
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:crafting_terminal"
-					}
 				}
 				{
-					id: "AE2TASK000000007"
+					id: "1CBB8474194C538A"
+					item: { count: 1, id: "ae2:molecular_assembler" }
 					type: "item"
-					item: {
-						count: 1
-						id: "ae2:molecular_assembler"
-					}
 				}
 			]
 			x: 0.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["AE2QUEST00000005"]
 			icon: {
 				id: "ae2:me_p2p_tunnel"
 			}
-			id: "AE2QUEST00000006"
+			id: "023E10A5F47AB91D"
 			rewards: [{
-				id: "AE2REWARD0000008"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "5A651BB4A28E40AC"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "AE2TASK000000008"
+				id: "18FAFC8506E67CDA"
+				item: { count: 1, id: "ae2:me_p2p_tunnel" }
 				type: "item"
-				item: {
-					count: 2
-					id: "ae2:me_p2p_tunnel"
-				}
 			}]
 			x: 0.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["AE2QUEST00000006"]
 			icon: {
 				id: "ae2:spatial_io_port"
 			}
-			id: "AE2QUEST00000007"
+			id: "132066A913912B53"
 			rewards: [
 				{
-					id: "AE2REWARD0000009"
-					type: "command"
 					command: "/horizons reward perkpoints 50"
-					player_command: false
+					id: "750F20E05BA3C307"
+					type: "command"
 				}
 				{
-					id: "AE2REWARD000000A"
-					type: "command"
 					command: "/horizons reward stage quest_ae2_mastery"
-					player_command: false
+					id: "36B5238C19F1DE9B"
+					type: "command"
 				}
 			]
 			shape: "square"
 			tasks: [{
-				id: "AE2TASK000000009"
+				id: "2DA81CDD25E4EDCB"
+				item: { count: 1, id: "ae2:spatial_io_port" }
 				type: "item"
-				item: {
-					count: 1
-					id: "ae2:spatial_io_port"
-				}
 			}]
 			x: 0.0d
 			y: 12.0d

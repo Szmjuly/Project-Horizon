@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_stellaris"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "stellaris:rocket_nose_cone"
 	}
-	id: "E80C363018C4814F"
-	images: [ ]
-	order_index: 10
+	id: "4D1EE225E7702DF6"
+	order_index: 32
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,9 +15,9 @@
 			icon: {
 				id: "stellaris:rocket_nose_cone"
 			}
-			id: "9A05629C5A571CD9"
+			id: "6B98F3D239138612"
 			rewards: [{
-				id: "8E51E7A1776C6555"
+				id: "60CB97E544DA740B"
 				type: "xp"
 				xp: 10
 			}]
@@ -31,19 +30,18 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["9A05629C5A571CD9"]
 			icon: {
 				id: "minecraft:smooth_stone"
 			}
 			id: "614528BA9803C068"
 			rewards: [{
-				id: "CC68A36D67946362"
+				id: "3B737CB8856F897F"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "8AA16011B31FB0E8"
+				id: "0FA4189B6D2FCAC5"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -54,7 +52,7 @@
 			icon: {
 				id: "stellaris:space_suit_helmet"
 			}
-			id: "9B85EB86B46DF49D"
+			id: "0691A0333D285559"
 			rewards: [{
 				id: "0BF71ED6501084A9"
 				type: "xp"
@@ -69,13 +67,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["9B85EB86B46DF49D"]
 			icon: {
-				id: "stellaris:moon_dust"
+				components: {
+					"ftbquests:missing_item": "stellaris:moon_dust"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "46FEEEE6DA4F2ADC"
 			rewards: [{
-				id: "DB30250D509533B8"
+				id: "0C6CAE25B067E7EC"
 				type: "xp"
 				xp: 10
 			}]
@@ -121,7 +121,7 @@
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "B81086A637FEAF53"
+				id: "4479986F4CF07459"
 				type: "checkmark"
 			}]
 			x: 12.5d

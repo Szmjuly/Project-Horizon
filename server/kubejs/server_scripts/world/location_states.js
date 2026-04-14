@@ -162,20 +162,20 @@ ServerEvents.tick(event => {
 
   // Auto-transition: Ruined locations during active crises
   if (server.persistentData) {
-    const crisisId = server.persistentData.getString('horizons_crisis_active_id') || '';
+    var crisisId = server.persistentData.getString('horizons_crisis_active_id') || '';
     if (crisisId && crisisId.length > 0) {
       // During a crisis, there's a small chance an active location becomes ruined
       if (server.tickCount % 12000 === 0) { // Once per 10 minutes
-        const activeLocations = LOCATION_IDS.filter(id => getLocationState(server, id) === 'active');
+        var activeLocations = LOCATION_IDS.filter(function(id) { return getLocationState(server, id) === 'active'; });
         if (activeLocations.length > 0 && Math.random() < 0.15) {
-          const target = activeLocations[Math.floor(Math.random() * activeLocations.length)];
+          var target = activeLocations[Math.floor(Math.random() * activeLocations.length)];
           // Don't ruin Anchor Town
           if (target !== 'anchor_town') {
             transitionLocation(server, target, 'ruined', false);
-            const locName = LOCATION_NAMES[target] || target;
-            const players2 = server.players;
-            for (let q = 0; q < players2.size(); q++) {
-              const pl = players2.get(q);
+            var locName = LOCATION_NAMES[target] || target;
+            var players2 = server.players;
+            for (var q = 0; q < players2.size(); q++) {
+              var pl = players2.get(q);
               if (pl) {
                 pl.tell('\u00a74[Horizons] The crisis has damaged ' + locName + '!');
               }

@@ -18,8 +18,8 @@ description = "Applied Energistics 2 — digital storage, autocrafting, and ME n
 icon = "ae2:controller"
 unlock_message = "&b&lAE2 Age Unlocked! &r&7ME networks and digital storage are now available."
 
-# Requires Act 3 started + Refined Storage 2 access
-dependency = ["diamond_age"]
+# Requires Industrial Age (steel/power progression) before digital storage
+dependency = ["create_industrial_age"]
 
 [locks]
 

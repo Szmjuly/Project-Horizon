@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "side_outlaw"
-	group: "8FC869B86246990B"
+	group: ""
 	icon: {
 		id: "minecraft:tnt"
 	}
-	id: "F3442EB1109E9671"
-	images: [ ]
-	order_index: 9
+	id: "0E9DE1E3D141A7AA"
+	order_index: 29
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,73 +15,66 @@
 			icon: {
 				id: "minecraft:tnt"
 			}
-			id: "FCCAC53D90C205E6"
+			id: "4CA7DEA9240BE0FC"
 			rewards: [{
-				id: "88FD75B892840842"
-				type: "command"
 				command: "/horizons reward perkpoints 10"
-				player_command: false
+				id: "3C9433151EF4C980"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "AA53FF8E4DA971B8"
+				id: "511B77B441BD0BC8"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["FCCAC53D90C205E6"]
 			icon: {
 				id: "minecraft:gold_nugget"
 			}
-			id: "CA832991897457F0"
+			id: "3E4FCBE51245653F"
 			rewards: [{
-				id: "A675A7469DF0D713"
-				type: "command"
 				command: "/horizons reward perkpoints 15"
-				player_command: false
+				id: "68484AA02A323EA8"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "8EDECDE7FACC2A86"
+				id: "6BCED59EA59FF963"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["CA832991897457F0"]
 			icon: {
 				id: "minecraft:mossy_cobblestone"
 			}
 			id: "2303BC97FDD038D3"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "242B9D96E11622CB"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "EF9524942446534E"
+				id: "3457DDA53129518B"
 				type: "checkmark"
 			}]
 			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["FCCAC53D90C205E6"]
 			icon: {
 				id: "minecraft:leather_boots"
 			}
 			id: "3C01D2510C535658"
 			rewards: [{
-				id: "8D6FADD3ACA830AF"
-				type: "command"
 				command: "/horizons reward perkpoints 15"
-				player_command: false
+				id: "0DDBFD252032A05F"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -97,40 +89,37 @@
 			icon: {
 				id: "minecraft:iron_sword"
 			}
-			id: "8DEE54653B860EC1"
+			id: "1C0B86CF2914E40E"
 			rewards: [{
+				command: "/horizons reward perkpoints 25"
 				id: "7171D322DDC526D6"
 				type: "command"
-				command: "/horizons reward perkpoints 25"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
 				id: "03AE22285FB3EE31"
+				stat: "minecraft:horizons_gang_members"
 				type: "stat"
-				stat: "horizons_gang_members"
 				value: 3
 			}]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["8DEE54653B860EC1"]
 			icon: {
 				id: "minecraft:chest_minecart"
 			}
 			id: "589D64DE95EB47C9"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "050DFEE522FCA9D1"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "B9D48D3DFB35940E"
+				id: "2DD88FD2698F3E08"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -143,10 +132,9 @@
 			}
 			id: "5B4441B4E32050D1"
 			rewards: [{
+				command: "/horizons reward perkpoints 15"
 				id: "207C6F4372D21E60"
 				type: "command"
-				command: "/horizons reward perkpoints 15"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
@@ -163,16 +151,15 @@
 			}
 			id: "5907ADF68439A2E6"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "6C8C8275125AD2FD"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
 				id: "04FE3305395326F9"
+				stat: "minecraft:horizons_notoriety"
 				type: "stat"
-				stat: "horizons_notoriety"
 				value: 25
 			}]
 			x: 12.5d
@@ -183,12 +170,11 @@
 			icon: {
 				id: "lightmanscurrency:coin_gold"
 			}
-			id: "A71A37716E9796AA"
+			id: "073BB02F4F14241C"
 			rewards: [{
-				id: "CE4C1228D7E6500E"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "5F198114CB094361"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -203,12 +189,11 @@
 			icon: {
 				id: "minecraft:gold_block"
 			}
-			id: "BB050852BAC7300D"
+			id: "00CB5E50C6FFA30D"
 			rewards: [{
-				id: "881A42F1356944A5"
-				type: "command"
 				command: "/horizons reward perkpoints 35"
-				player_command: false
+				id: "04E2A99B506BF604"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -224,39 +209,36 @@
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
-			id: "AC55BA48ADE58390"
+			id: "6A5FFCBCDD708AD7"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "4FE774BF0279CE4E"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "D6E2CD7FB46BD213"
+				id: "7F43E7A4B05C047B"
 				type: "checkmark"
 			}]
 			x: 10.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["BB050852BAC7300D"]
 			icon: {
 				id: "minecraft:wither_skeleton_skull"
 			}
 			id: "646298E6A9DB1C93"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "29E31728FEFD3E0C"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
 				id: "24AAB12299E061C3"
+				stat: "minecraft:horizons_notoriety"
 				type: "stat"
-				stat: "horizons_notoriety"
 				value: 50
 			}]
 			x: 17.5d
@@ -269,10 +251,9 @@
 			}
 			id: "44FB0DC420D08C9C"
 			rewards: [{
-				id: "AED3304FA4B38B96"
-				type: "command"
 				command: "/horizons reward perkpoints 35"
-				player_command: false
+				id: "2F53EEFE9F1B11B5"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -284,16 +265,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A71A37716E9796AA"]
 			icon: {
 				id: "minecraft:carved_pumpkin"
 			}
 			id: "2503C7EF11B19378"
 			rewards: [{
-				id: "883D5F8B4CB5ACEF"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "55B08155A242AA1C"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -308,12 +287,11 @@
 			icon: {
 				id: "minecraft:iron_bars"
 			}
-			id: "BBBBE7BF59F9747A"
+			id: "4C527015BC5EDB17"
 			rewards: [{
-				id: "98D7483EAADD97CD"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "69202056A5BDC779"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -325,16 +303,14 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["BBBBE7BF59F9747A"]
 			icon: {
 				id: "stellaris:rocket_nose_cone"
 			}
 			id: "2EB49C4A917019E7"
 			rewards: [{
-				id: "BAB863558DF71FE1"
-				type: "command"
 				command: "/horizons reward perkpoints 35"
-				player_command: false
+				id: "7FD57EFAB2A513E4"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -350,12 +326,11 @@
 			icon: {
 				id: "minecraft:gold_block"
 			}
-			id: "81936F3B392EF972"
+			id: "74AC298798CA099D"
 			rewards: [{
+				command: "/horizons reward perkpoints 40"
 				id: "612D35B34BD89A2C"
 				type: "command"
-				command: "/horizons reward perkpoints 40"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -367,23 +342,21 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["81936F3B392EF972"]
 			icon: {
 				id: "minecraft:wither_skeleton_skull"
 			}
-			id: "9A934650120DEF7A"
+			id: "6ACFB07B0648D829"
 			rewards: [{
-				id: "8B62EEBE40C19F28"
-				type: "command"
 				command: "/horizons reward perkpoints 50"
-				player_command: false
+				id: "7B500651C9784219"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				id: "2EFBB363139F3A4D"
+				stat: "minecraft:horizons_notoriety"
 				type: "stat"
-				stat: "horizons_notoriety"
 				value: 100
 			}]
 			x: 25.0d
@@ -396,37 +369,34 @@
 			}
 			id: "3C91CD7D1876390C"
 			rewards: [{
+				command: "/horizons reward perkpoints 25"
 				id: "6C5886D1C9350FCD"
 				type: "command"
-				command: "/horizons reward perkpoints 25"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "80454845DD692436"
+				id: "66506D0AAA649E4A"
 				type: "checkmark"
 			}]
 			x: 20.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["9A934650120DEF7A", "2EB49C4A917019E7"]
+			dependencies: ["2EB49C4A917019E7"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
-			id: "F1C78E85E6C9A231"
+			id: "584DE7E487931CB0"
 			rewards: [
 				{
-					id: "DB1C5EA3C539A094"
-					type: "command"
 					command: "/horizons reward stage title_outlaw_legend"
-					player_command: false
+					id: "2206A9157112E41E"
+					type: "command"
 				}
 				{
+					command: "/horizons reward perkpoints 100"
 					id: "0AF31CEBD1806088"
 					type: "command"
-					command: "/horizons reward perkpoints 100"
-					player_command: false
 				}
 			]
 			shape: "hexagon"

@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "act_5_convergence"
-	group: "F9895319B9A5CE96"
+	group: ""
 	icon: {
 		id: "minecraft:nether_star"
 	}
-	id: "B2B7E0A6B80AC2D0"
-	images: [ ]
-	order_index: 5
+	id: "02AE2D3179BB5C8F"
+	order_index: 20
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -18,17 +17,16 @@
 			}
 			id: "66B31811BB218830"
 			rewards: [{
+				command: "/horizons reward perkpoints 100"
 				id: "1BEAE115B6963AE3"
 				type: "command"
-				command: "/horizons reward perkpoints 100"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "B9E91BF21079E633"
+				id: "4A650FC821423BA2"
+				stat: "minecraft:horizons_gate_floor_reached"
 				type: "stat"
-				stat: "horizons_gate_floor_reached"
 				value: 75
 			}]
 			x: 0.0d
@@ -41,10 +39,9 @@
 			}
 			id: "0CB6A92AD552B227"
 			rewards: [{
-				id: "FE0037D7A8F25C71"
-				type: "command"
 				command: "/horizons reward perkpoints 75"
-				player_command: false
+				id: "07AC6DA614699D9A"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -60,33 +57,30 @@
 			icon: {
 				id: "minecraft:lightning_rod"
 			}
-			id: "931515BE0ADB3D9E"
+			id: "4EB09B8FDDAEE498"
 			rewards: [{
+				command: "/horizons reward perkpoints 50"
 				id: "54D17B63DC5D4D09"
 				type: "command"
-				command: "/horizons reward perkpoints 50"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "9BD711C205BCBFF7"
+				id: "2463FECE1251C014"
 				type: "checkmark"
 			}]
 			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["931515BE0ADB3D9E"]
 			icon: {
 				id: "minecraft:ender_eye"
 			}
-			id: "EC73B877613FEE42"
+			id: "05EBAC7A04FB72AA"
 			rewards: [{
+				command: "/horizons reward perkpoints 75"
 				id: "5B61A23FD9236893"
 				type: "command"
-				command: "/horizons reward perkpoints 75"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -98,21 +92,19 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["EC73B877613FEE42"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
 			id: "63EF9BDC9E3C004B"
 			rewards: [{
+				command: "/horizons reward stage act_5_committed"
 				id: "0A141E0990038C75"
 				type: "command"
-				command: "/horizons reward stage act_5_committed"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "F2CD15EFC2613676"
+				id: "2D3FB9C568CB706F"
 				type: "checkmark"
 			}]
 			x: 10.0d

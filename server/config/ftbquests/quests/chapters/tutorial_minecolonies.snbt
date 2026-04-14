@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_minecolonies"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "minecraft:villager_spawn_egg"
 	}
-	id: "F90E6B14EA7BC5CE"
-	images: [ ]
-	order_index: 4
+	id: "0E41E5750E7E37F1"
+	order_index: 19
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,7 +15,7 @@
 			icon: {
 				id: "minecraft:lectern"
 			}
-			id: "E9D136CE9624540B"
+			id: "0BB799D0C5DA42DF"
 			rewards: [{
 				id: "79C0F899F699E8E8"
 				type: "xp"
@@ -31,13 +30,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["E9D136CE9624540B"]
 			icon: {
 				id: "minecraft:stone_pickaxe"
 			}
-			id: "A004A9FE328AA9F5"
+			id: "0BBD4DA65F754F9D"
 			rewards: [{
-				id: "FC054059FED206D7"
+				id: "2AC3780AC6AA634A"
 				type: "xp"
 				xp: 10
 			}]
@@ -50,13 +48,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["A004A9FE328AA9F5"]
 			icon: {
 				id: "minecraft:anvil"
 			}
 			id: "723C993285EE5785"
 			rewards: [{
-				id: "845DD6F92418FC09"
+				id: "212F5D6F33568F9E"
 				type: "xp"
 				xp: 10
 			}]
@@ -101,7 +98,7 @@
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "D97FC22964E51A95"
+				id: "1DC1AA72E82AD1DB"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -112,15 +109,15 @@
 			icon: {
 				id: "minecraft:filled_map"
 			}
-			id: "EC006407AC7BB439"
+			id: "53E000EE92E03A53"
 			rewards: [{
-				id: "D3AB2A3B3EBCC8F8"
+				id: "1C34ABD6BA2742A9"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "FB00726977E7F217"
+				id: "51F50299CF3894C1"
 				type: "checkmark"
 			}]
 			x: 12.5d
@@ -139,27 +136,26 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "D494103B88C2E657"
+				id: "0359989AA132DFFB"
 				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["EC006407AC7BB439"]
 			icon: {
 				id: "minecraft:golden_helmet"
 			}
 			id: "309859C7F2D5F695"
 			rewards: [{
-				id: "D8B701EDDC2547FB"
+				id: "628404B5589F6307"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "84EAD03E82549E21"
+				id: "49EFAE3288275BF1"
 				type: "checkmark"
 			}]
 			x: 15.0d

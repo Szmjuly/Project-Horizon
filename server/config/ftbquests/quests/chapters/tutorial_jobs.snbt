@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_jobs"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "minecraft:anvil"
 	}
-	id: "FCBB1CFCB1511263"
-	images: [ ]
-	order_index: 13
+	id: "5D3C84B39807BBA5"
+	order_index: 36
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,26 +15,25 @@
 			icon: {
 				id: "minecraft:anvil"
 			}
-			id: "A56A6C77E810A70A"
+			id: "70AD6801B12A1F8A"
 			rewards: [{
-				id: "E396A7D76C7211DD"
+				id: "318489B0A3CC2637"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "8415907D9353B197"
+				id: "7FDF266328B1226E"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A56A6C77E810A70A"]
 			icon: {
 				id: "minecraft:experience_bottle"
 			}
-			id: "DFA6B602EBDD6121"
+			id: "343793C7F241CA8C"
 			rewards: [{
 				id: "0C1E609F4BAB4BD2"
 				type: "xp"
@@ -50,7 +48,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["DFA6B602EBDD6121"]
 			icon: {
 				id: "minecraft:experience_bottle"
 			}
@@ -74,7 +71,7 @@
 			icon: {
 				id: "minecraft:nether_star"
 			}
-			id: "D89595CC2B4A7708"
+			id: "6EC3E23C1FC2CD23"
 			rewards: [{
 				id: "214A44321FDB411C"
 				type: "xp"

@@ -1,0 +1,23 @@
+{
+  "name": "Energy Systems",
+  "icon": "create_new_age:solar_heating_plate",
+  "category": "horizons:technology",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Renewable Energy",
+      "text": "$(thing)Create: New Age$() introduces renewable and advanced energy sources to Aetheria. Harness the sun with $(thing)Solar Panels$(), build $(thing)Nuclear Reactors$() for massive output, and manage heat systems that reward careful engineering.$(br2)New Age energy sources integrate directly with Create's rotational force system, giving you clean alternatives to diesel-powered setups."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Solar Setup",
+      "text": "Building your first solar array:$(br2)1. Craft $(thing)Solar Heating Plates$() from copper and glass$(br)2. Place them in direct sunlight with no blocks above$(br)3. Connect plates to a $(thing)Stirling Engine$() to convert heat into rotational force$(br)4. Scale up by tiling plates in flat arrays on rooftops$(br2)$(italic)Tip:$() Solar output varies with time of day. Pair arrays with $(thing)Flywheels$() or batteries to store energy for nighttime operation."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Cross-Mod Power",
+      "text": "Aetheria's energy mods work together:$(br2)$(thing)Create: New Age$() — Solar and nuclear generation, heat-based systems$(br)$(thing)Create: Crafts & Additions$() — Electric motors that convert grid power to rotational force, and alternators for the reverse$(br)$(thing)Create: Power Grid$() — Wire-based electricity distribution with voltage tiers$(br2)A typical setup: $(thing)Solar Panels$() feed a $(thing)Power Grid$() line, which powers $(thing)Electric Motors$() across your base via $(thing)Crafts & Additions$(). Use transformers to manage voltage over long distances."
+    }
+  ]
+}

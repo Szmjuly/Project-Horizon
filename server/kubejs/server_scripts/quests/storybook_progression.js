@@ -220,19 +220,27 @@ PlayerEvents.loggedIn(function(event) {
 // ============================================================
 
 ServerEvents.recipes(function(event) {
-  event.shaped(
-    Item.of(STORYBOOK_CONFIG.bookId, STORYBOOK_CONFIG.bookNbt),
-    [
-      ' F ',
-      ' B ',
-      ' I '
-    ],
-    {
-      F: 'minecraft:feather',
-      B: 'minecraft:book',
-      I: 'minecraft:ink_sac'
-    }
-  ).id('horizons:storybook_craft');
+  // Patchouli book crafting - use component syntax for 1.21+
+  try {
+    event.shaped(
+      Item.of('patchouli:guide_book', '{"patchouli:book":"horizons:horizons_storybook"}'),
+      [
+        ' F ',
+        ' B ',
+        ' I '
+      ],
+      {
+        F: 'minecraft:feather',
+        B: 'minecraft:book',
+        I: 'minecraft:ink_sac'
+      }
+    ).id('horizons:storybook_craft');
+  } catch(e) {
+    // Fallback: plain book recipe if component format fails
+    console.log('[Horizons] Storybook recipe registration skipped (Patchouli component format): ' + e);
+    event.shapeless('patchouli:guide_book', ['minecraft:feather', 'minecraft:book', 'minecraft:ink_sac'])
+      .id('horizons:storybook_craft');
+  }
 });
 
 // ============================================================

@@ -186,18 +186,22 @@ BlockEvents.rightClicked(event => {
 // ============================================================
 // ASSAULT DETECTION — Attacking villagers or guards
 // ============================================================
+// NOTE: EntityEvents.hurt is not available in KubeJS 2101.7.2 for NeoForge 1.21.1.
+// Instead, we detect assault via EntityEvents.death for lethal attacks and
+// a tick-based proximity check for recently-damaged villagers/guards.
+// The death handler covers the most severe case (murder).
 
-EntityEvents.hurt(event => {
-  const source = event.source;
+EntityEvents.death(event => {
+  var source = event.source;
   if (!source || !source.actual) return;
 
-  const attacker = source.actual;
+  var attacker = source.actual;
   if (!attacker.player || attacker.isCreative()) return;
 
-  const target = event.entity;
-  const targetType = target.type.toString();
+  var target = event.entity;
+  var targetType = String(target.type);
 
-  // Check if target is a villager
+  // Check if target is a villager — murder is worse than assault
   if (targetType.includes('villager') || targetType.includes('wandering_trader')) {
     if (rollDetection(attacker)) {
       processCrime(attacker, CRIME_TYPES.ASSAULT_VILLAGER, attacker.server);

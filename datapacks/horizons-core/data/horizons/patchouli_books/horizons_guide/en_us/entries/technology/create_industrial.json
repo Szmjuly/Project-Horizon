@@ -1,0 +1,23 @@
+{
+  "name": "Industrial Revolution",
+  "icon": "tfmg:steel_ingot",
+  "category": "horizons:technology",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Steel & Oil",
+      "text": "$(thing)Create: TFMG$() and $(thing)Create: Diesel Generators$() bring the industrial age to Aetheria. Smelt $(thing)Steel$() in blast furnaces, refine $(thing)Crude Oil$() into diesel fuel, and build heavy machinery that dwarfs anything redstone can offer.$(br2)These mods bridge the gap between early Create contraptions and the high-tech power grid, giving you a full steel processing chain and industrial-grade automation."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Getting Started",
+      "text": "Your path to industrialization:$(br2)1. Build a $(thing)Blast Furnace$() from bricks and steel casing$(br)2. Smelt $(thing)Iron Ingots$() into $(thing)Steel Ingots$() using coke or charcoal$(br)3. Use steel to craft $(thing)Steel Casing$() and $(thing)Steel Mechanisms$()$(br)4. Set up an $(thing)Oil Refinery$() to process crude oil into diesel$(br)5. Fuel $(thing)Diesel Generators$() to produce rotational force$(br2)$(italic)Tip:$() Pipe diesel directly from refineries to generators using Create fluid pipes for a fully automated fuel loop."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "The Power Grid",
+      "text": "$(thing)Create: Power Grid$() adds physics-based electricity to Aetheria. Generators produce $(thing)voltage$() that travels through $(thing)wires$() to machines and devices.$(br2)Key concepts:$(br)$(thing)Voltage Tiers$() — Match your wire gauge to the power output$(br)$(thing)Transformers$() — Step voltage up or down between tiers$(br)$(thing)Fuses$() — Protect circuits from overload$(br2)Connect diesel generators to the grid to power electric machines, or feed the grid into Create rotational force using motor blocks."
+    }
+  ]
+}

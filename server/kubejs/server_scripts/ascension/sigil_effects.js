@@ -446,13 +446,23 @@ ServerEvents.tick(event => {
 // ============================================================
 // DAMAGE TRACKING — For Avatar of War combat detection
 // ============================================================
+// NOTE: PlayerEvents.entityHurt is not available in KubeJS 2101.7.2 for NeoForge 1.21.1.
+// Instead, we check player.hurtTime in a tick handler. hurtTime > 0 means the player
+// was recently damaged (vanilla sets it to 10 on hit, counts down each tick).
 
-PlayerEvents.entityHurt(event => {
-  var player = event.player;
-  if (!player) return;
-
-  // Track last time player was hurt for combat detection
-  player.persistentData.putLong('horizons_last_hurt_tick', player.server.tickCount);
+ServerEvents.tick(event => {
+  if (event.server.tickCount % 5 !== 0) return; // Check every 5 ticks for performance
+  var players = event.server.players;
+  for (var i = 0; i < players.size(); i++) {
+    try {
+      var player = players.get(i);
+      if (player.hurtTime > 0) {
+        player.persistentData.putLong('horizons_last_hurt_tick', event.server.tickCount);
+      }
+    } catch(e) {
+      // Skip players that error (e.g. disconnecting)
+    }
+  }
 });
 
 // ============================================================

@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "side_master_crafter"
-	group: "8FC869B86246990B"
+	group: ""
 	icon: {
 		id: "create:wrench"
 	}
-	id: "C7D36D12F7B1B458"
-	images: [ ]
-	order_index: 2
+	id: "2084F2E8199A0FE8"
+	order_index: 10
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -18,10 +17,9 @@
 			}
 			id: "60EE53284560FD12"
 			rewards: [{
-				id: "832DB1B228907C09"
-				type: "command"
 				command: "/horizons reward perkpoints 10"
-				player_command: false
+				id: "51D296E1AF86DD7C"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -36,32 +34,29 @@
 			icon: {
 				id: "create:water_wheel"
 			}
-			id: "9129805A00DFBC88"
+			id: "12CF7E0047522C30"
 			rewards: [{
+				command: "/horizons reward perkpoints 15"
 				id: "0DD243FC409B639C"
 				type: "command"
-				command: "/horizons reward perkpoints 15"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "CD828A03E7717898"
+				id: "4AFD61FFAE221560"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9129805A00DFBC88"]
 			icon: {
 				id: "create:mechanical_press"
 			}
 			id: "2E149C2EABB5F586"
 			rewards: [{
-				id: "A3D493FB007D29D3"
-				type: "command"
 				command: "/horizons reward perkpoints 15"
-				player_command: false
+				id: "7AB70746D86F8288"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -76,12 +71,11 @@
 			icon: {
 				id: "create:mechanical_mixer"
 			}
-			id: "9DB6B56493856BCE"
+			id: "47C6910C0950FA6B"
 			rewards: [{
-				id: "8310EF614AE43EE1"
-				type: "command"
 				command: "/horizons reward perkpoints 15"
-				player_command: false
+				id: "549D63DCA2997CBF"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -92,16 +86,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["9DB6B56493856BCE"]
 			icon: {
 				id: "create:deployer"
 			}
 			id: "26DFEE125746278E"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "15B3F2F20B13AAD8"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
@@ -116,12 +108,11 @@
 			icon: {
 				id: "create:minecart_coupling"
 			}
-			id: "BDCCE16F350FC52E"
+			id: "04386B31EF8496E9"
 			rewards: [{
-				id: "B95C98199E60D9A1"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "138B75BB9CED2414"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -133,23 +124,21 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["BDCCE16F350FC52E"]
 			icon: {
 				id: "create:track_station"
 			}
 			id: "2F402E0B4F195BAC"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "76DF74DC3779F1FC"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "FFCE7285603A821F"
+				id: "7E966F2ED4499F71"
+				stat: "minecraft:horizons_train_stations"
 				type: "stat"
-				stat: "horizons_train_stations"
 				value: 3
 			}]
 			x: 15.0d
@@ -160,63 +149,55 @@
 			icon: {
 				id: "create:precision_mechanism"
 			}
-			id: "A79B1C2038D2F88C"
+			id: "63C96CA210C1A489"
 			rewards: [{
-				id: "EDB19CF7CCA03BDA"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "50B31BC8487E1CD3"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "C38FA3DCD32AB848"
+				id: "605DBDA3B074EEE8"
 				type: "checkmark"
 			}]
 			x: 17.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A79B1C2038D2F88C"]
 			icon: {
 				id: "create:mechanical_crafter"
 			}
-			id: "833E7E1BD4F87924"
+			id: "79A2DCC777783D68"
 			rewards: [{
+				command: "/horizons reward perkpoints 25"
 				id: "7DA7465344084090"
 				type: "command"
-				command: "/horizons reward perkpoints 25"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "AFAA9A1432DD89A8"
+				id: "000A5C82131F9CD5"
 				type: "checkmark"
 			}]
 			x: 20.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9DB6B56493856BCE"]
 			icon: {
 				id: "create:brass_ingot"
 			}
-			id: "E988D2536AFDC302"
+			id: "0439CAEC6DF013D1"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "3A9DB6CBE41BD47B"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "FE093DAFE70FB7EC"
+				id: "777BE44882E45914"
+				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
-				item: {
-					count: 64
-					id: "create:brass_ingot"
-				}
 			}]
 			x: 2.5d
 			y: 2.5d
@@ -224,14 +205,16 @@
 		{
 			dependencies: ["26DFEE125746278E"]
 			icon: {
-				id: "create:harvester"
+				components: {
+					"ftbquests:missing_item": "create:harvester"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "36374B6A9531A61E"
 			rewards: [{
-				id: "D749B81AA6DB8BB4"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "5FDB3B8B998E423C"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -249,10 +232,9 @@
 			}
 			id: "300546E45469C14C"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "7919620845172B86"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
@@ -263,37 +245,37 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["36374B6A9531A61E", "300546E45469C14C"]
+			dependencies: [
+				"36374B6A9531A61E"
+				"300546E45469C14C"
+			]
 			icon: {
 				id: "create:mechanical_arm"
 			}
-			id: "EA07DEA434987E20"
+			id: "322E6539A20C7A63"
 			rewards: [{
-				id: "90816BFA8D0DCD8F"
-				type: "command"
 				command: "/horizons reward perkpoints 35"
-				player_command: false
+				id: "6F661EEE188A9D26"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "84AF3682E69B0CE9"
+				id: "0A0A600B69849175"
 				type: "checkmark"
 			}]
 			x: 10.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["EA07DEA434987E20"]
 			icon: {
 				id: "create:steam_engine"
 			}
-			id: "BDE98FF85A2E1E83"
+			id: "36560569E85A029B"
 			rewards: [{
-				id: "C5C834F6F565B772"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "560E5FEDA710EA29"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -305,36 +287,32 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["BDE98FF85A2E1E83"]
 			icon: {
 				id: "create:rope_pulley"
 			}
-			id: "F74E9610AEBE8E3B"
+			id: "72915F540F8BB3EE"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "1EB4E6FF1D8558BD"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "EE32326D39F0B7DF"
+				id: "0AA9762926296ACE"
 				type: "checkmark"
 			}]
 			x: 15.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["BDE98FF85A2E1E83"]
 			icon: {
 				id: "create:propeller"
 			}
-			id: "D2A6A86B48F90DFF"
+			id: "46162E17831F6961"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "1749EBC8EE5C494F"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -352,10 +330,9 @@
 			}
 			id: "44DBDAEA702251A3"
 			rewards: [{
+				command: "/horizons reward perkpoints 35"
 				id: "5D69E396A525788A"
 				type: "command"
-				command: "/horizons reward perkpoints 35"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -367,16 +344,14 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["833E7E1BD4F87924"]
 			icon: {
 				id: "horizons:precursor_artifact"
 			}
-			id: "8CA37F4B66D18407"
+			id: "34DBDE8C061C4AF7"
 			rewards: [{
-				id: "AC4A2FD932D0073A"
-				type: "command"
 				command: "/horizons reward perkpoints 40"
-				player_command: false
+				id: "36512F13989636FA"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -388,37 +363,33 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["EA07DEA434987E20"]
 			icon: {
 				id: "create:mechanical_arm"
 			}
 			id: "4FC0690608DD7CCC"
 			rewards: [{
+				command: "/horizons reward perkpoints 40"
 				id: "4F86F478135496A1"
 				type: "command"
-				command: "/horizons reward perkpoints 40"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "C264848159288CC7"
+				id: "18D403B1D8EDBBC5"
 				type: "checkmark"
 			}]
 			x: 22.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["9129805A00DFBC88"]
 			icon: {
 				id: "create:large_cogwheel"
 			}
 			id: "540E677618C243CC"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "69DC5685BFA763C3"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
@@ -429,16 +400,14 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["BDCCE16F350FC52E"]
 			icon: {
 				id: "create:redstone_link"
 			}
 			id: "110FB13DF0B303B2"
 			rewards: [{
+				command: "/horizons reward perkpoints 15"
 				id: "458B15FF73BE53B4"
 				type: "command"
-				command: "/horizons reward perkpoints 15"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
@@ -455,10 +424,9 @@
 			}
 			id: "7B677C505B5CD3E4"
 			rewards: [{
+				command: "/horizons reward perkpoints 15"
 				id: "08E9C7B461F00499"
 				type: "command"
-				command: "/horizons reward perkpoints 15"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
@@ -469,16 +437,14 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["8CA37F4B66D18407"]
 			icon: {
 				id: "horizons:precursor_artifact"
 			}
 			id: "7C438C572D235B3B"
 			rewards: [{
+				command: "/horizons reward perkpoints 40"
 				id: "23562BC70650CE96"
 				type: "command"
-				command: "/horizons reward perkpoints 40"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -490,16 +456,18 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["110FB13DF0B303B2", "44DBDAEA702251A3"]
+			dependencies: [
+				"110FB13DF0B303B2"
+				"44DBDAEA702251A3"
+			]
 			icon: {
 				id: "minecraft:dispenser"
 			}
-			id: "B0EAD1B257AFBC47"
+			id: "2ADF125467CDA4B1"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "2AD44B844EDC88DB"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -511,29 +479,30 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["8CA37F4B66D18407", "4FC0690608DD7CCC", "7C438C572D235B3B"]
+			dependencies: [
+				"4FC0690608DD7CCC"
+				"7C438C572D235B3B"
+			]
 			icon: {
 				id: "minecraft:nether_star"
 			}
 			id: "1D1F5CD3029F3EF4"
 			rewards: [
 				{
+					command: "/horizons reward stage title_master_engineer"
 					id: "5C0A78A3A81CBC52"
 					type: "command"
-					command: "/horizons reward stage title_master_engineer"
-					player_command: false
 				}
 				{
+					command: "/horizons reward perkpoints 100"
 					id: "721E8DAB9185DB07"
 					type: "command"
-					command: "/horizons reward perkpoints 100"
-					player_command: false
 				}
 			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "D3E6EEFF7C2BF2A8"
+				id: "42414AB0F857B266"
 				type: "checkmark"
 			}]
 			x: 27.5d

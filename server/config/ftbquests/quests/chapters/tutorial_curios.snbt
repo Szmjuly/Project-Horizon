@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_curios"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "minecraft:totem_of_undying"
 	}
 	id: "077358E3AC135F39"
-	images: [ ]
-	order_index: 11
+	order_index: 34
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -18,7 +17,7 @@
 			}
 			id: "5B12E4FBD301ADC3"
 			rewards: [{
-				id: "E369CD2ECFB1DAD3"
+				id: "656FC62485B922A2"
 				type: "xp"
 				xp: 10
 			}]
@@ -43,7 +42,7 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "B0396F15504907F3"
+				id: "26AB3610FFEB5F34"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -54,22 +53,21 @@
 			icon: {
 				id: "minecraft:diamond"
 			}
-			id: "A95FE753FA5FBC14"
+			id: "0D47E8CC5CA6A6DB"
 			rewards: [{
-				id: "98DA7818C168E408"
+				id: "2D2BB02742FB3854"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "C5117376AD935F85"
+				id: "36C1D98B50C9D1FA"
 				type: "checkmark"
 			}]
 			x: 5.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["A95FE753FA5FBC14"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
@@ -93,7 +91,7 @@
 			icon: {
 				id: "lightmanscurrency:coin_gold"
 			}
-			id: "CE27528206C56268"
+			id: "42A697121D5DE7DB"
 			rewards: [{
 				id: "3C2B9A9C9DFBA5A1"
 				type: "xp"
@@ -101,14 +99,13 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "AEC30E8D1513B292"
+				id: "228DA17E5CC4FC8D"
 				type: "checkmark"
 			}]
 			x: 2.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["A95FE753FA5FBC14"]
 			icon: {
 				id: "minecraft:diamond"
 			}
@@ -120,7 +117,7 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "F66E1051389C0A96"
+				id: "0E754B99E7EA199C"
 				type: "checkmark"
 			}]
 			x: 5.0d

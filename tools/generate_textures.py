@@ -168,6 +168,9 @@ ITEMS: list[tuple[str, tuple[int, int, int], str]] = [
     # Trainer items (cyan / world)
     ("trainer_card",              CYAN,      "world"),
 
+    # Trade items (gold / economy)
+    ("merchants_ledger",          DARK_GOLD, "economy"),
+
     # Sigils - hybrid (green)
     ("sigil_verdant",             GREEN,     "sigil_hybrid"),
     ("sigil_tempest",             GREEN,     "sigil_hybrid"),

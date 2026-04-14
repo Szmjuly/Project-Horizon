@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "side_cobblemon_mastery"
-	group: "8FC869B86246990B"
+	group: ""
 	icon: {
 		id: "cobblemon:poke_ball"
 	}
 	id: "49BCA696DB54BEB1"
-	images: [ ]
-	order_index: 0
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,34 +15,31 @@
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
-			id: "9B37EA089B2F410E"
+			id: "778A52D66289A291"
 			rewards: [{
+				command: "/horizons reward perkpoints 10"
 				id: "38D3F3EBDD512394"
 				type: "command"
-				command: "/horizons reward perkpoints 10"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
 				id: "6D30B6118392BDE0"
+				stat: "minecraft:horizons_cobblemon_caught"
 				type: "stat"
-				stat: "horizons_cobblemon_caught"
 				value: 5
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9B37EA089B2F410E"]
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
 			id: "428EB8715BA1982D"
 			rewards: [{
-				id: "DC2A24600B1CEE37"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "5534EE78CB0EAFAD"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -61,16 +57,15 @@
 			}
 			id: "2CB3F096C097B760"
 			rewards: [{
-				id: "A34DD9BCA1AABCE3"
-				type: "command"
 				command: "/horizons reward perkpoints 15"
-				player_command: false
+				id: "39243C020D3314C6"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "B6C6B86E04D524DD"
+				id: "0BCD6634C3AE1612"
+				stat: "minecraft:horizons_cobblemon_caught"
 				type: "stat"
-				stat: "horizons_cobblemon_caught"
 				value: 15
 			}]
 			x: 5.0d
@@ -83,10 +78,9 @@
 			}
 			id: "262A69F1FEE00E70"
 			rewards: [{
+				command: "/horizons reward perkpoints 25"
 				id: "323A034CA7B01E8B"
 				type: "command"
-				command: "/horizons reward perkpoints 25"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -104,16 +98,15 @@
 			}
 			id: "377799F34643D565"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "4376173432322A23"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
 				id: "54E670FFD03EF91B"
+				stat: "minecraft:horizons_cobblemon_caught"
 				type: "stat"
-				stat: "horizons_cobblemon_caught"
 				value: 25
 			}]
 			x: 10.0d
@@ -126,15 +119,14 @@
 			}
 			id: "390F5B732F9D5F8C"
 			rewards: [{
-				id: "DF2AAD284A080FBE"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "04681D747CADAF64"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "B931386BE7A1FD26"
+				id: "77D0B3B991916C85"
 				type: "checkmark"
 			}]
 			x: 12.5d
@@ -145,39 +137,36 @@
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
-			id: "9886ACD1509D36DB"
+			id: "66EACE8C0A2B00B4"
 			rewards: [{
+				command: "/horizons reward perkpoints 25"
 				id: "48D78574125A0BB9"
 				type: "command"
-				command: "/horizons reward perkpoints 25"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
 				id: "0FF2D975F11BA94D"
+				stat: "minecraft:horizons_cobblemon_caught"
 				type: "stat"
-				stat: "horizons_cobblemon_caught"
 				value: 40
 			}]
 			x: 15.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["9886ACD1509D36DB"]
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
 			id: "336A0ABD6C23676B"
 			rewards: [{
-				id: "8D0B9E27DB1B7E2B"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "3AA5D0B4ABD8C32E"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "A919C17932CD3C6E"
+				id: "342744FAEDBD67D5"
 				type: "checkmark"
 			}]
 			x: 17.5d
@@ -188,61 +177,56 @@
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "873A4CA1768D9AC8"
+			id: "11E2879B5696B5C2"
 			rewards: [{
-				id: "AEAA373E2AD9814F"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "0EE6F1944AC18E0C"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
 				id: "3867A95A51B5494B"
+				stat: "minecraft:horizons_cobblemon_caught"
 				type: "stat"
-				stat: "horizons_cobblemon_caught"
 				value: 60
 			}]
 			x: 20.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["873A4CA1768D9AC8"]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "B98D26FC450FED36"
+			id: "7A64E157535C286C"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "4B810C9E3B3C2BA2"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "C34B731D78416460"
+				id: "7FCF4CDD4B2173DD"
 				type: "checkmark"
 			}]
 			x: 22.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["B98D26FC450FED36"]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
 			id: "242BF3182EF13E5C"
 			rewards: [{
-				id: "D5C34C8AD0DC3EE9"
-				type: "command"
 				command: "/horizons reward perkpoints 35"
-				player_command: false
+				id: "50C7D5EE59CD5D67"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "9370C71D40FBC38C"
+				id: "66A7F4E917998B63"
+				stat: "minecraft:horizons_cobblemon_caught"
 				type: "stat"
-				stat: "horizons_cobblemon_caught"
 				value: 80
 			}]
 			x: 25.0d
@@ -253,39 +237,36 @@
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "E3194912540CABA4"
+			id: "14F346999BB1C74A"
 			rewards: [{
-				id: "B13B590ECC8D4FD6"
-				type: "command"
 				command: "/horizons reward perkpoints 35"
-				player_command: false
+				id: "561173AAFE000741"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "FB1BD681BF29E83D"
+				id: "51A46A7E0102E8EB"
 				type: "checkmark"
 			}]
 			x: 27.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["E3194912540CABA4"]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
 			id: "32691BDF3F6F5444"
 			rewards: [{
-				id: "80B3C0C300566A86"
-				type: "command"
 				command: "/horizons reward perkpoints 40"
-				player_command: false
+				id: "506C999DB60B47C0"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "81DCE520DBF6F332"
+				id: "077FBBC26D0E9E64"
+				stat: "minecraft:horizons_cobblemon_caught"
 				type: "stat"
-				stat: "horizons_cobblemon_caught"
 				value: 100
 			}]
 			x: 30.0d
@@ -296,38 +277,35 @@
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "CF524D117BE16D2C"
+			id: "6DB2707A5C0F198C"
 			rewards: [{
+				command: "/horizons reward perkpoints 35"
 				id: "75BF7CE2C3F23D2B"
 				type: "command"
-				command: "/horizons reward perkpoints 35"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "A50B0A9AE9ACCB5C"
+				id: "01220AF4A8554DB2"
 				type: "checkmark"
 			}]
 			x: 32.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["CF524D117BE16D2C"]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
 			id: "50DB1DE2394BC639"
 			rewards: [{
-				id: "8CFA44805FB30C24"
-				type: "command"
 				command: "/horizons reward perkpoints 40"
-				player_command: false
+				id: "048424E79838C198"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "F680893B55D08C13"
+				id: "1E72954A463AD952"
 				type: "checkmark"
 			}]
 			x: 35.0d
@@ -338,40 +316,36 @@
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "FC9D0620047EC8F5"
+			id: "7B95560E29C25DFE"
 			rewards: [{
-				id: "C262611D2CEB1311"
-				type: "command"
 				command: "/horizons reward perkpoints 50"
-				player_command: false
+				id: "6B6872C22439F4B1"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "CDA15EBFF8655FAE"
+				id: "67FE9E28E6EC6B7D"
 				type: "checkmark"
 			}]
 			x: 37.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["FC9D0620047EC8F5"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
 			id: "49B55CF896055F86"
 			rewards: [
 				{
-					id: "A6B3ACEDF255093F"
-					type: "command"
 					command: "/horizons reward stage title_champion"
-					player_command: false
+					id: "171AD413498825E2"
+					type: "command"
 				}
 				{
-					id: "C7BF67948DC8317F"
-					type: "command"
 					command: "/horizons reward perkpoints 100"
-					player_command: false
+					id: "2585180B47317F53"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
@@ -384,13 +358,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["9B37EA089B2F410E"]
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
-			id: "E6060BCDE05AF3B6"
+			id: "5E32E54837B51BD5"
 			rewards: [{
-				id: "B54DF8C58B9BBCDF"
+				id: "731EE5B12F480C3B"
 				type: "xp"
 				xp: 10
 			}]
@@ -409,10 +382,9 @@
 			}
 			id: "26954156D57F4131"
 			rewards: [{
+				command: "/horizons reward perkpoints 20"
 				id: "059F5DE882EB7BEF"
 				type: "command"
-				command: "/horizons reward perkpoints 20"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
@@ -429,14 +401,13 @@
 			}
 			id: "1A6AFCF1DD2676AE"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "050B46E07692AFE8"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "914FA2A702DEBD19"
+				id: "7360278EAF5DA1C9"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -449,16 +420,15 @@
 			}
 			id: "2D6E6B401BE7674E"
 			rewards: [{
-				id: "8F4E27680E9152A1"
-				type: "command"
 				command: "/horizons reward perkpoints 20"
-				player_command: false
+				id: "7424E46D13C2A9D7"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "95EBCDDAE517863F"
+				id: "115E632E53EB30FA"
+				stat: "minecraft:horizons_tms_collected"
 				type: "stat"
-				stat: "horizons_tms_collected"
 				value: 10
 			}]
 			x: 12.5d
@@ -469,41 +439,38 @@
 			icon: {
 				id: "cobblemon:great_ball"
 			}
-			id: "9F4B588C527BDAD7"
+			id: "614402AC15CD91EA"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "4BE3C817A5F39A3E"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "square"
 			tasks: [{
-				id: "A7B7A3B935AEA379"
+				id: "602C35C6DDEADB3F"
+				stat: "minecraft:horizons_tms_collected"
 				type: "stat"
-				stat: "horizons_tms_collected"
 				value: 30
 			}]
 			x: 15.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["9886ACD1509D36DB"]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
 			id: "1721CFBB11D37D75"
 			rewards: [{
+				command: "/horizons reward perkpoints 50"
 				id: "6E7511FE464D1E39"
 				type: "command"
-				command: "/horizons reward perkpoints 50"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
 				id: "19B1826485446A6A"
+				stat: "minecraft:horizons_shiny_caught"
 				type: "stat"
-				stat: "horizons_shiny_caught"
 				value: 1
 			}]
 			x: 17.5d
@@ -514,37 +481,34 @@
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "CE0696430DECF25E"
+			id: "28BB4682F0F5D246"
 			rewards: [{
-				id: "B3EF70D2FC300562"
-				type: "command"
 				command: "/horizons reward perkpoints 40"
-				player_command: false
+				id: "734B4F821F3CD23E"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "E16D46F9C77656B3"
+				id: "74502CAF34C27DF2"
 				type: "checkmark"
 			}]
 			x: 20.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["9B37EA089B2F410E"]
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
-			id: "ADC30112DA0B4DFE"
+			id: "4AC03A1350816AB1"
 			rewards: [{
-				id: "E4BFEBCC284323B1"
-				type: "command"
 				command: "/horizons reward perkpoints 15"
-				player_command: false
+				id: "2B6474C7706573F1"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
-				id: "F39B61CBE4433DA1"
+				id: "07F31A18BA09C04B"
 				type: "checkmark"
 			}]
 			x: 2.5d
@@ -557,10 +521,9 @@
 			}
 			id: "25580F8D2A4F567B"
 			rewards: [{
-				id: "AA0122B1747AA040"
-				type: "command"
 				command: "/horizons reward perkpoints 60"
-				player_command: false
+				id: "5B18CF8A10CF93F2"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
@@ -578,15 +541,14 @@
 			}
 			id: "40EEC307E9A2B948"
 			rewards: [{
+				command: "/horizons reward perkpoints 80"
 				id: "328E783DFC36F0DB"
 				type: "command"
-				command: "/horizons reward perkpoints 80"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "9E186B1ABE29BE45"
+				id: "4BF117CF28B4FB89"
 				type: "checkmark"
 			}]
 			x: 32.5d
@@ -600,24 +562,22 @@
 			id: "4C6988AC97F86F7C"
 			rewards: [
 				{
-					id: "F7BEB3DB52D8BEF0"
-					type: "command"
 					command: "/horizons reward stage title_pokedex_complete"
-					player_command: false
+					id: "55ACDE3E810AA361"
+					type: "command"
 				}
 				{
+					command: "/horizons reward perkpoints 150"
 					id: "6BECC272CC5800C1"
 					type: "command"
-					command: "/horizons reward perkpoints 150"
-					player_command: false
 				}
 			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "FB554C6132918CB6"
+				id: "11B9AEC59F18FBD8"
+				stat: "minecraft:horizons_cobblemon_caught"
 				type: "stat"
-				stat: "horizons_cobblemon_caught"
 				value: 150
 			}]
 			x: 35.0d
@@ -628,12 +588,11 @@
 			icon: {
 				id: "minecraft:turtle_egg"
 			}
-			id: "85FB1A2732E35C04"
+			id: "341B30D41E2E110B"
 			rewards: [{
-				id: "9C8AC4BF1DAC54B8"
-				type: "command"
 				command: "/horizons reward perkpoints 25"
-				player_command: false
+				id: "33F40D2272FC0C5E"
+				type: "command"
 			}]
 			shape: "square"
 			tasks: [{
@@ -644,21 +603,19 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["CE0696430DECF25E", "85FB1A2732E35C04"]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
 			id: "350897C8AE29DE35"
 			rewards: [{
+				command: "/horizons reward perkpoints 60"
 				id: "18FC80422C70E899"
 				type: "command"
-				command: "/horizons reward perkpoints 60"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "CB8386FDBBAB69F9"
+				id: "1940B97D452C78BC"
 				type: "checkmark"
 			}]
 			x: 25.0d

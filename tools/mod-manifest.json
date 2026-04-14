@@ -3,12 +3,28 @@
   "loader": "neoforge",
   "loader_version": "latest",
   "java_version": "21",
-  "total_server_mods": 155,
+  "total_server_mods": 188,
   "deferred_mods": [],
   "installed_extras": [
-    { "name": "Applied Energistics 2", "version": "19.2.17", "file": "appliedenergistics2-19.2.17.jar", "note": "Endgame Tier 6 storage. Stage gated behind diamond_age via ae2_age.toml." },
+    { "name": "Applied Energistics 2", "version": "19.2.17", "file": "appliedenergistics2-19.2.17.jar", "note": "Endgame Tier 6 storage. Stage gated behind create_industrial_age via ae2_age.toml." },
     { "name": "GuideMe", "version": "21.1.15", "file": "guideme-21.1.15.jar", "note": "Required dependency of AE2." },
-    { "name": "DependencySorter Fix", "version": "1.0.0", "file": "depsort-fix-1.0.0.jar", "note": "Custom mixin mod. Fixes vanilla StackOverflow in DependencySorter.isCyclic by replacing recursion with iterative BFS + visited set." }
+    { "name": "DependencySorter Fix", "version": "1.0.0", "file": "depsort-fix-1.0.0.jar", "note": "Custom mixin mod. Fixes vanilla StackOverflow in DependencySorter.isCyclic by replacing recursion with iterative BFS + visited set." },
+    { "name": "TFMG", "version": "1.2.0", "file": "tfmg-1.2.0.jar", "note": "Heavy industry - steel, crude oil, concrete. Gated behind create_industrial_age." },
+    { "name": "Create: Diesel Generators", "version": "1.3.11", "file": "createdieselgenerators-1.21.1-1.3.11.jar", "note": "Diesel power generation. Gated behind create_industrial_age." },
+    { "name": "Create: Power Grid", "version": "0.5.4", "file": "powergrid-mc1.21.1-0.5.4.jar", "note": "Physics-based electricity. Gated behind create_industrial_age." },
+    { "name": "Create: New Age", "version": "1.1.7c", "file": "create-new-age-1.1.7c+neoforge-mc1.21.1.jar", "note": "Solar/nuclear power. Gated behind create_industrial_age." },
+    { "name": "Create: Central Kitchen", "version": "2.3.0", "file": "create-central-kitchen-2.3.0.jar", "note": "Food automation via Create. Available at iron_age." },
+    { "name": "Petrol's Parts", "version": "1.2.9", "file": "petrolsparts-1.21.1-1.2.9.jar", "note": "Kinetic components. Available at iron_age." },
+    { "name": "Petrolpark", "version": "1.4.30", "file": "petrolpark-1.21.1-1.4.30.jar", "note": "Library for Petrol's Parts." },
+    { "name": "Mechanicals Lib", "version": "1.1.0", "file": "mechanicals-1.21.1-1.1.0.jar", "note": "Library for Mechanical Extruder." },
+    { "name": "Create: Fluid", "version": "1.2.1", "file": "fluid-1.2.1.jar", "note": "Fluid handling. Available at iron_age." },
+    { "name": "Create: Liquid Fuel", "version": "2.1.1", "file": "createliquidfuel-2.1.1-1.21.1.jar", "note": "Liquid fuels for blaze burners." },
+    { "name": "Create: Mechanical Extruder", "version": "2.2.0", "file": "create_mechanical_extruder-1.21.1-2.2.0-6.0.8.jar", "note": "Block generation from fluids." },
+    { "name": "Create: Teleporters Remastered", "version": "2.0.1c", "file": "createteleporters-remastered-2.0.1c-neoforge-1.21.1.jar", "note": "Teleportation. Gated behind create_industrial_age." },
+    { "name": "Create: Structures Arise", "version": "174.47.46", "file": "create_structures_arise-174.47.46 Release-neoforge-1.21.1.jar", "note": "28+ worldgen structures. No gating." },
+    { "name": "YUNG's Better Jungle Temples", "version": "3.1.2", "file": "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar", "note": "Worldgen. No gating." },
+    { "name": "YUNG's Bridges", "version": "5.1.1", "file": "YungsBridges-1.21.1-NeoForge-5.1.1.jar", "note": "Worldgen. No gating." },
+    { "name": "YUNG's Extras", "version": "5.1.1", "file": "YungsExtras-1.21.1-NeoForge-5.1.1.jar", "note": "Worldgen. No gating." }
   ],
   "server_mods": {
     "libraries": [

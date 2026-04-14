@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_cobblemon"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "cobblemon:poke_ball"
 	}
 	id: "5E4BBAF297B902C1"
-	images: [ ]
-	order_index: 1
+	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,36 +15,35 @@
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
-			id: "DBE465CAD5D4403B"
+			id: "4EAFE464E2CB3750"
 			rewards: [{
-				id: "9E7CF1D2397BB65B"
+				id: "62A1F713DAEC3F2F"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "CF64741E8BF8559F"
+				id: "163C16C17BA2224B"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["DBE465CAD5D4403B"]
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
 			id: "360E76DE88BB02D7"
 			rewards: [{
-				id: "F956E273AE6A96F4"
+				id: "162D3D66066375A9"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "F5F01D92D1A5CC5B"
+				id: "4C3CFB98A577D52F"
+				stat: "minecraft:horizons_cobblemon_caught"
 				type: "stat"
-				stat: "horizons_cobblemon_caught"
 				value: 1
 			}]
 			x: 2.5d
@@ -58,13 +56,13 @@
 			}
 			id: "10971CE9EAAE9B96"
 			rewards: [{
-				id: "FA92115D2BAE7D70"
+				id: "378C173053697380"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "D67F6C7B3FB5F57B"
+				id: "4FBAF11F89DB770B"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -77,13 +75,13 @@
 			}
 			id: "4C99DD3A311B0B6C"
 			rewards: [{
-				id: "A87D3169DEC7AAD9"
+				id: "525C706396E5B9B1"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "89830EFE465411B1"
+				id: "3E291BD950525B8E"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -94,7 +92,7 @@
 			icon: {
 				id: "cobblemon:poke_ball"
 			}
-			id: "D88E167BF4315988"
+			id: "023A77C138023321"
 			rewards: [{
 				id: "0BF845FBEB6EB0CB"
 				type: "xp"
@@ -103,7 +101,7 @@
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "B64622BFE5BEBC73"
+				id: "5642006EC601FE6A"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -114,7 +112,7 @@
 			icon: {
 				id: "cobblemon:great_ball"
 			}
-			id: "B9F1566BFD7523D2"
+			id: "34ADC10F17D245FB"
 			rewards: [{
 				id: "6F876E5A6A24FAA1"
 				type: "xp"
@@ -129,11 +127,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["B9F1566BFD7523D2"]
 			icon: {
 				id: "cobblemon:great_ball"
 			}
-			id: "CE68B402D0D1E425"
+			id: "55726AA980B0856C"
 			rewards: [{
 				id: "03F24B41DC331A29"
 				type: "xp"
@@ -141,18 +138,17 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "F03F6E76A7BE445B"
+				id: "57E83102AEEF523D"
 				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["CE68B402D0D1E425"]
 			icon: {
 				id: "cobblemon:great_ball"
 			}
-			id: "BDE56FA73EE6CDAC"
+			id: "2DC933C269219629"
 			rewards: [{
 				id: "4141DFEE9BBD1634"
 				type: "xp"
@@ -160,18 +156,17 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "A5287D1B3788DE29"
+				id: "034B9546AA8779F1"
 				type: "checkmark"
 			}]
 			x: 10.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["D88E167BF4315988"]
 			icon: {
 				id: "minecraft:turtle_egg"
 			}
-			id: "CECB35427196095D"
+			id: "6AAFFC60345E315D"
 			rewards: [{
 				id: "6AFBDA85321FEDA2"
 				type: "xp"
@@ -187,11 +182,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["CECB35427196095D"]
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
-			id: "F0F9D6D439BE3772"
+			id: "324C0031FED2F580"
 			rewards: [{
 				id: "0AA0D76F0E969654"
 				type: "xp"
@@ -206,11 +200,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["BDE56FA73EE6CDAC"]
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
-			id: "BA8133D0EB219D8F"
+			id: "5602EA77FD341825"
 			rewards: [{
 				id: "31E7363CA46F087E"
 				type: "xp"
@@ -218,18 +211,17 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "DDF02BDAD7997048"
+				id: "53B10CCF7AEA13E1"
 				type: "checkmark"
 			}]
 			x: 12.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["F0F9D6D439BE3772"]
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "871020CF66696E0B"
+			id: "695EEF8DFCC0A56C"
 			rewards: [{
 				id: "1BB4BEEAE19D6690"
 				type: "xp"
@@ -238,14 +230,13 @@
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "AF44A06C82554123"
+				id: "37F05E807473C6CD"
 				type: "checkmark"
 			}]
 			x: 17.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["BA8133D0EB219D8F"]
 			icon: {
 				id: "cobblemon:ultra_ball"
 			}
@@ -257,7 +248,7 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "FF4E88227DA90395"
+				id: "140FBA44DDA53D8C"
 				type: "checkmark"
 			}]
 			x: 15.0d
@@ -270,13 +261,13 @@
 			}
 			id: "6949861A63618EA8"
 			rewards: [{
-				id: "F6B9D320C2CD4EAB"
+				id: "496E97084F0B2DEA"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "88FF4273F11886C2"
+				id: "53E7EABAF3C6D1B1"
 				type: "checkmark"
 			}]
 			x: 2.5d

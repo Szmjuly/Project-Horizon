@@ -2,12 +2,11 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ending_restoration"
-	group: "9EFB6BDB9BF4E818"
+	group: ""
 	icon: {
 		id: "minecraft:beacon"
 	}
 	id: "12A340D251DD929D"
-	images: [ ]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -19,20 +18,16 @@
 			}
 			id: "19429488ACDC61E5"
 			rewards: [{
-				id: "D6743893E4393866"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "0789F5481146DD24"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
 				id: "0AF22CDE62EB98D9"
+				item: { count: 1, id: "horizons:precursor_artifact" }
 				type: "item"
-				item: {
-					count: 7
-					id: "horizons:precursor_artifact"
-				}
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -42,12 +37,11 @@
 			icon: {
 				id: "minecraft:beacon"
 			}
-			id: "D3EFFFD8FD42441E"
+			id: "3195F7B60C557493"
 			rewards: [{
-				id: "8684C00CE144DB74"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "3B30F15FC5B7FB56"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -59,16 +53,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["D3EFFFD8FD42441E"]
 			icon: {
 				id: "minecraft:enchanting_table"
 			}
-			id: "F7E22360AF739154"
+			id: "4A0844E50A47BCD1"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "690F53599475D24F"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -80,21 +72,19 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["F7E22360AF739154"]
 			icon: {
 				id: "minecraft:end_crystal"
 			}
 			id: "0170893C5ED23033"
 			rewards: [{
+				command: "/horizons reward perkpoints 40"
 				id: "5BB1866CEB631975"
 				type: "command"
-				command: "/horizons reward perkpoints 40"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "FC2CCEA5753519E4"
+				id: "18D06D03FE96A884"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -105,19 +95,17 @@
 			icon: {
 				id: "minecraft:nether_star"
 			}
-			id: "D0541EA12863F134"
+			id: "64E2848C33563FB7"
 			rewards: [
 				{
-					id: "93AD00E0BFD9A75C"
-					type: "command"
 					command: "/horizons reward stage title_founder"
-					player_command: false
+					id: "6B84CA23261AC16D"
+					type: "command"
 				}
 				{
-					id: "CB3D53E5904D673E"
-					type: "command"
 					command: "/horizons reward perkpoints 200"
-					player_command: false
+					id: "7B6CEB84342A9F71"
+					type: "command"
 				}
 			]
 			shape: "hexagon"

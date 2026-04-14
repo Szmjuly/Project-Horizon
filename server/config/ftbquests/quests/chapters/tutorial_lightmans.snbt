@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tutorial_lightmans"
-	group: "CB442371B2E6FDA5"
+	group: ""
 	icon: {
 		id: "lightmanscurrency:coin_gold"
 	}
 	id: "27EC59C7D4EA7329"
-	images: [ ]
-	order_index: 6
+	order_index: 24
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -16,7 +15,7 @@
 			icon: {
 				id: "lightmanscurrency:coin_copper"
 			}
-			id: "96F947A2BCB41AA1"
+			id: "5DF73E4FB0FAC25C"
 			rewards: [{
 				id: "71C91C2FBBB0DC8B"
 				type: "xp"
@@ -24,22 +23,18 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "D48B736F347762ED"
+				id: "03DB999BC3A6B886"
+				item: { count: 1, id: "lightmanscurrency:coin_copper" }
 				type: "item"
-				item: {
-					count: 1
-					id: "lightmanscurrency:coin_copper"
-				}
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["96F947A2BCB41AA1"]
 			icon: {
 				id: "lightmanscurrency:atm"
 			}
-			id: "9AF2FBB425089A9A"
+			id: "3E57F02ADF5298DA"
 			rewards: [{
 				id: "79531CCDB21E96B4"
 				type: "xp"
@@ -54,7 +49,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["9AF2FBB425089A9A"]
 			icon: {
 				id: "minecraft:emerald"
 			}
@@ -66,7 +60,7 @@
 			}]
 			shape: "square"
 			tasks: [{
-				id: "ACB6682DDAA409EE"
+				id: "7F17673FEFF78043"
 				type: "checkmark"
 			}]
 			x: 5.0d
@@ -79,13 +73,13 @@
 			}
 			id: "22716FA9822AC8A9"
 			rewards: [{
-				id: "E4017079EE908104"
+				id: "3798CB28BB62C4B2"
 				type: "xp"
 				xp: 10
 			}]
 			shape: "square"
 			tasks: [{
-				id: "E36A4FFFC229B582"
+				id: "7621E058B14DE241"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -96,7 +90,7 @@
 			icon: {
 				id: "lightmanscurrency:terminal"
 			}
-			id: "E0F95F352024C637"
+			id: "7137D34F2A9B5011"
 			rewards: [{
 				id: "0E811223EE1C7E79"
 				type: "xp"
@@ -105,14 +99,13 @@
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "B6055BD830C1F630"
+				id: "6A83A1BBA99129F7"
 				type: "checkmark"
 			}]
 			x: 10.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["E0F95F352024C637"]
 			icon: {
 				id: "lightmanscurrency:coin_gold"
 			}
@@ -125,7 +118,7 @@
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
-				id: "81BDE819B5BBF2FB"
+				id: "3C464710058B375A"
 				type: "checkmark"
 			}]
 			x: 12.5d

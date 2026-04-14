@@ -2,13 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ending_awakened"
-	group: "9EFB6BDB9BF4E818"
+	group: ""
 	icon: {
 		id: "cobblemon:master_ball"
 	}
 	id: "399CC5542F9FE483"
-	images: [ ]
-	order_index: 3
+	order_index: 13
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -17,35 +16,32 @@
 			icon: {
 				id: "cobblemon:master_ball"
 			}
-			id: "E56C86A7E4336606"
+			id: "7C409FCE0946854D"
 			rewards: [{
-				id: "D343A21DF706E109"
-				type: "command"
 				command: "/horizons reward perkpoints 30"
-				player_command: false
+				id: "28F7BE3170631387"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [{
 				id: "39C1DFA8E90923EB"
+				stat: "minecraft:horizons_cobblemon_bonded"
 				type: "stat"
-				stat: "horizons_cobblemon_bonded"
 				value: 8
 			}]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["E56C86A7E4336606"]
 			icon: {
 				id: "minecraft:flowering_azalea"
 			}
 			id: "02538241F144F54C"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "618D334658ABDB4A"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -61,12 +57,11 @@
 			icon: {
 				id: "minecraft:enchanting_table"
 			}
-			id: "BE559952A0544DDC"
+			id: "631FC41F70C514CC"
 			rewards: [{
+				command: "/horizons reward perkpoints 30"
 				id: "2B37AE59433A8183"
 				type: "command"
-				command: "/horizons reward perkpoints 30"
-				player_command: false
 			}]
 			shape: "hexagon"
 			size: 1.25d
@@ -78,50 +73,45 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["BE559952A0544DDC"]
 			icon: {
 				id: "minecraft:dragon_breath"
 			}
-			id: "F273A15D4EC6F470"
+			id: "2DBEE0B610F8B198"
 			rewards: [{
-				id: "DFA2E4F2AC996D26"
-				type: "command"
 				command: "/horizons reward perkpoints 40"
-				player_command: false
+				id: "63A54D61C55FDCD6"
+				type: "command"
 			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "D8B2130DAD325CFA"
+				id: "08B33D5E88087E7B"
 				type: "checkmark"
 			}]
 			x: 7.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["F273A15D4EC6F470"]
 			icon: {
 				id: "minecraft:nether_star"
 			}
-			id: "B61BF7D73D566602"
+			id: "693589EC2754B796"
 			rewards: [
 				{
-					id: "9266BD2A061A5B79"
-					type: "command"
 					command: "/horizons reward stage title_awakened"
-					player_command: false
+					id: "017C3BCEA0123DE6"
+					type: "command"
 				}
 				{
-					id: "A9080DE1F12B57EF"
-					type: "command"
 					command: "/horizons reward perkpoints 200"
-					player_command: false
+					id: "4768CB26B3AB9759"
+					type: "command"
 				}
 			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "E5D14D233B99DCB7"
+				id: "4C260424DB0D24DA"
 				type: "checkmark"
 			}]
 			x: 10.0d

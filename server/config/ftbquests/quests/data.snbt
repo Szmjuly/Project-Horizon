@@ -9,11 +9,18 @@
 	drop_book_on_death: false
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
+	fallback_locale: ""
 	grid_scale: 0.5d
+	hide_excluded_quests: false
 	lock_message: ""
+	loot_crate_no_drop: {
+		boss: 0
+		monster: 600
+		passive: 4000
+	}
 	pause_game: false
 	progression_mode: "flexible"
 	show_lock_icons: true
 	verify_on_load: false
-	version: 14
+	version: 13
 }

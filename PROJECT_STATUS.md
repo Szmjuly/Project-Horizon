@@ -17,22 +17,22 @@ Project Horizons is a Minecraft NeoForge 1.21.1 modpack combining anime-adventur
 
 | Category | Count |
 |----------|------:|
-| Mods installed | 172 |
-| Server boot time | ~28 seconds |
-| KubeJS scripts | 62 (24,000+ lines, zero stubs) |
-| FTB Quests | 438 quests across 38 chapters |
+| Mods installed | 188 |
+| Server boot time | ~2.3 seconds (warm) / ~28 seconds (cold) |
+| KubeJS scripts | 62 (25,000+ lines, zero stubs) |
+| FTB Quests | 453 quests across 40 chapters |
 | Cobblemon spawn files | 277 (Gen 1-4 mapped to Terralith biomes) |
 | RCT trainer configs | 55 files (13 trainers with mobs/loot/advancements/dialogues) |
 | Custom loot tables | 19 (gates, events, structures, crime) |
 | NPC dialogue scripts | 20 (stage-gated, Custom NPCs Unofficial) |
-| Patchouli guidebook | 55 files (11 categories, 43 entries, 101 pages) |
+| Patchouli guidebook | 61 files (12 categories, 48 entries, 116 pages) |
 | Living Storybook | 82 files (10 categories, 71 entries, ~210 pages) |
 | Storybook advancements | 71 (impossible trigger, granted via KubeJS) |
 | Custom items/blocks/fluids | 87 registered via startup scripts |
 | Placeholder textures | 81 PNGs (72 items + 9 blocks) |
 | Datapack JSONs | 470+ total |
 | Nutrition tag entries | 481 across 8 food groups |
-| Stage definitions | 207 (1,260+ lines of TOML) |
+| Stage definitions | 208 (1,300+ lines of TOML) |
 | Pufferfish skill trees | 4 trees, 40 nodes |
 | Python build tools | 7 scripts |
 | JSON definition files | 4 (quests, trainers, NPCs, storybook) |
@@ -100,6 +100,7 @@ Project Horizons is a Minecraft NeoForge 1.21.1 modpack combining anime-adventur
 | Mid | Create: Storage | Create-native storage boxes |
 | Mid-Late | Sophisticated Storage/Backpacks + Create Integration | Tiered chests on contraptions |
 | Late | Refined Storage 2 + Extra Disks + ExtraStorage | Digital autocrafting |
+| Industrial | TFMG + Diesel Generators + Power Grid + New Age | Steel, oil, electricity, nuclear |
 | Endgame | AE2 + MEGA Cells (deferred) | Advanced digital storage |
 
 ### Social & Economy
@@ -433,6 +434,11 @@ Create, Cobblemon (basic + advanced), Survival, Combat & Magic, MineColonies, Br
 
 - [x] Living Storybook — 82 Patchouli files (10 categories, 71 entries, ~210 pages), 71 advancements, KubeJS bridge script
 - [x] AE2 integration prepared — stage gating, cross-mod recipes, 7-quest chapter, guide entry, storybook entry
+- [x] Create Suite expanded — 17 new mods (TFMG, Diesel Generators, Power Grid, New Age, Central Kitchen, Cobblemon Industries, Petrol's Parts, Create Fluid, Liquid Fuel, Mechanical Extruder, Teleporters, Structures Arise + 3 YUNG's + 2 libraries)
+- [x] Create Industrial Age stage — gates TFMG/Diesel/PowerGrid/NewAge/Teleporters/CobblemonIndustries behind diamond_age
+- [x] 16 cross-mod recipe bridges — TFMG↔IE, TFMG↔Diesel, PowerGrid↔CC&A, NewAge↔TFMG, CentralKitchen↔FD, TFMG→AE2
+- [x] 2 new quest chapters — Industrial Revolution (8 quests), Energy & Automation (7 quests)
+- [x] 5 new Patchouli guide entries — Industrial Revolution, Energy Systems, Kitchen Automation, Poké Ball Factory, Technology category
 
 ### IN PROGRESS
 

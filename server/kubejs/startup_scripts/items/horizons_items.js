@@ -125,5 +125,20 @@ StartupEvents.registry('item', event => {
     .tooltip('Used to upgrade food quality - apply to food in crafting grid')
   count++
 
+  // ----------------------------------------------------------
+  // Trade Items (1)
+  // Silver Tongue villager trade reroll system.
+  // ----------------------------------------------------------
+
+  event.create('horizons:merchants_ledger')
+    .displayName("Merchant's Ledger")
+    .maxStackSize(1)
+    .rarity('uncommon')
+    .texture('horizons:item/merchants_ledger')
+    .tooltip('§6Sneak + right-click a villager§r to reroll their trades')
+    .tooltip('§7Costs 1 gold coin per reroll')
+    .tooltip('§7Requires: Silver Tongue skill')
+  count++
+
   console.log('[Horizons] horizons_items registered: ' + count + ' items')
 })
