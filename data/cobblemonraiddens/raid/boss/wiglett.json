@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "wiglett",
+        "moves": [
+            "aquajet",
+            "wrap",
+            "mudslap",
+            "watergun"
+        ]
+    },
+    "raid_tier": "TIER_ONE",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

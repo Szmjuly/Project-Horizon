@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "politoed",
+        "moves": [
+            "pound",
+            "doubleslap",
+            "hydropump",
+            "bounce"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

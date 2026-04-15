@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cobblemore_lib:verdant_ball_lid"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemore_lib:park_ball_lid"
+    }
+  ]
+}

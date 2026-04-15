@@ -43,12 +43,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:tm_flamethrower",
+          "name": "cobblemon:exp_candy_m",
           "weight": 15
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:charcoal",
+          "name": "minecraft:charcoal",
           "weight": 15
         },
         {

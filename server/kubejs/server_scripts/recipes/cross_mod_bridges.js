@@ -443,9 +443,10 @@ ServerEvents.recipes(event => {
     // Automated dough from Central Kitchen mixer using FD wheat flour
     // NOTE: Create 6.0 mixing recipe API requires specific ingredient format.
     // Using shapeless as a fallback since create:mixing parsing changed in 1.21.
+    // Farmer's Delight 1.21.1 has no wheat_flour item; use minecraft:wheat instead
     event.shapeless('2x farmersdelight:wheat_dough', [
-      'farmersdelight:wheat_flour',
-      'farmersdelight:wheat_flour',
+      'minecraft:wheat',
+      'minecraft:wheat',
       'minecraft:water_bucket'
     ]).id('horizons:kitchen/auto_dough');
 
@@ -494,8 +495,8 @@ ServerEvents.recipes(event => {
       S: 'tfmg:steel_casing'
     }).id('horizons:tfmg_ae2/1k_cell_component');
 
-    // ME chest alternative recipe using TFMG steel casing
-    event.shaped('ae2:me_chest', [
+    // ME chest alternative recipe using TFMG steel casing (AE2 registers as ae2:chest)
+    event.shaped('ae2:chest', [
       'SGS',
       'FCF',
       'SSS'
@@ -508,6 +509,84 @@ ServerEvents.recipes(event => {
 
     console.log('[Horizons] TFMG + AE2 bridges registered');
   }
+
+  // =========================================================
+  // 14. BROKEN THIRD-PARTY RECIPE CLEANUP
+  // =========================================================
+  // Many third-party Create addons ship recipes using the old
+  // "type":"fluid_stack" / "type":"fluid_tag" fluid format from
+  // Create 0.5.x (Forge). Create 6.0 on NeoForge 1.21.1 uses
+  // "neoforge:fluid_stack" instead, so these recipes fail to
+  // parse and spam WARN/ERROR lines in the server log.
+  //
+  // Rather than re-adding hundreds of recipes with corrected
+  // syntax (which would be fragile and break on mod updates),
+  // we remove the broken ones wholesale. The items still exist
+  // in-game; they just lose their Create machine recipes until
+  // each mod publishes a NeoForge 1.21.1 compatible update.
+  //
+  // Affected mods and root causes:
+  //   - Garnished: fluid_stack/fluid_tag format (all recipe types)
+  //   - Create Diesel Generators: fluid_tag format (mixing, IE compat)
+  //   - Create Teleporters: fluid_stack format (mixing, seq. assembly)
+  //   - Iron's Spellbooks: fluid_stack format (filling)
+  //   - Create Crafts & Additions: fluid_stack format (filling, mixing)
+  //   - Create Enchantment Industry: fluid_stack format (filling, compacting)
+  //   - ExtrasDisks: references Mekanism chemical storage (not installed)
+  //   - FxntStorage: references pale_oak (1.21.4 content, not in 1.21.1)
+  //   - "fluid:" namespace recipes: orphaned fluid compat recipes
+  // =========================================================
+
+  console.log('[Horizons] Removing broken third-party recipes (fluid format / missing deps)...');
+
+  // --- Garnished (all Create recipe types use old fluid format) ---
+  event.remove({ mod: 'garnished', type: 'create:filling' });
+  event.remove({ mod: 'garnished', type: 'create:mixing' });
+  event.remove({ mod: 'garnished', type: 'create:compacting' });
+  event.remove({ mod: 'garnished', type: 'create:crushing' });
+  event.remove({ mod: 'garnished', type: 'create:deploying' });
+  event.remove({ mod: 'garnished', type: 'create:pressing' });
+  event.remove({ mod: 'garnished', type: 'create:milling' });
+  event.remove({ mod: 'garnished', type: 'create:haunting' });
+  event.remove({ mod: 'garnished', type: 'create:cutting' });
+  event.remove({ mod: 'garnished', type: 'create:splashing' });
+  event.remove({ mod: 'garnished', type: 'create:sequenced_assembly' });
+  event.remove({ mod: 'garnished', type: 'create:item_application' });
+
+  // --- Create Diesel Generators (mixing + IE compat recipes) ---
+  event.remove({ mod: 'createdieselgenerators', type: 'create:mixing' });
+  event.remove({ id: 'createdieselgenerators:compat/immersiveengineering/duroplast_sheet' });
+  event.remove({ id: 'createdieselgenerators:compat/immersiveengineering/herbicide' });
+  event.remove({ id: 'createdieselgenerators:compat/immersiveengineering/silver_sheet' });
+  event.remove({ id: 'createdieselgenerators:compat/immersiveengineering/uranium_sheet' });
+
+  // --- Create Teleporters (mixing + sequenced assembly) ---
+  event.remove({ id: 'createteleporters:quantum_fluid_recipe' });
+  event.remove({ id: 'createteleporters:quantum_mechanism_recipe' });
+
+  // --- Iron's Spellbooks Create compat (filling recipes) ---
+  event.remove({ mod: 'irons_spellbooks', type: 'create:filling' });
+
+  // --- Create Crafts & Additions (filling + mixing) ---
+  event.remove({ mod: 'createaddition', type: 'create:filling' });
+  event.remove({ mod: 'createaddition', type: 'create:mixing' });
+
+  // --- Create Enchantment Industry (filling + compacting) ---
+  event.remove({ mod: 'create_enchantment_industry', type: 'create:filling' });
+  event.remove({ mod: 'create_enchantment_industry', type: 'create:compacting' });
+
+  // --- Orphaned "fluid:" namespace recipes ---
+  event.remove({ id: 'fluid:compacting/honey_comb' });
+  event.remove({ id: 'fluid:compacting/powder_snow_melt' });
+  event.remove({ id: 'fluid:mixing/powder_snow_melt' });
+
+  // --- ExtrasDisks: Mekanism chemical storage compat (Mekanism not installed) ---
+  event.remove({ mod: 'extradisks', id: /chemical_storage/ });
+
+  // --- FxntStorage: pale_oak recipes (1.21.4 content, not in 1.21.1) ---
+  event.remove({ id: /fxntstorage.*pale_oak/ });
+
+  console.log('[Horizons] Broken third-party recipe cleanup complete');
 
   console.log('[Horizons] Cross-mod recipe bridges registered');
 });

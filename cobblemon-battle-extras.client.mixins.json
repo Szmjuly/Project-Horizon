@@ -1,0 +1,40 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "name.modid.mixin.client",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "cobblemon-battle-extras-common-refmap.json",
+    "client": [
+        "CobblemonBattleMessageHandlerMixin",
+        "BattleTransformPacketMixin",
+        "MoveTileMixin",
+        "BattleGeneralActionSelectionMixin",
+        "BattleOptionTileRenderMixin",
+        "BattleGUIKeyboardMixin",
+        "BattleGUIScrollMixin",
+        "BattleGUIMouseClickMixin",
+        "BattleGUIOpacityMixin",
+        "BattleGUIMidnightControlsMixin",
+        "MidnightControlsProcessorMixin",
+        "ControlifyProcessorMixin",
+        "ControlifyVirtualMouseMixin",
+        "ControlifyScreenProcessorMixin",
+        "BattleMessagePaneMixin",
+        "BattleHealthChangeHandlerMixin",
+        "BattleOverlayCompactStatusMixin",
+        "BattleOverlayPokemonCountMixin",
+        "BattleOverlayHidePortraitsMixin",
+        "BattleOverlayStandbyTransparencyMixin",
+        "megashowdown.MegaShowdownBattleHudMixin",
+        "megashowdown.MegaShowdownMoveTileMixin",
+        "megashowdown.MegaShowdownMovePreviewWidgetMixin",
+        "KeyboardInputMixin",
+        "LevelRendererMixin",
+        "MouseScrollMixin",
+        "PosableStateMixin",
+        "ExperienceUpdateMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 0
+    }
+}

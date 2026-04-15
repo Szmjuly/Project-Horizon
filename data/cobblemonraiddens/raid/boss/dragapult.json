@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "dragapult",
+        "moves": [
+            "doubleedge",
+            "dragonrush",
+            "takedown",
+            "phantomforce"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "DRAGON",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "bagon",
+        "moves": [
+            "headbutt",
+            "dragonbreath",
+            "bite",
+            "ember"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "DRAGON",
+    "weight": 20.0
+}

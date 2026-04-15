@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "scrafty",
+        "moves": [
+            "crunch",
+            "brickbreak",
+            "chipaway",
+            "facade"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "DARK",
+    "weight": 20.0
+}

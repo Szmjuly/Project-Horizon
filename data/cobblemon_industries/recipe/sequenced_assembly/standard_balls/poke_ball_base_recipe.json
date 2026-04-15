@@ -1,0 +1,54 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:iron_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "count": 4,
+      "id": "cobblemore_lib:poke_ball_base"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "cobblemore_lib:incomplete_ball_base"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "count": 8,
+          "id": "cobblemore_lib:incomplete_ball_base"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cobblemore_lib:incomplete_ball_base"
+        },
+        [
+          {
+            "item": "create:iron_sheet"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "cobblemore_lib:incomplete_ball_base"
+        }
+      ]
+    }
+    
+  ],
+  "transitional_item": {
+    "id": "cobblemore_lib:incomplete_ball_base"
+  }
+}
+

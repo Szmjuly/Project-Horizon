@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "ampharos",
+        "moves": [
+            "discharge",
+            "powergem",
+            "takedown",
+            "firepunch"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "ELECTRIC",
+    "weight": 20.0
+}

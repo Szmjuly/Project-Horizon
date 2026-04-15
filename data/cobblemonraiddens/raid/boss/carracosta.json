@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "carracosta",
+        "moves": [
+            "aquatail",
+            "crunch",
+            "rockslide",
+            "brine"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

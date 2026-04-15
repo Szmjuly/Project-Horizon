@@ -1,0 +1,15 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "me.shedaniel.cloth",
+        "artifact": "cloth-config-neoforge"
+      },
+      "version": {
+        "range": "[15.0.140,)",
+        "artifactVersion": "15.0.140"
+      },
+      "path": "META-INF/jars/cloth-config-neoforge-15.0.140-neoforge.jar"
+    }
+  ]
+}

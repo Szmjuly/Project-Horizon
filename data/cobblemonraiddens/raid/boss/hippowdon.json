@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "hippowdon",
+        "moves": [
+            "doubleedge",
+            "earthquake",
+            "takedown",
+            "crunch"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "GROUND",
+    "weight": 20.0
+}

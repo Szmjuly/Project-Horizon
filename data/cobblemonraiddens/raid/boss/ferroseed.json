@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "ferroseed",
+        "moves": [
+            "flashcannon",
+            "pinmissile",
+            "rollout",
+            "metalclaw"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

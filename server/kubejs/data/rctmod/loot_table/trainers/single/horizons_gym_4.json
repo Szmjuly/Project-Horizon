@@ -43,7 +43,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:tm_surf",
+          "name": "cobblemon:exp_candy_m",
           "weight": 15
         },
         {
@@ -53,7 +53,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "cobblemon:heart_scale",
+          "name": "cobblemon:rare_candy",
           "weight": 10
         }
       ]

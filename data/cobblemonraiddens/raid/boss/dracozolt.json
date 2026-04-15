@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "dracozolt",
+        "moves": [
+            "stomp",
+            "dragontail",
+            "pluck",
+            "ancientpower"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "ELECTRIC",
+    "weight": 20.0
+}

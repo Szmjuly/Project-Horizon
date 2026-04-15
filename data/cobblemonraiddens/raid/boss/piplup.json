@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "piplup",
+        "moves": [
+            "bubblebeam",
+            "peck",
+            "watergun",
+            "bubble"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

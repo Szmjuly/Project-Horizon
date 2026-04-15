@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cobblemore_lib:sport_ball_lid"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemore_lib:timer_ball_lid"
+    }
+  ]
+}

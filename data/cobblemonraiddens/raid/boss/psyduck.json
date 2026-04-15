@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "psyduck",
+        "moves": [
+            "zenheadbutt",
+            "waterpulse",
+            "furyswipes",
+            "confusion"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

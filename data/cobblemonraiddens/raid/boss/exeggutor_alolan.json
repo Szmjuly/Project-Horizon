@@ -1,0 +1,20 @@
+{
+    "pokemon": {
+        "species": "exeggutor",
+        "moves": [
+            "eggbomb",
+            "absorb",
+            "megadrain",
+            "solarbeam"
+        ],
+        "custom_properties": [
+            {
+                "name": "alolan",
+                "value": true
+            }
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "jellicent",
+        "moves": [
+            "hydropump",
+            "whirlpool",
+            "shadowball",
+            "ominouswind"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

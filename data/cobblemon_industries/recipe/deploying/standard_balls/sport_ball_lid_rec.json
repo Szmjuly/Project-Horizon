@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cobblemore_lib:red_ball_lid"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemore_lib:sport_ball_lid"
+    }
+  ]
+}

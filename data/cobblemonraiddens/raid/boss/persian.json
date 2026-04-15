@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "persian",
+        "moves": [
+            "slash",
+            "furyswipes",
+            "assurance",
+            "feintattack"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

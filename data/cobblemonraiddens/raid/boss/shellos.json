@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "shellos",
+        "moves": [
+            "earthpower",
+            "muddywater",
+            "bodyslam",
+            "ancientpower"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

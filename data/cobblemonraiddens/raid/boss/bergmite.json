@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "bergmite",
+        "moves": [
+            "avalanche",
+            "icywind",
+            "powdersnow",
+            "tackle"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "ICE",
+    "weight": 20.0
+}

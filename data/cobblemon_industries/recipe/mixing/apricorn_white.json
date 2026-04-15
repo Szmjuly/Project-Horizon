@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "tag": "cobblemon:apricorns"
+    },
+    {
+      "tag": "cobblemon:apricorns"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:white_apricorn"
+    },
+    {
+      "id": "cobblemon:white_apricorn"
+    }
+  ]
+}

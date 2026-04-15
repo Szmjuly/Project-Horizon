@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cobblemore_lib:slate_ball_lid"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemore_lib:ultra_ball_lid"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "pokemon": {
+        "species": "wimpod",
+        "moves": [
+            "strugglebug"
+        ]
+    },
+    "raid_tier": "TIER_ONE",
+    "raid_type": "BUG",
+    "weight": 20.0
+}

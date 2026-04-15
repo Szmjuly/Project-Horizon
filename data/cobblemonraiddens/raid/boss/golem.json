@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "golem",
+        "moves": [
+            "bulldoze",
+            "earthquake",
+            "rockblast",
+            "heavyslam"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "ROCK",
+    "weight": 20.0
+}

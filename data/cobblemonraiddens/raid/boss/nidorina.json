@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "nidorina",
+        "moves": [
+            "doublekick",
+            "furyswipes",
+            "scratch",
+            "poisonsting"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "POISON",
+    "weight": 20.0
+}

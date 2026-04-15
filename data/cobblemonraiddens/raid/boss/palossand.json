@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "palossand",
+        "moves": [
+            "gigadrain",
+            "bulldoze",
+            "megadrain",
+            "absorb"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "GHOST",
+    "weight": 20.0
+}

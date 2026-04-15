@@ -1,0 +1,20 @@
+{
+    "pokemon": {
+        "species": "geodude",
+        "moves": [
+            "smackdown",
+            "rockthrow",
+            "spark",
+            "rollout"
+        ],
+        "custom_properties": [
+            {
+                "name": "alolan",
+                "value": true
+            }
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "ROCK",
+    "weight": 20.0
+}

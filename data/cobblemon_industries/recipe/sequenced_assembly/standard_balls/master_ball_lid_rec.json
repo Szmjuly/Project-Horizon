@@ -1,0 +1,54 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:shulker_shell"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemore_lib:master_ball_lid"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cobblemore_lib:incomplete_master_ball_lid"
+        },
+        [
+          {
+            "item": "minecraft:netherite_ingot"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "cobblemore_lib:incomplete_master_ball_lid"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cobblemore_lib:incomplete_master_ball_lid"
+        }
+      ],
+      "results": [
+        {
+          "id": "cobblemore_lib:incomplete_master_ball_lid"
+        }
+      ]
+    }
+    
+    
+  ],
+  "transitional_item": {
+    "id": "cobblemore_lib:incomplete_master_ball_lid"
+  }
+}
+
+
+
+

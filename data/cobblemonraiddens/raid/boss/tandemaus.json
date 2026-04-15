@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "tandemaus",
+        "moves": [
+            "bulletseed",
+            "doublehit",
+            "echoedvoice",
+            "pound"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

@@ -2905,5 +2905,73 @@
     },
     "_project_id": "Z2mXHnxP",
     "_project_name": "[1.21.1] v3.1.5 (NeoForge)"
+  },
+  "Controlling-neoforge-1.21.1-19.0.5.jar": {
+    "path": "mods/Controlling-neoforge-1.21.1-19.0.5.jar",
+    "hashes": {
+      "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
+      "sha512": "bd01b2a38a869ea38e5f2a8fcd601e67ea9b132b9883c6ae752bc35dff6e94f6d47b965e31c1ee5c2f6a1221653549680da779fcb5319d199aec261d221d179e"
+    },
+    "downloads": [
+      "https://cdn.modrinth.com/data/xv94TkTM/versions/FaNppCJJ/Controlling-neoforge-1.21.1-19.0.5.jar"
+    ],
+    "fileSize": 77555,
+    "env": {
+      "client": "required",
+      "server": "required"
+    },
+    "_project_id": "xv94TkTM",
+    "_project_name": "NeoForge-1.21.1-19.0.5"
+  },
+  "ShoulderSurfing-NeoForge-1.21.1-4.22.5.jar": {
+    "path": "mods/ShoulderSurfing-NeoForge-1.21.1-4.22.5.jar",
+    "hashes": {
+      "sha1": "ce43404e881b79d39b09b32cb975105cd955dabd",
+      "sha512": "2460a8afafcd7f91d2314bc83370963ae62de6c3b6d62f9fce85ba1d5383232028caae20a04ec54ac7705cb2b2ff8ab215935e8a68b83e647dd3f96beb4e45bd"
+    },
+    "downloads": [
+      "https://cdn.modrinth.com/data/kepjj2sy/versions/GzbD0h8v/ShoulderSurfing-NeoForge-1.21.1-4.22.5.jar"
+    ],
+    "fileSize": 266882,
+    "env": {
+      "client": "required",
+      "server": "required"
+    },
+    "_project_id": "kepjj2sy",
+    "_project_name": "ShoulderSurfing-NeoForge-1.21.1-4.22.5"
+  },
+  "Searchables-neoforge-1.21.1-1.0.2.jar": {
+    "path": "mods/Searchables-neoforge-1.21.1-1.0.2.jar",
+    "hashes": {
+      "sha1": "5b8a0b43a474c066371b2e16f9bfb88622552a74",
+      "sha512": "d0824bac1900142ac9a53e68f7ec3b4c0d33d9366bbd3f1d0d93eed860e5eb6b5e6f5a215a69bfffa70bcb48573ff49b5a12bbaa96096ceac6636000d506027a"
+    },
+    "downloads": [
+      "https://cdn.modrinth.com/data/fuuu3xnx/versions/iEE85X0w/Searchables-neoforge-1.21.1-1.0.2.jar"
+    ],
+    "fileSize": 77326,
+    "env": {
+      "client": "required",
+      "server": "required"
+    },
+    "_project_id": "fuuu3xnx",
+    "_project_name": "NeoForge-1.21.1-1.0.2"
+  },
+  "map_atlases-1.21-6.5.3-neoforge.jar": {
+    "path": "mods/map_atlases-1.21-6.5.3-neoforge.jar",
+    "hashes": {
+      "sha1": "73ab066f6673c799b3a3acff4dc276d61139f084",
+      "sha512": "794fbc6d48adb9fcb024e14be86cb6906fb1823f588684322a6983a95d13a8373b0171f5691de61bbbdf8d1591eeb3b60ccdb2e02123fc78baaefa5dca632cf4"
+    },
+    "downloads": [
+      "https://cdn.modrinth.com/data/4hwXMFif/versions/BlD4MEYm/map_atlases-1.21-6.5.3-neoforge.jar"
+    ],
+    "fileSize": 653906,
+    "env": {
+      "client": "required",
+      "server": "required"
+    },
+    "_project_id": "4hwXMFif",
+    "_project_name": "1.21-6.5.3-neoforge"
   }
 }

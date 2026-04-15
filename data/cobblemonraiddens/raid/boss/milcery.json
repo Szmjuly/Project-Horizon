@@ -1,0 +1,12 @@
+{
+    "pokemon": {
+        "species": "milcery",
+        "moves": [
+            "drainingkiss",
+            "tackle"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "FAIRY",
+    "weight": 20.0
+}

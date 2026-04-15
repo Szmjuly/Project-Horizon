@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "empoleon",
+        "moves": [
+            "wavecrash",
+            "hydropump",
+            "drillpeck",
+            "whirlpool"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

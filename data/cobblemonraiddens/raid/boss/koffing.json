@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "koffing",
+        "moves": [
+            "sludgebomb",
+            "tackle",
+            "sludge",
+            "assurance"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "POISON",
+    "weight": 20.0
+}

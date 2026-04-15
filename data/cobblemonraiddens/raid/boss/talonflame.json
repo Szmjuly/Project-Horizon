@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "talonflame",
+        "moves": [
+            "aerialace",
+            "razorwind",
+            "acrobatics",
+            "tackle"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FIRE",
+    "weight": 20.0
+}

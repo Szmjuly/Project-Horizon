@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "thwackey",
+        "moves": [
+            "slam",
+            "knockoff",
+            "razorleaf",
+            "scratch"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

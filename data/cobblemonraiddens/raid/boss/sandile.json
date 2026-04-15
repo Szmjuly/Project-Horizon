@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "sandile",
+        "moves": [
+            "bite",
+            "sandtomb",
+            "rage",
+            "powertrip"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "GROUND",
+    "weight": 20.0
+}

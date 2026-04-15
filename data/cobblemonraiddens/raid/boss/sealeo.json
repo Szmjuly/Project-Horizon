@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "sealeo",
+        "moves": [
+            "aurorabeam",
+            "brine",
+            "snore",
+            "iceball"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "ICE",
+    "weight": 20.0
+}

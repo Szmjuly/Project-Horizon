@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "torterra",
+        "moves": [
+            "headlongrush",
+            "leafstorm",
+            "gigadrain",
+            "crunch"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

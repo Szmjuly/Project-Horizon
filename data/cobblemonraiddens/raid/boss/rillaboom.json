@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "rillaboom",
+        "moves": [
+            "woodhammer",
+            "slam",
+            "knockoff",
+            "drumbeating"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "hydreigon",
+        "moves": [
+            "outrage",
+            "dragonrush",
+            "hypervoice",
+            "bodyslam"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "DARK",
+    "weight": 20.0
+}

@@ -47,22 +47,22 @@
 # ==============================================================================
 # Granted as the player progresses through the 4-act main questline.
 
-[stages.act_1_started]
+[stage.act_1_started]
 name = "Act 1 Started"
 description = "Player has begun the main questline in Anchor Town."
 dependencies = []
 
-[stages.act_1_complete]
+[stage.act_1_complete]
 name = "Act 1 Complete"
 description = "Completed Act 1. The Watchers have noticed the player."
 dependencies = ["act_1_started"]
 
-[stages.act_2_started]
+[stage.act_2_started]
 name = "Act 2 Started"
 description = "Unlocked Act 2 content. New quests and faction encounters available."
 dependencies = ["act_1_complete"]
 
-[stages.act_4_started]
+[stage.act_4_started]
 name = "Act 4 Started"
 description = "Reached Act 4. Ascension eligibility checks begin."
 dependencies = ["act_2_started"]
@@ -75,127 +75,127 @@ dependencies = ["act_2_started"]
 # Managed by quests/branching_logic.js
 
 # --- Act 2: Restoration vs Independence ---
-[stages.branch_restoration]
+[stage.branch_restoration]
 name = "Restoration (Watchers)"
 description = "Chose to follow the Watchers and restore the old order."
 dependencies = ["act_2_started"]
 
-[stages.branch_independence]
+[stage.branch_independence]
 name = "Independence (Own Path)"
 description = "Chose to forge an independent destiny, free from Watcher control."
 dependencies = ["act_2_started"]
 
-[stages.branch_restoration_locked]
+[stage.branch_restoration_locked]
 name = "Restoration Locked"
 description = "Locked out of the Restoration branch by choosing Independence."
 dependencies = ["branch_independence"]
 
-[stages.branch_independence_locked]
+[stage.branch_independence_locked]
 name = "Independence Locked"
 description = "Locked out of the Independence branch by choosing Restoration."
 dependencies = ["branch_restoration"]
 
 # --- Act 2: Consequence stages ---
-[stages.act2_watcher_ally]
+[stage.act2_watcher_ally]
 name = "Watcher Ally"
 description = "Aligned with the Watchers in Act 2."
 dependencies = ["branch_restoration"]
 
-[stages.act2_restoration_path]
+[stage.act2_restoration_path]
 name = "Restoration Path"
 description = "Following the Restoration questline in Act 2."
 dependencies = ["branch_restoration"]
 
-[stages.act2_independent]
+[stage.act2_independent]
 name = "Independent"
 description = "Declared independence from the Watchers in Act 2."
 dependencies = ["branch_independence"]
 
-[stages.act2_freedom_path]
+[stage.act2_freedom_path]
 name = "Freedom Path"
 description = "Following the Freedom questline in Act 2."
 dependencies = ["branch_independence"]
 
 # --- Act 3: Tech vs Nature ---
-[stages.branch_tech]
+[stage.branch_tech]
 name = "Artificer (Technology)"
 description = "Chose to focus on Precursor technology and mechanical innovation."
 dependencies = ["act_2_started"]
 
-[stages.branch_nature]
+[stage.branch_nature]
 name = "Cultivator (Nature)"
 description = "Chose to embrace the natural world and cultivate living power."
 dependencies = ["act_2_started"]
 
-[stages.branch_tech_locked]
+[stage.branch_tech_locked]
 name = "Tech Locked"
 description = "Locked out of the Tech branch by choosing Nature."
 dependencies = ["branch_nature"]
 
-[stages.branch_nature_locked]
+[stage.branch_nature_locked]
 name = "Nature Locked"
 description = "Locked out of the Nature branch by choosing Tech."
 dependencies = ["branch_tech"]
 
 # --- Act 3: Consequence stages ---
-[stages.act3_artificer]
+[stage.act3_artificer]
 name = "Act 3 Artificer"
 description = "Pursuing the Artificer questline in Act 3."
 dependencies = ["branch_tech"]
 
-[stages.act3_tech_focus]
+[stage.act3_tech_focus]
 name = "Act 3 Tech Focus"
 description = "Tech-focused content unlocked in Act 3."
 dependencies = ["branch_tech"]
 
-[stages.act3_cultivator]
+[stage.act3_cultivator]
 name = "Act 3 Cultivator"
 description = "Pursuing the Cultivator questline in Act 3."
 dependencies = ["branch_nature"]
 
-[stages.act3_nature_focus]
+[stage.act3_nature_focus]
 name = "Act 3 Nature Focus"
 description = "Nature-focused content unlocked in Act 3."
 dependencies = ["branch_nature"]
 
 # --- Act 4: Conquer vs Diplomacy ---
-[stages.branch_conquer]
+[stage.branch_conquer]
 name = "Conquer (Force)"
 description = "Chose to resolve faction conflict through strength and dominance."
 dependencies = ["act_4_started"]
 
-[stages.branch_diplomacy]
+[stage.branch_diplomacy]
 name = "Diplomacy (Peace)"
 description = "Chose to unite the factions through negotiation and compromise."
 dependencies = ["act_4_started"]
 
-[stages.branch_conquer_locked]
+[stage.branch_conquer_locked]
 name = "Conquer Locked"
 description = "Locked out of the Conquer branch by choosing Diplomacy."
 dependencies = ["branch_diplomacy"]
 
-[stages.branch_diplomacy_locked]
+[stage.branch_diplomacy_locked]
 name = "Diplomacy Locked"
 description = "Locked out of the Diplomacy branch by choosing Conquer."
 dependencies = ["branch_conquer"]
 
 # --- Act 4: Consequence stages ---
-[stages.act4_conqueror]
+[stage.act4_conqueror]
 name = "Act 4 Conqueror"
 description = "Pursuing the military conquest path in Act 4."
 dependencies = ["branch_conquer"]
 
-[stages.act4_military_path]
+[stage.act4_military_path]
 name = "Act 4 Military Path"
 description = "Military-focused content unlocked in Act 4."
 dependencies = ["branch_conquer"]
 
-[stages.act4_diplomat]
+[stage.act4_diplomat]
 name = "Act 4 Diplomat"
 description = "Pursuing the diplomatic resolution path in Act 4."
 dependencies = ["branch_diplomacy"]
 
-[stages.act4_peace_path]
+[stage.act4_peace_path]
 name = "Act 4 Peace Path"
 description = "Peace-focused content unlocked in Act 4."
 dependencies = ["branch_diplomacy"]
@@ -207,22 +207,22 @@ dependencies = ["branch_diplomacy"]
 # Granted when a player invests heavily in a base perk tree.
 # Referenced by death_penalty.js, quality_tiers.js, and other systems.
 
-[stages.path_vanguard]
+[stage.path_vanguard]
 name = "Path of the Vanguard"
 description = "Unlocks combat-focused perks. Reduces death penalty severity."
 dependencies = []
 
-[stages.path_artificer]
+[stage.path_artificer]
 name = "Path of the Artificer"
 description = "Unlocks engineering-focused perks. Enhances crafting systems."
 dependencies = []
 
-[stages.path_cultivator]
+[stage.path_cultivator]
 name = "Path of the Cultivator"
 description = "Unlocks farming-focused perks. Increases crop quality bonus."
 dependencies = []
 
-[stages.path_wayfinder]
+[stage.path_wayfinder]
 name = "Path of the Wayfinder"
 description = "Unlocks exploration-focused perks. Reduces death penalty item loss."
 dependencies = []
@@ -234,62 +234,62 @@ dependencies = []
 # Granted by dungeons/gate_system.js as players clear gate floors.
 # Tiers: E (1-9), D (10-19), C (20-29), B (30-39), A (40-49), S (50+)
 
-[stages.gate_tier_e]
+[stage.gate_tier_e]
 name = "Gate Rank E"
 description = "Reached Gate floors 1-9. Basic dungeon access."
 dependencies = []
 
-[stages.gate_tier_d]
+[stage.gate_tier_d]
 name = "Gate Rank D"
 description = "Reached Gate floors 10-19. Mid-tier loot tables unlocked."
 dependencies = ["gate_tier_e"]
 
-[stages.gate_tier_c]
+[stage.gate_tier_c]
 name = "Gate Rank C"
 description = "Reached Gate floors 20-29. Advanced dungeon mechanics active."
 dependencies = ["gate_tier_d"]
 
-[stages.gate_tier_b]
+[stage.gate_tier_b]
 name = "Gate Rank B"
 description = "Reached Gate floors 30-39. Meets Ascension gate floor requirement."
 dependencies = ["gate_tier_c"]
 
-[stages.gate_tier_a]
+[stage.gate_tier_a]
 name = "Gate Rank A"
 description = "Reached Gate floors 40-49. Elite dungeon content unlocked."
 dependencies = ["gate_tier_b"]
 
-[stages.gate_tier_s]
+[stage.gate_tier_s]
 name = "Gate Rank S"
 description = "Reached Gate floor 50+. Maximum gate rank achieved."
 dependencies = ["gate_tier_a"]
 
-[stages.gate_floor_10]
+[stage.gate_floor_10]
 name = "Gate Floor 10 Cleared"
 description = "Cleared Gate floor 10. First boss milestone."
 dependencies = ["gate_tier_e"]
 
-[stages.gate_floor_20]
+[stage.gate_floor_20]
 name = "Gate Floor 20 Cleared"
 description = "Cleared Gate floor 20. Second boss milestone."
 dependencies = ["gate_floor_10"]
 
-[stages.gate_floor_30]
+[stage.gate_floor_30]
 name = "Gate Floor 30 Cleared"
 description = "Cleared Gate floor 30. Ascension gate requirement satisfied."
 dependencies = ["gate_floor_20"]
 
-[stages.gate_floor_40]
+[stage.gate_floor_40]
 name = "Gate Floor 40 Cleared"
 description = "Cleared Gate floor 40. Elite content milestone."
 dependencies = ["gate_floor_30"]
 
-[stages.gate_floor_50]
+[stage.gate_floor_50]
 name = "Gate Floor 50 Cleared"
 description = "Cleared Gate floor 50. Maximum floor milestone."
 dependencies = ["gate_floor_40"]
 
-[stages.gate_tutorial]
+[stage.gate_tutorial]
 name = "Gate Tutorial Complete"
 description = "Entered first Gate dungeon. Gate system explained."
 dependencies = []
@@ -300,22 +300,22 @@ dependencies = []
 # ==============================================================================
 # Granted by progression/pathfinder_levels.js at level thresholds.
 
-[stages.level_5]
+[stage.level_5]
 name = "Pathfinder Level 5"
 description = "Reached Pathfinder level 5. Early-game milestone."
 dependencies = []
 
-[stages.level_10]
+[stage.level_10]
 name = "Pathfinder Level 10"
 description = "Reached Pathfinder level 10. Base camp features unlocked."
 dependencies = ["level_5"]
 
-[stages.level_25]
+[stage.level_25]
 name = "Pathfinder Level 25"
 description = "Reached Pathfinder level 25. Mid-game milestone."
 dependencies = ["level_10"]
 
-[stages.level_50]
+[stage.level_50]
 name = "Pathfinder Level 50"
 description = "Reached Pathfinder level 50. Endgame milestone."
 dependencies = ["level_25"]
@@ -326,7 +326,7 @@ dependencies = ["level_25"]
 # ==============================================================================
 # Checked by quality_tiers.js and other gating systems.
 
-[stages.unlock_cooking]
+[stage.unlock_cooking]
 name = "Cooking Unlocked"
 description = "Unlocks cooking recipes and +5% farming quality bonus."
 dependencies = []
@@ -340,127 +340,127 @@ dependencies = []
 # Tiers: hostile (-100), friendly (+100), trusted (+500), allied (+1000)
 
 # --- Plains Kingdom ---
-[stages.rep_plains_hostile]
+[stage.rep_plains_hostile]
 name = "Plains Kingdom: Hostile"
 description = "Reputation -100 or lower with the Plains Kingdom."
 dependencies = []
 
-[stages.rep_plains_friendly]
+[stage.rep_plains_friendly]
 name = "Plains Kingdom: Friendly"
 description = "Reputation 100+ with the Plains Kingdom. Basic trades available."
 dependencies = []
 
-[stages.rep_plains_trusted]
+[stage.rep_plains_trusted]
 name = "Plains Kingdom: Trusted"
 description = "Reputation 500+ with the Plains Kingdom. Exclusive quests available."
 dependencies = ["rep_plains_friendly"]
 
-[stages.rep_plains_allied]
+[stage.rep_plains_allied]
 name = "Plains Kingdom: Allied"
 description = "Reputation 1000 with the Plains Kingdom. Maximum standing."
 dependencies = ["rep_plains_trusted"]
 
 # --- Forest Kingdom ---
-[stages.rep_forest_hostile]
+[stage.rep_forest_hostile]
 name = "Forest Kingdom: Hostile"
 description = "Reputation -100 or lower with the Forest Kingdom."
 dependencies = []
 
-[stages.rep_forest_friendly]
+[stage.rep_forest_friendly]
 name = "Forest Kingdom: Friendly"
 description = "Reputation 100+ with the Forest Kingdom. Basic trades available."
 dependencies = []
 
-[stages.rep_forest_trusted]
+[stage.rep_forest_trusted]
 name = "Forest Kingdom: Trusted"
 description = "Reputation 500+ with the Forest Kingdom. Exclusive quests available."
 dependencies = ["rep_forest_friendly"]
 
-[stages.rep_forest_allied]
+[stage.rep_forest_allied]
 name = "Forest Kingdom: Allied"
 description = "Reputation 1000 with the Forest Kingdom. Maximum standing."
 dependencies = ["rep_forest_trusted"]
 
 # --- Mountain Kingdom ---
-[stages.rep_mountain_hostile]
+[stage.rep_mountain_hostile]
 name = "Mountain Kingdom: Hostile"
 description = "Reputation -100 or lower with the Mountain Kingdom."
 dependencies = []
 
-[stages.rep_mountain_friendly]
+[stage.rep_mountain_friendly]
 name = "Mountain Kingdom: Friendly"
 description = "Reputation 100+ with the Mountain Kingdom. Basic trades available."
 dependencies = []
 
-[stages.rep_mountain_trusted]
+[stage.rep_mountain_trusted]
 name = "Mountain Kingdom: Trusted"
 description = "Reputation 500+ with the Mountain Kingdom. Exclusive quests available."
 dependencies = ["rep_mountain_friendly"]
 
-[stages.rep_mountain_allied]
+[stage.rep_mountain_allied]
 name = "Mountain Kingdom: Allied"
 description = "Reputation 1000 with the Mountain Kingdom. Maximum standing."
 dependencies = ["rep_mountain_trusted"]
 
 # --- Coastal Kingdom ---
-[stages.rep_coastal_hostile]
+[stage.rep_coastal_hostile]
 name = "Coastal Kingdom: Hostile"
 description = "Reputation -100 or lower with the Coastal Kingdom."
 dependencies = []
 
-[stages.rep_coastal_friendly]
+[stage.rep_coastal_friendly]
 name = "Coastal Kingdom: Friendly"
 description = "Reputation 100+ with the Coastal Kingdom. Basic trades available."
 dependencies = []
 
-[stages.rep_coastal_trusted]
+[stage.rep_coastal_trusted]
 name = "Coastal Kingdom: Trusted"
 description = "Reputation 500+ with the Coastal Kingdom. Exclusive quests available."
 dependencies = ["rep_coastal_friendly"]
 
-[stages.rep_coastal_allied]
+[stage.rep_coastal_allied]
 name = "Coastal Kingdom: Allied"
 description = "Reputation 1000 with the Coastal Kingdom. Maximum standing."
 dependencies = ["rep_coastal_trusted"]
 
 # --- Skyborn Kingdom ---
-[stages.rep_skyborn_hostile]
+[stage.rep_skyborn_hostile]
 name = "Skyborn Kingdom: Hostile"
 description = "Reputation -100 or lower with the Skyborn Kingdom."
 dependencies = []
 
-[stages.rep_skyborn_friendly]
+[stage.rep_skyborn_friendly]
 name = "Skyborn Kingdom: Friendly"
 description = "Reputation 100+ with the Skyborn Kingdom. Basic trades available."
 dependencies = []
 
-[stages.rep_skyborn_trusted]
+[stage.rep_skyborn_trusted]
 name = "Skyborn Kingdom: Trusted"
 description = "Reputation 500+ with the Skyborn Kingdom. Exclusive quests available."
 dependencies = ["rep_skyborn_friendly"]
 
-[stages.rep_skyborn_allied]
+[stage.rep_skyborn_allied]
 name = "Skyborn Kingdom: Allied"
 description = "Reputation 1000 with the Skyborn Kingdom. Maximum standing."
 dependencies = ["rep_skyborn_trusted"]
 
 # --- Wanderer Guild ---
-[stages.rep_wanderer_hostile]
+[stage.rep_wanderer_hostile]
 name = "Wanderer Guild: Hostile"
 description = "Reputation -100 or lower with the Wanderer Guild."
 dependencies = []
 
-[stages.rep_wanderer_friendly]
+[stage.rep_wanderer_friendly]
 name = "Wanderer Guild: Friendly"
 description = "Reputation 100+ with the Wanderer Guild. Basic trades available."
 dependencies = []
 
-[stages.rep_wanderer_trusted]
+[stage.rep_wanderer_trusted]
 name = "Wanderer Guild: Trusted"
 description = "Reputation 500+ with the Wanderer Guild. Exclusive quests available."
 dependencies = ["rep_wanderer_friendly"]
 
-[stages.rep_wanderer_allied]
+[stage.rep_wanderer_allied]
 name = "Wanderer Guild: Allied"
 description = "Reputation 1000 with the Wanderer Guild. Maximum standing."
 dependencies = ["rep_wanderer_trusted"]
@@ -471,22 +471,22 @@ dependencies = ["rep_wanderer_trusted"]
 # ==============================================================================
 # Granted by crime/crime_stat.js and quests/reward_handlers.js
 
-[stages.crime_clean]
+[stage.crime_clean]
 name = "Clean Record"
 description = "Crime Stat is 0. Player is in good standing with all factions."
 dependencies = []
 
-[stages.crime_outlaw]
+[stage.crime_outlaw]
 name = "Outlaw"
 description = "Crime Stat 4+. Bounty hunters will pursue. Shadow Ascension path eligible."
 dependencies = []
 
-[stages.horizons_jailed]
+[stage.horizons_jailed]
 name = "Jailed"
 description = "Player is currently incarcerated. Movement and actions restricted."
 dependencies = []
 
-[stages.bounty_hunter_active]
+[stage.bounty_hunter_active]
 name = "Bounty Hunter Active"
 description = "Player has accepted a bounty contract and is tracking a target."
 dependencies = []
@@ -498,114 +498,114 @@ dependencies = []
 # Managed by ascension/eligibility.js, trial_manager.js, shadow_path.js,
 # multi_ascension.js, subtree_unlock.js, sigil_effects.js
 
-[stages.ascend_eligible]
+[stage.ascend_eligible]
 name = "Ascension Eligible"
 description = "All 6 ascension requirements met. May begin trial selection."
 dependencies = ["act_4_started"]
 
-[stages.ascend_shadow_path]
+[stage.ascend_shadow_path]
 name = "Shadow Path Ascension"
 description = "Entered the Shadow Ascension path (Outlaw alignment)."
 dependencies = ["ascend_eligible", "crime_outlaw"]
 
 # --- Ascended Class Stages (granted on trial completion) ---
-[stages.ascend_class_warlord]
+[stage.ascend_class_warlord]
 name = "Ascended: Warlord"
 description = "Completed Iron Crucible trial. Vanguard+Artificer hybrid class."
 dependencies = ["ascend_eligible"]
 
-[stages.ascend_class_beastmaster]
+[stage.ascend_class_beastmaster]
 name = "Ascended: Beastmaster"
 description = "Completed Bond of Eight trial. Vanguard+Cultivator hybrid class."
 dependencies = ["ascend_eligible"]
 
-[stages.ascend_class_pathwalker]
+[stage.ascend_class_pathwalker]
 name = "Ascended: Pathwalker"
 description = "Completed Mirror Maze trial. Vanguard+Wayfinder hybrid class."
 dependencies = ["ascend_eligible"]
 
-[stages.ascend_class_architect]
+[stage.ascend_class_architect]
 name = "Ascended: Architect"
 description = "Completed Endless Field trial. Artificer+Cultivator hybrid class."
 dependencies = ["ascend_eligible"]
 
-[stages.ascend_class_voyager]
+[stage.ascend_class_voyager]
 name = "Ascended: Voyager"
 description = "Completed Long Journey trial. Artificer+Wayfinder hybrid class."
 dependencies = ["ascend_eligible"]
 
-[stages.ascend_class_shepherd]
+[stage.ascend_class_shepherd]
 name = "Ascended: Shepherd"
 description = "Completed Caravan's Tale trial. Cultivator+Wayfinder hybrid class."
 dependencies = ["ascend_eligible"]
 
-[stages.ascend_class_avatar_of_war]
+[stage.ascend_class_avatar_of_war]
 name = "Ascended: Avatar of War"
 description = "Completed Hundred Floors trial. Vanguard transcendent mastery."
 dependencies = ["ascend_eligible"]
 
-[stages.ascend_class_mind_of_the_forge]
+[stage.ascend_class_mind_of_the_forge]
 name = "Ascended: Mind of the Forge"
 description = "Completed Recipe of Worlds trial. Artificer transcendent mastery."
 dependencies = ["ascend_eligible"]
 
-[stages.ascend_class_verdant_sovereign]
+[stage.ascend_class_verdant_sovereign]
 name = "Ascended: Verdant Sovereign"
 description = "Completed First Garden trial. Cultivator transcendent mastery."
 dependencies = ["ascend_eligible"]
 
-[stages.ascend_class_eternal_walker]
+[stage.ascend_class_eternal_walker]
 name = "Ascended: Eternal Walker"
 description = "Completed Edge of Map trial. Wayfinder transcendent mastery."
 dependencies = ["ascend_eligible"]
 
 # --- Shadow Class Stages (10 shadow variants) ---
-[stages.ascend_class_shadow_reaver]
+[stage.ascend_class_shadow_reaver]
 name = "Ascended: Shadow Reaver"
 description = "Shadow variant of Warlord. Offensive debuff specialist."
 dependencies = ["ascend_shadow_path"]
 
-[stages.ascend_class_wild_hunter]
+[stage.ascend_class_wild_hunter]
 name = "Ascended: Wild Hunter"
 description = "Shadow variant of Beastmaster. Stealth predator."
 dependencies = ["ascend_shadow_path"]
 
-[stages.ascend_class_nightcloak]
+[stage.ascend_class_nightcloak]
 name = "Ascended: Nightcloak"
 description = "Shadow variant of Pathwalker. Darkness and blindness specialist."
 dependencies = ["ascend_shadow_path"]
 
-[stages.ascend_class_smuggler_king]
+[stage.ascend_class_smuggler_king]
 name = "Ascended: Smuggler King"
 description = "Shadow variant of Architect. Black market loot specialist."
 dependencies = ["ascend_shadow_path"]
 
-[stages.ascend_class_void_pirate]
+[stage.ascend_class_void_pirate]
 name = "Ascended: Void Pirate"
 description = "Shadow variant of Voyager. Explosive ranged attacker."
 dependencies = ["ascend_shadow_path"]
 
-[stages.ascend_class_wandering_outlaw]
+[stage.ascend_class_wandering_outlaw]
 name = "Ascended: Wandering Outlaw"
 description = "Shadow variant of Shepherd. Speed and knockback specialist."
 dependencies = ["ascend_shadow_path"]
 
-[stages.ascend_class_tyrant]
+[stage.ascend_class_tyrant]
 name = "Ascended: Tyrant"
 description = "Shadow variant of Avatar of War. Raw power at heavy cost."
 dependencies = ["ascend_shadow_path"]
 
-[stages.ascend_class_lockbreaker]
+[stage.ascend_class_lockbreaker]
 name = "Ascended: Lockbreaker"
 description = "Shadow variant of Mind of the Forge. Haste and looting specialist."
 dependencies = ["ascend_shadow_path"]
 
-[stages.ascend_class_witch_of_thorns]
+[stage.ascend_class_witch_of_thorns]
 name = "Ascended: Witch of Thorns"
 description = "Shadow variant of Verdant Sovereign. Poison and crowd control."
 dependencies = ["ascend_shadow_path"]
 
-[stages.ascend_class_ghost_of_the_roads]
+[stage.ascend_class_ghost_of_the_roads]
 name = "Ascended: Ghost of the Roads"
 description = "Shadow variant of Eternal Walker. Phase and evasion specialist."
 dependencies = ["ascend_shadow_path"]
@@ -618,52 +618,52 @@ dependencies = ["ascend_shadow_path"]
 # Format: ascend_subtree_<class>_unlocked, subtree_<class>_tier1..tier5
 
 # --- Subtree Unlock Stages ---
-[stages.ascend_subtree_warlord_unlocked]
+[stage.ascend_subtree_warlord_unlocked]
 name = "Subtree Unlocked: Warlord"
 description = "50-point Warlord subtree available for perk investment."
 dependencies = ["ascend_class_warlord"]
 
-[stages.ascend_subtree_beastmaster_unlocked]
+[stage.ascend_subtree_beastmaster_unlocked]
 name = "Subtree Unlocked: Beastmaster"
 description = "50-point Beastmaster subtree available for perk investment."
 dependencies = ["ascend_class_beastmaster"]
 
-[stages.ascend_subtree_pathwalker_unlocked]
+[stage.ascend_subtree_pathwalker_unlocked]
 name = "Subtree Unlocked: Pathwalker"
 description = "50-point Pathwalker subtree available for perk investment."
 dependencies = ["ascend_class_pathwalker"]
 
-[stages.ascend_subtree_architect_unlocked]
+[stage.ascend_subtree_architect_unlocked]
 name = "Subtree Unlocked: Architect"
 description = "50-point Architect subtree available for perk investment."
 dependencies = ["ascend_class_architect"]
 
-[stages.ascend_subtree_voyager_unlocked]
+[stage.ascend_subtree_voyager_unlocked]
 name = "Subtree Unlocked: Voyager"
 description = "50-point Voyager subtree available for perk investment."
 dependencies = ["ascend_class_voyager"]
 
-[stages.ascend_subtree_shepherd_unlocked]
+[stage.ascend_subtree_shepherd_unlocked]
 name = "Subtree Unlocked: Shepherd"
 description = "50-point Shepherd subtree available for perk investment."
 dependencies = ["ascend_class_shepherd"]
 
-[stages.ascend_subtree_avatar_of_war_unlocked]
+[stage.ascend_subtree_avatar_of_war_unlocked]
 name = "Subtree Unlocked: Avatar of War"
 description = "50-point Avatar of War subtree available for perk investment."
 dependencies = ["ascend_class_avatar_of_war"]
 
-[stages.ascend_subtree_mind_of_the_forge_unlocked]
+[stage.ascend_subtree_mind_of_the_forge_unlocked]
 name = "Subtree Unlocked: Mind of the Forge"
 description = "50-point Mind of the Forge subtree available for perk investment."
 dependencies = ["ascend_class_mind_of_the_forge"]
 
-[stages.ascend_subtree_verdant_sovereign_unlocked]
+[stage.ascend_subtree_verdant_sovereign_unlocked]
 name = "Subtree Unlocked: Verdant Sovereign"
 description = "50-point Verdant Sovereign subtree available for perk investment."
 dependencies = ["ascend_class_verdant_sovereign"]
 
-[stages.ascend_subtree_eternal_walker_unlocked]
+[stage.ascend_subtree_eternal_walker_unlocked]
 name = "Subtree Unlocked: Eternal Walker"
 description = "50-point Eternal Walker subtree available for perk investment."
 dependencies = ["ascend_class_eternal_walker"]
@@ -674,58 +674,58 @@ dependencies = ["ascend_class_eternal_walker"]
 # ==============================================================================
 # Managed by ascension/trial_manager.js and ascension/shadow_path.js
 
-[stages.trial_active]
+[stage.trial_active]
 name = "Trial In Progress"
 description = "Player is currently inside an Ascension trial instance."
 dependencies = ["ascend_eligible"]
 
 # --- Trial Completion Stages (one per trial) ---
-[stages.trial_iron_crucible_complete]
+[stage.trial_iron_crucible_complete]
 name = "Trial Complete: Iron Crucible"
 description = "Survived waves of armored constructs. Warlord class earned."
 dependencies = ["ascend_eligible"]
 
-[stages.trial_bond_of_eight_complete]
+[stage.trial_bond_of_eight_complete]
 name = "Trial Complete: Bond of Eight"
 description = "Tamed 8 wild creatures before time expired. Beastmaster class earned."
 dependencies = ["ascend_eligible"]
 
-[stages.trial_mirror_maze_complete]
+[stage.trial_mirror_maze_complete]
 name = "Trial Complete: Mirror Maze"
 description = "Navigated the shifting labyrinth. Pathwalker class earned."
 dependencies = ["ascend_eligible"]
 
-[stages.trial_endless_field_complete]
+[stage.trial_endless_field_complete]
 name = "Trial Complete: Endless Field"
 description = "Built shelter and cultivated crops under siege. Architect class earned."
 dependencies = ["ascend_eligible"]
 
-[stages.trial_long_journey_complete]
+[stage.trial_long_journey_complete]
 name = "Trial Complete: Long Journey"
 description = "Reached the destination across hostile landscape. Voyager class earned."
 dependencies = ["ascend_eligible"]
 
-[stages.trial_caravans_tale_complete]
+[stage.trial_caravans_tale_complete]
 name = "Trial Complete: Caravan's Tale"
 description = "Escorted caravan safely through bandit territory. Shepherd class earned."
 dependencies = ["ascend_eligible"]
 
-[stages.trial_hundred_floors_complete]
+[stage.trial_hundred_floors_complete]
 name = "Trial Complete: Hundred Floors"
 description = "Ascended a tower of 100 combat encounters. Avatar of War earned."
 dependencies = ["ascend_eligible"]
 
-[stages.trial_recipe_of_worlds_complete]
+[stage.trial_recipe_of_worlds_complete]
 name = "Trial Complete: Recipe of Worlds"
 description = "Crafted a legendary item from fragments. Mind of the Forge earned."
 dependencies = ["ascend_eligible"]
 
-[stages.trial_first_garden_complete]
+[stage.trial_first_garden_complete]
 name = "Trial Complete: First Garden"
 description = "Restored a dying garden to full bloom. Verdant Sovereign earned."
 dependencies = ["ascend_eligible"]
 
-[stages.trial_edge_of_map_complete]
+[stage.trial_edge_of_map_complete]
 name = "Trial Complete: Edge of Map"
 description = "Traversed the void between worlds. Eternal Walker earned."
 dependencies = ["ascend_eligible"]
@@ -736,17 +736,17 @@ dependencies = ["ascend_eligible"]
 # ==============================================================================
 # Granted for major achievements. Used for display and bragging rights.
 
-[stages.title_champion]
+[stage.title_champion]
 name = "Title: Champion"
 description = "Defeated the Elite Four. Champion of the Horizon."
 dependencies = ["gym_badges_all"]
 
-[stages.title_the_ascended]
+[stage.title_the_ascended]
 name = "Title: The Ascended"
 description = "Completed 3 ascension trials (Triple Crown) and earned the ultimate title."
 dependencies = ["triple_crown"]
 
-[stages.triple_crown]
+[stage.triple_crown]
 name = "Triple Crown"
 description = "Completed 3 different ascension trials. Legendary achievement."
 dependencies = ["ascend_eligible"]
@@ -757,88 +757,88 @@ dependencies = ["ascend_eligible"]
 # ==============================================================================
 # Listened for by quests/quest_completion_events.js to fire side effects.
 
-[stages.quest_act1_complete]
+[stage.quest_act1_complete]
 name = "Quest: Act 1 Complete"
 description = "Triggers Act 1 completion rewards and Act 2 unlock."
 dependencies = ["act_1_started"]
 
-[stages.quest_first_cobblemon]
+[stage.quest_first_cobblemon]
 name = "Quest: First Cobblemon"
 description = "Triggers first companion tutorial and Pathfinder XP."
 dependencies = []
 
-[stages.quest_first_gate]
+[stage.quest_first_gate]
 name = "Quest: First Gate"
 description = "Triggers gate tutorial and dungeon introduction."
 dependencies = []
 
-[stages.quest_first_village]
+[stage.quest_first_village]
 name = "Quest: First Village"
 description = "Triggers village tutorial and spawns a Horizon Trader."
 dependencies = []
 
-[stages.quest_first_farm]
+[stage.quest_first_farm]
 name = "Quest: First Farm"
 description = "Triggers farming tutorial and gives starter seeds."
 dependencies = []
 
-[stages.quest_first_brew]
+[stage.quest_first_brew]
 name = "Quest: First Brew"
 description = "Triggers brewing tutorial and gives glass bottles."
 dependencies = []
 
-[stages.quest_escort_child]
+[stage.quest_escort_child]
 name = "Quest: Escort Child"
 description = "Encountered a lost child escort quest in the world."
 dependencies = []
 
-[stages.quest_treasure_hunt]
+[stage.quest_treasure_hunt]
 name = "Quest: Treasure Hunt"
 description = "Encountered a treasure hunt quest in the world."
 dependencies = []
 
 # --- Gym Badge Quest Stages ---
-[stages.quest_gym_1_complete]
+[stage.quest_gym_1_complete]
 name = "Quest: Gym 1 Complete"
 description = "Defeated Gym 1 leader. First badge earned."
 dependencies = []
 
-[stages.quest_gym_2_complete]
+[stage.quest_gym_2_complete]
 name = "Quest: Gym 2 Complete"
 description = "Defeated Gym 2 leader. Second badge earned."
 dependencies = ["quest_gym_1_complete"]
 
-[stages.quest_gym_3_complete]
+[stage.quest_gym_3_complete]
 name = "Quest: Gym 3 Complete"
 description = "Defeated Gym 3 leader. Third badge earned."
 dependencies = ["quest_gym_2_complete"]
 
-[stages.quest_gym_4_complete]
+[stage.quest_gym_4_complete]
 name = "Quest: Gym 4 Complete"
 description = "Defeated Gym 4 leader. Fourth badge earned."
 dependencies = ["quest_gym_3_complete"]
 
-[stages.quest_gym_5_complete]
+[stage.quest_gym_5_complete]
 name = "Quest: Gym 5 Complete"
 description = "Defeated Gym 5 leader. Fifth badge earned."
 dependencies = ["quest_gym_4_complete"]
 
-[stages.quest_gym_6_complete]
+[stage.quest_gym_6_complete]
 name = "Quest: Gym 6 Complete"
 description = "Defeated Gym 6 leader. Sixth badge earned."
 dependencies = ["quest_gym_5_complete"]
 
-[stages.quest_gym_7_complete]
+[stage.quest_gym_7_complete]
 name = "Quest: Gym 7 Complete"
 description = "Defeated Gym 7 leader. Seventh badge earned."
 dependencies = ["quest_gym_6_complete"]
 
-[stages.quest_gym_8_complete]
+[stage.quest_gym_8_complete]
 name = "Quest: Gym 8 Complete"
 description = "Defeated Gym 8 leader. All badges earned."
 dependencies = ["quest_gym_7_complete"]
 
-[stages.quest_elite_four]
+[stage.quest_elite_four]
 name = "Quest: Elite Four"
 description = "Defeated the Elite Four. Championship finale."
 dependencies = ["gym_badges_all"]
@@ -849,52 +849,52 @@ dependencies = ["gym_badges_all"]
 # ==============================================================================
 # Granted by quests/quest_completion_events.js gym handler.
 
-[stages.gym_badges_1]
+[stage.gym_badges_1]
 name = "1 Gym Badge"
 description = "Earned 1 of 8 gym badges."
 dependencies = []
 
-[stages.gym_badges_2]
+[stage.gym_badges_2]
 name = "2 Gym Badges"
 description = "Earned 2 of 8 gym badges."
 dependencies = ["gym_badges_1"]
 
-[stages.gym_badges_3]
+[stage.gym_badges_3]
 name = "3 Gym Badges"
 description = "Earned 3 of 8 gym badges."
 dependencies = ["gym_badges_2"]
 
-[stages.gym_badges_4]
+[stage.gym_badges_4]
 name = "4 Gym Badges"
 description = "Earned 4 of 8 gym badges. Halfway milestone."
 dependencies = ["gym_badges_3"]
 
-[stages.gym_badges_5]
+[stage.gym_badges_5]
 name = "5 Gym Badges"
 description = "Earned 5 of 8 gym badges."
 dependencies = ["gym_badges_4"]
 
-[stages.gym_badges_6]
+[stage.gym_badges_6]
 name = "6 Gym Badges"
 description = "Earned 6 of 8 gym badges."
 dependencies = ["gym_badges_5"]
 
-[stages.gym_badges_7]
+[stage.gym_badges_7]
 name = "7 Gym Badges"
 description = "Earned 7 of 8 gym badges."
 dependencies = ["gym_badges_6"]
 
-[stages.gym_badges_8]
+[stage.gym_badges_8]
 name = "8 Gym Badges"
 description = "Earned all 8 gym badges."
 dependencies = ["gym_badges_7"]
 
-[stages.gym_badges_all]
+[stage.gym_badges_all]
 name = "All Gym Badges"
 description = "All 8 gym badges collected. Elite Four challenge unlocked."
 dependencies = ["gym_badges_8"]
 
-[stages.championship]
+[stage.championship]
 name = "Championship"
 description = "Defeated the Elite Four. Endgame Cobblemon content unlocked."
 dependencies = ["gym_badges_all"]
@@ -905,22 +905,22 @@ dependencies = ["gym_badges_all"]
 # ==============================================================================
 # Granted by quests/reward_handlers.js at cumulative perk thresholds.
 
-[stages.perk_milestone_10]
+[stage.perk_milestone_10]
 name = "10 Perk Points Earned"
 description = "Earned 10 total perk points across all sources."
 dependencies = []
 
-[stages.perk_milestone_25]
+[stage.perk_milestone_25]
 name = "25 Perk Points Earned"
 description = "Earned 25 total perk points across all sources."
 dependencies = ["perk_milestone_10"]
 
-[stages.perk_milestone_50]
+[stage.perk_milestone_50]
 name = "50 Perk Points Earned"
 description = "Earned 50 total perk points across all sources."
 dependencies = ["perk_milestone_25"]
 
-[stages.perk_milestone_100]
+[stage.perk_milestone_100]
 name = "100 Perk Points Earned"
 description = "Earned 100 total perk points across all sources."
 dependencies = ["perk_milestone_50"]
@@ -931,17 +931,17 @@ dependencies = ["perk_milestone_50"]
 # ==============================================================================
 # Granted by player/nutrition.js based on food group satisfaction.
 
-[stages.nutrition_well_fed]
+[stage.nutrition_well_fed]
 name = "Well Fed"
 description = "5+ food groups satisfied. Minor buff active."
 dependencies = []
 
-[stages.nutrition_balanced]
+[stage.nutrition_balanced]
 name = "Balanced Diet"
 description = "7+ food groups satisfied. Moderate buff active."
 dependencies = ["nutrition_well_fed"]
 
-[stages.nutrition_gourmet]
+[stage.nutrition_gourmet]
 name = "Gourmet"
 description = "8+ food groups satisfied. Maximum nutrition buff active."
 dependencies = ["nutrition_balanced"]
@@ -952,22 +952,22 @@ dependencies = ["nutrition_balanced"]
 # ==============================================================================
 # Granted by quests/quest_completion_events.js on first encounters.
 
-[stages.companion_tutorial]
+[stage.companion_tutorial]
 name = "Companion Tutorial"
 description = "First Cobblemon caught. Companion system explained."
 dependencies = []
 
-[stages.village_tutorial]
+[stage.village_tutorial]
 name = "Village Tutorial"
 description = "First village discovered. Faction system explained."
 dependencies = []
 
-[stages.farming_tutorial]
+[stage.farming_tutorial]
 name = "Farming Tutorial"
 description = "First farm started. Nutrition and quality systems explained."
 dependencies = []
 
-[stages.brewing_tutorial]
+[stage.brewing_tutorial]
 name = "Brewing Tutorial"
 description = "First brew crafted. Beverage nutrition system explained."
 dependencies = []
@@ -979,47 +979,47 @@ dependencies = []
 # Checked by ascension/eligibility.js as Ascension requirement #3.
 # 8 side quest chains each have a capstone completion stage.
 
-[stages.sidechain_merchant_complete]
+[stage.sidechain_merchant_complete]
 name = "Side Chain: Merchant"
 description = "Completed the Merchant side quest chain capstone."
 dependencies = []
 
-[stages.skill_silver_tongue]
+[stage.skill_silver_tongue]
 name = "Silver Tongue"
 description = "Unlocks villager trade rerolling via Merchant's Ledger. Granted by completing the Silver Tongue quest in the Merchant Prince chain."
 dependencies = []
 
-[stages.sidechain_scholar_complete]
+[stage.sidechain_scholar_complete]
 name = "Side Chain: Scholar"
 description = "Completed the Scholar side quest chain capstone."
 dependencies = []
 
-[stages.sidechain_warrior_complete]
+[stage.sidechain_warrior_complete]
 name = "Side Chain: Warrior"
 description = "Completed the Warrior side quest chain capstone."
 dependencies = []
 
-[stages.sidechain_explorer_complete]
+[stage.sidechain_explorer_complete]
 name = "Side Chain: Explorer"
 description = "Completed the Explorer side quest chain capstone."
 dependencies = []
 
-[stages.sidechain_artisan_complete]
+[stage.sidechain_artisan_complete]
 name = "Side Chain: Artisan"
 description = "Completed the Artisan side quest chain capstone."
 dependencies = []
 
-[stages.sidechain_hunter_complete]
+[stage.sidechain_hunter_complete]
 name = "Side Chain: Hunter"
 description = "Completed the Hunter side quest chain capstone."
 dependencies = []
 
-[stages.sidechain_diplomat_complete]
+[stage.sidechain_diplomat_complete]
 name = "Side Chain: Diplomat"
 description = "Completed the Diplomat side quest chain capstone."
 dependencies = []
 
-[stages.sidechain_outlaw_complete]
+[stage.sidechain_outlaw_complete]
 name = "Side Chain: Outlaw"
 description = "Completed the Outlaw side quest chain capstone."
 dependencies = []
@@ -1031,102 +1031,102 @@ dependencies = []
 # Granted by world/discovery_handler.js when players enter location radius.
 # Format: discovered_<location_id>
 
-[stages.discovered_anchor_town]
+[stage.discovered_anchor_town]
 name = "Discovered: Anchor Town"
 description = "Found the starting settlement of Anchor Town."
 dependencies = []
 
-[stages.discovered_breach_gate]
+[stage.discovered_breach_gate]
 name = "Discovered: Breach Gate"
 description = "Found the Breach Gate dungeon entrance."
 dependencies = []
 
-[stages.discovered_sky_archive]
+[stage.discovered_sky_archive]
 name = "Discovered: Sky Archive"
 description = "Found the Sky Archive entrance."
 dependencies = []
 
-[stages.discovered_heartwood_tree]
+[stage.discovered_heartwood_tree]
 name = "Discovered: Heartwood Tree"
 description = "Found the ancient Heartwood Tree."
 dependencies = []
 
-[stages.discovered_capital_plains]
+[stage.discovered_capital_plains]
 name = "Discovered: Solhaven"
 description = "Found the Plains Kingdom capital."
 dependencies = []
 
-[stages.discovered_capital_forest]
+[stage.discovered_capital_forest]
 name = "Discovered: Verdantia"
 description = "Found the Forest Kingdom capital."
 dependencies = []
 
-[stages.discovered_capital_mountain]
+[stage.discovered_capital_mountain]
 name = "Discovered: Ironspire Hold"
 description = "Found the Mountain Kingdom capital."
 dependencies = []
 
-[stages.discovered_capital_coastal]
+[stage.discovered_capital_coastal]
 name = "Discovered: Tidesong Harbor"
 description = "Found the Coastal Kingdom capital."
 dependencies = []
 
-[stages.discovered_gym_ember]
+[stage.discovered_gym_ember]
 name = "Discovered: Ember Arena"
 description = "Found the Ember gym location."
 dependencies = []
 
-[stages.discovered_gym_tidecrest]
+[stage.discovered_gym_tidecrest]
 name = "Discovered: Tidecrest Pavilion"
 description = "Found the Tidecrest gym location."
 dependencies = []
 
-[stages.discovered_gym_thornveil]
+[stage.discovered_gym_thornveil]
 name = "Discovered: Thornveil"
 description = "Found the Thornveil gym location."
 dependencies = []
 
-[stages.discovered_gym_stormcrag]
+[stage.discovered_gym_stormcrag]
 name = "Discovered: Stormcrag"
 description = "Found the Stormcrag gym location."
 dependencies = []
 
-[stages.discovered_gym_duskhollow]
+[stage.discovered_gym_duskhollow]
 name = "Discovered: Duskhollow"
 description = "Found the Duskhollow gym location."
 dependencies = []
 
-[stages.discovered_gym_glacial]
+[stage.discovered_gym_glacial]
 name = "Discovered: Glacial"
 description = "Found the Glacial gym location."
 dependencies = []
 
-[stages.discovered_gym_ironforge]
+[stage.discovered_gym_ironforge]
 name = "Discovered: Ironforge"
 description = "Found the Ironforge gym location."
 dependencies = []
 
-[stages.discovered_gym_psyche]
+[stage.discovered_gym_psyche]
 name = "Discovered: Psyche"
 description = "Found the Psyche gym location."
 dependencies = []
 
-[stages.discovered_void_scar]
+[stage.discovered_void_scar]
 name = "Discovered: Void Scar"
 description = "Found the rare Void Scar landmark."
 dependencies = []
 
-[stages.discovered_precursor_nexus]
+[stage.discovered_precursor_nexus]
 name = "Discovered: Precursor Nexus"
 description = "Found the ancient Precursor Nexus."
 dependencies = []
 
-[stages.discovered_wanderer_shrine]
+[stage.discovered_wanderer_shrine]
 name = "Discovered: Wanderer Shrine"
 description = "Found the remote Wanderer Shrine."
 dependencies = []
 
-[stages.discovered_eclipse_altar]
+[stage.discovered_eclipse_altar]
 name = "Discovered: Eclipse Altar"
 description = "Found the hidden Eclipse Altar."
 dependencies = []
@@ -1142,88 +1142,88 @@ dependencies = []
 # Format: encounter_<encounter_type_id>
 # Tracks active world encounters. Added on spawn, removed on completion.
 
-[stages.encounter_bandit_survival]
+[stage.encounter_bandit_survival]
 name = "Encounter: Bandit Survival"
 description = "Active bandit survival encounter in progress."
 dependencies = []
 
 # --- Crisis Stages (world/crisis_events.js) ---
 # Format: crisis_<crisis_id>, crisis_resolved_<crisis_id>
-[stages.crisis_active]
+[stage.crisis_active]
 name = "Crisis Active"
 description = "A world crisis event is currently in progress."
 dependencies = []
 
 # --- Festival Stages (world/festivals.js) ---
 # Format: festival_<festival_id>
-[stages.festival_active]
+[stage.festival_active]
 name = "Festival Active"
 description = "A seasonal festival event is currently running."
 dependencies = []
 
 # --- Season Stages (world/calendar.js) ---
 # Format: season_<season_name>
-[stages.season_spring]
+[stage.season_spring]
 name = "Season: Spring"
 description = "Current world season is Spring."
 dependencies = []
 
-[stages.season_summer]
+[stage.season_summer]
 name = "Season: Summer"
 description = "Current world season is Summer."
 dependencies = []
 
-[stages.season_autumn]
+[stage.season_autumn]
 name = "Season: Autumn"
 description = "Current world season is Autumn."
 dependencies = []
 
-[stages.season_winter]
+[stage.season_winter]
 name = "Season: Winter"
 description = "Current world season is Winter."
 dependencies = []
 
 # --- Caravan Stages (trade/caravan_routes.js) ---
-[stages.caravan_active]
+[stage.caravan_active]
 name = "Caravan Active"
 description = "Player has an active trade caravan route in progress."
 dependencies = []
 
 # --- Village Condition Stages (villages/needs.js) ---
-[stages.village_comfort_high]
+[stage.village_comfort_high]
 name = "Village: High Comfort"
 description = "Player's village has high comfort level."
 dependencies = []
 
-[stages.village_safety_critical]
+[stage.village_safety_critical]
 name = "Village: Safety Critical"
 description = "Player's village has critically low safety level."
 dependencies = []
 
-[stages.mca_villagers_happy]
+[stage.mca_villagers_happy]
 name = "MCA Villagers Happy"
 description = "MCA villagers in the player's area are content."
 dependencies = []
 
 # --- Companion Ability Stages (cobblemon/) ---
-[stages.companion_grass_active]
+[stage.companion_grass_active]
 name = "Companion: Grass Active"
 description = "Grass-type Cobblemon companion ability is active. Boosts soil quality."
 dependencies = []
 
-[stages.companion_water_active]
+[stage.companion_water_active]
 name = "Companion: Water Active"
 description = "Water-type Cobblemon companion ability is active. Aids thirst system."
 dependencies = []
 
 # --- Sigil Stages (ascension/sigil_effects.js) ---
 # Format: sigil_<class_id>_equipped
-[stages.sigil_any_equipped]
+[stage.sigil_any_equipped]
 name = "Sigil Equipped"
 description = "Player has any ascension sigil equipped."
 dependencies = ["ascend_eligible"]
 
-[stages.sigil_no_fall_damage]
+[stage.sigil_no_fall_damage]
 name = "Sigil: No Fall Damage"
 description = "Equipped sigil grants fall damage immunity."
 dependencies = ["sigil_any_equipped"]
@@ -1242,12 +1242,12 @@ dependencies = ["sigil_any_equipped"]
 # ==============================================================================
 # Listed in stage_bridge.js ignoredStages. Excluded from ProgressiveStages sync.
 
-[stages.horizons_internal]
+[stage.horizons_internal]
 name = "Internal"
 description = "Internal system stage. Not synced to ProgressiveStages."
 dependencies = []
 
-[stages.debug_test]
+[stage.debug_test]
 name = "Debug Test"
 description = "Debug testing stage. Not synced to ProgressiveStages."
 dependencies = []

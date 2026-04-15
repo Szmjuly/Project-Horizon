@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cobblemore_lib:great_ball_lid"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemore_lib:dream_ball_lid"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "nidoranf-1",
-            "pokemon": "nidoran\u2640",
+            "pokemon": "nidoranf",
             "presets": ["natural"],
             "type": "pokemon",
             "spawnablePositionType": "grounded",

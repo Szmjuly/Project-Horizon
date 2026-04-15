@@ -1,0 +1,13 @@
+{
+    "pokemon": {
+        "species": "clefable",
+        "moves": [
+            "doubleslap",
+            "meteormash",
+            "moonblast"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FAIRY",
+    "weight": 20.0
+}

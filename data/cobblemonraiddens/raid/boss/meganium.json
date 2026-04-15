@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "meganium",
+        "moves": [
+            "solarbeam",
+            "gigadrain",
+            "bodyslam",
+            "magicalleaf"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

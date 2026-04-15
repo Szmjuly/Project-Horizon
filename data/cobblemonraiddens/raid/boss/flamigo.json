@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "flamigo",
+        "moves": [
+            "megakick",
+            "airslash",
+            "payback",
+            "feint"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FLYING",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "growlithe",
+        "moves": [
+            "crunch",
+            "flameburst",
+            "retaliate",
+            "firefang"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "FIRE",
+    "weight": 20.0
+}

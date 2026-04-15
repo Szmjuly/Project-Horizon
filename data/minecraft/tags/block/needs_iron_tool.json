@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+
+  "replace": false,
+  "values": [
+    "cobblemore_lib:deepslate_candy_ore",
+    "cobblemore_lib:candy_ore"
+  ]
+}

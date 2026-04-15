@@ -1,0 +1,13 @@
+{
+    "pokemon": {
+        "species": "natu",
+        "moves": [
+            "ominouswind",
+            "storedpower",
+            "peck"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "PSYCHIC",
+    "weight": 20.0
+}

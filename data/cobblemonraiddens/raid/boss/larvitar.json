@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "larvitar",
+        "moves": [
+            "stompingtantrum",
+            "rockslide",
+            "chipaway",
+            "bite"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "ROCK",
+    "weight": 20.0
+}

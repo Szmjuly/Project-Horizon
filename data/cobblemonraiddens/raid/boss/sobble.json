@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "sobble",
+        "moves": [
+            "suckerpunch",
+            "waterpulse",
+            "bind",
+            "watergun"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

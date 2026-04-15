@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "crabominable",
+        "moves": [
+            "dynamicpunch",
+            "icehammer",
+            "avalanche",
+            "slam"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FIGHTING",
+    "weight": 20.0
+}

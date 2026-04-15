@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "cobblemon:hearty_grains"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "cobblemon:grepa_berry"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "id": "cobblemon:clever_mochi"
+    }
+  ]
+}

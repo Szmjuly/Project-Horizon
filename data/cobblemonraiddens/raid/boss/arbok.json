@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "arbok",
+        "moves": [
+            "sludgebomb",
+            "mudbomb",
+            "acidspray",
+            "acid"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "POISON",
+    "weight": 20.0
+}

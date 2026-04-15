@@ -1,0 +1,35 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "item": "cobblemon:exp_candy_xs"
+    },
+    {
+      "tag": "cobblemon:apricorns"
+    }
+
+
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "cobblemon:exp_candy_s"
+    }
+  ]
+}

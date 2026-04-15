@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "magcargo",
+        "moves": [
+            "bodyslam",
+            "lavaplume",
+            "rockslide",
+            "flameburst"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FIRE",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "name.modid.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "cobblemon-battle-extras-common-refmap.json",
+  "plugin": "name.modid.mixin.CobblemonCompatMixinPlugin",
+  "client": [
+    "CobblemonBattleMessageHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

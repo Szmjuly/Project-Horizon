@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "tag": "cobblemon:apricorns"
+    },
+    {
+      "tag": "cobblemon:apricorns"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:pink_apricorn"
+    },
+    {
+      "id": "cobblemon:pink_apricorn"
+    }
+  ]
+}

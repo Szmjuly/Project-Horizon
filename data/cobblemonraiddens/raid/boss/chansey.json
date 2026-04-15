@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "chansey",
+        "moves": [
+            "eggbomb",
+            "doubleedge",
+            "takedown",
+            "doubleslap"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

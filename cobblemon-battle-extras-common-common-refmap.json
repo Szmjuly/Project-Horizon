@@ -1,0 +1,38 @@
+{
+  "mappings": {
+    "name/modid/mixin/client/BattleGUIKeyboardMixin": {
+      "keyPressed(III)Z": "Lnet/minecraft/class_437;method_25404(III)Z"
+    },
+    "name/modid/mixin/client/KeyboardInputMixin": {
+      "tick": "Lnet/minecraft/class_743;method_3129(ZF)V"
+    },
+    "name/modid/mixin/client/LevelRendererMixin": {
+      "renderEntity": "Lnet/minecraft/class_761;method_22977(Lnet/minecraft/class_1297;DDDFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V"
+    },
+    "name/modid/mixin/client/LocalPlayerJumpMixin": {
+      "aiStep": "Lnet/minecraft/class_746;method_6007()V"
+    },
+    "name/modid/mixin/client/MouseScrollMixin": {
+      "onScroll": "Lnet/minecraft/class_312;method_1598(JDD)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "name/modid/mixin/client/BattleGUIKeyboardMixin": {
+        "keyPressed(III)Z": "Lnet/minecraft/class_437;method_25404(III)Z"
+      },
+      "name/modid/mixin/client/KeyboardInputMixin": {
+        "tick": "Lnet/minecraft/class_743;method_3129(ZF)V"
+      },
+      "name/modid/mixin/client/LevelRendererMixin": {
+        "renderEntity": "Lnet/minecraft/class_761;method_22977(Lnet/minecraft/class_1297;DDDFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;)V"
+      },
+      "name/modid/mixin/client/LocalPlayerJumpMixin": {
+        "aiStep": "Lnet/minecraft/class_746;method_6007()V"
+      },
+      "name/modid/mixin/client/MouseScrollMixin": {
+        "onScroll": "Lnet/minecraft/class_312;method_1598(JDD)V"
+      }
+    }
+  }
+}

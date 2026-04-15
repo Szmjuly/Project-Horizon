@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "ambipom",
+        "moves": [
+            "lastresort",
+            "doublehit",
+            "swift",
+            "furyswipes"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

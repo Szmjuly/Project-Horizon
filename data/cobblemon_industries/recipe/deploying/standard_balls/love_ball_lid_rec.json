@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "cobblemore_lib:premier_ball_lid"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemore_lib:love_ball_lid"
+    }
+  ]
+}

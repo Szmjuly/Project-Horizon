@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "porygon2",
+        "moves": [
+            "hyperbeam",
+            "zapcannon",
+            "triattack",
+            "discharge"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

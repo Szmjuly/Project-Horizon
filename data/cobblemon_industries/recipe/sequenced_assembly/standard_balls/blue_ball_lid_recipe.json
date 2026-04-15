@@ -1,0 +1,52 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemon:blue_apricorn"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "count": 2,
+      "id": "cobblemore_lib:azure_ball_lid"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "cobblemon:blue_apricorn"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "id": "cobblemon:blue_apricorn"
+        }
+      ]
+    },
+    {
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cobblemon:blue_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:blue_apricorn"
+    }
+  ]
+}
+    
+  ],
+  "transitional_item": {
+    "id": "cobblemon:blue_apricorn"
+  }
+}
+
+
+
+
+

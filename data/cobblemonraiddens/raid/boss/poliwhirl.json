@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "poliwhirl",
+        "moves": [
+            "bodyslam",
+            "bubblebeam",
+            "doubleslap",
+            "bubble"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

@@ -1,0 +1,20 @@
+{
+    "pokemon": {
+        "species": "electrode",
+        "moves": [
+            "energyball",
+            "discharge",
+            "chloroblast",
+            "rollout"
+        ],
+        "custom_properties": [
+            {
+                "name": "hisuian",
+                "value": true
+            }
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "ELECTRIC",
+    "weight": 20.0
+}

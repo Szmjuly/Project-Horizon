@@ -62,8 +62,11 @@ ItemEvents.entityInteracted(SILVER_CONFIG.ledgerItem, function(event) {
   if (!player.crouching) return;
 
   // Must be a villager (not a wandering trader — they have their own system)
+  // MCA Reborn modifies vanilla villagers via mixin, so they remain minecraft:villager.
+  // We also accept any mca: entity type as a fallback for future MCA versions.
   var entityType = String(entity.type);
-  if (entityType !== 'minecraft:villager') {
+  var isVillager = (entityType === 'minecraft:villager' || entityType.indexOf('mca:') === 0);
+  if (!isVillager) {
     if (SILVER_CONFIG.debug) {
       console.log('[Silver Tongue] Not a villager: ' + entityType);
     }

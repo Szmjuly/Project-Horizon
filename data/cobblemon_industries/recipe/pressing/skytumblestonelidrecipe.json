@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cobblemon:sky_tumblestone"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemore_lib:sky_tumblestone_lid"
+    }
+  ]
+}
+

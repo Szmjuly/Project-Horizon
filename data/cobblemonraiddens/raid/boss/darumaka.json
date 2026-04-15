@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "darumaka",
+        "moves": [
+            "firefang",
+            "incinerate",
+            "rage",
+            "bite"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "FIRE",
+    "weight": 20.0
+}

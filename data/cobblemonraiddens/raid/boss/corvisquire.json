@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "corvisquire",
+        "moves": [
+            "drillpeck",
+            "pluck",
+            "furyattack",
+            "peck"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "FLYING",
+    "weight": 20.0
+}

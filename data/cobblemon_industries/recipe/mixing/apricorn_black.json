@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:black_dye"
+    },
+    {
+      "tag": "cobblemon:apricorns"
+    },
+    {
+      "tag": "cobblemon:apricorns"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:black_apricorn"
+    },
+    {
+      "id": "cobblemon:black_apricorn"
+    }
+  ]
+}

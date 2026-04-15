@@ -1,0 +1,20 @@
+{
+    "pokemon": {
+        "species": "sliggoo",
+        "moves": [
+            "dragonpulse",
+            "waterpulse",
+            "tackle",
+            "watergun"
+        ],
+        "custom_properties": [
+            {
+                "name": "hisuian",
+                "value": true
+            }
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "STEEL",
+    "weight": 20.0
+}

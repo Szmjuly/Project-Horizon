@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "tinkaton",
+        "moves": [
+            "fakeout",
+            "playrough",
+            "flashcannon",
+            "slam"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FAIRY",
+    "weight": 20.0
+}

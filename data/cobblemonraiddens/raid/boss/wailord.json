@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "wailord",
+        "moves": [
+            "bodyslam",
+            "bounce",
+            "dive",
+            "whirlpool"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

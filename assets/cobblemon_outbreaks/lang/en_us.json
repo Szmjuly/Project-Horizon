@@ -1,0 +1,24 @@
+{
+  "cobblemon_outbreaks.start": "A mass outbreak of %s has appeared!",
+  "cobblemon_outbreaks.start_with_coords": "A mass outbreak of %s has appeared at %s, %s, %s!",
+  "cobblemon_outbreaks.start_clickable": "A mass outbreak of %s has appeared at %s!",
+  "cobblemon_outbreaks.completed": "The %s outbreak has been cleared! Defeated: %s | Captured: %s",
+  "cobblemon_outbreaks.ended": "The %s outbreak has ended.",
+  "cobblemon_outbreaks.timeout": "The %s outbreak has timed out and ended.",
+
+  "cobblemon_outbreaks.command.started": "Started %s outbreak at %s, %s, %s",
+  "cobblemon_outbreaks.command.stopped": "Stopped the %s outbreak",
+  "cobblemon_outbreaks.command.no_active": "There is no active outbreak",
+  "cobblemon_outbreaks.command.no_position": "Must specify position or execute as an entity",
+  "cobblemon_outbreaks.command.info_none": "No active outbreak. Next outbreak in %s seconds",
+  "cobblemon_outbreaks.command.info_species": "Species: %s",
+  "cobblemon_outbreaks.command.info_location": "Location: %s, %s, %s",
+  "cobblemon_outbreaks.command.info_wave": "Wave: %s / %s",
+  "cobblemon_outbreaks.command.info_defeated": "Defeated: %s",
+  "cobblemon_outbreaks.command.info_captured": "Captured: %s",
+  "cobblemon_outbreaks.command.info_active": "Active Pokémon: %s",
+  "cobblemon_outbreaks.command.info_shiny_rate": "Current Shiny Rate: %s",
+  "cobblemon_outbreaks.command.info_time_remaining": "Time Remaining: %s seconds",
+  "cobblemon_outbreaks.command.reload_success": "Successfully reloaded outbreak configuration",
+  "cobblemon_outbreaks.command.reload_failed": "Failed to reload configuration: %s"
+}

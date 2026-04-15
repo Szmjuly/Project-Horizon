@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "dhelmise",
+        "moves": [
+            "powerwhip",
+            "phantomforce",
+            "energyball",
+            "anchorshot"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "GHOST",
+    "weight": 20.0
+}

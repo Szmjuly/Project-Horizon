@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "torkoal",
+        "moves": [
+            "flamethrower",
+            "bodyslam",
+            "lavaplume",
+            "flamewheel"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FIRE",
+    "weight": 20.0
+}

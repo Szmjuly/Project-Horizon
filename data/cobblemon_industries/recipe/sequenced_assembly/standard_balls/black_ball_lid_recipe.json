@@ -1,0 +1,51 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemon:black_apricorn"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "count": 2,
+      "id": "cobblemore_lib:slate_ball_lid"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "cobblemon:black_apricorn"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "id": "cobblemon:black_apricorn"
+        }
+      ]
+    },
+    {
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cobblemon:black_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:black_apricorn"
+    }
+  ]
+}
+    
+  ],
+  "transitional_item": {
+    "id": "cobblemon:black_apricorn"
+  }
+}
+
+
+
+

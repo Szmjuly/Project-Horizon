@@ -1,0 +1,22 @@
+{
+    "pokemon": {
+        "species": "palafin",
+        "moves": [
+            "wavecrash",
+            "jetpunch",
+            "acrobatics",
+            "doublehit"
+        ]
+    },
+    "boss": {
+        "custom_properties": [
+            {
+                "name": "dolphin_form",
+                "value": "hero"
+            }
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

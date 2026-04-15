@@ -49,7 +49,11 @@
       "Bash(curl -s \"https://www.curseforge.com/api/v1/mods/search?gameId=432&searchFilter=domum+ornamentum&classId=6\" -H \"Accept: application/json\" -H \"User-Agent: Mozilla/5.0\")",
       "Bash(curl -s \"https://www.curseforge.com/api/v1/mods/search?gameId=432&searchFilter=domum+ornamentum&classId=6&sortOrder=desc&sortField=2&pageSize=5\")",
       "Bash(curl -s \"https://www.curseforge.com/minecraft/mc-mods/domum-ornamentum\" -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36\")",
-      "Bash(curl -s \"https://files.xmdhs.com/curseforge/search?filter=domum%20ornamentum\")"
+      "Bash(curl -s \"https://files.xmdhs.com/curseforge/search?filter=domum%20ornamentum\")",
+      "Bash(unzip -l \"C:/Users/smarkowitz/Downloads/Project Horizons/server/mods/garnished-april-foods-26-neoforged.jar\")",
+      "Bash(find \"C:\\\\\\\\Users\\\\\\\\smarkowitz\\\\\\\\Downloads\\\\\\\\Project Horizons\\\\\\\\server\\\\\\\\kubejs\\\\\\\\startup_scripts\" -type f -name \"*.js\")",
+      "Bash(unzip -p \"C:/Users/smarkowitz/Downloads/Project Horizons/server/mods/garnished-april-foods-26-neoforged.jar\" \"data/garnished/recipe/filling/honeyed_chestnut.json\")",
+      "Bash(grep -r \"plains_badge\\\\|champion_sigil\\\\|kingdom_mark\\\\|legendary_key\" \"C:\\\\\\\\Users\\\\\\\\smarkowitz\\\\\\\\Downloads\\\\\\\\Project Horizons\\\\\\\\server\\\\\\\\kubejs\")"
     ]
   }
 }

@@ -1,0 +1,159 @@
+# ============================================================
+# Project Horizons — Shoulder Surfing Reloaded Config
+# ============================================================
+# Tuned for a GTA V / Witcher 3 cinematic third-person feel:
+#   - Close over-the-shoulder camera (right shoulder default)
+#   - Smooth camera transitions
+#   - Adaptive crosshair for combat
+#   - Player transparency when camera clips
+#   - Decoupled camera for strafing
+#   - Subtle camera sway for immersion
+# ============================================================
+
+# --- Camera Offsets ---
+# Positive X = right shoulder, negative = left. Z = distance behind player.
+# GTA/Witcher style: close to the player, slightly right, eye-level
+offset_x = 0.85
+offset_y = 0.15
+offset_z = 3.2
+
+# Allow some manual adjustment range
+min_offset_x = -2.0
+min_offset_y = -0.5
+min_offset_z = 1.0
+max_offset_x = 2.0
+max_offset_y = 1.0
+max_offset_z = 5.0
+unlimited_offset_x = false
+unlimited_offset_y = false
+unlimited_offset_z = false
+
+# --- Camera Behavior ---
+# Smooth, cinematic transitions (lower = smoother, 0.05 = very smooth)
+camera_transition_speed_multiplier = 0.12
+camera_step_size = 0.025
+
+# Decoupled camera: lets you strafe without rotating the camera (GTA-style)
+decoupled_camera = true
+follow_player_rotations = true
+follow_player_rotations_delay = 30
+
+# Pull camera to center when looking straight down
+center_camera_when_looking_down_angle = 15.0
+
+# Dynamic offset adjustment for tight spaces
+dynamically_adjust_offsets = true
+keep_camera_out_of_head_distance_multiplier = 0.75
+orient_camera_on_teleport = true
+
+# --- Camera Sway & Drag (subtle cinematic movement) ---
+# Slight camera lag for a weighted, cinematic feel
+camera_drag_x_multiplier = 0.3
+camera_drag_y_multiplier = 0.15
+camera_drag_z_multiplier = 0.1
+
+# Subtle sway when moving (mimics camera operator breathing)
+camera_sway_x_max_angle = 0.8
+camera_sway_z_max_angle = 0.5
+camera_sway_x_max_velocity = 3.0
+camera_sway_z_max_velocity = 3.0
+
+# --- FOV ---
+# Slightly wider FOV for cinematic feel
+fov_override_enabled = true
+fov_override = 78.0
+
+# --- Perspective ---
+# Default to shoulder surfing on game start
+default_perspective = "SHOULDER_SURFING"
+remember_last_perspective = true
+replace_default_perspective = false
+first_person_enabled = true
+third_person_back_enabled = true
+third_person_front_enabled = true
+
+# --- Player Model ---
+# Transparent player when camera clips through (essential for close camera)
+adjust_player_transparency = true
+turn_player_transparent_when_aiming = true
+hide_player_when_looking_up_angle = 25.0
+
+# Player rotation follows camera (Witcher-style: player faces where camera looks)
+player_x_rot_follows_camera = false
+player_y_rot_follows_camera = true
+player_y_rot_follow_angle_limit = 60.0
+
+# --- Player Turning ---
+# Responsive combat: player turns toward targets
+[turning]
+when_using_item = "ALWAYS"
+when_attacking = "REQUIRES_TARGET"
+when_interacting = "ALWAYS"
+when_picking = "ALWAYS"
+turning_lock_time = 3
+turning_speed_multiplier = 0.20
+
+# --- Object Picking ---
+# Use player origin for block interaction (feels more natural in 3rd person)
+[pick]
+custom_raytrace_distance = 400.0
+use_custom_raytrace_distance = true
+entity_pick_origin = "PLAYER"
+block_pick_origin = "PLAYER"
+pick_vector = "CAMERA"
+
+# --- Crosshair ---
+# Adaptive crosshair: shows when aiming, hides during exploration (clean HUD)
+[crosshair]
+crosshair_type = "ADAPTIVE"
+show_obstruction_indicator = true
+only_when_aiming = false
+min_distance_to_crosshair = 6
+max_distance_to_obstruction = 25.0
+
+# --- Sprint Offset (camera pulls back slightly when sprinting) ---
+[sprint_offset_multiplier]
+x = 0.8
+y = 1.0
+z = 1.15
+
+[sprint_offset_modifier]
+x = 0.0
+y = 0.1
+z = 0.5
+
+# --- Aim Offset (camera tightens when aiming/using items) ---
+[aim_offset_multiplier]
+x = 0.6
+y = 1.0
+z = 0.7
+
+[aim_offset_modifier]
+x = 0.15
+y = 0.1
+z = -0.3
+
+# --- Elytra/Flying Offset (wider view when flying) ---
+[fall_flying_offset_multiplier]
+x = 0.5
+y = 1.0
+z = 1.4
+
+[fall_flying_offset_modifier]
+x = 0.0
+y = 0.3
+z = 1.0
+
+# --- Climbing Offset (center camera on ladders) ---
+[climbing_offset_multiplier]
+x = 0.0
+y = 1.0
+z = 0.8
+
+[climbing_offset_modifier]
+x = 0.0
+y = 0.0
+z = 0.0
+
+# --- Audio ---
+center_player_sounds = false

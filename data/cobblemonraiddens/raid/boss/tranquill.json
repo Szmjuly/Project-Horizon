@@ -1,0 +1,13 @@
+{
+    "pokemon": {
+        "species": "tranquill",
+        "moves": [
+            "aircutter",
+            "gust",
+            "quickattack"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "mawile",
+        "moves": [
+            "crunch",
+            "feintattack",
+            "suckerpunch",
+            "bite"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "STEEL",
+    "weight": 20.0
+}

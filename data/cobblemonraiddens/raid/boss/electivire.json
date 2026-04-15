@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "electivire",
+        "moves": [
+            "gigaimpact",
+            "thunder",
+            "thunderbolt",
+            "discharge"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "ELECTRIC",
+    "weight": 20.0
+}

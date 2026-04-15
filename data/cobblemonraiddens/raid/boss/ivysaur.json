@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "ivysaur",
+        "moves": [
+            "takedown",
+            "seedbomb",
+            "razorleaf",
+            "vinewhip"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

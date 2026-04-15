@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "eevee",
+        "moves": [
+            "bite",
+            "swift",
+            "quickattack",
+            "tackle"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

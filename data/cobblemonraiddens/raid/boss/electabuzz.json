@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "electabuzz",
+        "moves": [
+            "discharge",
+            "thunderpunch",
+            "shockwave",
+            "swift"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "ELECTRIC",
+    "weight": 20.0
+}

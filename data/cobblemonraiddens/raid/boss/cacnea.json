@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "cacnea",
+        "moves": [
+            "suckerpunch",
+            "payback",
+            "feintattack",
+            "powertrip"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "haunter",
+        "moves": [
+            "hex",
+            "payback",
+            "lick",
+            "shadowpunch"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "GHOST",
+    "weight": 20.0
+}

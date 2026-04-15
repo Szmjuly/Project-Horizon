@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "floatzel",
+        "moves": [
+            "razorwind",
+            "liquidation",
+            "whirlpool",
+            "doublehit"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

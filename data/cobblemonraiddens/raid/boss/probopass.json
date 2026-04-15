@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "probopass",
+        "moves": [
+            "zapcannon",
+            "stoneedge",
+            "earthpower",
+            "discharge"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "ROCK",
+    "weight": 20.0
+}

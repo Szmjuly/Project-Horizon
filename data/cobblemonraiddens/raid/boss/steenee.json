@@ -1,0 +1,13 @@
+{
+    "pokemon": {
+        "species": "steenee",
+        "moves": [
+            "razorleaf",
+            "rapidspin",
+            "doubleslap"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

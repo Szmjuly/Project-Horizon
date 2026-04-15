@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "weezing",
+        "moves": [
+            "heatwave",
+            "sludgebomb",
+            "doublehit",
+            "sludge"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "POISON",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "golduck",
+        "moves": [
+            "hydropump",
+            "aquatail",
+            "zenheadbutt",
+            "waterpulse"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "kingler",
+        "moves": [
+            "slam",
+            "razorshell",
+            "stomp",
+            "bubblebeam"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

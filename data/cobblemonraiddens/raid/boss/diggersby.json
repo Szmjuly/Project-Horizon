@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "diggersby",
+        "moves": [
+            "takedown",
+            "bounce",
+            "dig",
+            "bulldoze"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

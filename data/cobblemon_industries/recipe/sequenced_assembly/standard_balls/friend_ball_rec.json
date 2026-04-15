@@ -1,0 +1,67 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemore_lib:friend_ball_lid"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "cobblemon:friend_ball"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cobblemore_lib:incomplete_friend_ball_lid"
+        },
+        [
+          {
+            "item": "cobblemore_lib:poke_ball_base"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "cobblemore_lib:incomplete_friend_ball_lid"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "cobblemore_lib:incomplete_friend_ball_lid"
+        },
+        [
+          {
+            "tag": "c:nuggets/zinc"
+          }
+        ]
+      ],
+      "results": [
+        {
+          "id": "cobblemore_lib:incomplete_friend_ball_lid"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "cobblemore_lib:incomplete_friend_ball_lid"
+        }
+      ],
+      "results": [
+        {
+          "id": "cobblemore_lib:incomplete_friend_ball_lid"
+        }
+      ]
+    }
+    
+  ],
+  "transitional_item": {
+    "id": "cobblemore_lib:incomplete_friend_ball_lid"
+  }
+}

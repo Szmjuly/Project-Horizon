@@ -1,0 +1,13 @@
+{
+    "pokemon": {
+        "species": "hatenna",
+        "moves": [
+            "psybeam",
+            "disarmingvoice",
+            "confusion"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "PSYCHIC",
+    "weight": 20.0
+}

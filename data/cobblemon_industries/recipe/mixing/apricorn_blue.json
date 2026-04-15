@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_dye"
+    },
+    {
+      "tag": "cobblemon:apricorns"
+    },
+    {
+      "tag": "cobblemon:apricorns"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:blue_apricorn"
+    },
+    {
+      "id": "cobblemon:blue_apricorn"
+    }
+  ]
+}

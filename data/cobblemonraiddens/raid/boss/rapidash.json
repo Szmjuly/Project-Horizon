@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "rapidash",
+        "moves": [
+            "takedown",
+            "firespin",
+            "stomp",
+            "flamewheel"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FIRE",
+    "weight": 20.0
+}

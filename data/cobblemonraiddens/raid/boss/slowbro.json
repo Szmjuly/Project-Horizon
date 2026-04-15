@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "slowbro",
+        "moves": [
+            "psychic",
+            "surf",
+            "zenheadbutt",
+            "headbutt"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

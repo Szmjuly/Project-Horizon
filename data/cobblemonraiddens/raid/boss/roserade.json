@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "roserade",
+        "moves": [
+            "poisonsting",
+            "absorb",
+            "megadrain",
+            "petaldance"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "snorlax",
+        "moves": [
+            "gigaimpact",
+            "belch",
+            "hammerarm",
+            "highhorsepower"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

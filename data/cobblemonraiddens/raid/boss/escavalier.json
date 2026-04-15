@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "escavalier",
+        "moves": [
+            "bugbuzz",
+            "ironhead",
+            "slash",
+            "xscissor"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "BUG",
+    "weight": 20.0
+}

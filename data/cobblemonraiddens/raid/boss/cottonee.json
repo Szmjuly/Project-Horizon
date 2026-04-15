@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "cottonee",
+        "moves": [
+            "razorleaf",
+            "megadrain",
+            "fairywind",
+            "absorb"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

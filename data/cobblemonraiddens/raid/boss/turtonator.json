@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "turtonator",
+        "moves": [
+            "shelltrap",
+            "flamethrower",
+            "bodyslam",
+            "dragonpulse"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FIRE",
+    "weight": 20.0
+}

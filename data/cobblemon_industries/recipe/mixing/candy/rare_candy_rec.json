@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cobblemon:exp_candy_xl"
+    },
+    {
+      "item": "cobblemon:exp_candy_xl"
+    },
+    {
+      "item": "cobblemon:exp_candy_m"
+    },
+    {
+      "item": "cobblemon:exp_candy_m"
+    },
+    {
+      "item": "minecraft:honey_block"
+    },
+    {
+      "item": "minecraft:honey_block"
+    },
+    {
+      "item": "create:sweet_roll"
+    },
+    {
+      "item": "create:sweet_roll"
+    },
+    {
+      "tag": "cobblemon:apricorns"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "cobblemon:rare_candy"
+    }
+  ]
+}

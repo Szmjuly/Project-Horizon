@@ -1,0 +1,64 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "cobblemon_battle_extras"
+version = "1.13.44"
+displayName = "Cobblemon Battle Extras"
+authors = "Raguto & Yemagh"
+logoFile = "assets/cobblemon-battle-extras/icon.png"
+description = '''
+Enhance your Cobblemon battles with a comprehensive suite of quality-of-life improvements and informative displays. As well as enabling keyboard/controller support for battles.
+'''
+
+[[dependencies.cobblemon_battle_extras]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_battle_extras]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_battle_extras]]
+modId = "cobblemon"
+type = "required"
+versionRange = "[1.6,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "cobblemon-battle-extras-common.mixins.json"
+
+[[mixins]]
+config = "cobblemon-battle-extras.client.mixins.json"
+
+[[dependencies.cobblemon_battle_extras]]
+modId = "cobblemon_ui_tweaks"
+type = "incompatible"
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_battle_extras]]
+modId = "cobblestats"
+type = "incompatible"
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cobblemon_battle_extras]]
+modId = "cobblemon_move_inspector"
+type = "incompatible"
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "cobblemon-battle-extras-neoforge.mixins.json"

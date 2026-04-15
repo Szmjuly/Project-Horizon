@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "leafeon",
+        "moves": [
+            "lastresort",
+            "leafblade",
+            "gigadrain",
+            "magicalleaf"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

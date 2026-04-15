@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "hoothoot",
+        "moves": [
+            "airslash",
+            "confusion",
+            "echoedvoice",
+            "tackle"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

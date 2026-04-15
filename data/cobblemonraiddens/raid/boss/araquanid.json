@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "araquanid",
+        "moves": [
+            "lunge",
+            "crunch",
+            "headbutt",
+            "bubblebeam"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

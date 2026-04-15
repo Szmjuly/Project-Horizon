@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "chespin",
+        "moves": [
+            "pinmissile",
+            "bite",
+            "rollout",
+            "vinewhip"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

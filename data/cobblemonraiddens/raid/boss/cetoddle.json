@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "cetoddle",
+        "moves": [
+            "bounce",
+            "avalanche",
+            "takedown",
+            "iceshard"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "ICE",
+    "weight": 20.0
+}

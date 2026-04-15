@@ -1,0 +1,39 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "cobblemon:grepa_berry"
+    },
+    {
+      "item": "cobblemon:grepa_berry"
+    },
+    {
+      "item": "cobblemon:grepa_berry"
+    },
+    {
+      "item": "cobblemon:grepa_berry"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "cobblemon:exp_candy_l"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "id": "cobblemon:courage_candy"
+    }
+  ]
+}

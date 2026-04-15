@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "klinklang",
+        "moves": [
+            "hyperbeam",
+            "zapcannon",
+            "mirrorshot",
+            "geargrind"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "STEEL",
+    "weight": 20.0
+}

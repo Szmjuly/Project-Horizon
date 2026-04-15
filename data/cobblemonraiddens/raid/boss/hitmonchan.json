@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "hitmonchan",
+        "moves": [
+            "focuspunch",
+            "skyuppercut",
+            "closecombat",
+            "megapunch"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FIGHTING",
+    "weight": 20.0
+}

@@ -1,0 +1,20 @@
+{
+    "pokemon": {
+        "species": "farfetchd",
+        "moves": [
+            "knockoff",
+            "brutalswing",
+            "rocksmash",
+            "furycutter"
+        ],
+        "custom_properties": [
+            {
+                "name": "galarian",
+                "value": true
+            }
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "FIGHTING",
+    "weight": 20.0
+}

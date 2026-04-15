@@ -1,0 +1,52 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemon:green_apricorn"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "count": 2,
+      "id": "cobblemore_lib:verdant_ball_lid"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "cobblemon:green_apricorn"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "id": "cobblemon:black_apricorn"
+        }
+      ]
+    },
+    {
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cobblemon:green_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:green_apricorn"
+    }
+  ]
+}
+    
+  ],
+  "transitional_item": {
+    "id": "cobblemon:green_apricorn"
+  }
+}
+
+
+
+
+

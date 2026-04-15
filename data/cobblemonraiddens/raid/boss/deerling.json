@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "deerling",
+        "moves": [
+            "energyball",
+            "jumpkick",
+            "zenheadbutt",
+            "takedown"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

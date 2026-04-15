@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "pikipek",
+        "moves": [
+            "pluck",
+            "rocksmash",
+            "echoedvoice",
+            "peck"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

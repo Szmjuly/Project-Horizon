@@ -1,0 +1,13 @@
+{
+    "pokemon": {
+        "species": "dratini",
+        "moves": [
+            "dragontail",
+            "twister",
+            "wrap"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "DRAGON",
+    "weight": 20.0
+}

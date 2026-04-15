@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "gloom",
+        "moves": [
+            "moonblast",
+            "gigadrain",
+            "megadrain",
+            "acid"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "GRASS",
+    "weight": 20.0
+}

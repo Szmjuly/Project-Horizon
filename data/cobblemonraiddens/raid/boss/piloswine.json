@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "piloswine",
+        "moves": [
+            "takedown",
+            "icywind",
+            "mudbomb",
+            "iceshard"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "ICE",
+    "weight": 20.0
+}

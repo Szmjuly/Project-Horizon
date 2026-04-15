@@ -1,0 +1,20 @@
+{
+    "pokemon": {
+        "species": "sneasel",
+        "moves": [
+            "brickbreak",
+            "poisonjab",
+            "metalclaw",
+            "quickattack"
+        ],
+        "custom_properties": [
+            {
+                "name": "hisuian",
+                "value": true
+            }
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "FIGHTING",
+    "weight": 20.0
+}

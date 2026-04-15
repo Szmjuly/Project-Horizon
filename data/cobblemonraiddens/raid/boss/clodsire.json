@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "clodsire",
+        "moves": [
+            "megahorn",
+            "sludgewave",
+            "poisonjab",
+            "slam"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "POISON",
+    "weight": 20.0
+}

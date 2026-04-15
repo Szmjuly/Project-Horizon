@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "dragonair",
+        "moves": [
+            "aquatail",
+            "slam",
+            "dragontail",
+            "wrap"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "DRAGON",
+    "weight": 20.0
+}

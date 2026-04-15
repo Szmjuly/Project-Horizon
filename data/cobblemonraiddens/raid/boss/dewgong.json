@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "dewgong",
+        "moves": [
+            "dive",
+            "takedown",
+            "brine",
+            "aquajet"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

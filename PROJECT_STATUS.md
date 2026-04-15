@@ -1,6 +1,6 @@
 # Project Horizons — Complete Project Plan & Status
 
-**Last Updated:** April 13, 2026
+**Last Updated:** April 14, 2026
 **Minecraft:** 1.21.1 | **Loader:** NeoForge 21.1.224 | **Java:** 21.0.10 (Adoptium, portable)
 
 ---
@@ -17,7 +17,7 @@ Project Horizons is a Minecraft NeoForge 1.21.1 modpack combining anime-adventur
 
 | Category | Count |
 |----------|------:|
-| Mods installed | 188 |
+| Mods installed | 190 |
 | Server boot time | ~2.3 seconds (warm) / ~28 seconds (cold) |
 | KubeJS scripts | 62 (25,000+ lines, zero stubs) |
 | FTB Quests | 453 quests across 40 chapters |
@@ -106,7 +106,7 @@ Project Horizons is a Minecraft NeoForge 1.21.1 modpack combining anime-adventur
 ### Social & Economy
 | Category | Mods |
 |----------|------|
-| NPCs | Custom NPCs Unofficial, Easy NPC, MCA Reborn, Guard Villagers, Villager Names |
+| NPCs | Custom NPCs Unofficial, Easy NPC, MCA Reborn, Guard Villagers |
 | Economy | Lightman's Currency + Tech, Jobs+ Remastered |
 | Colonies | MineColonies, Structurize, Domum Ornamentum, MultiPiston, BlockUI |
 | Space | Stellaris, Cobblemon/Stellaris Compatibility Patch |
@@ -302,6 +302,11 @@ Create, Cobblemon (basic + advanced), Survival, Combat & Magic, MineColonies, Br
 | Farmer's Respite → Dropped | No NeoForge 1.21.1 version |
 | FastFurnace/FastWorkbench → Dropped | No 1.21.1 versions |
 | SafariBanquet → Dropped | Unreleased mod (9 commits) |
+| Villager Names → Dropped | MCA Reborn already provides unique names, genders, and identities to all villagers. Redundant |
+| Better Third Person → Shoulder Surfing Reloaded | Shoulder Surfing has 30+ releases, GTA/Witcher-style camera config, adaptive crosshair, camera sway. Better Third Person has 1 release and is incompatible |
+| Shoulder Surfing Reloaded | Cinematic third-person camera: close over-shoulder (x=0.85, z=3.2), smooth transitions, decoupled camera, adaptive crosshair, camera sway, sprint/aim/fly offsets. Config in defaultconfigs/shouldersurfing-client.toml |
+| Controlling + Searchables | Keybind search and conflict detection. Essential QoL for 190-mod pack with hundreds of keybinds |
+| Map Atlases | Item-based world map alternative. Works alongside existing map system |
 | AllTheMons = datapack | NOT a mod JAR. Goes in datapacks/ |
 | Railways loot tables | Stripped 276 broken entries referencing absent mods |
 | Deterministic quest IDs | SHA-256 hash ensures regeneration preserves save data |

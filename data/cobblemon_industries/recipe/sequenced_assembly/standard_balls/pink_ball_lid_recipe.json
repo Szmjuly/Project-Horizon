@@ -1,0 +1,54 @@
+
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "cobblemon:pink_apricorn"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "count": 2,
+      "id": "cobblemore_lib:roseate_ball_lid"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "cobblemon:pink_apricorn"
+        }
+      ],
+      "processing_time": 100,
+      "results": [
+        {
+          "id": "cobblemon:pink_apricorn"
+        }
+      ]
+    },
+    {
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "cobblemon:pink_apricorn"
+    }
+  ],
+  "results": [
+    {
+      "id": "cobblemon:pink_apricorn"
+    }
+  ]
+}
+    
+  ],
+  "transitional_item": {
+    "id": "cobblemon:pink_apricorn"
+  }
+}
+
+
+
+
+
+
+

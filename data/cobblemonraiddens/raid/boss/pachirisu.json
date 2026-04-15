@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "pachirisu",
+        "moves": [
+            "swift",
+            "nuzzle",
+            "spark",
+            "quickattack"
+        ]
+    },
+    "raid_tier": "TIER_THREE",
+    "raid_type": "ELECTRIC",
+    "weight": 20.0
+}

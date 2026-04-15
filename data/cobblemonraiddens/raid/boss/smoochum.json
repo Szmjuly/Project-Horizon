@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "smoochum",
+        "moves": [
+            "covet",
+            "confusion",
+            "powdersnow",
+            "pound"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "ICE",
+    "weight": 20.0
+}

@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "kingdra",
+        "moves": [
+            "wavecrash",
+            "hydropump",
+            "dragonpulse",
+            "waterpulse"
+        ]
+    },
+    "raid_tier": "TIER_FIVE",
+    "raid_type": "WATER",
+    "weight": 20.0
+}

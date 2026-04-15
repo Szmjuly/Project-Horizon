@@ -1,0 +1,14 @@
+{
+    "pokemon": {
+        "species": "fearow",
+        "moves": [
+            "drillpeck",
+            "assurance",
+            "aerialace",
+            "furyattack"
+        ]
+    },
+    "raid_tier": "TIER_FOUR",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

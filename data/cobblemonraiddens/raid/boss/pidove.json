@@ -1,0 +1,13 @@
+{
+    "pokemon": {
+        "species": "pidove",
+        "moves": [
+            "aircutter",
+            "quickattack",
+            "gust"
+        ]
+    },
+    "raid_tier": "TIER_TWO",
+    "raid_type": "NORMAL",
+    "weight": 20.0
+}

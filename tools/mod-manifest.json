@@ -3,7 +3,7 @@
   "loader": "neoforge",
   "loader_version": "latest",
   "java_version": "21",
-  "total_server_mods": 188,
+  "total_server_mods": 190,
   "deferred_mods": [],
   "installed_extras": [
     { "name": "Applied Energistics 2", "version": "19.2.17", "file": "appliedenergistics2-19.2.17.jar", "note": "Endgame Tier 6 storage. Stage gated behind create_industrial_age via ae2_age.toml." },
@@ -126,8 +126,7 @@
       { "name": "Custom NPCs Unofficial", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
       { "name": "Easy NPC", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "Includes easy_npc_bundle and easy_npc_config_ui jars" },
       { "name": "Radical Cobblemon Trainers", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
-      { "name": "Guard Villagers", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
-      { "name": "Villager Names", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
+      { "name": "Guard Villagers", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" }
     ],
     "economy": [
       { "name": "Lightman's Currency", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": true, "notes": "" },
@@ -286,7 +285,9 @@
       { "name": "Crafting Tweaks", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
       { "name": "Controlling", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
       { "name": "Configured", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
-      { "name": "Better Third Person", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
+      { "name": "Shoulder Surfing Reloaded", "curseforge_slug": "", "modrinth_slug": "", "version": "4.22.5", "required": false, "notes": "Cinematic GTA/Witcher-style third person camera. Replaces Better Third Person." },
+      { "name": "Searchables", "curseforge_slug": "", "modrinth_slug": "", "version": "1.0.2", "required": false, "notes": "Dependency of Controlling (keybind search)" },
+      { "name": "Map Atlases", "curseforge_slug": "", "modrinth_slug": "", "version": "6.5.3", "required": false, "notes": "Item-based world map atlas, alternative to minimap" },
       { "name": "Zoomify", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
       { "name": "Carry On", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
       { "name": "Toast Control", "curseforge_slug": "", "modrinth_slug": "", "version": "latest", "required": false, "notes": "" },
